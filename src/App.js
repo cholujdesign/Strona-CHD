@@ -33,6 +33,8 @@ function App() {
               <Route path="/commercial" component={Commercial} />
               <Route path="/noncommercial" component={Noncommercial} />
               <Route path="/other" component={Other} />
+              <Route path="/:any" component={Home} />
+                <Route path="/" component={Home} />
             </Switch>
             <Row />
             <Row />
