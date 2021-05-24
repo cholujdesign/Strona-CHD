@@ -4,23 +4,7 @@ import Divider from "react-materialize/lib/Divider";
 
 let baseURL = "https://raw.githubusercontent.com/galeriapodsloncem/3dstrona/master/babylonjs-app/public/assets/";
 const Lista = [
-  // {
-  //   id: 1,
-  //   imgglowny: "test",
-  //   img1: "",
-  //   img2: "",
-  //   img3: "",
-  //   plname: "",
-  //   enname: "",
-  //   pldescription: "  ",
-  //   endescription: " ",
-  //   videoid: " ",
-  //   plopakowania: " ",
-  //   enopakowania: " ",
-  //   plprodukty: " ",
-  //   enprodukty: "  ",
-  //   rodzaj: "",
-  // },
+
   {
     img1: `${baseURL}` + "bonarka1.webp",
     img2: `${baseURL}` + "bonarka2.webp",

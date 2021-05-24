@@ -49,7 +49,7 @@ function Commercial() {
                               <Divider />
                             </Col>
                             <Col m={8} s={12} push="">
-                              <h5>Opis:</h5>
+                           
                               <br />
                               <p className="left-align">{data.pldescription}</p>
                             </Col>
@@ -112,8 +112,12 @@ function Commercial() {
       <Row>
         <div className="hide-on-small-only"></div>
       </Row>
-
-      <Row>{items}</Row>
+      <Row/><Row/><Row/><Row/><Row/><Row/><Row/><Row/>
+      <Row>
+      <Col m={10} s={12} push="m1">
+        {items}
+        </Col>
+        </Row>
     </div>
   );
 }

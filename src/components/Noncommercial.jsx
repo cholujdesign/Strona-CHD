@@ -49,7 +49,7 @@ function Noncommercial() {
                               <Divider />
                             </Col>
                             <Col m={8} s={12} push="">
-                              <h5>Opis:</h5>
+                           
                               <br />
                               <p className="left-align">{data.pldescription}</p>
                             </Col>
@@ -109,11 +109,13 @@ function Noncommercial() {
 
   return (
     <div>
+      <Row/><Row/><Row/><Row/><Row/><Row/><Row/><Row/>
+      <Col s={12} m={10} push="m1">
       <Row>
         <div className="hide-on-small-only"></div>
       </Row>
 
-      <Row>{items}</Row>
+      <Row>{items}</Row></Col>
     </div>
   );
 }

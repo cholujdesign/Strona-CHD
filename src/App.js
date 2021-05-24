@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <Row>
-        <Col s={12} m={10} l={8} push="m1 l2 s0" className="appbg">
+        <Col >
           <BrowserRouter>
             <br />
           

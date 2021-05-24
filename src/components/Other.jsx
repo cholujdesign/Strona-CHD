@@ -25,14 +25,14 @@ function Other() {
       <Row>
         <div className="hide-on-small-only"></div>
       </Row>
-
+      <Row/><Row/><Row/><Row/><Row/><Row/><Row/><Row/>
       <Row>
         <div
           data-aos="fade-left"
           data-aos-duration="2000"
            
         >
-          <Col m={12} s={12} push="m">
+          <Col m={12} s={12} push="m8">
             <Card
               className=""
               actions={[
@@ -82,7 +82,7 @@ function Other() {
           data-aos-duration="2000"
            
         >
-          <Col m={12} s={12} push="m">
+          <Col m={12} s={12} push="m8">
             <Card
               className=""
               actions={[
@@ -132,7 +132,7 @@ function Other() {
           data-aos-duration="2000"
            
         >
-          <Col m={12} s={12} push="m">
+          <Col m={12} s={12} push="m8">
             <Card
               className=""
               actions={[

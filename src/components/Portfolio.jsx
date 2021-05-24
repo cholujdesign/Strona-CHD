@@ -7,7 +7,7 @@ import commercial from "../components/svg/commercial.svg";
 import noncommercial from "../components/svg/noncommercial.svg";
 import other from "../components/svg/other.svg";
 
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   useEffect(() => {
@@ -16,54 +16,55 @@ const Portfolio = () => {
 
   let lang = localStorage.getItem("lang");
 
-  if (lang == "en")
+  if (lang == "en") return <Row></Row>;
+  else
     return (
       <Row>
-       
+        <Row />
+        <Row />
+        <Row />
+        <Row />
+        <Row />
+        <Row />
+        <Row />
+        <Row />
+        <Row />
+        <Row />
+        <Col  m={2} push="m3">
+          <Link  to="commercial">
+            <div
+              data-aos="fade-down"
+              data-aos-duration="2000"
+              className="hoverable z-depth-2"
+            >
+              <img className="portfolio" src={commercial} alt="" width="100%" />
+            </div>
+          </Link>
+        </Col>
+        <Col m={2} push="m3">
+          <Link to="noncommercial" className="">
+            <div
+              data-aos="fade-down"
+              data-aos-duration="2000"
+              className="hoverable z-depth-2"
+            >
+              <img className="portfolioo" src={noncommercial} alt="" width="100%" />
+            </div>
+          </Link>
+        </Col>
+        <Col m={2} push="m3">
+          <Link to="other" className="">
+            <div
+              data-aos="fade-down"
+              data-aos-duration="2000"
+              className="hoverable z-depth-2"
+            >
+              <img className="portfoliooo" src={other} alt="" width="100%" />
+            </div>
+          </Link>
+        </Col>
       </Row>
     );
-  else return   (
-    <Row>
-      <Row/><Row/><Row/><Row/><Row/>
-    <Col m={4} push="0">
-  <Link to="commercial" className="">
-    <div
-      data-aos="fade-down"
-      data-aos-duration="2000"
-      className="hoverable z-depth-2"
-    >
-    
-      <img src={commercial} alt="" width="100%" />
-    </div>
-  </Link>
-  </Col>
-  <Col m={4}push="0">
-  <Link to="noncommercial" className="">
-    <div
-      data-aos="fade-down"
-      data-aos-duration="2000"
-      className="hoverable z-depth-2"
-    >
-    
-      <img src={noncommercial} alt="" width="100%" />
-    </div>
-  </Link>
-  </Col>
-  <Col m={4}push="0">
-  <Link to="other" className="">
-    <div
-      data-aos="fade-down"
-      data-aos-duration="2000"
-      className="hoverable z-depth-2"
-    >
-    
-      <img src={other} alt="" width="100%" />
-    </div>
-  </Link>
-  </Col>
-</Row>
-
-);
 };
 
 export default Portfolio;

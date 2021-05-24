@@ -37,7 +37,7 @@ class Contact extends React.Component {
     if (this.state.lang == "en")
       return (
         <div>
-    
+     <Row/><Row/><Row/><Row/><Row/><Row/><Row/><Row/>
           <Row>
             <Col m={4} s={12} offset="m1">
               <Button
@@ -126,7 +126,7 @@ class Contact extends React.Component {
     else
       return (
         <div>
-      
+      <Row/><Row/><Row/><Row/><Row/><Row/><Row/><Row/>
           <Row>
             <Col m={4} s={12} offset="m1">
               <Button
