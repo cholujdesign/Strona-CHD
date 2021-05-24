@@ -20,16 +20,7 @@ const Portfolio = () => {
   else
     return (
       <Row>
-        <Row />
-        <Row />
-        <Row />
-        <Row />
-        <Row />
-        <Row />
-        <Row />
-        <Row />
-        <Row />
-        <Row />
+       <div className="hide-on-small-only"><Row/><Row/><Row/><Row/><Row/><Row/><Row/><Row/></div>
         <Col  m={2} push="m3">
           <Link  to="commercial">
             <div

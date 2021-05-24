@@ -109,7 +109,8 @@ function Noncommercial() {
 
   return (
     <div>
-      <Row/><Row/><Row/><Row/><Row/><Row/><Row/><Row/>
+      <div className="hide-on-small-only"><Row/><Row/><Row/><Row/><Row/><Row/><Row/><Row/></div>
+      
       <Col s={12} m={10} push="m1">
       <Row>
         <div className="hide-on-small-only"></div>

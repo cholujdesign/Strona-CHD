@@ -16,7 +16,7 @@ const Nav = () => {
   if (lang == "en") return <Row></Row>;
   else
     return (
-
+<div><div className="hide-on-small-only">
       <div className="navbar z-depth-3">
      
         
@@ -29,7 +29,29 @@ const Nav = () => {
           <Link to="home" className="navbaritem">
             <img src={logo} width="10%"/>
           </Link>
+          <Link to="offer" className="navbaritem">
+            Oferta
+          </Link>
+         
           <Link to="contact" className="navbaritem">
+            Kontakt
+          </Link>
+     </div>
+      </div>
+      <div className="hide-on-med-and-up">
+        <div className="navbarmobile z-depth-3">
+     
+        
+        <Link to="home" className="navbaritem">
+            Home
+          </Link>
+          <Link to="portfolio" className="navbaritem">
+            Portoflio
+          </Link>
+          <Link to="home" className="navbaritem">
+            <img src={logo} width="10%"/>
+          </Link>
+          <Link to="offer" className="navbaritem">
             Oferta
           </Link>
          
@@ -38,6 +60,7 @@ const Nav = () => {
           </Link>
      
       </div>
+      </div></div>
     );
 };
 

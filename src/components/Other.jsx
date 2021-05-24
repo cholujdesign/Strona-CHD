@@ -25,7 +25,7 @@ function Other() {
       <Row>
         <div className="hide-on-small-only"></div>
       </Row>
-      <Row/><Row/><Row/><Row/><Row/><Row/><Row/><Row/>
+      <div className="hide-on-small-only"><Row/><Row/><Row/><Row/><Row/><Row/><Row/><Row/></div>
       <Row>
         <div
           data-aos="fade-left"

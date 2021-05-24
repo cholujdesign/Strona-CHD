@@ -30,7 +30,7 @@ const Home = () => {
             options={{
               duration: 500,
               height: 400,
-              indicators: true,
+              indicators: false,
               interval: 6000,
             }}
           >
@@ -73,7 +73,7 @@ const Home = () => {
             <div className="homecardleft z-depth-3">
               <h3>Projekt wnętrz</h3>
               <br />
-              Koncepcyjny / Budowlany / Domy / Mieszkania / Powierzchnie
+              Koncepcyjny / Wykonawczy / Domy / Mieszkania / Powierzchnie
               usługowe / Gastronomia / Hotele
               <br />
               <br />
@@ -100,7 +100,10 @@ const Home = () => {
               <a className="btn-large black " href="tel:+48518048983">
                 zadzwoń
               </a>
-              <a className="btn-large black " href="mailto:cholujdesign@gmail.com">
+              <a
+                className="btn-large black "
+                href="mailto:cholujdesign@gmail.com"
+              >
                 Napisz
               </a>
             </div>
@@ -132,7 +135,56 @@ const Home = () => {
               <a className="btn-large black " href="tel:+48518048983">
                 zadzwoń
               </a>
-              <a className="btn-large black " href="mailto:cholujdesign@gmail.com">
+              <a
+                className="btn-large black "
+                href="mailto:cholujdesign@gmail.com"
+              >
+                Napisz
+              </a>
+            </div>
+          </div>
+        </Row>
+        <Row>
+          <div className="hide-on-med-and-up">
+            <div className="mobilehomecardleft z-depth-3">
+              <h5>Projekty wnętrz</h5>
+              
+              Koncepcyjne / Wykonawcze / Domy / Mieszkania / Powierzchnie
+              usługowe / Gastronomia / Hotele
+              <br />
+          
+          
+
+              <h5>Projekty architektoniczne</h5>
+         
+              Koncepcyjne / Budowlane / Domy 35m2 / Domy szkieletowe
+              <br />
+              <br />
+              <h5>Nasz pakiet bazowy:</h5>
+              <br />
+              Rysunki CAD 2D, 3D /
+              
+              Animacja 3D (Unreal Engine)  /
+              Wizualizacje  /
+              Pliki BIM (wirtualny spacer) 
+              
+              <br /><br />
+              <Button
+                className="z-depth-2  black"
+                
+                target="blank"
+                node="a"
+                href="https://goo.gl/maps/xrJdtaQWoJFFU5ya7"
+              >
+                Mapa
+              </Button>
+              <a className="btn black " href="tel:+48518048983">
+                zadzwoń
+              </a>
+              <a
+                className="btn black "
+                href="mailto:cholujdesign@gmail.com"
+              >
                 Napisz
               </a>
             </div>
@@ -218,14 +270,16 @@ const Home = () => {
                   </h3>
                   <br />
                   <Col m={6} className="left-align">
-                    <h5>Zajmujemy się architekturą oraz architekturą wnętrz od ponad
-                    25 lat. Nasz zespół ma doświadczenie w projektach od małych
-                    do średnich, nadzorze autorskim oraz kierowaniu budową. Od
-                    dekady zaczęliśmy łączyć projektowanie przestrzenne z
-                    projektowaniem form przemysłowych. W zależności od typu i
-                    rozmiaru projektu zapraszamy do współpracy naszych kolegów
-                    po fachu oraz innych zaufanych specjalistów.</h5>
-                    
+                    <h5>
+                      Zajmujemy się architekturą oraz architekturą wnętrz od
+                      ponad 25 lat. Nasz zespół ma doświadczenie w projektach od
+                      małych do średnich, nadzorze autorskim oraz kierowaniu
+                      budową. Od dekady zaczęliśmy łączyć projektowanie
+                      przestrzenne z projektowaniem form przemysłowych. W
+                      zależności od typu i rozmiaru projektu zapraszamy do
+                      współpracy naszych kolegów po fachu oraz innych zaufanych
+                      specjalistów.
+                    </h5>
                   </Col>
                   <Col m={6}>
                     <img
