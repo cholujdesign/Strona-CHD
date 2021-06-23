@@ -111,12 +111,7 @@ code {
   border-radius: 50px !important;
   background: rgb(255, 255, 255);
   color: white;
-  background: linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 0.6615021008403361) 0%,
-    rgba(0, 0, 0, 0) 50%,
-    rgba(0, 0, 0, 0.7763480392156863) 100%
-  );
+  background: rgba(0, 0, 0, 0.5);
   font-size: 115%;
   overflow: hidden;
   align-items: flex-end;
@@ -132,12 +127,7 @@ code {
   z-index: 3;
   border-radius: 50px !important;
   color: white;
-  background: linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 0.6615021008403361) 0%,
-    rgba(0, 0, 0, 0) 50%,
-    rgba(0, 0, 0, 0.7763480392156863) 100%
-  );
+  background: rgba(0, 0, 0, 0.5);
 
   overflow: hidden;
   align-items: flex-end;
@@ -152,12 +142,7 @@ code {
   border-radius: 50px !important;
   background: rgb(255, 255, 255);
   color: white;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.6615021008403361) 0%,
-    rgba(0, 0, 0, 0.274) 50%,
-    rgba(0, 0, 0, 0.7763480392156863) 100%
-  );
+  background: rgba(0, 0, 0, 0.5);
   font-size: 115%;
   overflow: hidden;
   align-items: flex-end;
@@ -182,12 +167,7 @@ code {
   border-radius: 50px !important;
   background: rgb(255, 255, 255);
   color: white;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.6615021008403361) 0%,
-    rgba(0, 0, 0, 0.274) 50%,
-    rgba(0, 0, 0, 0.7763480392156863) 100%
-  );
+  background: rgba(0, 0, 0, 0.5);
   font-size: 115%;
   overflow: hidden;
   align-items: flex-end;
@@ -202,12 +182,7 @@ code {
   z-index: 3;
   border-radius: 50px !important;
   color: white;
-  background: linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 0.6615021008403361) 0%,
-    rgba(0, 0, 0, 0) 50%,
-    rgba(0, 0, 0, 0.7763480392156863) 100%
-  );
+  background:  rgba(0, 0, 0, 0.274);;
 
   overflow: hidden;
   align-items: flex-end;
