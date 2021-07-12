@@ -5,20 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url("https://images.unsplash.com/photo-1603288568746-49574bae5224?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80) no-repeat center center fixed");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+  min-height: 100%;
+  max-width: 100%;
+  overflow-x: hidden
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-/* .navbar{
-  align-self: start;
-} */
+
 .navbaritem {
   justify-content: space-evenly;
 
@@ -26,16 +26,17 @@ code {
   margin-right: 3vw;
   font-size: 150%;
   color: rgb(255, 255, 255);
+  
 }
 .navbar {
   position: absolute;
-  top: 5vw;
-  left: 25vw;
+  top: 0vw;
+  left: 0vw;
   height: 7vh;
-  width: 50vw;
+  width: 100vw;
   z-index: 3;
-
-  border-radius: 50px !important;
+color: white !important;
+box-shadow: 2px 2px 8px 1px #ffffff !important;
   background: linear-gradient(
     90deg,
     rgba(0, 0, 0, 0.6615021008403361) 0%,
@@ -101,21 +102,7 @@ code {
   );
 }
 
-.homecardleft {
-  position: absolute;
-  top: 15vw;
-  left: 15vw;
-  height: 60vh;
-  width: 30vw;
-  z-index: 3;
-  border-radius: 50px !important;
-  background: rgb(255, 255, 255);
-  color: white;
-  background: rgba(0, 0, 0, 0.5);
-  font-size: 115%;
-  overflow: hidden;
-  align-items: flex-end;
-}
+
 
 .homecardright {
   font-size: 115%;
@@ -132,88 +119,41 @@ code {
   overflow: hidden;
   align-items: flex-end;
 }
-.mobilehomecardleft {
-  position: absolute;
-  top: 10vh;
-  left: 2vw;
-  height: 80vh;
-  width: 96vw;
-  z-index: 3;
-  border-radius: 50px !important;
-  background: rgb(255, 255, 255);
-  color: white;
-  background: rgba(0, 0, 0, 0.5);
-  font-size: 115%;
-  overflow: hidden;
-  align-items: flex-end;
-}
-.rodo{
-  position: fixed;
-  z-index: 3;
-  height: 5vh;
-  top: 95vh;
-  right: 5vw;
-  background-color: rgba(248, 0, 0, 0.274);
-}
 
-
-.mobilehomecardleft {
-  position: absolute;
-  top: 10vh;
-  left: 2vw;
-  height: 80vh;
-  width: 96vw;
-  z-index: 3;
-  border-radius: 50px !important;
-  background: rgb(255, 255, 255);
-  color: white;
-  background: rgba(0, 0, 0, 0.5);
-  font-size: 115%;
-  overflow: hidden;
-  align-items: flex-end;
-}
-.mobilehomecardright {
-  font-size: 115%;
-  position: absolute;
-  top: 52vh;
-  left: 5vw;
-  height: 40vh;
-  width: 90vw;
-  z-index: 3;
-  border-radius: 50px !important;
-  color: white;
-  background:  rgba(0, 0, 0, 0.274);;
-
-  overflow: hidden;
-  align-items: flex-end;
-}
-
-
-
-.homecardleft:hover {
-  color: rgb(0, 0, 0);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 0.227328431372549) 0%,
-    rgba(255, 255, 255, 0.8155637254901961) 50%,
-    rgba(255, 255, 255, 0.28895308123249297) 100%
-  );
-}
-
-.homecardright:hover {
-  color: rgb(0, 0, 0);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 0.227328431372549) 0%,
-    rgba(255, 255, 255, 0.8155637254901961) 50%,
-    rgba(255, 255, 255, 0.28895308123249297) 100%
-  );
-  
-}
-.homebody {
-  top: 105vh;
-  position: absolute;
-}
 .homecard {
   border-radius: 50px !important;
+}
+
+.homeFirstimgDiv
+{
+  top: 0vh;
+  position: absolute;
+  width: 100vw;
+}
+.homeFirstimg{
+  top: 20vh !important;
+  z-index: -2 !important;
+  width: 100vw;
+  height: 100vh;
+}
+.homeFirstcard{
+  position: relative !important;
+  left: -1vw;
+  top: 2vh;
+  min-height: 93vh;
+  background-color: rgba(8, 8, 8, 0.574) !important;
+  box-shadow: 2px 2px 8px 1px #ffffff !important;
+}
+
+
+.clientCard{
+  top: -31vh !important;
+  position: relative;
+}
+.clientCardbg{
+  top: -3vh;
+  height: 40vh;
+  position: relative;
+  background-color: rgba(61, 61, 61, 1);
+  box-shadow: 2px 2px 8px 1px #ffffff !important;
 }

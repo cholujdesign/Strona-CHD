@@ -51,7 +51,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -79,7 +79,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara;fill:#ffffff;stroke-width:1.33646">CHD</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87259px;line-height:1.25;font-family:Candara;-inkscape-font-specification:Candara;fill:#1a1a1a;stroke-width:0.528885"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87259px;line-height:1.25;font-family:Candara;-inkscape-font-specification:Candara;fill:#ffffff;stroke-width:0.528885;fill-opacity:1;"
        x="5.517065"
        y="39.750793"
        id="text853-2"><tspan
@@ -87,6 +87,6 @@
          id="tspan851-2"
          x="5.517065"
          y="39.750793"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara;fill:#1a1a1a;stroke-width:0.528885">ARCHITEKCI</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara;fill:#ffffff;stroke-width:0.528885;fill-opacity:1;">ARCHITEKCI</tspan></text>
   </g>
 </svg>

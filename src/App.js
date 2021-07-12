@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <Row>
-        <Col >
+        
           <BrowserRouter>
             <br />
           
@@ -173,7 +173,7 @@ zautomatyzowanego podejmowania decyzji, w tym do profilowaniu.
               </Row>
             </div>
           </BrowserRouter>
-        </Col>
+       
       </Row>
     </div>
   );
