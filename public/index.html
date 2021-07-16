@@ -1,30 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
+    <meta name="facebook-domain-verification" content="15af3pnid2qykifqctun9osz6s0whz" />
     <meta
-      name="description"
-      content="Web site created using create-react-app"
+      name="HouseQ"
+      content="Prefabricated houses, domy na zgloszenie projekt domku na zgloszenie
+      dom caloroczny na zgloszenie
+      domki letniskowe na zgloszenie
+      dom jednorodzinny na zgloszenie
+      dom na zgloszenie 35m
+      domki na zgloszenie do 35m2
+      dom na zgloszenie projekt
+      projekt domu na zgloszenie z poddaszem
+      domek letniskowy na zgloszenie, nowoczesne projekty domu dom szkieletowy prefabrykowany
+      dom nowoczesny projekt
+      nowoczesny dom projekt
+      budowa domów
+      domy z dachem płaskim
+      domy prefabrykowane"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="path/to/materialize.css">
+    <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link
-    rel="stylesheet"
-    href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
-    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-    crossorigin=""
-  />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+     <!-- Import Google Icon Font -->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Import materialize.css -->
+  <link href="CDN OR PATH TO NODE_MODULES.css" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+  integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+  crossorigin=""
+/>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -34,22 +50,52 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>CHD</title>
+    <title>House_Q</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <script src="path/to/your/bundle.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
    crossorigin=""></script>
-   <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-194714524-1">
+</script>
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1167235090383875');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1167235090383875&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-194714524-1');
+</script>
+ <!-- Import materialize.js -->
+ <script src="CDN OR PATH TO NODE_MODULES.js"></script>
+ <!-- And then your bundled js -->
+ <script src="path/to/your/bundle.js"></script>
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script type="text/javascript"
+ src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
 </script>
 <script type="text/javascript">
-   (function(){
-      emailjs.init("user_x9kPpW1JmhYVbwVWmxAVD");
-   })();
+(function(){
+emailjs.init("user_x9kPpW1JmhYVbwVWmxAVD");
+})();
 </script>
     <div id="root"></div>
     <!--

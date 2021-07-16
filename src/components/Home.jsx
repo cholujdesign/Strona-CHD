@@ -26,7 +26,6 @@ const Home = () => {
     return (
 <Row>
   <HomeFirst/>
-  <HomeSecond/>
 </Row>
 
       // <Row className="z-depth-1">

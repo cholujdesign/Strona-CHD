@@ -24,7 +24,7 @@ import clientCard3 from "./svg/clientCard3.svg";
 
 class HomeSecond extends Component {
   constructor() {
-  // super();
+   super();
     this.state = {
       i: 0,
       lang: localStorage.getItem("lang"),
@@ -34,16 +34,19 @@ class HomeSecond extends Component {
   };
 
   Wizualizacja = (event) => {
-    let i=i+1
-    switch(i) {
+    this.setState({
+      i: this.state.i+1,
+    });
+   
+    switch(this.state.i) {
       case 1:
-        return 'bar';
+        return <div><h3>asdasdas</h3></div>;
         case 2:
-        return 'ba312312r';
+          return <div><h3>asd2342342342342342asdas</h3></div>;
         case 3:
-        return '22321';
+          return <div><h3>asdasasdasdas</h3></div>;
       default:
-        return 'f3123oo';
+        return <div><h3>asdasd234324as</h3></div>;
     }
   };
 
@@ -52,8 +55,8 @@ class HomeSecond extends Component {
   else
     return (
       <div>
-     <Row/><Row/><Row/><Row/><Row/><Row/><Row/><Row/>
-        <div className="  grey z-depth-2"><Row/><Row/><Row/><Row/>
+    
+        <div className="  grey z-depth-2"><Row/><Row/>
          <Row>
            <Col s={12} m={2} push="m1">
              
@@ -64,13 +67,13 @@ class HomeSecond extends Component {
             <br/>
             <h3>Your message <Divider/></h3>
             <Row/><Row/>
-              <h3><Button large>asd ad a</Button></h3>
+              <h3><Button large>asd ad a</Button> <Button large>lub zadzwoń</Button></h3>
             </Col>
             </Row>
-            <Row/><Row/><Row/><Row/>
-        </div>
+            <Row/>  
+        </div><Row/><Row/>
         <div className="clientCardbg z-depth-2">
-       <h3 className="white-text">W czym mozemy pomoc </h3>
+       <h3 className="white-text">Co od nas dostaniesz </h3>
         </div>
         <Row>
           <Row>
@@ -78,29 +81,20 @@ class HomeSecond extends Component {
               
               <Col s={12} m={4} push="">
                 <img
-                  className="clientCard z-depth-3 hoverable"
+                  className="clientCard z-depth-3 "
                   src={clientCard1}
-                  width="100%"
+                  width="101%"
                 />
               </Col>
-              <Col className="clientCard z-depth-3 hoverable" s={12} m={4} push="">
+              <Col className="clientCard z-depth-3 " s={12} m={4} push="">
                 <img src={clientCard2} width="100%" />
               </Col>
-              <Col className="clientCard z-depth-3 hoverable" s={12} m={4} push="">
+              <Col className="clientCard z-depth-3 " s={12} m={4} push="">
                 <img src={clientCard3} width="100%" />
               </Col>
             </Col>
           </Row>
-          <Row className="clientCard">
-            
-            <h3> nazwa nazwa</h3>
-            <Col s={12} m={6}>
-            {this.Wizualizacja}
-            </Col>
-            <Col s={12} m={6}>
-            <Button onClick={this.Wizualizacja}></Button>
-            </Col>
-          </Row>
+         
         </Row>
       </div>
     );

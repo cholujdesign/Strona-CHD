@@ -215,13 +215,13 @@ class Nawigacja extends Component {
           </Modal>
           <NavItem>
             <Button
-              onClick={(e) => this.handleClickPl(e)}
+              onClick={(e) => handleClickPl(e)}
               className="przycisk_nawigacja_pl z-depth-2"
             ></Button>
           </NavItem>
           <NavItem>
             <Button
-              onClick={(e) => this.handleClickEn(e)}
+              onClick={(e) => handleClickEn(e)}
               className="przycisk_nawigacja_en z-depth-2"
             ></Button>
           </NavItem>
@@ -260,33 +260,22 @@ class Nawigacja extends Component {
           <NavItem className=" przycisk_nawigacja " href="home">
             <div className="  ">Home</div>
           </NavItem>{" "}
-          <NavItem className=" przycisk_nawigacja " href="system">
-            <div className="  ">Domy</div>
+          <NavItem className=" przycisk_nawigacja " href="portfolio">
+            <div className="  ">portfolio</div>
           </NavItem>{" "}
-          <NavItem className=" przycisk_nawigacja " href="dodatki">
-            <div className="  ">Dodatki</div>
-          </NavItem>{" "}
-          <NavItem className=" przycisk_nawigacja " href="galeria">
-            <div className=" ">Galeria</div>
-          </NavItem>{" "}
-          <NavItem className=" przycisk_nawigacja " href="zamow">
-            <div className=" ">Zamów</div>
-          </NavItem>
           <NavItem className=" przycisk_nawigacja " href="contact">
             <div className=" ">Kontakt</div>
           </NavItem>
-          <NavItem className=" przycisk_nawigacja " href="faq">
-            <div className=" ">FAQ</div>
-          </NavItem>
+          
         <NavItem>
             <Button
-              onClick={(e) => this.handleClickPl(e)}
+              onClick={(e) => handleClickPl(e)}
               className="przycisk_nawigacja_pl z-depth-2"
             ></Button>
           </NavItem>
           <NavItem>
             <Button
-              onClick={(e) => this.handleClickEn(e)}
+              onClick={(e) => handleClickEn(e)}
               className="przycisk_nawigacja_en z-depth-2"
             ></Button>
           </NavItem>
