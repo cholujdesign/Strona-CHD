@@ -258,13 +258,13 @@ class Nawigacja extends Component {
           </div>
           
           <NavItem className=" przycisk_nawigacja " href="home">
-            <div className="  ">Home</div>
+            <div className="  "><h5>Home</h5></div>
           </NavItem>{" "}
           <NavItem className=" przycisk_nawigacja " href="portfolio">
-            <div className="  ">portfolio</div>
+            <div className="  "><h5>Portfolio</h5></div>
           </NavItem>{" "}
           <NavItem className=" przycisk_nawigacja " href="contact">
-            <div className=" ">Kontakt</div>
+            <div className=" "><h5>Kontakt</h5></div>
           </NavItem>
           
         <NavItem>

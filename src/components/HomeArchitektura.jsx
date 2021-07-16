@@ -9,7 +9,7 @@ import {
   Slide,
   Caption,
   Card,
-  Carousel
+  Carousel,
 } from "react-materialize";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -19,7 +19,15 @@ import wizualizacjeLogo from "./svg/logo.svg";
 import clientCard1 from "./svg/clientCard1.svg";
 import clientCard2 from "./svg/clientCard2.svg";
 import clientCard3 from "./svg/clientCard3.svg";
-import Animacje from "./svg/wnetrzaLogo.svg"
+import Animacje from "./svg/wnetrzaLogo.svg";
+import img1 from "./svg/bonarka.webp";
+import img2 from "./svg/wieckowice.png";
+import img3 from "./svg/drewniane.jpg";
+import img4 from "./svg/wizualizacjeLogo.svg";
+import img5 from "./svg/wizualizacjeLogo.svg";
+import img6 from "./svg/wizualizacjeLogo.svg";
+import img7 from "./svg/wizualizacjeLogo.svg";
+import finger from "./svg/finger (1).svg"
 
 const HomeWnetrza = () => {
   useEffect(() => {
@@ -33,95 +41,129 @@ const HomeWnetrza = () => {
     return (
       <div>
         <Carousel
-          carouselId="Carousel-1"
+          carouselId="Carousel-3"
           className="white-text center"
-
           options={{
-            duration: 20,
-          
-            indicators: true,
-            dist: 21,
-            shift: 12,
-            padding: 1,
-            numVisible: 2,
+            indicators: false,
             fullWidth: true,
-            noWrap: true,
-
+           
           }}
         >
-          <div className="red">
-          <div className="kropki center white-text">
-                  Kliknij kropke 
+          <div className="grey darken-1">
+            <div className="kropki center white-text">
+                  <img src={finger} width="100%"/>
                   </div>
+            <Row className="hide-on-med-and-down" />
+            <Row className="hide-on-med-and-down" />
+            <Row className="hide-on-med-and-down" />
+            <Row className="hide-on-med-and-down" />
             <Row>
               <Col s={12} l={6}>
-                <img className="" src="https://img1.picmix.com/output/stamp/thumb/7/1/2/1/1601217_6c081.gif" width="100%" />
+                <img className="imgCarousel" src={img1} width="100%" />
               </Col>
               <Col s={12} l={6}>
-                <h3>Domy wielorodzinne <Divider/></h3>
-                <h5 className="center">
-                  <li>dasdsad das dasda</li>
-                  <li>dasdsad das dasda</li>
-                  <li>dasdsad das dasdasdsadasd das das da sdasdasdda</li>
-                  <li>dasdsad das dasda</li>
-                  <li>dasdsad das dasda</li>
-                  <br/>
-                     
-                  <br/><br/><br/>
-                  <Button>przyklady na youtube</Button>
+                <h3>
+                  Budynki mieszkalne, usługowe, mieszkalno-usługowe <Divider />
+                </h3>
+                <h5 className="left-align">
+                  <li>Uzyskianie Warunków Zabudowy</li>
+                  <br />
+                  <li>Projektowanie dużych kubatorowo budynków</li>
+                  <br />
+                  <li>Szybkie przygotowanie koncpecji</li>
+                  <br />
+                  <li>
+                    Przygotowanie pełnego projektu (wymaga ustaleń dotyczących
+                    terminów realizacji
+                  </li>
+                  <br />
+                  <li>Plomby, kompleksy budynków, osiedla</li>
+                  <br />
+                  <li>
+                    Dokumentacja potrzebna inwestorom, funduszom inwestycyjnym,
+                    bankom
+                  </li>
+                  <br />
+
+                  <Button>Przyklady</Button>
                 </h5>
               </Col>
             </Row>
           </div>
-          <div className="teal darken-3">
-          <div className="kropki center white-text">
-                  Kliknij kropke 
+          <div className="cyan darken-3">
+            <div className="kropki center white-text">
+                  <img src={finger} width="100%"/>
                   </div>
+            <Row className="hide-on-med-and-down" />
+            <Row className="hide-on-med-and-down" />
+            <Row className="hide-on-med-and-down" />
+            <Row className="hide-on-med-and-down" />
             <Row>
               <Col s={12} l={6}>
-                <img className="" src="https://img1.picmix.com/output/stamp/thumb/7/1/2/1/1601217_6c081.gif" width="100%" />
+                <img className="imgCarousel" src={img2} width="100%" />
               </Col>
               <Col s={12} l={6}>
-                <h3>Domy jednorzodzinne <Divider/></h3>
-                <h5 className="center">
-                  <li>dasdsad das dasda</li>
-                  <li>dasdsad das dasda</li>
-                  <li>dasdsad das dasdasdsadasd das das da sdasdasdda</li>
-                  <li>dasdsad das dasda</li>
-                  <li>dasdsad das dasda</li>
-                  <br/>
-                     
-                  <br/><br/><br/>
-                  <Button>przyklady na youtube</Button>
+                <h3>
+                  Domy jednorzodzinne <Divider />
+                </h3>
+                <h5 className="left-align">
+                  <li>Uzyskianie Warunków Zabudowy</li>
+                  <br />
+                  <li>Projektowanie dużych kubatorowo budynków</li>
+                  <br />
+                  <li>Szybkie przygotowanie koncpecji</li>
+                  <br />
+                  <li>
+                    Przygotowanie pełnego projektu (wymaga ustaleń dotyczących
+                    terminów realizacji
+                  </li>
+                  <br />
+                  <li>Plomby, kompleksy budynków, osiedla</li>
+
+                  <br />
+
+                  <Button>Przyklady</Button>
                 </h5>
               </Col>
             </Row>
           </div>
           <div className="grey darken-3">
-          <div className="kropki center white-text">
-                  Kliknij kropke 
+            <div className="kropki center white-text">
+                  <img src={finger} width="100%"/>
                   </div>
+            <Row className="hide-on-med-and-down" />
+            <Row className="hide-on-med-and-down" />
+            <Row className="hide-on-med-and-down" />
+            <Row className="hide-on-med-and-down" />
             <Row>
               <Col s={12} l={6}>
-                <img className="" src="https://img1.picmix.com/output/stamp/thumb/7/1/2/1/1601217_6c081.gif" width="100%" />
+                <img className="imgCarousel" src={img3} width="100%" />
               </Col>
               <Col s={12} l={6}>
-                <h3>Domy szkieletowe <Divider/></h3>
-                <h5 className="center">
-                  <li>dasdsad das dasda</li>
-                  <li>dasdsad das dasda</li>
-                  <li>dasdsad das dasdasdsadasd das das da sdasdasdda</li>
-                  <li>dasdsad das dasda</li>
-                  <li>dasdsad das dasda</li>
-                  <br/>
-                     
-                  <br/><br/><br/>
-                  <Button>przyklady na youtube</Button>
+                <h3>
+                  Domy szkieletowe <Divider />
+                </h3>
+                <h5 className="left-align">
+                  <li>Uzyskianie Warunków Zabudowy</li>
+                  <br />
+                  <li>Projektowanie dużych kubatorowo budynków</li>
+                  <br />
+                  <li>Szybkie przygotowanie koncpecji</li>
+                  <br />
+                  <li>
+                    Przygotowanie pełnego projektu (wymaga ustaleń dotyczących
+                    terminów realizacji
+                  </li>
+                  <br />
+                  <li>Plomby, kompleksy budynków, osiedla</li>
+                  <br />
+
+                  <Button>Przyklady</Button>
                 </h5>
               </Col>
             </Row>
           </div>
-   </Carousel>
+        </Carousel>
       </div>
     );
 };

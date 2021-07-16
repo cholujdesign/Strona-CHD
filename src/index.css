@@ -139,7 +139,7 @@ box-shadow: 2px 2px 8px 1px #ffffff !important;
 .homeFirstcard{
   position: relative !important;
   left: -1vw;
-  top: 0vh;
+  top: 1vh;
   min-height: 93vh !important;
   background-color: rgba(8, 8, 8, 0.574) !important;
   box-shadow: 2px 2px 8px 1px #ffffff !important;
@@ -147,17 +147,17 @@ box-shadow: 2px 2px 8px 1px #ffffff !important;
 }
 
 
-.clientCard{
+/* .clientCard{
   top: -31vh !important;
   position: relative;
-}
-.clientCardbg{
+} */
+/* .clientCardbg{
   top: -3vh;
   height: 40vh;
   position: relative;
-  background-color: rgba(61, 61, 61, 1);
+  background-color: rgb(255, 255, 255);
   box-shadow: 2px 2px 8px 1px #ffffff !important;
-}
+} */
 
 .Slider{
   position:  relative !important;
@@ -165,20 +165,57 @@ box-shadow: 2px 2px 8px 1px #ffffff !important;
 }
 
 #Carousel-1{
-  top: -20vh !important;
-  height: 100vh !important;
+  
+  min-height: 100vh !important;
+  max-height: 300vh !important;
   position: relative;
 }
+#Carousel-2{
+  
+  min-height: 100vh !important;
+  max-height: 300vh !important;
+  position: relative;
+}
+#Carousel-3{
+  
+  min-height: 100vh !important;
+  max-height: 300vh !important;
+  position: relative;
+}
+ @media only screen and (max-width: 600px) {
+  .smallText{
+    font-size: smaller;
+  }
+  .smallHead{
+    font-size: large;
+  }
+  .kropki{
+    position: relative;
+    top: 93vh !important;
+    height: 6vh !important;
+    width: 50vw;
+    left: 25vw !important;
+  }
+} 
 .carousel .indicators .indicator-item {
 
   height: 2vw !important;
   width: 2vw !important;
-  margin: 3vw 2vw !important;
+  margin: 1vh 2vw !important;
+  animation: animatedDots 5s infinite;
  
+}
+@keyframes animatedDots {
+  from {background-color: rgb(255, 255, 255); }
+  to {background-color: rgb(199, 199, 199); }
 }
 .kropki{
   position: relative;
-  top: 93vh !important;
+  top: 90vh !important;
+  height: 6vh !important;
+  width: 10vw;
+  left: 45vw;
+  z-index: 3 !important;
 }
 
 .divHome1{
@@ -228,10 +265,54 @@ box-shadow: 2px 2px 8px 1px #ffffff !important;
 }
 
 .homeCaption{
-  background-color: linear-gradient(0deg, rgba(255,255,255,0) 30%, rgba(0,0,0,0) 100%) !important;
+  /* background-color: linear-gradient(0deg, rgba(255,255,255,0) 30%, rgba(0,0,0,0) 100%) !important; */
+  text-shadow: 2px 2px #000000;
+  font-size: larger;
+  background-color:rgba(0, 0, 0, 0.7);
+  min-width: 35vw !important;
+  margin-left: 45vw !important;
+  min-height: 35vh;
+  box-shadow: 3vw 3vw 0px 1px rgba(4, 125, 146, 0.5) !important;
 }
 
 .imgCarousel{
   /* box-shadow: 2px 2px 8px 1px #ffffff !important; */
   box-shadow: 5vw 8vw 0px 1px rgba(0, 0, 0, 0.2) !important;
+  margin-top: 2vw;
 }
+.textWizualizacje{
+  padding-top: 2vw !important;
+  z-index: 2 !important;
+}
+.sliderWizualziacje{
+  height: 100vh !important;
+}
+#videoIframe{
+  height: 50vh !important;
+}
+
+.contact-form{
+  color: white !important;
+  z-index: 2 !important;
+}
+
+
+
+
+/* .content-indicator{
+   width: 64px;
+   height: 64px;
+   background: none;
+   -moz-border-radius: 50px;
+   -webkit-border-radius: 50px;
+   border-radius: 50px; 
+ }
+  .indicators{
+   /* visibility: ; */
+
+   #toast-container {
+    top: auto !important;
+    right: auto !important;
+    bottom: 50%;
+    left:35%;  
+  }

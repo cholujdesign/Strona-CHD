@@ -22,9 +22,7 @@ function Other() {
 
   return (
     <div>
-      <Row>
-        <div className="hide-on-small-only"></div>
-      </Row>
+      
       <div className="hide-on-small-only"><Row/><Row/><Row/><Row/><Row/><Row/><Row/><Row/></div>
       <Row>
         <div
