@@ -12,7 +12,7 @@
    viewBox="0 0 60 40"
    version="1.1"
    id="svg8"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:version="1.0.2 (e86c8708, 2021-01-15)"
    sodipodi:docname="logo.svg">
   <defs
      id="defs2">
@@ -31,17 +31,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="74.586993"
-     inkscape:cy="103.23531"
+     inkscape:zoom="2.1612645"
+     inkscape:cx="34.147886"
+     inkscape:cy="102.43762"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1137"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-width="1440"
+     inkscape:window-height="781"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -60,33 +60,34 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#000000;fill-opacity:0.746988;stroke:none;stroke-width:2.01887"
+       style="fill:#000000;fill-opacity:0.746988;stroke:none;stroke-width:2.21834"
        id="rect849"
-       width="50.179852"
+       width="60.585606"
        height="30.067823"
-       x="5.0113034"
-       y="2.9773353e-09" />
+       x="-0.0079419119"
+       y="0.12242062" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.9475px;line-height:1.25;font-family:Candara;-inkscape-font-specification:Candara;fill:#ffffff;stroke-width:1.33646"
-       x="6.9934831"
-       y="23.214993"
+       x="1.9742377"
+       y="23.337414"
        id="text853"><tspan
          sodipodi:role="line"
          id="tspan851"
-         x="6.9934831"
-         y="23.214993"
+         x="1.9742377"
+         y="23.337414"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara;fill:#ffffff;stroke-width:1.33646">CHD</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87259px;line-height:1.25;font-family:Candara;-inkscape-font-specification:Candara;fill:#ffffff;stroke-width:0.528885;fill-opacity:1;"
-       x="5.517065"
-       y="39.750793"
-       id="text853-2"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.38906000000000063px;line-height:1.25;font-family:Candara;-inkscape-font-specification:Candara;fill:#ffffff;fill-opacity:1;stroke-width:0.502982;"
+       x="0.13216075"
+       y="37.485687"
+       id="text853-2"
+       transform="scale(1.0180445,0.98227533)"><tspan
          sodipodi:role="line"
          id="tspan851-2"
-         x="5.517065"
-         y="39.750793"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara;fill:#ffffff;stroke-width:0.528885;fill-opacity:1;">ARCHITEKCI</tspan></text>
+         x="0.13216075"
+         y="37.485687"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara;fill:#ffffff;fill-opacity:1;stroke-width:0.502982;">ARCHITEKCI</tspan></text>
   </g>
 </svg>

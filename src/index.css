@@ -75,31 +75,32 @@ box-shadow: 2px 2px 8px 1px #ffffff !important;
 }
 
 .portfolio:hover {
-  background: rgb(195, 98, 34);
+  
   background: linear-gradient(
     156deg,
-    rgb(233, 90, 7) 0%,
+    rgba(4, 125, 146, 0.5) 0%,
     rgba(255, 255, 255, 0.6811099439775911) 62%,
     rgba(255, 255, 255, 0.2811099439775911) 80%
   );
+  box-shadow: 3vw 3vw 0px 1px rgba(4, 125, 146, 0.5) !important;
 }
 .portfolioo:hover {
-  background: rgb(195, 115, 34);
   background: linear-gradient(
     156deg,
-    rgb(197, 130, 64) 0%,
+    rgba(4, 125, 146, 0.5) 0%,
     rgba(255, 255, 255, 0.6811099439775911) 62%,
     rgba(255, 255, 255, 0.2811099439775911) 80%
   );
+  box-shadow: 3vw 3vw 0px 1px rgba(4, 125, 146, 0.5) !important;
 }
 .portfoliooo:hover {
-  background: rgb(195, 115, 34);
   background: linear-gradient(
     156deg,
-    rgb(240, 217, 10) 0%,
+    rgba(4, 125, 146, 0.5) 0%,
     rgba(255, 255, 255, 0.6811099439775911) 62%,
     rgba(255, 255, 255, 0.2811099439775911) 80%
   );
+  box-shadow: 3vw 3vw 0px 1px rgba(4, 125, 146, 0.5) !important;
 }
 
 
@@ -191,10 +192,10 @@ box-shadow: 2px 2px 8px 1px #ffffff !important;
   }
   .kropki{
     position: relative;
-    top: 93vh !important;
-    height: 6vh !important;
-    width: 50vw;
-    left: 25vw !important;
+    top: 0vh !important;
+    height: 0vh !important;
+    width: 40vw !important;
+    left: 30vw !important;
   }
 } 
 .carousel .indicators .indicator-item {
@@ -211,7 +212,7 @@ box-shadow: 2px 2px 8px 1px #ffffff !important;
 }
 .kropki{
   position: relative;
-  top: 90vh !important;
+  top: 1vw !important;
   height: 6vh !important;
   width: 10vw;
   left: 45vw;

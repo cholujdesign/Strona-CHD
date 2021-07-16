@@ -155,8 +155,15 @@ zautomatyzowanego podejmowania decyzji, w tym do profilowaniu.
 </Modal>
             <div className=" hide-on-small-only grey darken-2">
               <Row>
-                <Col m={6}>
-                  <h3 className="white-text valign-align">Dane Kontaktowe</h3>
+                <Col className="white-text valign-align" m={6}>
+                  <h3 className="white-text valign-align">  Dane Kontaktowe </h3>
+                  Wszelkie prawa zastrzeżone<br/>
+Wszystkie teksty, rysunki, zdjęcia oraz wszystkie inne informacje opublikowane na niniejszych stronach podlegają prawom autorskim firmy Choluj Design s.c. z wyjątkiem zdjęć wykorzystanych z strony unsplash.com.
+<br/>
+Wszelkie kopiowanie, dystrybucja, elektroniczne przetwarzanie oraz przesyłanie zawartości bez zezwolenia firmy Choluj Design s.c. jest zabronione.
+<br/>
+Wszelkie prawa zastrzeżone
+Choluj Design s.c.
                 </Col>
                 <Col m={6}>
                   <h5 className="white-text left-align">
@@ -166,8 +173,6 @@ zautomatyzowanego podejmowania decyzji, w tym do profilowaniu.
                     <br/>Rynek Główny 43, 31-013 Kraków, Polska
                     <br/>NIP: 676 243 76 55
                     <br/>© 2023 by Choluj Design s.c.
-
-
                     </h5>
                 </Col>
               </Row>

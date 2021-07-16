@@ -70,30 +70,30 @@ const HomeWnetrza = () => {
                 />
               </Col>
               <Col s={12} l={6}>
-                <h3>
+                <h3 className="smallHead">
                   Projekty Wnętrz <Divider />
                 </h3>
-                <div className="left-align">
+                <div className="left-align smallText">
                   Oferujemy przygotowanie projektu wnętrz prywatnych oraz
                   komercyjnych w pełnym zakresie, wraz z nadzorem.
                   <br />
-                  <h5>INDYWIDUALNE PODEJŚCIE</h5>
+                  <h5 className="smallHead">INDYWIDUALNE PODEJŚCIE</h5>
                   Nie projektujemy szablonowo. Każdy nasz projekt jest dokładnie
                   przemyślany i zaplanowany! Przywiązując wagę do detali
                   projektujemy z pasją i zaangażowaniem.
-                  <h5>PROJEKTUJEMY NA KAŻDĄ KIESZEŃ</h5>
+                  <h5 className="smallHead">PROJEKTUJEMY NA KAŻDĄ KIESZEŃ</h5>
                   Wszystkie projekty dostosowujemy do Państwa możliwości
                   finansowych.
-                  <h5>SPRAWDZONE ROZWIĄZANIA</h5>
+                  <h5 className="smallHead">SPRAWDZONE ROZWIĄZANIA</h5>
                   Współpracujemy tylko ze sprawdzonymi wykonawcami, właśnie
                   dlatego mamy pewność, że wszystkie założenia projektowe
                   zostaną zrealizowane.
-                  <h5>TERMINOWOŚĆ</h5>
+                  <h5 className="smallHead">TERMINOWOŚĆ</h5>
                   Przyjmujemy tylko tyle zleceń, aby żaden z naszych klientów
                   nie musiał czekać zbyt długo na projekt.
                   <br />
                   <br />
-                  <Button>Zadzwoń/Napisz</Button>
+                  <Button node="a" href="contact">Zadzwoń/Napisz</Button>
                 </div>
               </Col>
             </Row>
@@ -115,10 +115,10 @@ const HomeWnetrza = () => {
                 />
               </Col>
               <Col s={12} l={6}>
-                <h3>
+                <h3 className="smallHead">
                   Specjalizacja w: <Divider />
                 </h3>
-                <div className="left-align">
+                <div className="left-align smallText">
                   O ile nasz zespół jest w stanie poradzić sobie z kadym
                   zadaniem, mozemy się poszczycić szczególnym doświadczeniem w
                   projektowaniu i realizacji następującym obiektów:
@@ -132,8 +132,7 @@ const HomeWnetrza = () => {
                   <br /> <br />✓ "Deweloperkach"
                   <br /> <br />✓ Projektach mebli
                   <br />
-                  <br />
-                  <Button>Przykłady z portfolio</Button>
+              <Button node="a" href="portfolio">Przykłady</Button>
                 </h5>
               </Col>
             </Row>
@@ -155,10 +154,10 @@ const HomeWnetrza = () => {
                 />
               </Col>
               <Col s={12} l={6}>
-                <h3>
+                <h3 className="smallHead">
                   Pełna dokumentacja <Divider />
                 </h3>
-                <div className="left-align  ">
+                <div className="left-align smallText ">
                   <li>Rysunki ułożenia podłóg</li>
                   <li>
                     {" "}
@@ -201,12 +200,9 @@ const HomeWnetrza = () => {
                   </li>
                   <li> Projekt nietypowych grafik i dekoracji</li>
                   <br />
-                  <Button>Zadzwoń/Napisz</Button>
+                  <Button node="a" href="contact">Zadzwoń/Napisz</Button>
 
-                  <br />
-                  <br />
-                  <br />
-                  <Button>przyklady na youtube</Button>
+                  
                 </div>
               </Col>
             </Row>
@@ -226,15 +222,17 @@ const HomeWnetrza = () => {
                 />
               </Col>
               <Col s={12} l={6}>
-                <h3>
+                <h3 className="smallHead">
                   Nadzór i doradztwo <Divider />
                 </h3>
-                <h5 className="left-align">
+                <h5 className="left-align smallText">
                   Posiadamy unikalne połączenie doświadczenia w prowadzeniu
                   robót budowlanych oraz firm nie związanych z braną budowlaną,
                   rozmowa z nami przed rozpoczęciem inwestycji pomze oszcować
                   dochodowść takiego przedsięwzięcia.
                 </h5>
+                <br />
+                  <Button node="a" href="contact">Zadzwoń/Napisz</Button>
               </Col>
             </Row>
           </div>

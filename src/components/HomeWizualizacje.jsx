@@ -9,7 +9,8 @@ import {
   Slide,
   Caption,
   Card,
-  Carousel
+  Carousel,
+  Modal
 } from "react-materialize";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -82,8 +83,44 @@ const HomeWnetrza = () => {
                   <li className="textWizualizacje" >Elewacji</li>
                   <li className="textWizualizacje">Wnętrz</li>
                   <br/>
-                 
-                  <Button large>Przyklady na Youtube</Button>
+                  
+                  
+                  <Modal
+  actions={[
+    <Button flat modal="close" node="button" waves="green">Close</Button>
+  ]}
+  bottomSheet={false}
+  fixedFooter={false}
+  header="Przykłady, naciśnij aby zobaczyć"
+  id="Modal-30"
+  open={false}
+  options={{
+    dismissible: true,
+    endingTop: '10%',
+    inDuration: 250,
+    onCloseEnd: null,
+    onCloseStart: null,
+    onOpenEnd: null,
+    onOpenStart: null,
+    opacity: 0.5,
+    outDuration: 250,
+    preventScrolling: true,
+    startingTop: '4%'
+  }}
+  trigger={<Button node="button">Przyklady na Youtube</Button>}
+>
+ <div className="center">
+<Button target="blank" node="a" href="https://www.youtube.com/channel/UCKaE6NScDMLw16D_N6MQRuQ">HouseQ</Button>
+<Button target="blank" node="a" href="https://www.youtube.com/channel/UCKaE6NScDMLw16D_N6MQRuQ">Domy Czernochowice</Button>
+<Button target="blank" node="a" href="https://www.youtube.com/channel/UCKaE6NScDMLw16D_N6MQRuQ">Elewacja Długosza</Button>
+<Button target="blank" node="a" href="https://www.youtube.com/channel/UCKaE6NScDMLw16D_N6MQRuQ">Elewacja GrandHotel</Button>
+<Button target="blank" node="a" href="https://www.youtube.com/channel/UCKaE6NScDMLw16D_N6MQRuQ">Katowice</Button>
+<Button target="blank" node="a" href="https://www.youtube.com/channel/UCKaE6NScDMLw16D_N6MQRuQ">obiekt</Button>
+<Button target="blank" node="a" href="https://www.youtube.com/channel/UCKaE6NScDMLw16D_N6MQRuQ">obiekt</Button>
+<Button target="blank" node="a" href="https://www.youtube.com/channel/UCKaE6NScDMLw16D_N6MQRuQ">obiekt</Button>
+<Button target="blank" node="a" href="https://www.youtube.com/channel/UCKaE6NScDMLw16D_N6MQRuQ">obiekt</Button>
+ </div>
+</Modal>
                 </h5>
               </Col>
             </Row>
@@ -188,7 +225,7 @@ const HomeWnetrza = () => {
                   <br/>
                    
                   <br/><br/><br/>
-                  <Button>Przykład strony</Button>
+                  <Button node="a" targe="blank" href="houseq.pl">Przykład strony</Button>
                 </h5>
               </Col>
             </Row>

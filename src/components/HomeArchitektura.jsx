@@ -62,10 +62,10 @@ const HomeWnetrza = () => {
                 <img className="imgCarousel" src={img1} width="100%" />
               </Col>
               <Col s={12} l={6}>
-                <h3>
+                <h3 className="smallHead">
                   Budynki mieszkalne, usługowe, mieszkalno-usługowe <Divider />
                 </h3>
-                <h5 className="left-align">
+                <h5 className="left-align smallText">
                   <li>Uzyskianie Warunków Zabudowy</li>
                   <br />
                   <li>Projektowanie dużych kubatorowo budynków</li>
@@ -85,7 +85,7 @@ const HomeWnetrza = () => {
                   </li>
                   <br />
 
-                  <Button>Przyklady</Button>
+                  <Button node="a" href="portfolio">Przyklady</Button>
                 </h5>
               </Col>
             </Row>
@@ -103,13 +103,13 @@ const HomeWnetrza = () => {
                 <img className="imgCarousel" src={img2} width="100%" />
               </Col>
               <Col s={12} l={6}>
-                <h3>
+                <h3 className="smallHead">
                   Domy jednorzodzinne <Divider />
                 </h3>
-                <h5 className="left-align">
+                <h5 className="left-align smallText">
                   <li>Uzyskianie Warunków Zabudowy</li>
                   <br />
-                  <li>Projektowanie dużych kubatorowo budynków</li>
+                  <li>Projektowanie ogrodów</li>
                   <br />
                   <li>Szybkie przygotowanie koncpecji</li>
                   <br />
@@ -118,11 +118,10 @@ const HomeWnetrza = () => {
                     terminów realizacji
                   </li>
                   <br />
-                  <li>Plomby, kompleksy budynków, osiedla</li>
+                  <li>Przygotowanie projektu budowlanego</li>
 
                   <br />
 
-                  <Button>Przyklady</Button>
                 </h5>
               </Col>
             </Row>
@@ -140,25 +139,15 @@ const HomeWnetrza = () => {
                 <img className="imgCarousel" src={img3} width="100%" />
               </Col>
               <Col s={12} l={6}>
-                <h3>
+                <h3 className="smallHead">
                   Domy szkieletowe <Divider />
                 </h3>
-                <h5 className="left-align">
-                  <li>Uzyskianie Warunków Zabudowy</li>
+                <h5 className="left-align smallText">
+                  <li>Posiadamy doświadczenie w projektowaniu energo-oszczędnych domów wykonanych z drewna lub drewnianej konstrukcji</li>
                   <br />
-                  <li>Projektowanie dużych kubatorowo budynków</li>
-                  <br />
-                  <li>Szybkie przygotowanie koncpecji</li>
-                  <br />
-                  <li>
-                    Przygotowanie pełnego projektu (wymaga ustaleń dotyczących
-                    terminów realizacji
-                  </li>
-                  <br />
-                  <li>Plomby, kompleksy budynków, osiedla</li>
-                  <br />
+                 
 
-                  <Button>Przyklady</Button>
+                  <Button node="a" href="portfolio">Przyklad</Button>
                 </h5>
               </Col>
             </Row>
