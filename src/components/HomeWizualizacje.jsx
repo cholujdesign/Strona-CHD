@@ -108,15 +108,15 @@ trigger={<Button node="button">Przyklady na Youtube</Button>}
 >
 <div className="center">
 <Button target="blank" node="a" href="https://www.youtube.com/channel/UCKaE6NScDMLw16D_N6MQRuQ">HouseQ</Button>
-<Button target="blank" node="a" href="https://www.youtube.com/channel/UCKaE6NScDMLw16D_N6MQRuQ">Domy Czernochowice</Button>
-<Button target="blank" node="a" href="https://www.youtube.com/channel/UCKaE6NScDMLw16D_N6MQRuQ">Elevation Długosza</Button>
-<Button target="blank" node="a" href="https://www.youtube.com/channel/UCKaE6NScDMLw16D_N6MQRuQ">Elevation GrandHotel</Button>
-<Button target="blank" node="a" href="https://www.youtube.com/channel/UCKaE6NScDMLw16D_N6MQRuQ">Katowice</Button>
-<Button target="blank" node="a" href="https://www.youtube.com/channel/UCKaE6NScDMLw16D_N6MQRuQ">obiekt</Button>
-<Button target="blank" node="a" href="https://www.youtube.com/channel/UCKaE6NScDMLw16D_N6MQRuQ">obiekt</Button>
-<Button target="blank" node="a" href="https://www.youtube.com/channel/UCKaE6NScDMLw16D_N6MQRuQ">obiekt</Button>
-<Button target="blank" node="a" href="https://www.youtube.com/channel/UCKaE6NScDMLw16D_N6MQRuQ">obiekt</Button>
-</div>
+<Button target="blank" node="a" href="https://youtu.be/ndNZSfyNUcY">Domy Czernochowice</Button>
+<Button target="blank" node="a" href="https://youtu.be/eFC9ykCBFYA">Elewacja Długosza</Button>
+<Button target="blank" node="a" href="https://youtu.be/WHjZrLKVbdc">Elewacja GrandHotel</Button>
+<Button target="blank" node="a" href="https://youtu.be/JUuRMNtIT7o">Katowice</Button>
+<Button target="blank" node="a" href="https://youtu.be/X58j3MHAKS4">obiekt</Button>
+<Button target="blank" node="a" href="https://youtu.be/WM8QJU4qIlM">obiekt</Button>
+{/* <Button target="blank" node="a" href="https://www.youtube.com/channel/UCKaE6NScDMLw16D_N6MQRuQ">obiekt</Button>
+<Button target="blank" node="a" href="https://www.youtube.com/channel/UCKaE6NScDMLw16D_N6MQRuQ">obiekt</Button> */}
+ </div>
 </Modal>
               </h5>
             </Col>
@@ -301,14 +301,14 @@ trigger={<Button node="button">Przyklady na Youtube</Button>}
 >
  <div className="center">
 <Button target="blank" node="a" href="https://www.youtube.com/channel/UCKaE6NScDMLw16D_N6MQRuQ">HouseQ</Button>
-<Button target="blank" node="a" href="https://www.youtube.com/channel/UCKaE6NScDMLw16D_N6MQRuQ">Domy Czernochowice</Button>
-<Button target="blank" node="a" href="https://www.youtube.com/channel/UCKaE6NScDMLw16D_N6MQRuQ">Elewacja Długosza</Button>
-<Button target="blank" node="a" href="https://www.youtube.com/channel/UCKaE6NScDMLw16D_N6MQRuQ">Elewacja GrandHotel</Button>
-<Button target="blank" node="a" href="https://www.youtube.com/channel/UCKaE6NScDMLw16D_N6MQRuQ">Katowice</Button>
-<Button target="blank" node="a" href="https://www.youtube.com/channel/UCKaE6NScDMLw16D_N6MQRuQ">obiekt</Button>
-<Button target="blank" node="a" href="https://www.youtube.com/channel/UCKaE6NScDMLw16D_N6MQRuQ">obiekt</Button>
-<Button target="blank" node="a" href="https://www.youtube.com/channel/UCKaE6NScDMLw16D_N6MQRuQ">obiekt</Button>
-<Button target="blank" node="a" href="https://www.youtube.com/channel/UCKaE6NScDMLw16D_N6MQRuQ">obiekt</Button>
+<Button target="blank" node="a" href="https://youtu.be/ndNZSfyNUcY">Domy Czernochowice</Button>
+<Button target="blank" node="a" href="https://youtu.be/eFC9ykCBFYA">Elewacja Długosza</Button>
+<Button target="blank" node="a" href="https://youtu.be/WHjZrLKVbdc">Elewacja GrandHotel</Button>
+<Button target="blank" node="a" href="https://youtu.be/JUuRMNtIT7o">Katowice</Button>
+<Button target="blank" node="a" href="https://youtu.be/X58j3MHAKS4">obiekt</Button>
+<Button target="blank" node="a" href="https://youtu.be/WM8QJU4qIlM">obiekt</Button>
+{/* <Button target="blank" node="a" href="https://www.youtube.com/channel/UCKaE6NScDMLw16D_N6MQRuQ">obiekt</Button>
+<Button target="blank" node="a" href="https://www.youtube.com/channel/UCKaE6NScDMLw16D_N6MQRuQ">obiekt</Button> */}
  </div>
 </Modal>
                 </h5>
