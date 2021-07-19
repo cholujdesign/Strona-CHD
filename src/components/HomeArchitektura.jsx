@@ -27,7 +27,7 @@ import img4 from "./svg/wizualizacjeLogo.svg";
 import img5 from "./svg/wizualizacjeLogo.svg";
 import img6 from "./svg/wizualizacjeLogo.svg";
 import img7 from "./svg/wizualizacjeLogo.svg";
-import finger from "./svg/finger (1).svg"
+import finger from "./svg/finger (1).svg";
 
 const HomeWnetrza = () => {
   useEffect(() => {
@@ -36,7 +36,128 @@ const HomeWnetrza = () => {
 
   let lang = localStorage.getItem("lang");
 
-  if (lang == "en") return <Row></Row>;
+  if (lang == "en")
+    return (
+      <div>
+        <Carousel
+          carouselId="Carousel-3"
+          className="white-text center"
+          options={{
+            indicators: false,
+            fullWidth: true,
+          }}
+        >
+          <div className="grey darken-1">
+            <div className="kropki center white-text">
+              <img src={finger} width="100%" />
+            </div>
+            <Row className="hide-on-med-and-down" />
+            <Row className="hide-on-med-and-down" />
+            <Row className="hide-on-med-and-down" />
+            <Row className="hide-on-med-and-down" />
+            <Row>
+              <Col s={12} l={6}>
+                <img className="imgCarousel" src={img1} width="100%" />
+              </Col>
+              <Col s={12} l={6}>
+                <h3 className="smallHead">
+                  Residential, service, mixed-use buildings
+                  <Divider />
+                </h3>
+                <h5 className="left-align smallText">
+                  <li> Obtaining Development Conditions </li>
+                  <br />
+                  <li> Design of large cubature buildings </li>
+                  <br />
+                  <li> Quick Conclusion Preparation </li>
+                  <br />
+                  <li>
+                    Preparation of a complete project (requires arrangements
+                    regarding deadlines
+                  </li>
+                  <br />
+                  <li> Seals, building complexes, housing estates </li>
+                  <br />
+                  <li>
+                    Documentation needed by investors, investment funds, banks
+                  </li>
+                  <br />
+
+                  <Button node="a" href="portfolio">
+                    Examples
+                  </Button>
+                </h5>
+              </Col>
+            </Row>
+          </div>
+          <div className="cyan darken-3">
+            <div className="kropki center white-text">
+              <img src={finger} width="100%" />
+            </div>
+            <Row className="hide-on-med-and-down" />
+            <Row className="hide-on-med-and-down" />
+            <Row className="hide-on-med-and-down" />
+            <Row className="hide-on-med-and-down" />
+            <Row>
+              <Col s={12} l={6}>
+                <img className="imgCarousel" src={img2} width="100%" />
+              </Col>
+              <Col s={12} l={6}>
+                <h3 className="smallHead">
+                  Single-family houses <Divider />
+                </h3>
+                <h5 className="left-align smallText">
+                  <li> Obtaining Development/Planning Conditions </li>
+                  <br />
+                  <li> Garden design </li>
+                  <br />
+                  <li> Quick Conceptual Design </li>
+                  <br />
+                  <li>
+                    Preparation of a complete project (requires arrangements
+                    regarding deadlines
+                  </li>
+                  <br />
+                  <li> Preparation of the construction project </li>
+
+                  <br />
+                </h5>
+              </Col>
+            </Row>
+          </div>
+          <div className="grey darken-3">
+            <div className="kropki center white-text">
+              <img src={finger} width="100%" />
+            </div>
+            <Row className="hide-on-med-and-down" />
+            <Row className="hide-on-med-and-down" />
+            <Row className="hide-on-med-and-down" />
+            <Row className="hide-on-med-and-down" />
+            <Row>
+              <Col s={12} l={6}>
+                <img className="imgCarousel" src={img3} width="100%" />
+              </Col>
+              <Col s={12} l={6}>
+                <h3 className="smallHead">
+                  Frame houses <Divider />
+                </h3>
+                <h5 className="left-align smallText">
+                  <li>
+                    {" "}
+                    We have experience in designing energy-saving houses made of
+                    wood or wooden structures{" "}
+                  </li>{" "}
+                  <br />
+                  <Button node="a" href="portfolio">
+                    Examples
+                  </Button>
+                </h5>
+              </Col>
+            </Row>
+          </div>
+        </Carousel>
+      </div>
+    );
   else
     return (
       <div>
@@ -46,13 +167,12 @@ const HomeWnetrza = () => {
           options={{
             indicators: false,
             fullWidth: true,
-           
           }}
         >
           <div className="grey darken-1">
             <div className="kropki center white-text">
-                  <img src={finger} width="100%"/>
-                  </div>
+              <img src={finger} width="100%" />
+            </div>
             <Row className="hide-on-med-and-down" />
             <Row className="hide-on-med-and-down" />
             <Row className="hide-on-med-and-down" />
@@ -85,15 +205,17 @@ const HomeWnetrza = () => {
                   </li>
                   <br />
 
-                  <Button node="a" href="portfolio">Przyklady</Button>
+                  <Button node="a" href="portfolio">
+                    Przyklady
+                  </Button>
                 </h5>
               </Col>
             </Row>
           </div>
           <div className="cyan darken-3">
             <div className="kropki center white-text">
-                  <img src={finger} width="100%"/>
-                  </div>
+              <img src={finger} width="100%" />
+            </div>
             <Row className="hide-on-med-and-down" />
             <Row className="hide-on-med-and-down" />
             <Row className="hide-on-med-and-down" />
@@ -121,15 +243,14 @@ const HomeWnetrza = () => {
                   <li>Przygotowanie projektu budowlanego</li>
 
                   <br />
-
                 </h5>
               </Col>
             </Row>
           </div>
           <div className="grey darken-3">
             <div className="kropki center white-text">
-                  <img src={finger} width="100%"/>
-                  </div>
+              <img src={finger} width="100%" />
+            </div>
             <Row className="hide-on-med-and-down" />
             <Row className="hide-on-med-and-down" />
             <Row className="hide-on-med-and-down" />
@@ -143,11 +264,15 @@ const HomeWnetrza = () => {
                   Domy szkieletowe <Divider />
                 </h3>
                 <h5 className="left-align smallText">
-                  <li>Posiadamy doświadczenie w projektowaniu energo-oszczędnych domów wykonanych z drewna lub drewnianej konstrukcji</li>
+                  <li>
+                    Posiadamy doświadczenie w projektowaniu energo-oszczędnych
+                    domów wykonanych z drewna lub drewnianej konstrukcji
+                  </li>
                   <br />
-                 
 
-                  <Button node="a" href="portfolio">Przyklad</Button>
+                  <Button node="a" href="portfolio">
+                    Przyklad
+                  </Button>
                 </h5>
               </Col>
             </Row>

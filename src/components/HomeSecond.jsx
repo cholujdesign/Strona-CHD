@@ -85,74 +85,140 @@ class HomeSecond extends Component {
   };
 
   render() {
-    if (this.state.lang == "en") return <Row></Row>;
+    if (this.state.lang == "en") return(    <div>
+      <div className="  grey darken-1 z-depth-2">
+        <Row />
+        <Row />
+        <Row>
+          <Col s={12} m={2} push="m1"></Col>
+          <Col s={12} m={6} push="m1">
+            <h3 className="white-text">Talk to us!</h3>
+            <form onSubmit={sendEmail}>
+              <input className="white-text" type="email" name="user_email" />
+              <Divider />
+              <label className="">
+                <h5 className="white-text">Email</h5>
+              </label>
+              <textarea className="white-text" name="message" /> <Divider />
+              <label className="">
+                <h5 className="white-text">Message</h5>
+              </label>
+              <Toast
+              
+options={{
+classes: "center",
+html: 'Message sent, thank you!'
+}}
+>
+<input
+                className="btn"
+                type="submit"
+                value="Wyślij wiadomość"
+              />
+</Toast>
+              
+            </form>
+            <a className="btn black " href="tel:+48518048983">
+              or call us
+            </a>
+          </Col>
+        </Row>
+        <Row />
+      </div>
+      <Row />
+      <Row />
+      <div className="clientCardbg z-depth-2">
+        {/* <h3 className="teal-text">Nasze biuro to </h3> */}
+      </div>
+      <Row>
+        <Row>
+          <Col s={12} m={8} push="m2">
+            <Col s={12} m={4} push="">
+              <img
+                className="clientCard z-depth-3 "
+                src={clientCard1}
+                width="101%"
+              />
+            </Col>
+            <Col className="clientCard z-depth-3 " s={12} m={4} push="">
+              <img src={clientCard2} width="100%" />
+            </Col>
+            <Col className="clientCard z-depth-3 " s={12} m={4} push="">
+              <img src={clientCard3} width="100%" />
+            </Col>
+          </Col>
+        </Row>
+      </Row>
+    </div>
+);
     else
       return (
         <div>
-          <div className="  grey darken-1 z-depth-2">
-            <Row />
-            <Row />
-            <Row>
-              <Col s={12} m={2} push="m1"></Col>
-              <Col s={12} m={6} push="m1">
-                <h3 className="white-text">Skontaktuj się z nami</h3>
-                <form onSubmit={sendEmail}>
-                  <input className="white-text" type="email" name="user_email" />
-                  <Divider />
-                  <label className="">
-                    <h5 className="white-text">Email</h5>
-                  </label>
-                  <textarea className="white-text" name="message" /> <Divider />
-                  <label className="">
-                    <h5 className="white-text">Wiadomość</h5>
-                  </label>
-                  <Toast
-                  
-  options={{
-    classes: "center",
-    html: 'Wiadomość wysłana, dziękujemy !'
-  }}
->
-  <input
-                    className="btn"
-                    type="submit"
-                    value="Wyślij wiadomość"
-                  />
-</Toast>
-                  
-                </form>
-                <a className="btn black " href="tel:+48518048983">
-                  lub zadzwoń
-                </a>
-              </Col>
-            </Row>
-            <Row />
-          </div>
+        <div className="  grey darken-1 z-depth-2">
           <Row />
           <Row />
-          <div className="clientCardbg z-depth-2">
-            {/* <h3 className="teal-text">Nasze biuro to </h3> */}
-          </div>
           <Row>
-            <Row>
-              <Col s={12} m={8} push="m2">
-                <Col s={12} m={4} push="">
-                  <img
-                    className="clientCard z-depth-3 "
-                    src={clientCard1}
-                    width="101%"
-                  />
-                </Col>
-                <Col className="clientCard z-depth-3 " s={12} m={4} push="">
-                  <img src={clientCard2} width="100%" />
-                </Col>
-                <Col className="clientCard z-depth-3 " s={12} m={4} push="">
-                  <img src={clientCard3} width="100%" />
-                </Col>
-              </Col>
-            </Row>
+            <Col s={12} m={2} push="m1"></Col>
+            <Col s={12} m={6} push="m1">
+              <h3 className="white-text">Skontaktuj się z nami</h3>
+              <form onSubmit={sendEmail}>
+                <input className="white-text" type="email" name="user_email" />
+                <Divider />
+                <label className="">
+                  <h5 className="white-text">Email</h5>
+                </label>
+                <textarea className="white-text" name="message" /> <Divider />
+                <label className="">
+                  <h5 className="white-text">Wiadomość</h5>
+                </label>
+                <Toast
+                
+options={{
+  classes: "center",
+  html: 'Wiadomość wysłana, dziękujemy !'
+}}
+>
+<input
+                  className="btn"
+                  type="submit"
+                  value="Wyślij wiadomość"
+                />
+</Toast>
+                
+              </form>
+              <a className="btn black " href="tel:+48518048983">
+                lub zadzwoń
+              </a>
+            </Col>
           </Row>
+          <Row />
         </div>
+        <Row />
+        <Row />
+        <div className="clientCardbg z-depth-2">
+          {/* <h3 className="teal-text">Nasze biuro to </h3> */}
+        </div>
+        <Row>
+          <Row>
+            <Col s={12} m={8} push="m2">
+              <Col s={12} m={4} push="">
+                <img
+                  className="clientCard z-depth-3 "
+                  src={clientCard1}
+                  width="101%"
+                />
+              </Col>
+              <Col className="clientCard z-depth-3 " s={12} m={4} push="">
+                <img src={clientCard2} width="100%" />
+              </Col>
+              <Col className="clientCard z-depth-3 " s={12} m={4} push="">
+                <img src={clientCard3} width="100%" />
+              </Col>
+            </Col>
+          </Row>
+        </Row>
+      </div>
+   
       );
   }
 }

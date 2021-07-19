@@ -140,7 +140,7 @@ box-shadow: 2px 2px 8px 1px #ffffff !important;
 .homeFirstcard{
   position: relative !important;
   left: -1vw;
-  top: 1vh;
+  top: 2vh;
   min-height: 93vh !important;
   background-color: rgba(8, 8, 8, 0.574) !important;
   box-shadow: 2px 2px 8px 1px #ffffff !important;
@@ -269,11 +269,11 @@ box-shadow: 2px 2px 8px 1px #ffffff !important;
   /* background-color: linear-gradient(0deg, rgba(255,255,255,0) 30%, rgba(0,0,0,0) 100%) !important; */
   text-shadow: 2px 2px #000000;
   font-size: larger;
-  background-color:rgba(0, 0, 0, 0.7);
+  background-color:rgba(0, 0, 0, 0.8);
   min-width: 35vw !important;
   margin-left: 45vw !important;
   min-height: 35vh;
-  box-shadow: 3vw 3vw 0px 1px rgba(4, 125, 146, 0.5) !important;
+  box-shadow: 3vw 3vw 0px 1px rgba(255, 255, 255, 0.7) !important;
 }
 
 .imgCarousel{

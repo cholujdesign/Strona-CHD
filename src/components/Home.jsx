@@ -21,8 +21,8 @@ const Home = () => {
 
   let lang = localStorage.getItem("lang");
 
-  if (lang == "en") return <Row></Row>;
-  else
+  // if (lang == "en") return <Row></Row>;
+  // else
     return (
 <Row>
   <HomeFirst/>
