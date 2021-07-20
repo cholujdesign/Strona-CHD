@@ -98,14 +98,14 @@ class Contact extends React.Component {
                 prepared offer and will answer all your questions.
                 <Row></Row>
                 <br />
-                House_Q sp. z o. o.
+                Choluj Design s.c.
                 <br />
                 Rynek Glowny 43
                 <br />
                 31-013 Krakow
-                <br />T : +48 518048983
+                <br />T : +48 518048983 / +48 509447006
                 <br />
-                E: domyprefabrykowanemk@gmail.com
+                E: cholujdesign@gmail.com
               </CardPanel>
             </Col>
 
