@@ -2,26 +2,31 @@ import "leaflet/dist/leaflet.css";
 import "materialize-css";
 import React from "react";
 import "react-leaflet";
-import {
-  CardPanel,
-  Col, Row
-} from "react-materialize";
+import { CardPanel, Col, Row, Toast } from "react-materialize";
 import Button from "react-materialize/lib/Button";
 import Divider from "react-materialize/lib/Divider";
 import MapIn from "./MapIn";
-import emailjs from 'emailjs-com';
+import emailjs from "emailjs-com";
 
 function sendEmail(e) {
   e.preventDefault();
 
-  emailjs.sendForm('service_a1wwmva', 'template_jnm4g0d', e.target, 'user_x9kPpW1JmhYVbwVWmxAVD')
-    .then((result) => {
+  emailjs
+    .sendForm(
+      "service_a1wwmva",
+      "template_jnm4g0d",
+      e.target,
+      "user_x9kPpW1JmhYVbwVWmxAVD"
+    )
+    .then(
+      (result) => {
         console.log(result.text);
-    }, (error) => {
+      },
+      (error) => {
         console.log(error.text);
-    });
+      }
+    );
 }
-
 
 class Contact extends React.Component {
   constructor() {
@@ -31,13 +36,21 @@ class Contact extends React.Component {
       lang: localStorage.getItem("lang"),
     };
   }
-  
-  render() {
 
+  render() {
     if (this.state.lang == "en")
       return (
         <div>
-    <div className="hide-on-small-only"><Row/><Row/><Row/><Row/><Row/><Row/><Row/><Row/></div>
+          <div className="hide-on-small-only">
+            <Row />
+            <Row />
+            <Row />
+            <Row />
+            <Row />
+            <Row />
+            <Row />
+            <Row />
+          </div>
           <Row>
             <Col m={4} s={12} offset="m1">
               <Button
@@ -58,37 +71,34 @@ class Contact extends React.Component {
                 <Divider />
                 <Row></Row>
                 <div className="center ">
-                  <form id="contact-form">
-                    <Row>
-                      <Col m={6} s={12}>
-                        <div className="form-group">
-                          <label htmlFor="name">Name</label>
-                          <input type="text" className="form-control" />
-                        </div>
-                      </Col>
-                      <Col m={6} s={12}>
-                        <div className="form-group">
-                          <label htmlFor="name">Company's Name</label>
-                          <input type="text" className="form-control" />
-                        </div>
-                      </Col>
-                    </Row>
-                    <div className="form-group">
-                      <label htmlFor="exampleInputEmail1">Email address</label>
+                  <form onSubmit={sendEmail}>
+                    <input
+                      className="black-text"
+                      type="email"
+                      name="user_email"
+                    />
+                    <Divider />
+                    <label className="">
+                      <h5 className="black-text">Email</h5>
+                    </label>
+                    <textarea className="white-text" name="message" />{" "}
+                    <Divider />
+                    <label className="">
+                      <h5 className="black-text">Message</h5>
+                    </label>
+                    <Toast
+                      options={{
+                        classes: "center",
+                        html: "Wiadomość wysłana, dziękujemy !",
+                      }}
+                    >
                       <input
-                        type="email"
-                        className="form-control"
-                        aria-describedby="emailHelp"
+                        className="btn"
+                        type="submit"
+                        value="Wyślij wiadomość"
                       />
-                    </div>
-                    <div className="form-group">
-                      <label htmlFor="message">Message</label>
-                      <textarea className="form-control" rows="5"></textarea>
-                    </div>
-                    <button type="submit" className="btn orange">
-                      Wyślij
-                    </button>
-                  </form>
+                    </Toast>
+                  </form>{" "}
                 </div>
               </CardPanel>
               <CardPanel className="white z-depth-2">
@@ -126,8 +136,17 @@ class Contact extends React.Component {
     else
       return (
         <div>
-      <div className="hide-on-small-only"><Row/><Row/><Row/><Row/><Row/><Row/><Row/></div>
-          <Row><Row/>
+          <div className="hide-on-small-only">
+            <Row />
+            <Row />
+            <Row />
+            <Row />
+            <Row />
+            <Row />
+            <Row />
+          </div>
+          <Row>
+            <Row />
             <Col m={4} s={12} offset="m1">
               <Button
                 className="z-depth-2  black"
@@ -147,16 +166,37 @@ class Contact extends React.Component {
                 <Divider />
                 <Row></Row>
                 <div className="center ">
-                <form className="contact-form" onSubmit={sendEmail}>
-      <input type="hidden" name="contact_number" />
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>   </div>
+                  <Row>
+                    <form onSubmit={sendEmail}>
+                      <input
+                        className="black-text"
+                        type="email"
+                        name="user_email"
+                      />
+                      <Divider />
+                      <label className="">
+                        <h5 className="black-text">Email</h5>
+                      </label>
+                      <textarea className="black-text" name="message" />{" "}
+                      <Divider />
+                      <label className="">
+                        <h5 className="black-text">Wiadomość</h5>
+                      </label>
+                      <Toast
+                        options={{
+                          classes: "center",
+                          html: "Wiadomość wysłana, dziękujemy !",
+                        }}
+                      >
+                        <input
+                          className="btn"
+                          type="submit"
+                          value="Wyślij wiadomość"
+                        />
+                      </Toast>
+                    </form>
+                  </Row>
+                </div>
               </CardPanel>
               <CardPanel className="white z-depth-2">
                 W razie zainteresowania lub w celu uzyskania dodatkowych
@@ -166,7 +206,7 @@ class Contact extends React.Component {
                 ofertę oraz odpowiedzą na wszystkie Państwa pytania.
                 <Row></Row>
                 <br />
-               Choluj Design s.c.
+                Choluj Design s.c.
                 <br />
                 Rynek Glowny 43
                 <br />
@@ -194,4 +234,3 @@ class Contact extends React.Component {
   }
 }
 export default Contact;
-
