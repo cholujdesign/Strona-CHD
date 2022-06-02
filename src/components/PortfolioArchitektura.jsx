@@ -157,120 +157,122 @@ const HomeWnetrza = () => {
     );
   else
     return (
-      <div>
-        <Carousel
-          carouselId="Carousel-3"
-          className="white-text center"
-          options={{
-            indicators: false,
-            fullWidth: true,
-          }}
-        >
-          <div className="grey darken-1">
-            <div className="kropki center white-text">
-              <img src={finger} width="100%" />
-            </div>
-            <Row className="hide-on-med-and-down" />
-            <Row className="hide-on-med-and-down" />
-            <Row className="hide-on-med-and-down" />
-            <Row className="hide-on-med-and-down" />
-            <Row>
-              <Col s={12} l={6}>
-                <img className="imgCarousel" src={img1} width="100%" />
-              </Col>
-              <Col s={12} l={6}>
-                <h5 className="smallHead">
-                  Budynki mieszkalne, usługowe, mieszkalno-usługowe <Divider />
+        <div className="white-text">
+        <Row />
+        <Row />
+        <Row />
+        <h3 className="left-align">
+          Architecture
+          <Divider />
+        </h3>
+        <Row />
+        <Row>
+          <Col s={12} m={2} push="m1">
+            <Card className="blue darken-3">
+              <Row>
+                <img
+                  className=""
+                  src="https://ak-d.tripcdn.com/images/220e180000014r6sg5C32_R_800_525.jpg"
+                  width="100%"
+                />
+
+                <h5 className="">
+                  Residential, service, mixed-use buildings
+                  <Divider />
                 </h5>
-                <div className="left-align smallText">
-                  <li>Uzyskianie Warunków Zabudowy</li>
-
-                  <li>Projektowanie dużych kubatorowo budynków</li>
-
-                  <li>Szybkie przygotowanie koncpecji</li>
-
-                  <li>
-                    Przygotowanie pełnego projektu (wymaga ustaleń dotyczących
-                    terminów realizacji
-                  </li>
-
-                  <li>Plomby, kompleksy budynków, osiedla</li>
-
-                  <li>
-                    Dokumentacja potrzebna inwestorom, funduszom inwestycyjnym,
-                    bankom
-                  </li>
-
-                  <Button node="a" href="portfolio">
-                    Przyklady
-                  </Button>
+                <div data-aos="fade-right" data-aos-duration="2000" className="left-align ">
+                  <li>All RIBA Stages</li>
+                  <li>Flexible, interdisciplinary team</li>
+                  <li>Large experience in working with developers</li>
+                  <li>Small, medium and medium-large buildings</li>
                 </div>
-              </Col>
-            </Row>
-          </div>
-          <div className="cyan darken-3">
-            <div className="kropki center white-text">
-              <img src={finger} width="100%" />
-            </div>
-            <Row className="hide-on-med-and-down" />
-            <Row className="hide-on-med-and-down" />
-            <Row className="hide-on-med-and-down" />
-            <Row className="hide-on-med-and-down" />
-            <Row>
-              <Col s={12} l={6}>
-                <img className="imgCarousel" src={img2} width="100%" />
-              </Col>
-              <Col s={12} l={6}>
-                <h5 className="smallHead">
-                  Domy jednorzodzinne <Divider />
+              </Row>
+            </Card>
+          </Col>
+          <Col s={12} m={2} push="m1">
+            <Card className="cyan darken-3">
+              <Row>
+                <img className="" src={img2} width="100%" />
+
+                <h5 className="">
+                  Single-family houses <Divider />
                 </h5>
-                <div className="left-align smallText">
-                  <li>Uzyskianie Warunków Zabudowy</li>
+                <div data-aos="fade-down" data-aos-duration="2000" className="left-align ">
+                <li>All RIBA Stages</li>
+                <li> Personal design, fit for the client </li>
+                  <li> Garden design </li>
 
-                  <li>Projektowanie ogrodów</li>
-
-                  <li>Szybkie przygotowanie koncpecji</li>
+                  <li> Quick Conceptual Design </li>
 
                   <li>
-                    Przygotowanie pełnego projektu (wymaga ustaleń dotyczących
-                    terminów realizacji
+                    Preparation of a complete project 
                   </li>
-
-                  <li>Przygotowanie projektu budowlanego</li>
+                  
                 </div>
-              </Col>
-            </Row>
-          </div>
-          <div className="grey darken-3">
-            <div className="kropki center white-text">
-              <img src={finger} width="100%" />
-            </div>
-            <Row className="hide-on-med-and-down" />
-            <Row className="hide-on-med-and-down" />
-            <Row className="hide-on-med-and-down" />
-            <Row className="hide-on-med-and-down" />
-            <Row>
-              <Col s={12} l={6}>
-                <img className="imgCarousel" src={img3} width="100%" />
-              </Col>
-              <Col s={12} l={6}>
-                <h5 className="smallHead">
-                  Domy szkieletowe <Divider />
+              </Row>
+            </Card>
+          </Col>
+          <Col s={12} m={2} push="m1">
+            <Card className="grey darken-3">
+              <Row>
+                <img className="" src={img3} width="100%" />
+
+                <h5 className="">
+                  Timber Frame houses <Divider />
                 </h5>
-                <div className="left-align smallText">
+                <div data-aos="fade-down" data-aos-duration="2000" className="left-align ">
                   <li>
-                    Posiadamy doświadczenie w projektowaniu energo-oszczędnych
-                    domów wykonanych z drewna lub drewnianej konstrukcji
-                  </li>
-
-                  <Button node="a" href="portfolio">
-                    Przyklad
-                  </Button>
+                    {" "}
+                    We have experience in designing energy-saving houses made of
+                    wood or wooden structures{" "}
+                  </li>{" "}
                 </div>
-              </Col>
-            </Row>
-          </div>
-        </Carousel>
+              </Row>
+            </Card>
+          </Col>
+          <Col s={12} m={2} push="m1">
+            <Card className="green darken-3">
+              <Row>
+                <img className="" src={img4} width="100%" />
+
+                <h5 className="">
+                  Prefabricated buildings <Divider />
+                </h5>
+                <div data-aos="fade-up" data-aos-duration="2000" className="left-align ">
+                  <li>
+                    {" "}
+                    We have experience in designing energy-saving houses made of
+                    wood or wooden structures{" "}
+                  </li>{" "}
+                </div>
+              </Row>
+            </Card>
+          </Col>
+          <Col s={12} m={2} push="m1">
+            <Card className="orange darken-3">
+              <Row>
+                <img className="" src={img5} width="100%" />
+
+                <h5 className="">
+                  Places of worship <Divider />
+                </h5>
+                <div data-aos="fade-right" data-aos-duration="2000" className="left-align ">
+                  <li>
+                    {" "}
+                    We have experience in designing energy-saving houses made of
+                    wood or wooden structures{" "}
+                  </li>{" "}
+                </div>
+              </Row>
+            </Card>
+          </Col>
+        </Row>
+
+        <h3 className="left-align">
+          Examples:
+          <Divider />
+        </h3>
+        <Commercial/>
       </div>
     );
 };

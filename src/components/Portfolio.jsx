@@ -29,7 +29,7 @@ const Portfolio = () => {
   <Row>
     <Row/><Row/><Row/>
  
-    <h3 className="white-text">Our services <Divider/></h3>
+    <h3 className="left-align white-text">Our services <Divider/></h3>
     <Row>
               <Col s={12} m={10} push="m1">
                 <Button node="a" href="architektura" className="clientCard">
@@ -80,7 +80,7 @@ const Portfolio = () => {
               </Col>
               </Row>
               <Row/><Row/>
-              <h3 className="white-text">Our design process <Divider/></h3>
+              <h3 className="white-text left-align">Our design process <Divider/></h3>
               <Row/><Row/>
               <Row>
       <Col s={6} m={2} push="m2">
@@ -106,25 +106,8 @@ const Portfolio = () => {
     return (
       <Row>
     <Row/><Row/><Row/><Row/><Row/>
-    <Row>
-      <Col s={6} m={2} push="m2">
-        <h5 className="white-text">Etap I </h5><div data-aos="fade-right" data-aos-duration="500" className="left-align ">
-        <img className="" src={services1} width="100%"/></div>
-      </Col>
-      <Col s={6} m={2} push="m2">
-      <h5 className="white-text">Etap II </h5><div data-aos="fade-right" data-aos-duration="1000" className="left-align ">
-        <img className="" src={services2} width="100%"/></div>
-      </Col>
-      <Col s={6} m={2} push="m2">
-      <h5 className="white-text">Etap III </h5><div data-aos="fade-right" data-aos-duration="2000" className="left-align ">
-        <img className="" src={services3} width="100%"/></div>
-      </Col>
-      <Col s={6} m={2} push="m2">
-      <h5 className="white-text">Etap IV </h5><div data-aos="fade-right" data-aos-duration="3000" className="left-align ">
-        <img className="" src={services4} width="100%"/></div>
-      </Col>
-    </Row>
-    <h5>Nasze usługi <Divider/></h5>
+   
+    <h5 className="white-text left-align">Nasze usługi <Divider/></h5>
     <Row>
               <Col s={12} m={10} push="m1">
                 <Button node="a" href="architektura" className="clientCard">
@@ -174,6 +157,24 @@ const Portfolio = () => {
                 </Button>
               </Col>
               </Row>
+              <Row>
+      <Col s={6} m={2} push="m2">
+        <h5 className="white-text">Etap I </h5><div data-aos="fade-right" data-aos-duration="500" className="left-align ">
+        <img className="" src={services1} width="100%"/></div>
+      </Col>
+      <Col s={6} m={2} push="m2">
+      <h5 className="white-text">Etap II </h5><div data-aos="fade-right" data-aos-duration="1000" className="left-align ">
+        <img className="" src={services2} width="100%"/></div>
+      </Col>
+      <Col s={6} m={2} push="m2">
+      <h5 className="white-text">Etap III </h5><div data-aos="fade-right" data-aos-duration="2000" className="left-align ">
+        <img className="" src={services3} width="100%"/></div>
+      </Col>
+      <Col s={6} m={2} push="m2">
+      <h5 className="white-text">Etap IV </h5><div data-aos="fade-right" data-aos-duration="3000" className="left-align ">
+        <img className="" src={services4} width="100%"/></div>
+      </Col>
+    </Row>
        
   </Row>
     );
