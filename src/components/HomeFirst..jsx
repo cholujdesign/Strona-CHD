@@ -194,25 +194,25 @@ const HomeFirst = () => {
       id="vis"
       onclick="window.location.hash='vis'; "
     /> */}
-        <div data-aos="fade-left" data-aos-duration="2000">
+        {/* <div data-aos="fade-left" data-aos-duration="2000">
           <HomeWizualizacje />
-        </div>
+        </div> */}
         {/* <div
       className="divHome3 "
       id="int"
       onclick="window.location.hash='int'; "
     /> */}
-        <div data-aos="fade-left" data-aos-duration="2000">
+        {/* <div data-aos="fade-left" data-aos-duration="2000">
           <HomeWnetrza />
-        </div>
+        </div> */}
         {/* <div
       className="divHome4"
       id="arch"
       onclick="window.location.hash='arch'; "
     /> */}
-        <div data-aos="fade-left" data-aos-duration="2000">
+        {/* <div data-aos="fade-left" data-aos-duration="2000">
           <HomeArchitektura />
-        </div>
+        </div> */}
       </div>
     );
   else
@@ -364,9 +364,7 @@ const HomeFirst = () => {
                   </div>
                 </Col>
               </Row>
-              <Row>
-                <img src={arrowDown} width="50%" />
-              </Row>
+           
             </Card>
           </Col>
         </Row>
@@ -374,30 +372,7 @@ const HomeFirst = () => {
         <div data-aos="fade-down" data-aos-duration="1000">
           <HomeSecond />
         </div>
-        {/* <div
-          className="divHome2"
-          id="vis"
-          onclick="window.location.hash='vis'; "
-        /> */}
-        <div data-aos="fade-left" data-aos-duration="2000">
-          <HomeWizualizacje />
-        </div>
-        {/* <div
-          className="divHome3 "
-          id="int"
-          onclick="window.location.hash='int'; "
-        /> */}
-        <div data-aos="fade-left" data-aos-duration="2000">
-          <HomeWnetrza />
-        </div>
-        {/* <div
-          className="divHome4"
-          id="arch"
-          onclick="window.location.hash='arch'; "
-        /> */}
-        <div data-aos="fade-left" data-aos-duration="2000">
-          <HomeArchitektura />
-        </div>
+   
       </div>
     );
 };

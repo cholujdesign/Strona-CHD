@@ -30,11 +30,11 @@ function Commercial() {
       <div
       data-aos="fade-down"
       data-aos-duration="2000"
-      className="hoverable z-depth-0"
+      className="white-text hoverable z-depth-0"
     >
         <Col m={10} s={12} push="m1">
           <Card
-            className=""
+            className="black"
             actions={[
               <Row>
                 <Col>
@@ -72,7 +72,8 @@ function Commercial() {
               fullscreen={false}
               options={{
                 duration: 500,
-                height: 600,
+                height: 800,
+                width: 800,
                 indicators: false,
                 interval: 4000,
               }}

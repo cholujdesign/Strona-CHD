@@ -69,7 +69,7 @@ class Nawigacja extends Component {
           <div className="  "><h5>Home</h5></div>
         </NavItem>{" "}
         <NavItem className=" przycisk_nawigacja " href="portfolio">
-          <div className="  "><h5>Portfolio</h5></div>
+          <div className="  "><h5>Services</h5></div>
         </NavItem>{" "}
         <NavItem className=" przycisk_nawigacja " href="contact">
           <div className=" "><h5>Contact</h5></div>
@@ -123,7 +123,7 @@ class Nawigacja extends Component {
             <div className="  "><h5>Home</h5></div>
           </NavItem>{" "}
           <NavItem className=" przycisk_nawigacja " href="portfolio">
-            <div className="  "><h5>Portfolio</h5></div>
+            <div className="  "><h5>Usługi</h5></div>
           </NavItem>{" "}
           <NavItem className=" przycisk_nawigacja " href="contact">
             <div className=" "><h5>Kontakt</h5></div>

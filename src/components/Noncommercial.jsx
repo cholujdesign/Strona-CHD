@@ -19,7 +19,6 @@ function Noncommercial() {
     Aos.init({ duration: 1500 });
   }, []);
 
-
   const items = ListaNoncommercial.filter((data) => {
     data.rodzaj.toLowerCase().includes("niekomercyjne".toLowerCase());
     {
@@ -28,13 +27,13 @@ function Noncommercial() {
   }).map((data) => {
     return (
       <div
-      data-aos="fade-down"
-      data-aos-duration="2000"
-      className="hoverable z-depth-0"
-    >
+        data-aos="fade-down"
+        data-aos-duration="2000"
+        className="hoverable z-depth-0"
+      >
         <Col m={10} s={12} push="m1">
           <Card
-            className=""
+            className="black white-text"
             actions={[
               <Row>
                 <Col>
@@ -43,13 +42,11 @@ function Noncommercial() {
                       <Col>
                         <Col m={12} s={12} push="">
                           <Row>
-                          
                             <Col m={12} s={12} push="">
                               <h5>{data.plname}</h5>
                               <Divider />
                             </Col>
                             <Col m={8} s={12} push="">
-                           
                               <br />
                               <p className="left-align">{data.pldescription}</p>
                             </Col>
@@ -78,45 +75,42 @@ function Noncommercial() {
               }}
             >
               <Slide
-                image={
-                    <img alt="" src={data.img1} width="100%" />
-                }
-              >
-            
-              </Slide>
+                image={<img alt="" src={data.img1} width="100%" />}
+              ></Slide>
               <Slide
-                image={
-                    <img alt="" src={data.img2} width="100%" />
-                }
-              >
-          
-              </Slide>
+                image={<img alt="" src={data.img2} width="100%" />}
+              ></Slide>
               <Slide
-                image={
-                    <img alt="" src={data.img3} width="100%" />
-                }
-              >
-           
-              </Slide>
-           
+                image={<img alt="" src={data.img3} width="100%" />}
+              ></Slide>
             </Slider>
           </Card>
         </Col>
-        <Row/>
+        <Row />
       </div>
     );
   });
 
   return (
     <div>
-      <div className="hide-on-small-only"><Row/><Row/><Row/><Row/><Row/><Row/><Row/><Row/></div>
-      
-      <Col s={12} m={10} push="m1">
-      <Row>
-        <div className="hide-on-small-only"></div>
-      </Row>
+      <div className="hide-on-small-only">
+        <Row />
+        <Row />
+        <Row />
+        <Row />
+        <Row />
+        <Row />
+        <Row />
+        <Row />
+      </div>
 
-      <Row>{items}</Row></Col>
+      <Col s={12} m={10} push="m1">
+        <Row>
+          <div className="hide-on-small-only"></div>
+        </Row>
+
+        <Row>{items}</Row>
+      </Col>
     </div>
   );
 }

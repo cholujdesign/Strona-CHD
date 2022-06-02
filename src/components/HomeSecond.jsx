@@ -91,161 +91,210 @@ class HomeSecond extends Component {
   };
 
   render() {
-    if (this.state.lang == "en") return(    <div>
-      <div className="   darken-1 z-depth-2">
-        <Row />
-        <Row />
-        <Row>
-          <Col s={12} m={10} push="m1">
-           
-           
-              <Button className="clientCard"> 
-              <img src={architektura} width="100%" />
-              <h5>Architectural Design</h5>
-              </Button>
-           
-              <Button className="clientCard"> 
-              <img src={wnetrza} width="100%" />
-              <h5>Interior Design</h5>
-              </Button>
-          
-              <Button className="clientCard"> 
-              <img src={modelowanie} width="100%" />
-              <h5>3D Modeling</h5>
-              </Button>
-        
-            <Row/>
-           
-              <Button className="clientCard"> 
-              <img src={animacje} width="100%" />
-              <h5>Animations</h5>
-              </Button>
-           
-              <Button className="clientCard"> 
-              <img src={wizualizacje} width="100%" />
-              <h5>CGI</h5>
-              </Button>
-              
-              <Button className="clientCard"> 
-              <img src={strony} width="100%" />
-              <h5>Web design</h5>
-              </Button>
-          </Col>
-        </Row>
-        <Row/><Row/><Row/>
-        <Row>
-          <Col s={12} m={2} push="m1"></Col>
-          <Col s={12} m={6} push="m1">
-            <h3 className="white-text">Talk to us!</h3>
-            <form onSubmit={sendEmail}>
-              <input className="white-text" type="email" name="user_email" />
-              <Divider />
-              <label className="">
-                <h5 className="white-text">Email</h5>
-              </label>
-              <textarea className="white-text" name="message" /> <Divider />
-              <label className="">
-                <h5 className="white-text">Message</h5>
-              </label>
-              <Toast
-              
-options={{
-classes: "center",
-html: 'Message sent, thank you!'
-}}
->
-<input
-                className="btn"
-                type="submit"
-                value="Wyślij wiadomość"
-              />
-</Toast>
-              
-            </form>
-            <a className="btn black " href="tel:+48518048983">
-              or call us
-            </a>
-          </Col>
-        </Row>
-        <Row />
-      </div>
-      <Row />
-      <Row />
-      <div className="clientCardbg z-depth-2">
-        {/* <h3 className="teal-text">Nasze biuro to </h3> */}
-      </div>
-      <Row>
-     </Row>
-    </div>
-);
+    if (this.state.lang == "en")
+      return (
+        <div>
+          <div className="   darken-1 z-depth-2">
+            <Row />
+            <Row />
+            <Row>
+              <Col s={12} m={10} push="m1">
+                <Button node="a" href="architektura" className="clientCard">
+                  <div data-aos="fade-left" data-aos-duration="2000">
+                    <img src={architektura} width="100%" />
+                    <h5>Architectural Design</h5>
+                  </div>
+                </Button>
+
+                <Button node="a" href="wnetrza" className="clientCard">
+                  <div data-aos="fade-down" data-aos-duration="2000">
+                    <img src={wnetrza} width="100%" />
+                    <h5>Interior Design</h5>
+                  </div>
+                </Button>
+
+                <Button node="a" href="modelowanie" className="clientCard">
+                  <div data-aos="fade-right" data-aos-duration="2000">
+                    <img src={modelowanie} width="100%" />
+                    <h5>3D Modeling</h5>
+                  </div>
+                </Button>
+
+                <Row />
+
+                <Button node="a" href="animacje" className="clientCard">
+                  {" "}
+                  <div data-aos="fade-left" data-aos-duration="2000">
+                    <img src={animacje} width="100%" />
+                    <h5>Animations</h5>
+                  </div>
+                </Button>
+
+                <Button node="a" href="wizualizacje" className="clientCard">
+                  <div data-aos="fade-up" data-aos-duration="2000">
+                    <img src={wizualizacje} width="100%" />
+                    <h5>CGI</h5>
+                  </div>
+                </Button>
+
+                <Button node="a" href="strony" className="clientCard">
+                  {" "}
+                  <div data-aos="fade-right" data-aos-duration="2000">
+                    <img src={strony} width="100%" />
+                    <h5>Web design</h5>
+                  </div>
+                </Button>
+              </Col>
+            </Row>
+            <Row />
+            <Row />
+            <Row />
+            <Row>
+              <Col s={12} m={2} push="m1"></Col>
+              <Col s={12} m={6} push="m1">
+                <h3 className="white-text">Talk to us!</h3>
+                <form onSubmit={sendEmail}>
+                  <input
+                    className="white-text"
+                    type="email"
+                    name="user_email"
+                  />
+                  <Divider />
+                  <label className="">
+                    <h5 className="white-text">Email</h5>
+                  </label>
+                  <textarea className="white-text" name="message" /> <Divider />
+                  <label className="">
+                    <h5 className="white-text">Message</h5>
+                  </label>
+                  <Toast
+                    options={{
+                      classes: "center",
+                      html: "Message sent, thank you!",
+                    }}
+                  >
+                    <input
+                      className="btn"
+                      type="submit"
+                      value="Wyślij wiadomość"
+                    />
+                  </Toast>
+                </form>
+                <a className="btn black " href="tel:+48518048983">
+                  or call us
+                </a>
+              </Col>
+            </Row>
+            <Row />
+          </div>
+          <Row />
+          <Row />
+          <div className="clientCardbg z-depth-2">
+            {/* <h3 className="teal-text">Nasze biuro to </h3> */}
+          </div>
+          <Row></Row>
+        </div>
+      );
     else
       return (
         <div>
-        <div className="  grey darken-1 z-depth-2">
+          <div className="   darken-1 z-depth-2">
+            <Row />
+            <Row>
+              <Col s={12} m={10} push="m1">
+                <Button node="a" href="architektura" className="clientCard">
+                  <div data-aos="fade-left" data-aos-duration="2000">
+                    <img src={architektura} width="100%" />
+                    <h5>Architektura</h5>
+                  </div>
+                </Button>
+
+                <Button node="a" href="wnetrza" className="clientCard">
+                  <div data-aos="fade-down" data-aos-duration="2000">
+                    <img src={wnetrza} width="100%" />
+                    <h5>Projekty wnętrz</h5>
+                  </div>
+                </Button>
+
+                <Button node="a" href="modelowanie" className="clientCard">
+                  <div data-aos="fade-right" data-aos-duration="2000">
+                    <img src={modelowanie} width="100%" />
+                    <h5>Modelowanie 3D</h5>
+                  </div>
+                </Button>
+
+                <Row />
+
+                <Button node="a" href="animacje" className="clientCard">
+                  {" "}
+                  <div data-aos="fade-left" data-aos-duration="2000">
+                    <img src={animacje} width="100%" />
+                    <h5>Animacje</h5>
+                  </div>
+                </Button>
+
+                <Button node="a" href="wizualizacje" className="clientCard">
+                  <div data-aos="fade-up" data-aos-duration="2000">
+                    <img src={wizualizacje} width="100%" />
+                    <h5>Wizualizacje</h5>
+                  </div>
+                </Button>
+
+                <Button node="a" href="strony" className="clientCard">
+                  {" "}
+                  <div data-aos="fade-right" data-aos-duration="2000">
+                    <img src={strony} width="100%" />
+                    <h5>Strony www</h5>
+                  </div>
+                </Button>
+              </Col>
+              </Row>
+              <Row/><Row/><Row/><Row/><Row/>
+            <Row>
+              <Col s={12} m={2} push="m1"></Col>
+              <Col s={12} m={6} push="m1">
+                <h3 className="white-text">Skontaktuj się z nami</h3>
+                <form onSubmit={sendEmail}>
+                  <input
+                    className="white-text"
+                    type="email"
+                    name="user_email"
+                  />
+                  <Divider />
+                  <label className="">
+                    <h5 className="white-text">Email</h5>
+                  </label>
+                  <textarea className="white-text" name="message" /> <Divider />
+                  <label className="">
+                    <h5 className="white-text">Wiadomość</h5>
+                  </label>
+                  <Toast
+                    options={{
+                      classes: "center",
+                      html: "Wiadomość wysłana, dziękujemy !",
+                    }}
+                  >
+                    <input
+                      className="btn"
+                      type="submit"
+                      value="Wyślij wiadomość"
+                    />
+                  </Toast>
+                </form>
+                <a className="btn black " href="tel:+48518048983">
+                  lub zadzwoń
+                </a>
+              </Col>
+            </Row>
+            <Row />
+          </div>
           <Row />
           <Row />
-          <Row>
-            <Col s={12} m={2} push="m1"></Col>
-            <Col s={12} m={6} push="m1">
-              <h3 className="white-text">Skontaktuj się z nami</h3>
-              <form onSubmit={sendEmail}>
-                <input className="white-text" type="email" name="user_email" />
-                <Divider />
-                <label className="">
-                  <h5 className="white-text">Email</h5>
-                </label>
-                <textarea className="white-text" name="message" /> <Divider />
-                <label className="">
-                  <h5 className="white-text">Wiadomość</h5>
-                </label>
-                <Toast
-                
-options={{
-  classes: "center",
-  html: 'Wiadomość wysłana, dziękujemy !'
-}}
->
-<input
-                  className="btn"
-                  type="submit"
-                  value="Wyślij wiadomość"
-                />
-</Toast>
-                
-              </form>
-              <a className="btn black " href="tel:+48518048983">
-                lub zadzwoń
-              </a>
-            </Col>
-          </Row>
-          <Row />
+          <div className="clientCardbg z-depth-2">
+            {/* <h3 className="teal-text">Nasze biuro to </h3> */}
+          </div>
+        
         </div>
-        <Row />
-        <Row />
-        <div className="clientCardbg z-depth-2">
-          {/* <h3 className="teal-text">Nasze biuro to </h3> */}
-        </div>
-        <Row>
-          <Row>
-            <Col s={12} m={8} push="m2">
-              <Col s={12} m={4} push="">
-                <img
-                  className="clientCard z-depth-3 "
-                  src={clientCard1}
-                  width="101%"
-                />
-              </Col>
-              <Col className="clientCard z-depth-3 " s={12} m={4} push="">
-                <img src={clientCard2} width="100%" />
-              </Col>
-              <Col className="clientCard z-depth-3 " s={12} m={4} push="">
-                <img src={clientCard3} width="100%" />
-              </Col>
-            </Col>
-          </Row>
-        </Row>
-      </div>
-   
       );
   }
 }

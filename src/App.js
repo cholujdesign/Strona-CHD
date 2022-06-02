@@ -11,7 +11,12 @@ import Other from "./components/Other";
 import Portfolio from "./components/Portfolio";
 import Offer from "./components/Offer";
 import Nav from "./components/Nav";
-
+import PortfolioArchitektura from "./components/PortfolioArchitektura.jsx";
+import PortfolioWnetrza from "./components/PortfolioWnetrza.jsx";
+import PortfolioAnimacje from "./components/PortfolioAnimacje.jsx";
+import PortfolioWizualizacje from "./components/PortfolioWizualizacje.jsx";
+import PortfolioModelowanie from "./components/PortfolioModelowanie.jsx";
+import PortfolioStrony from "./components/PortfolioStrony.jsx";
 function App() {
   return (
     <div className="App">
@@ -29,6 +34,12 @@ function App() {
             <Route path="/portfolio" component={Portfolio} />
             <Route path="/commercial" component={Commercial} />
             <Route path="/noncommercial" component={Noncommercial} />
+            <Route path="/architektura" component={PortfolioArchitektura} />
+            <Route path="/wnetrza" component={PortfolioWnetrza} />
+            <Route path="/animacje" component={PortfolioAnimacje} />
+            <Route path="/modelowanie" component={PortfolioModelowanie} />
+            <Route path="/strony" component={PortfolioStrony} />
+            <Route path="/wizualizacje" component={PortfolioWizualizacje} />
             <Route path="/other" component={Other} />
             <Route path="/:any" component={Home} />
             <Route path="/" component={Home} />
