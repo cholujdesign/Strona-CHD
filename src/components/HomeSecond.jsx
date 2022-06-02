@@ -19,6 +19,12 @@ import wizualizacjeLogo from "./svg/logo.svg";
 import clientCard1 from "./svg/clientCard1.svg";
 import clientCard2 from "./svg/clientCard2.svg";
 import clientCard3 from "./svg/clientCard3.svg";
+import architektura from "./svg/architektura.svg";
+import wnetrza from "./svg/wnetrza.svg";
+import strony from "./svg/strony.svg";
+import modelowanie from "./svg/modelowanie.svg";
+import animacje from "./svg/krynica3d.gif";
+import wizualizacje from "./svg/wizualizacje.svg";
 import emailjs from "emailjs-com";
 
 function sendEmail(e) {
@@ -86,9 +92,47 @@ class HomeSecond extends Component {
 
   render() {
     if (this.state.lang == "en") return(    <div>
-      <div className="  grey darken-1 z-depth-2">
+      <div className="   darken-1 z-depth-2">
         <Row />
         <Row />
+        <Row>
+          <Col s={12} m={10} push="m1">
+           
+           
+              <Button className="clientCard"> 
+              <img src={architektura} width="100%" />
+              <h5>Architectural Design</h5>
+              </Button>
+           
+              <Button className="clientCard"> 
+              <img src={wnetrza} width="100%" />
+              <h5>Interior Design</h5>
+              </Button>
+          
+              <Button className="clientCard"> 
+              <img src={modelowanie} width="100%" />
+              <h5>3D Modeling</h5>
+              </Button>
+        
+            <Row/>
+           
+              <Button className="clientCard"> 
+              <img src={animacje} width="100%" />
+              <h5>Animations</h5>
+              </Button>
+           
+              <Button className="clientCard"> 
+              <img src={wizualizacje} width="100%" />
+              <h5>CGI</h5>
+              </Button>
+              
+              <Button className="clientCard"> 
+              <img src={strony} width="100%" />
+              <h5>Web design</h5>
+              </Button>
+          </Col>
+        </Row>
+        <Row/><Row/><Row/>
         <Row>
           <Col s={12} m={2} push="m1"></Col>
           <Col s={12} m={6} push="m1">
@@ -131,24 +175,7 @@ html: 'Message sent, thank you!'
         {/* <h3 className="teal-text">Nasze biuro to </h3> */}
       </div>
       <Row>
-        <Row>
-          <Col s={12} m={8} push="m2">
-            <Col s={12} m={4} push="">
-              <img
-                className="clientCard z-depth-3 "
-                src={clientCard1}
-                width="101%"
-              />
-            </Col>
-            <Col className="clientCard z-depth-3 " s={12} m={4} push="">
-              <img src={clientCard2} width="100%" />
-            </Col>
-            <Col className="clientCard z-depth-3 " s={12} m={4} push="">
-              <img src={clientCard3} width="100%" />
-            </Col>
-          </Col>
-        </Row>
-      </Row>
+     </Row>
     </div>
 );
     else

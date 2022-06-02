@@ -7,7 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-size: 100%;
   background-repeat: no-repeat;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
   min-height: 100%;
   max-width: 100%;
   overflow-x: hidden
@@ -141,17 +141,32 @@ box-shadow: 2px 2px 8px 1px #ffffff !important;
   position: relative !important;
   left: -1vw;
   top: 2vh;
-  min-height: 93vh !important;
+  min-height: 90vh !important;
   background-color: rgba(8, 8, 8, 0.574) !important;
   box-shadow: 2px 2px 8px 1px #ffffff !important;
   z-index: 2 !important;
 }
 
 
-/* .clientCard{
-  top: -31vh !important;
-  position: relative;
-} */
+.clientCard{
+  position: relative !important;
+  
+  top: 2vh; 
+
+  height: 80vh !important;
+  margin-top: 3vh !important;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  width: 20vw;
+  background-color: rgba(8, 8, 8, 0.574) !important;
+  box-shadow: 2px 2px 8px 1px #ffffff !important;
+  z-index: 2 !important;
+  color: #ffffff;
+}
+.clientCard :hover{
+  background-color: rgba(7, 109, 100, 0.574) !important;
+
+}
 /* .clientCardbg{
   top: -3vh;
   height: 40vh;
@@ -269,11 +284,12 @@ box-shadow: 2px 2px 8px 1px #ffffff !important;
   /* background-color: linear-gradient(0deg, rgba(255,255,255,0) 30%, rgba(0,0,0,0) 100%) !important; */
   text-shadow: 2px 2px #000000;
   font-size: larger;
-  background-color:rgba(0, 0, 0, 0.8);
+  background-color: rgba(8, 8, 8, 0.574) !important;
+  box-shadow: 2px 2px 8px 1px #ffffff !important;
   min-width: 35vw !important;
   margin-left: 45vw !important;
   min-height: 35vh;
-  box-shadow: 3vw 3vw 0px 1px rgba(255, 255, 255, 0.7) !important;
+  
 }
 
 .imgCarousel{

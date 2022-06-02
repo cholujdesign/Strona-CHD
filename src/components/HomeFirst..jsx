@@ -180,9 +180,8 @@ const HomeFirst = () => {
                   </div>
                 </Col>
               </Row>
-              <Row>
-                <img src={arrowDown} width="50%" />
-              </Row>
+             
+             
             </Card>
           </Col>
         </Row>

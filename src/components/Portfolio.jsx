@@ -6,7 +6,12 @@ import "aos/dist/aos.css";
 import commercial from "../components/svg/commercial.svg";
 import noncommercial from "../components/svg/noncommercial.svg";
 import other from "../components/svg/other.svg";
-
+import architektura from "./svg/architektura.svg";
+import wnetrza from "./svg/wnetrza.svg";
+import strony from "./svg/strony.svg";
+import modelowanie from "./svg/modelowanie.svg";
+import animacje from "./svg/krynica3d.gif";
+import wizualizacje from "./svg/wizualizacje.svg";
 import { Link } from "react-router-dom";
 
 const Portfolio = () => {
@@ -16,7 +21,46 @@ const Portfolio = () => {
 
   let lang = localStorage.getItem("lang");
 
-  if (lang == "en") return <Row></Row>;
+  if (lang == "en") return <Row>
+      <Row>
+          <Col s={12} m={10} push="m1">
+           
+           
+              <Button className="clientCard"> 
+              <img src={architektura} width="100%" />
+              <h5>Architectural Design</h5>
+              </Button>
+           
+              <Button className="clientCard"> 
+              <img src={wnetrza} width="100%" />
+              <h5>Interior Design</h5>
+              </Button>
+          
+              <Button className="clientCard"> 
+              <img src={modelowanie} width="100%" />
+              <h5>3D Modeling</h5>
+              </Button>
+        
+            <Row/>
+           
+              <Button className="clientCard"> 
+              <img src={animacje} width="100%" />
+              <h5>Animations</h5>
+              </Button>
+           
+              <Button className="clientCard"> 
+              <img src={wizualizacje} width="100%" />
+              <h5>CGI</h5>
+              </Button>
+              
+              <Button className="clientCard"> 
+              <img src={strony} width="100%" />
+              <h5>Web design</h5>
+              </Button>
+          </Col>
+        </Row>
+       
+  </Row>;
   else
     return (
       <Row>
