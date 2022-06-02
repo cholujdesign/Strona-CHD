@@ -153,6 +153,11 @@ Zaprojektujemy stronę dla Ciebie.
         </Collapsible></Col></Row>
       </div>
     );
+
+
+
+
+    
   else return   ( 
   <div className="white-text">
   <Row />
