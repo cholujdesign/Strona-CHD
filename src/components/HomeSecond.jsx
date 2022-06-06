@@ -26,7 +26,7 @@ import modelowanie from "./svg/modelowanie.svg";
 import animacje from "./svg/krynica3d.gif";
 import wizualizacje from "./svg/wizualizacje.svg";
 import emailjs from "emailjs-com";
-
+import drawingprocess from "./svg/drawingprocess.svg";
 function sendEmail(e) {
   e.preventDefault();
 
@@ -95,6 +95,26 @@ class HomeSecond extends Component {
       return (
         <div>
           <div className="   darken-1 z-depth-2">
+          <Row>
+              <Col s={12} m={10} push="m1">
+                <Row className="white-text">
+                  <Col s={12} m={3}>
+                    <div className="hide-on-small-only">
+                    <Row/><Row/><Row/>   <Row/><Row/><Row/>   <Row/><Row/><Row/>  
+                    </div>
+                    <h5 className="left-align"> Wide range of offered services
+                     <Divider/></h5>
+                    <div className="left-align">
+                    We offer services in the field of architectural design, interior design, animation, visualization, 3D modeling and website design.
+                    We work with developers to the full extent, this allows us to present a coherent design to the client, starting from the proposed building,
+                    through the way it is presented, ending with the web design.</div>
+                  </Col>
+                  <Col s={12} m={6} push="m1"><Row/><Row/><Row/>  
+                    <img src={drawingprocess} width="100%"/>
+                  </Col>
+                </Row>
+                </Col>
+                </Row>
             <Row />
             <Row />
             <Row>
@@ -198,7 +218,45 @@ class HomeSecond extends Component {
     else
       return (
         <div>
-          <div className="   darken-1 z-depth-2">
+          <Row />
+          <Row />
+          <Row />
+          <div className="">
+            <Row>
+              <Col s={12} m={10} push="m1">
+                <Row className="white-text">
+                  <Col s={12} m={4}>
+                    <div className="hide-on-small-only">
+                      <Row />
+                      <Row />
+                      <Row /> <Row />
+                      <Row />
+                      <Row /> <Row />
+                      <Row />
+                      <Row />
+                    </div>
+                    <h5 className="left-align">
+                      {" "}
+                      Szeroki wachlarz umiejętności,
+                      <br /> pełna obsługa projektowa
+                      <Divider />
+                    </h5>
+                    <div className="left-align">
+                      Oferujemy usługi w zakresie projektowania architektury,
+                      architektury wnętrz, animacji, wizualizacji, modelowania
+                      3D oraz projektowania stron internetowych. Współpracujemy
+                      z deweloperami w pełnym zakresie, pozwala to na
+                      zaprezentowanie klientowi spoistego designu począwszy od
+                      proponowanego budynku, poprzez spośob jego zaprezentowania
+                      kończąc na projekcie strony.
+                    </div>
+                  </Col>
+                  <Col s={12} m={6} push="m1">
+                    <img src={drawingprocess} width="100%" />
+                  </Col>
+                </Row>
+              </Col>
+            </Row>
             <Row />
             <Row>
               <Col s={12} m={10} push="m1">
@@ -248,8 +306,12 @@ class HomeSecond extends Component {
                   </div>
                 </Button>
               </Col>
-              </Row>
-              <Row/><Row/><Row/><Row/><Row/>
+            </Row>
+            <Row />
+            <Row />
+            <Row />
+            <Row />
+            <Row />
             <Row>
               <Col s={12} m={2} push="m1"></Col>
               <Col s={12} m={6} push="m1">
@@ -293,7 +355,6 @@ class HomeSecond extends Component {
           <div className="clientCardbg z-depth-2">
             {/* <h3 className="teal-text">Nasze biuro to </h3> */}
           </div>
-        
         </div>
       );
   }

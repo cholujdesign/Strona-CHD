@@ -5,16 +5,35 @@ import Divider from "react-materialize/lib/Divider";
 let baseURL = "https://raw.githubusercontent.com/galeriapodsloncem/3dstrona/master/babylonjs-app/public/assets/";
 const Lista = [
 
-  {
-    img1: `${baseURL}` + "bonarka1.webp",
-    img2: `${baseURL}` + "bonarka2.webp",
-    img3: `${baseURL}` + "bonarka3.webp",
-    plname: "Bonarka",
-    pldescription:
-      "Współpraca w projekcie kocepcyjnym.",
+ {
+    img1: `${baseURL}` + "podsloncem1.webp",
+    img2: `${baseURL}` + "podsloncem2.webp",
+    img3: `${baseURL}` + "podsloncem3.webp",
+    plname: "Restauracja Pod Słońcem Kawiarnia  Gehanowska",
+    pldescription: "Projekt, nadzór i realizacja Kawiarni Gehanowskiej oraz Restauracji Pod Sloncem w Rynku Glównym w Krakowie pow.ok 300m2 czas realizacji 1994r",
     endescription: "",
-    lokalizacja: "Kraków/2017",
-    rodzaj: "niekomercyjne",
+    lokalizacja: "Kraków",
+    rodzaj: "komercyjne",
+  },  {
+    img1: `${baseURL}` + "szoberowska1.webp",
+    img2: `${baseURL}` + "szoberowska2.webp",
+    img3: `${baseURL}` + "szoberowska3.webp",
+    plname: "Restauracja Szoberowska",
+    pldescription:
+      "Projekt oraz realizacja Restauracji Szoberowskiej w Krakowie pow.ok. 350m2",
+    endescription: "",
+    lokalizacja: "Kraków/2007",
+    rodzaj: "komercyjne",
+  },  {
+    img1: `${baseURL}` + "kanonicza151.webp",
+    img2: `${baseURL}` + "kanonicza152.webp",
+    img3: `${baseURL}` + "kanonicza153.webp",
+    plname: "Restauracja  Kanonicza 15",
+    pldescription:
+      "Projekt wraz z nadzorem Restauracji Kurka Wodna w Krakowie u.Kanonicza 15. W obiekcie projektowano oswietlenie oraz meble pow.ok. 250m2",
+    endescription: "",
+    lokalizacja: "Kraków/2015",
+    rodzaj: "komercyjne",
   },
   {
     img1: `${baseURL}` + "sakralne1.webp",
@@ -81,7 +100,17 @@ const Lista = [
     endescription: "",
     lokalizacja: "Kraków",
     rodzaj: "niekomercyjne",
-  },
+  }, {
+    img1: `${baseURL}` + "ingo1.webp",
+    img2: `${baseURL}` + "ingo2.webp",
+    img3: `${baseURL}` + "ingo3.webp",
+    plname: "Ingo Aparthotel",
+    pldescription:
+      "Projekt wraz z nadzorem Aparthotelu, Bistro oraz ogródka w kamienicy przy ulicy Mikołajskiej w Krakowie. Zaprojektowano  również  meble oraz oświetlenie.",
+    endescription: "",
+    lokalizacja: "Kraków/2015",
+    rodzaj: "komercyjne",
+  }, 
 
 
 

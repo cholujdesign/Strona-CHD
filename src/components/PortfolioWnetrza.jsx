@@ -41,7 +41,6 @@ const HomeWnetrza = () => {
         </h3>
         <Row />
         <Row>
-        
           <Col s={12} m={2} push="m1">
             <Card className="cyan darken-3">
               <Row>
@@ -50,17 +49,18 @@ const HomeWnetrza = () => {
                 <h5 className="">
                   Private houses/apartments <Divider />
                 </h5>
-                <div data-aos="fade-down" data-aos-duration="2000" className="left-align ">
-                <li>All RIBA Stages</li>
-                <li> Personal design, fit for the client </li>
+                <div
+                  data-aos="fade-down"
+                  data-aos-duration="2000"
+                  className="left-align "
+                >
+                  <li>All RIBA Stages</li>
+                  <li> Personal design, fit for the client </li>
                   <li> Garden design </li>
 
                   <li> Quick Conceptual Design </li>
 
-                  <li>
-                    Preparation of a complete project 
-                  </li>
-                  
+                  <li>Preparation of a complete project</li>
                 </div>
               </Row>
             </Card>
@@ -71,17 +71,19 @@ const HomeWnetrza = () => {
                 <img className="" src={img3} width="100%" />
 
                 <h5 className="">
-                Commercial houses/apartments <Divider />
+                  Commercial houses/apartments <Divider />
                 </h5>
-                <div data-aos="fade-down" data-aos-duration="2000" className="left-align ">
-                <li>All RIBA Stages</li>
-                <li> Personal design, fit for the client </li>
+                <div
+                  data-aos="fade-down"
+                  data-aos-duration="2000"
+                  className="left-align "
+                >
+                  <li>All RIBA Stages</li>
+                  <li> Personal design, fit for the client </li>
                   <li> Garden design </li>
                   <li>Business analysis</li>
                   <li> Quick Conceptual Design </li>
-                  <li>
-                    Preparation of a complete project 
-                  </li>
+                  <li>Preparation of a complete project</li>
                 </div>
               </Row>
             </Card>
@@ -89,18 +91,21 @@ const HomeWnetrza = () => {
           <Col s={12} m={2} push="m1">
             <Card className="brown darken-3">
               <Row>
-              <img className="" src={img1} width="100%" />
+                <img className="" src={img1} width="100%" />
 
                 <h5 className="">
                   Restaurants and cafes
                   <Divider />
                 </h5>
-                <div data-aos="fade-right" data-aos-duration="2000" className="left-align ">
+                <div
+                  data-aos="fade-right"
+                  data-aos-duration="2000"
+                  className="left-align "
+                >
                   <li>All RIBA Stages</li>
                   <li>From concept to handover</li>
                   <li>Flexible, interdisciplinary team</li>
                   <li>Large experience in working with the industry</li>
-                  
                 </div>
               </Row>
             </Card>
@@ -108,15 +113,23 @@ const HomeWnetrza = () => {
           <Col s={12} m={2} push="m1">
             <Card className="green darken-3">
               <Row>
-                <img className="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnc1Rgg7JCE1L-OOnEUEMCNZ8eK4TTXGJevpXFBA4O_Uri7f4rPn48uWGkkb7dahVikBM&usqp=CAU" width="100%" />
+                <img
+                  className=""
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnc1Rgg7JCE1L-OOnEUEMCNZ8eK4TTXGJevpXFBA4O_Uri7f4rPn48uWGkkb7dahVikBM&usqp=CAU"
+                  width="100%"
+                />
 
                 <h5 className="">
                   Commercial buildings <Divider />
                 </h5>
-                <div data-aos="fade-up" data-aos-duration="2000" className="left-align ">
-                 <li>Business analysis</li>
-                 <li>Conceptual design</li>
-                 <li>Technical design</li>
+                <div
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                  className="left-align "
+                >
+                  <li>Business analysis</li>
+                  <li>Conceptual design</li>
+                  <li>Technical design</li>
                 </div>
               </Row>
             </Card>
@@ -127,12 +140,17 @@ const HomeWnetrza = () => {
                 <img className="" src={img5} width="100%" />
 
                 <h5 className="">
-                  Other<Divider />
+                  Other
+                  <Divider />
                 </h5>
-                <div data-aos="fade-right" data-aos-duration="2000" className="left-align ">
-                <li>lamps</li>
-                <li> furniture</li>
-                <li> places of worship</li>
+                <div
+                  data-aos="fade-right"
+                  data-aos-duration="2000"
+                  className="left-align "
+                >
+                  <li>lamps</li>
+                  <li> furniture</li>
+                  <li> places of worship</li>
                 </div>
               </Row>
             </Card>
@@ -143,7 +161,7 @@ const HomeWnetrza = () => {
           Examples:
           <Divider />
         </h3>
-        <Noncommercial/>
+        <Noncommercial />
       </div>
     );
   else
@@ -153,12 +171,11 @@ const HomeWnetrza = () => {
         <Row />
         <Row />
         <h3 className="left-align">
-         Architektura wnętrz
+          Architektura wnętrz
           <Divider />
         </h3>
         <Row />
         <Row>
-        
           <Col s={12} m={2} push="m1">
             <Card className="cyan darken-3">
               <Row>
@@ -167,14 +184,15 @@ const HomeWnetrza = () => {
                 <h5 className="">
                   Prywatne domy i apartamenty <Divider />
                 </h5>
-                <div data-aos="fade-down" data-aos-duration="2000" className="left-align ">
-                <li> Personalizacja każdego projektu </li>
+                <div
+                  data-aos="fade-down"
+                  data-aos-duration="2000"
+                  className="left-align "
+                >
+                  <li> Personalizacja każdego projektu </li>
                   <li> Projekt ogrodu </li>
                   <li> Projekt Koncepcyjny </li>
-                  <li>
-                  Projekt techniczny
-                  </li>
-                  
+                  <li>Projekt techniczny</li>
                 </div>
               </Row>
             </Card>
@@ -185,15 +203,17 @@ const HomeWnetrza = () => {
                 <img className="" src={img3} width="100%" />
 
                 <h5 className="">
-                Ddomy i apartamenty na wynajem <Divider />
+                  Ddomy i apartamenty na wynajem <Divider />
                 </h5>
-                <div data-aos="fade-down" data-aos-duration="2000" className="left-align ">
-                <li> Personalizacja każdego projektu </li>
+                <div
+                  data-aos="fade-down"
+                  data-aos-duration="2000"
+                  className="left-align "
+                >
+                  <li> Personalizacja każdego projektu </li>
                   <li> Projekt ogrodu </li>
                   <li> Projekt Koncepcyjny </li>
-                  <li>
-                  Projekt techniczny
-                  </li>
+                  <li>Projekt techniczny</li>
                 </div>
               </Row>
             </Card>
@@ -201,17 +221,20 @@ const HomeWnetrza = () => {
           <Col s={12} m={2} push="m1">
             <Card className="brown darken-3">
               <Row>
-              <img className="" src={img1} width="100%" />
+                <img className="" src={img1} width="100%" />
 
                 <h5 className="">
                   Restauracje i kawiarnie
                   <Divider />
                 </h5>
-                <div data-aos="fade-right" data-aos-duration="2000" className="left-align ">
+                <div
+                  data-aos="fade-right"
+                  data-aos-duration="2000"
+                  className="left-align "
+                >
                   <li>Od koncepcji do budowy</li>
                   <li>Eleastyczny, interdyscyplinarny zespół</li>
                   <li>Duże doświadczenie w branży</li>
-                  
                 </div>
               </Row>
             </Card>
@@ -219,17 +242,23 @@ const HomeWnetrza = () => {
           <Col s={12} m={2} push="m1">
             <Card className="green darken-3">
               <Row>
-                <img className="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnc1Rgg7JCE1L-OOnEUEMCNZ8eK4TTXGJevpXFBA4O_Uri7f4rPn48uWGkkb7dahVikBM&usqp=CAU" width="100%" />
+                <img
+                  className=""
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnc1Rgg7JCE1L-OOnEUEMCNZ8eK4TTXGJevpXFBA4O_Uri7f4rPn48uWGkkb7dahVikBM&usqp=CAU"
+                  width="100%"
+                />
 
                 <h5 className="">
                   Budynki komercyjne <Divider />
                 </h5>
-                <div data-aos="fade-up" data-aos-duration="2000" className="left-align ">
-                <li> Analiza biznesowa każdego projektu </li>
+                <div
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                  className="left-align "
+                >
+                  <li> Analiza biznesowa każdego projektu </li>
                   <li> Projekt Koncepcyjny </li>
-                  <li>
-                  Projekt techniczny
-                  </li>
+                  <li>Projekt techniczny</li>
                 </div>
               </Row>
             </Card>
@@ -240,14 +269,17 @@ const HomeWnetrza = () => {
                 <img className="" src={img5} width="100%" />
 
                 <h5 className="">
-                  Inne<Divider />
+                  Inne
+                  <Divider />
                 </h5>
-                <div data-aos="fade-right" data-aos-duration="2000" className="left-align ">
-                <li> Projekty i prototypy mebli  </li>
-                <li> Projekty i prototypy oświetlenia  </li>
-                  <li>
-                 Wnętrza sakralne
-                  </li>
+                <div
+                  data-aos="fade-right"
+                  data-aos-duration="2000"
+                  className="left-align "
+                >
+                  <li> Projekty i prototypy mebli </li>
+                  <li> Projekty i prototypy oświetlenia </li>
+                  <li>Wnętrza sakralne</li>
                 </div>
               </Row>
             </Card>
@@ -258,7 +290,7 @@ const HomeWnetrza = () => {
           Examples:
           <Divider />
         </h3>
-        <Noncommercial/>
+        <Noncommercial />
       </div>
     );
 };
