@@ -203,7 +203,7 @@ const HomeWnetrza = () => {
                 <img className="" src={img3} width="100%" />
 
                 <h5 className="">
-                  Ddomy i apartamenty na wynajem <Divider />
+                  Domy i apartamenty na wynajem <Divider />
                 </h5>
                 <div
                   data-aos="fade-down"

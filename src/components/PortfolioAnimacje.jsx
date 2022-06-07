@@ -116,7 +116,7 @@ const Modelowanie = () => {
         <Row />
         <Row />
         <h3 className="left-align">
-          Architectural Animations
+          Animacje
           <Divider />
         </h3>
         <Row />

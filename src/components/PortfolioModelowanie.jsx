@@ -66,7 +66,7 @@ const Modelowanie = () => {
         <Row />
         <Row />
         <h3 className="left-align">
-            3D Modeling - <h5>We create digital models for Architects, Interior Archcitects, Designers and other professionals.</h5>
+        Modelowanie 3D - <h5>Tworzymy cyfrowe modele dla architektów, architektów wnętrz, projektantów i innych profesjonalistów.</h5>
           <Divider />
         </h3>
         <Row />
@@ -80,7 +80,7 @@ const Modelowanie = () => {
       
       <Row />
         <h3 className="left-align">
-            Architectural drawings, Archicad BIM - <h5>We can digitise your ideas</h5>
+        Rysunki architektoniczne, Archicad BIM - <h5>Możemy digitalizować Twoje pomysły</h5>
           <Divider />
         </h3>
         <Row />

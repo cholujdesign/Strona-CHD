@@ -162,7 +162,7 @@ const HomeWnetrza = () => {
         <Row />
         <Row />
         <h3 className="left-align">
-          Architecture
+          Architektura
           <Divider />
         </h3>
         <Row />
@@ -177,14 +177,14 @@ const HomeWnetrza = () => {
                 />
 
                 <h5 className="">
-                  Residential, service, mixed-use buildings
+                Budynki mieszkalne, usługowe, wielofunkcyjne
                   <Divider />
                 </h5>
                 <div data-aos="fade-right" data-aos-duration="2000" className="left-align ">
-                  <li>All RIBA Stages</li>
-                  <li>Flexible, interdisciplinary team</li>
-                  <li>Large experience in working with developers</li>
-                  <li>Small, medium and medium-large buildings</li>
+                <li>Wszystkie etapy procesu architektonicznego</li>
+                  <li>Elastyczny, interdyscyplinarny zespół</li>
+                  <li>Duże doświadczenie w pracy z deweloperami</li>
+                  <li>Małe, średnie i średnio-duże budynki</li>
                 </div>
               </Row>
             </Card>
@@ -195,17 +195,15 @@ const HomeWnetrza = () => {
                 <img className="" src={img2} width="100%" />
 
                 <h5 className="">
-                  Single-family houses <Divider />
+                  Domy jednorodzinne <Divider />
                 </h5>
                 <div data-aos="fade-down" data-aos-duration="2000" className="left-align ">
-                <li>All RIBA Stages</li>
-                <li> Personal design, fit for the client </li>
-                  <li> Garden design </li>
-
-                  <li> Quick Conceptual Design </li>
-
+                <li>Wszystkie etapy RIBA</li>
+                <li> Spersonalziowany projekt, dopasowany do klienta </li>
+                  <li> Projekt ogrodu </li>
+                  <li> Szybki projekt koncepcyjny </li>
                   <li>
-                    Preparation of a complete project 
+                    Przygotowanie kompletnego projektu
                   </li>
                   
                 </div>
@@ -218,13 +216,13 @@ const HomeWnetrza = () => {
                 <img className="" src={img3} width="100%" />
 
                 <h5 className="">
-                  Timber Frame houses <Divider />
+                  Domy szkieletowe <Divider />
                 </h5>
                 <div data-aos="fade-down" data-aos-duration="2000" className="left-align ">
                   <li>
                     {" "}
-                    We have experience in designing energy-saving houses made of
-                    wood or wooden structures{" "}
+                    Posiadamy doświadczenie w projektowaniu domów energooszczędnych wykonanych z
+                    drewniana lub drewnianej konstrukcji{" "}
                   </li>{" "}
                 </div>
               </Row>
@@ -236,13 +234,12 @@ const HomeWnetrza = () => {
                 <img className="" src={img4} width="100%" />
 
                 <h5 className="">
-                  Prefabricated buildings <Divider />
+                  Domy prefabrykowane <Divider />
                 </h5>
                 <div data-aos="fade-up" data-aos-duration="2000" className="left-align ">
                   <li>
                     {" "}
-                    We have experience in designing energy-saving houses made of
-                    wood or wooden structures{" "}
+                   Współpracujemy z branżą domów prefbrykowanych
                   </li>{" "}
                 </div>
               </Row>
@@ -254,13 +251,12 @@ const HomeWnetrza = () => {
                 <img className="" src={img5} width="100%" />
 
                 <h5 className="">
-                  Places of worship <Divider />
+                  Obiekty Sakralne<Divider />
                 </h5>
                 <div data-aos="fade-right" data-aos-duration="2000" className="left-align ">
                   <li>
                     {" "}
-                    We have experience in designing energy-saving houses made of
-                    wood or wooden structures{" "}
+                   
                   </li>{" "}
                 </div>
               </Row>
@@ -269,7 +265,7 @@ const HomeWnetrza = () => {
         </Row>
 
         <h3 className="left-align">
-          Examples:
+          Przykłady:
           <Divider />
         </h3>
         <Commercial/>
