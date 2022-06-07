@@ -27,7 +27,20 @@ import animacje from "./svg/krynica3d.gif";
 import wizualizacje from "./svg/wizualizacje.svg";
 import emailjs from "emailjs-com";
 import drawingprocess from "./svg/drawingprocess.svg";
-function sendEmail(e) {
+
+
+class HomeSecond extends Component {
+  constructor() {
+    super();
+    this.state = {
+      i: 0,
+      msg:"",
+      lang: localStorage.getItem("lang"),
+    };
+    this.sendEmail = this.sendEmail.bind(this);
+    this.Wizualizacja = this.Wizualizacja.bind(this);
+  }
+ sendEmail(e) {
   e.preventDefault();
 
   emailjs
@@ -43,20 +56,12 @@ function sendEmail(e) {
       },
       (error) => {
         console.log(error.text);
-      }
+      },
+      this.setState({msg: 'Sent/Wysłano'})
     );
+    // window.location.reload(false) 
+    
 }
-
-class HomeSecond extends Component {
-  constructor() {
-    super();
-    this.state = {
-      i: 0,
-      lang: localStorage.getItem("lang"),
-    };
-    this.Wizualizacja = this.Wizualizacja.bind(this);
-  }
-
   Wizualizacja = (event) => {
     this.setState({
       i: this.state.i + 1,
@@ -173,30 +178,28 @@ class HomeSecond extends Component {
               <Col s={12} m={2} push="m1"></Col>
               <Col s={12} m={6} push="m1">
                 <h3 className="white-text">Talk to us!</h3>
-                <form onSubmit={sendEmail}>
+                <form onSubmit={this.sendEmail}>
                   <input
-                    className="white-text"
+                    className="white-text center"
                     type="email"
                     name="user_email"
+                    placeholder="Your Email"
                   />
-                  <Divider />
-                  <label className="">
-                    <h5 className="white-text">Email</h5>
-                  </label>
-                  <textarea className="white-text" name="message" /> <Divider />
-                  <label className="">
-                    <h5 className="white-text">Message</h5>
-                  </label>
+                  
+                  <textarea 
+                  placeholder="Your Message"
+                  className="white-text center validate" name="message" />
+                
                   <Toast
                     options={{
-                      classes: "center",
+                      classes: "center red",
                       html: "Message sent, thank you!",
                     }}
                   >
                     <input
                       className="btn"
                       type="submit"
-                      value="Wyślij wiadomość"
+                      value="Send message"
                     />
                   </Toast>
                 </form>
@@ -204,6 +207,10 @@ class HomeSecond extends Component {
                   or call us
                 </a>
               </Col>
+            </Row>
+            <Row className="center red-text">
+              <h5 className="red-text">{this.state.msg}
+                </h5>
             </Row>
             <Row />
           </div>
@@ -316,23 +323,20 @@ class HomeSecond extends Component {
               <Col s={12} m={2} push="m1"></Col>
               <Col s={12} m={6} push="m1">
                 <h3 className="white-text">Skontaktuj się z nami</h3>
-                <form onSubmit={sendEmail}>
+                <form onSubmit={this.sendEmail}>
                   <input
-                    className="white-text"
+                    className="white-text center"
                     type="email"
                     name="user_email"
+                    placeholder="Twój e-mail"
                   />
-                  <Divider />
-                  <label className="">
-                    <h5 className="white-text">Email</h5>
-                  </label>
-                  <textarea className="white-text" name="message" /> <Divider />
-                  <label className="">
-                    <h5 className="white-text">Wiadomość</h5>
-                  </label>
+                  
+                  
+                  <textarea className="white-text center" name="message" placeholder="Twoja wiadomość"/> 
+                  
                   <Toast
                     options={{
-                      classes: "center",
+                      classes: "center red",
                       html: "Wiadomość wysłana, dziękujemy !",
                     }}
                   >
@@ -347,6 +351,10 @@ class HomeSecond extends Component {
                   lub zadzwoń
                 </a>
               </Col>
+            </Row>
+            <Row className="center red-text">
+              <h5 className="red-text">{this.state.msg}
+                </h5>
             </Row>
             <Row />
           </div>
