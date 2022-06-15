@@ -60,10 +60,13 @@ class Contact extends React.Component {
                 node="a"
                 href="https://goo.gl/maps/xrJdtaQWoJFFU5ya7"
               >
-                Google Maps
+                 Maps
               </Button>
-              <a className="btn-large orange " href="tel:+48518048983">
-                Call us
+              <a className="btn-large teal " href="tel:+48518048983">
+                call us
+              </a>
+              <a className="btn-large  " href="mailto:cholujdesign@gmail.com">
+                mail
               </a>
               <CardPanel className="white z-depth-2">
                 <h5 className="center">Contact form</h5>
@@ -128,7 +131,7 @@ class Contact extends React.Component {
               <Row></Row>
               <Row></Row>
               <Iframe
-                  url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.0508984842268!2d19.950128215396784!3d50.066608422829205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b19a3f7dbaf%3A0xc54683c71aef0750!2sRakowicka%2015%2C%2031-511%20Krak%C3%B3w!5e0!3m2!1spl!2spl!4v1654247482292!5m2!1spl!2sp"
+                  url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d640.3202123505905!2d19.937967934476003!3d50.06230175664534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b0e1dd33297%3A0xa8c90fce36f5f86b!2sCho%C5%82uj%20Design%20s.c.%20Cho%C5%82uj%20I.%2C%20Cho%C5%82uj%20R.!5e0!3m2!1spl!2spl!4v1655288849522!5m2!1spl!2spl" 
                   width="100%"
                   height="600px"
                   id="myId"
@@ -156,16 +159,19 @@ class Contact extends React.Component {
             <Row />
             <Col m={4} s={12} offset="m1">
               <Button
-                className="z-depth-2  black"
+                className="z-depth-2 "
                 large
                 target="blank"
                 node="a"
                 href="https://goo.gl/maps/xrJdtaQWoJFFU5ya7"
               >
-                Google Maps
+                Mapa
               </Button>
-              <a className="btn-large black " href="tel:+48518048983">
+              <a className="btn-large teal " href="tel:+48518048983">
                 zadzwoń
+              </a>
+              <a className="btn-large  " href="mailto:cholujdesign@gmail.com">
+                mail
               </a>
               <CardPanel className="white z-depth-2">
                 <h5 className="center">Formularz Kontaktowy</h5>
@@ -232,7 +238,7 @@ class Contact extends React.Component {
               <Row></Row>
               <Row></Row>
               <Iframe
-                  url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.0508984842268!2d19.950128215396784!3d50.066608422829205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b19a3f7dbaf%3A0xc54683c71aef0750!2sRakowicka%2015%2C%2031-511%20Krak%C3%B3w!5e0!3m2!1spl!2spl!4v1654247482292!5m2!1spl!2sp"
+                  url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d640.3202123505905!2d19.937967934476003!3d50.06230175664534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b0e1dd33297%3A0xa8c90fce36f5f86b!2sCho%C5%82uj%20Design%20s.c.%20Cho%C5%82uj%20I.%2C%20Cho%C5%82uj%20R.!5e0!3m2!1spl!2spl!4v1655288849522!5m2!1spl!2spl" 
                   width="100%"
                   height="600px"
                   id="myId"
