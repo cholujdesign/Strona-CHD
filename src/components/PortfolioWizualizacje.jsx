@@ -5,11 +5,7 @@ import {
   Col,
   Divider,
   Row,
-  Slider,
-  Slide,
-  Caption,
-  Card,
-  Carousel,
+
 } from "react-materialize";
 import Aos from "aos";
 import "aos/dist/aos.css";

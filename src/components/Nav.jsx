@@ -8,7 +8,7 @@ import {
   Button,
   Modal,
 } from "react-materialize";
-import { Redirect } from "react-router-dom";
+
 import "materialize-css";
 import logo from "./svg/logo.svg";
 

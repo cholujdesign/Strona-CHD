@@ -13,13 +13,10 @@ import {
 } from "react-materialize";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Animacje from "./svg/wnetrzaLogo.svg";
 import img1 from "./svg/kanonicza.webp";
 import img2 from "./svg/Rakowicka15C.webp";
 import img3 from "./svg/Rakowicka15A.webp";
-import img4 from "./svg/HOUSE_QOF35AHouseQ.jpeg";
 import img5 from "./svg/koscielne.webp";
-import finger from "./svg/finger (1).svg";
 import Noncommercial from "./Noncommercial";
 
 const HomeWnetrza = () => {

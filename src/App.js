@@ -155,8 +155,7 @@ function App() {
             całkowicie dobrowolne. Informacja na temat zautomatyzowanego
             podejmowania decyzji i profilowania W związku z przetwarzaniem
             Państwa danych osobowych nie dochodzi do zautomatyzowanego
-            podejmowania decyzji, w tym do profilowaniu.
-            English
+            podejmowania decyzji, w tym do profilowaniu. English
             <br /> In accordance with the provisions of the Regulation of the
             European Parliament and of the Council (EU)
             <br /> 2016/679 of 27 April 2016 on the protection of natural
@@ -245,10 +244,14 @@ function App() {
             there is no
             <br /> automated decision making, including profiling.{" "}
           </Modal>
-          <div className=" hide-on-small-only grey darken-2">
+          <div className="  grey darken-2">
             <Row>
               <Col className="white-text valign-align" m={6}>
-                <h3 className="white-text valign-align"> Dane Kontaktowe </h3>
+                <h3 className="white-text right-align">
+                  {" "}
+                  Dane
+                  <br /> Kontaktowe{" "}
+                </h3>
                 Wszelkie prawa zastrzeżone
                 <br />
                 Wszystkie teksty, rysunki, zdjęcia oraz wszystkie inne
@@ -264,8 +267,8 @@ function App() {
               </Col>
               <Col m={6}>
                 <h5 className="white-text left-align">
-                  +48 509 446 704,
-                  <br />
+                  {/* +48 509 446 703,
+                  <br /> */}
                   +48 509 447 006,
                   <br />
                   +48 518 048 983

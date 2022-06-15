@@ -5,8 +5,8 @@ import "react-leaflet";
 import { CardPanel, Col, Row, Toast } from "react-materialize";
 import Button from "react-materialize/lib/Button";
 import Divider from "react-materialize/lib/Divider";
-import MapIn from "./MapIn";
 import emailjs from "emailjs-com";
+import Iframe from "react-iframe";
 
 function sendEmail(e) {
   e.preventDefault();
@@ -40,7 +40,8 @@ class Contact extends React.Component {
   render() {
     if (this.state.lang == "en")
       return (
-        <div>
+        <div> <Row />
+            <Row />
           <div className="hide-on-small-only">
             <Row />
             <Row />
@@ -48,8 +49,7 @@ class Contact extends React.Component {
             <Row />
             <Row />
             <Row />
-            <Row />
-            <Row />
+           
           </div>
           <Row>
             <Col m={4} s={12} offset="m1">
@@ -71,6 +71,7 @@ class Contact extends React.Component {
                 <Divider />
                 <Row></Row>
                 <div className="center ">
+                  <Row>
                   <form onSubmit={sendEmail}>
                     <input
                       className="black-text"
@@ -98,7 +99,7 @@ class Contact extends React.Component {
                         value="Wyślij wiadomość"
                       />
                     </Toast>
-                  </form>{" "}
+                  </form></Row>{" "}
                 </div>
               </CardPanel>
               <CardPanel className="white z-depth-2">
@@ -124,21 +125,25 @@ class Contact extends React.Component {
               <Row></Row>
               <Row></Row>
               <Row></Row>
-              <CardPanel className="white z-depth-2">
-                <div id="map" style={{ height: 500 }}>
-                  <MapIn />
-                </div>
-              </CardPanel>
+              <Iframe
+                  url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.0508984842268!2d19.950128215396784!3d50.066608422829205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b19a3f7dbaf%3A0xc54683c71aef0750!2sRakowicka%2015%2C%2031-511%20Krak%C3%B3w!5e0!3m2!1spl!2spl!4v1654247482292!5m2!1spl!2sp"
+                  width="100%"
+                  height="600px"
+                  id="myId"
+                  className="myClassname"
+                  display="initial"
+                  position="relative"
+                />{" "}
             </Col>
           </Row>
         </div>
       );
     else
       return (
-        <div>
+        <div><Row />
+            <Row />
           <div className="hide-on-small-only">
-            <Row />
-            <Row />
+            
             <Row />
             <Row />
             <Row />
@@ -222,11 +227,15 @@ class Contact extends React.Component {
               <Row></Row>
               <Row></Row>
               <Row></Row>
-              <CardPanel className="white z-depth-2">
-                <div id="map" style={{ height: 500 }}>
-                  <MapIn />
-                </div>
-              </CardPanel>
+              <Iframe
+                  url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.0508984842268!2d19.950128215396784!3d50.066608422829205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b19a3f7dbaf%3A0xc54683c71aef0750!2sRakowicka%2015%2C%2031-511%20Krak%C3%B3w!5e0!3m2!1spl!2spl!4v1654247482292!5m2!1spl!2sp"
+                  width="100%"
+                  height="600px"
+                  id="myId"
+                  className="myClassname"
+                  display="initial"
+                  position="relative"
+                />{" "}
             </Col>
           </Row>
         </div>

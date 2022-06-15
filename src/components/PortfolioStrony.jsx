@@ -5,20 +5,12 @@ import {
   Col,
   Divider,
   Row,
-  Slider,
-  Slide,
-  Caption,
-  Card,
-  Carousel,
+
   Collapsible,
   CollapsibleItem,
 } from "react-materialize";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Animacje from "./svg/wnetrzaLogo.svg";
-import img1 from "./svg/kanonicza.webp";
-import img2 from "./svg/Rakowicka15C.webp";
-import img3 from "./svg/Rakowicka15A.webp";
 import drawingwebsite from "./svg/drawingwebsite.svg";
 import drawingbrowser from "./svg/drawingbrowser.svg";
 import website from "./svg/website.svg";

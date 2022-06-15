@@ -1,7 +1,7 @@
 import "materialize-css";
-import React, { Component, useEffect } from "react";
+import React, {  useEffect } from "react";
 import {
-  Button,
+  
   Col,
   Divider,
   Row,
@@ -15,18 +15,11 @@ import "aos/dist/aos.css";
 import architekturaLogo from "./svg/architekturaLogo.svg";
 import wnetrzaLogo from "./svg/wnetrzaLogo.svg";
 import wizualizacjeLogo from "./svg/wizualizacjeLogo.svg";
-import HomeWnetrza from "./HomeWnetrza";
-import HomeArchitektura from "./HomeArchitektura";
-import HomeWizualizacje from "./HomeWizualizacje";
 import HomeSecond from "./HomeSecond";
-import arrowDown from "./svg/down+gif.gif";
 import img1 from "./svg/Rakowicka15A.webp";
 import img2 from "./svg/Rakowicka15budowa.webp";
 import img3 from "./svg/Cienie.webp";
-import img4 from "./svg/wizualizacjeLogo.svg";
-import img5 from "./svg/wizualizacjeLogo.svg";
-import img6 from "./svg/wizualizacjeLogo.svg";
-import img7 from "./svg/wizualizacjeLogo.svg";
+import web from "./svg/strony.svg";
 
 const HomeFirst = () => {
   useEffect(() => {
@@ -74,18 +67,20 @@ const HomeFirst = () => {
                       <Divider />
                     </h3>
                     <div className="light grey-text text-lighten-3 ">
-                    <br /> Our work experience exceeds
-                        25 years.
-                       <br />
-                       Our team has experience in projects from small to
-                       medium-large, <br />
-                       icluding author's supervision and construction management. For a decade
-                       we aimed to connect <br />
-                       spatial design with the design of industrial forms and new tech.<br />
-                       Depending on the type and size of the project, we invite to
-                        <br />
-                       our colleagues and other trusted people,
-                       specialists to cooperate with us.
+                      <br /> Our work experience exceeds 25 years.
+                      <br />
+                      Our team has experience in projects from small to
+                      medium-large, <br />
+                      icluding author's supervision and construction management.
+                      For a decade we aimed to connect <br />
+                      spatial design with the design of industrial forms and new
+                      tech.
+                      <br />
+                      Depending on the type and size of the project, we invite
+                      to
+                      <br />
+                      our colleagues and other trusted people, specialists to
+                      cooperate with us.
                     </div>{" "}
                   </div>
                 </Caption>
@@ -98,17 +93,16 @@ const HomeFirst = () => {
                       <Divider />
                     </h3>
                     <div className="light grey-text text-lighten-3 ">
-                    <br /> We focus first on the needs
-                       <br /> and the expectations of our customers, each project
-                       is analysed
-                       <br /> individually. The leitmotif of our work
-                        is interaction of
-                       <br /> natural and artificial lighting, colors,
-                        textures
-                       <br /> inside the building, interior's geometry and design relationship
-                       with the nature.
-                       <br /> 
-                     </div>
+                      <br /> We focus first on the needs
+                      <br /> and the expectations of our customers, each project
+                      is analysed
+                      <br /> individually. The leitmotif of our work is
+                      interaction of
+                      <br /> natural and artificial lighting, colors, textures
+                      <br /> inside the building, interior's geometry and design
+                      relationship with the nature.
+                      <br />
+                    </div>
                   </div>
                 </Caption>
               </Slide>
@@ -117,71 +111,68 @@ const HomeFirst = () => {
         </div>
         <Row className="">
           <Col s={12} m={6} l={4}>
-            <Card className="homeFirstcard white-text">
+            <Card className="homeFirstcard white-text ">
               {" "}
               <Row />
               <h4>
                 Architectural Practise CHD <Divider />
               </h4>
-              <Row />
-              <Row>
+              <br/><br/>
+              <Row className="">
                 <Col s={4}>
-                  <img src={architekturaLogo} width="100%" />
+                  <img src={architekturaLogo} width="80%" />
                 </Col>
                 <Col s={8}>
                   <div data-aos="fade-up" data-aos-duration="1000">
-                    <h5>
+                    <a className="p2">
                       Architecture <Divider />
-                    </h5>
+                    </a>
                     Flexible team, capable of working with various project.
-                    <br />
-                    <br />
-                    {/* <a className="white-text" href="#arch" id="">
-                  WIECEJ INFORMACJI
-                </a> */}
                   </div>
                 </Col>
               </Row>
               <Row>
                 <Col s={4}>
-                  <img src={wnetrzaLogo} width="100%" />
+                  <img src={wnetrzaLogo} width="80%" />
                 </Col>
                 <Col s={8}>
                   <div data-aos="fade-up" data-aos-duration="2000">
-                    <h5>
+                  <a className="p2">
                       Interriors <Divider />
-                    </h5>
-                    Private and commercial interiors to the full extent, including
-                    work on site.
-                    <br />
-                    <br />
-                    {/* <a className="white-text" href="#int" id="">
-                  WIECEJ INFORMACJI
-                </a> */}
+                      </a>
+                    Private and commercial interiors to the full extent,
+                    including work on site.
                   </div>
                 </Col>
               </Row>
               <Row>
                 <Col s={4}>
-                  <img src={wizualizacjeLogo} width="100%" />
+                  <img src={wizualizacjeLogo} width="70%" />
                 </Col>
                 <Col s={8}>
                   <div data-aos="fade-up" data-aos-duration="3000">
-                    <h5>
+                  <a className="p2">
                       Visualisation <Divider />
-                    </h5>
-                    Visualizations, Animations, Interactive 3D VR models, BIM objects
-                     
-                    <br />
-                    <br />
-                    {/* <a className="white-text" href="#vis" id="">
-                  WIECEJ INFORMACJI
-                </a> */}
+                      </a>
+                    Visualizations, Animations, Interactive 3D VR models, BIM
+                    objects
                   </div>
                 </Col>
               </Row>
-             
-             
+              <Row>
+                <Col s={4}>
+                  <img src={web} width="50%" />
+                </Col>
+                <Col s={8}>
+                  <div data-aos="fade-up" data-aos-duration="3000">
+                  <a className="p2">
+                      Web design <Divider />
+                      </a>
+                    Design, frontend, backend 
+                  </div>
+                </Col>
+              </Row>
+              
             </Card>
           </Col>
         </Row>
@@ -314,9 +305,9 @@ const HomeFirst = () => {
                 </Col>
                 <Col s={8}>
                   <div data-aos="fade-up" data-aos-duration="1000">
-                    <h5>
+                  <a className="p2">
                       Architektura <Divider />
-                    </h5>
+                    </a>
                     Elastyczny zespół, który poradzi sobie z różnymi projekatmi.
                     <br />
                     <br />
@@ -332,9 +323,9 @@ const HomeFirst = () => {
                 </Col>
                 <Col s={8}>
                   <div data-aos="fade-up" data-aos-duration="2000">
-                    <h5>
+                  <a className="p2">
                       Wnętrza <Divider />
-                    </h5>
+                    </a>
                     Wnętrza prywatne, komercyjne w pełnym zakresie, wraz z
                     nadzorem.
                     <br />
@@ -351,9 +342,9 @@ const HomeFirst = () => {
                 </Col>
                 <Col s={8}>
                   <div data-aos="fade-up" data-aos-duration="3000">
-                    <h5>
+                  <a className="p2">
                       Wizualizacje <Divider />
-                    </h5>
+                    </a>
                     Wizualizacje, Animacje, Interaktywne modele 3D VR, obiekty
                     BIM
                     <br />
@@ -364,7 +355,19 @@ const HomeFirst = () => {
                   </div>
                 </Col>
               </Row>
-           
+              <Row>
+                <Col s={4}>
+                  <img src={web} width="50%" />
+                </Col>
+                <Col s={8}>
+                  <div data-aos="fade-up" data-aos-duration="3000">
+                  <a className="p2">
+                      Web design <Divider />
+                      </a>
+                    Design, frontend, backend 
+                  </div>
+                </Col>
+              </Row>
             </Card>
           </Col>
         </Row>
@@ -372,7 +375,6 @@ const HomeFirst = () => {
         <div data-aos="fade-down" data-aos-duration="1000">
           <HomeSecond />
         </div>
-   
       </div>
     );
 };

@@ -7,7 +7,6 @@ import {
   Row,
   Divider,
 } from "react-materialize";
-import { NavLink } from "react-router-dom";
 import "materialize-css";
 import React, { useEffect } from "react";
 import Lista from "./Lista";

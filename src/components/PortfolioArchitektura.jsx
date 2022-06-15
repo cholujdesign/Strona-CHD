@@ -13,19 +13,10 @@ import {
 } from "react-materialize";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import architekturaLogo from "./svg/logo.svg";
-import wnetrzaLogo from "./svg/logo.svg";
-import wizualizacjeLogo from "./svg/logo.svg";
-import clientCard1 from "./svg/clientCard1.svg";
-import clientCard2 from "./svg/clientCard2.svg";
-import clientCard3 from "./svg/clientCard3.svg";
-import Animacje from "./svg/wnetrzaLogo.svg";
-import img1 from "./svg/Rakowicka15C.webp";
 import img2 from "./svg/wieckowice.png";
 import img3 from "./svg/drewniane.jpg";
 import img4 from "./svg/HOUSE_QOF35AHouseQ.jpeg";
 import img5 from "./svg/koscielne.webp";
-import finger from "./svg/finger (1).svg";
 import Commercial from "./Commercial";
 
 const HomeWnetrza = () => {

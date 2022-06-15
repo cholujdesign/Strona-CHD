@@ -1,7 +1,3 @@
-import React from "react";
-import { Table } from "react-materialize";
-import Divider from "react-materialize/lib/Divider";
-
 let baseURL = "https://raw.githubusercontent.com/galeriapodsloncem/3dstrona/master/babylonjs-app/public/assets/";
 const Lista = [
   // {

@@ -1,24 +1,12 @@
 import "materialize-css";
-import React, { Component, useEffect } from "react";
+import React, { Component } from "react";
 import {
   Button,
   Col,
   Divider,
   Row,
-  Slider,
-  Slide,
-  Caption,
-  Card,
   Toast,
 } from "react-materialize";
-import Aos from "aos";
-import "aos/dist/aos.css";
-import architekturaLogo from "./svg/logo.svg";
-import wnetrzaLogo from "./svg/logo.svg";
-import wizualizacjeLogo from "./svg/logo.svg";
-import clientCard1 from "./svg/clientCard1.svg";
-import clientCard2 from "./svg/clientCard2.svg";
-import clientCard3 from "./svg/clientCard3.svg";
 import architektura from "./svg/architektura.svg";
 import wnetrza from "./svg/wnetrza.svg";
 import strony from "./svg/strony.svg";
@@ -38,7 +26,6 @@ class HomeSecond extends Component {
       lang: localStorage.getItem("lang"),
     };
     this.sendEmail = this.sendEmail.bind(this);
-    this.Wizualizacja = this.Wizualizacja.bind(this);
   }
  sendEmail(e) {
   e.preventDefault();
@@ -62,39 +49,7 @@ class HomeSecond extends Component {
     // window.location.reload(false) 
     
 }
-  Wizualizacja = (event) => {
-    this.setState({
-      i: this.state.i + 1,
-    });
-
-    switch (this.state.i) {
-      case 1:
-        return (
-          <div>
-            <h3>asdasdas</h3>
-          </div>
-        );
-      case 2:
-        return (
-          <div>
-            <h3>asd2342342342342342asdas</h3>
-          </div>
-        );
-      case 3:
-        return (
-          <div>
-            <h3>asdasasdasdas</h3>
-          </div>
-        );
-      default:
-        return (
-          <div>
-            <h3>asdasd234324as</h3>
-          </div>
-        );
-    }
-  };
-
+  
   render() {
     if (this.state.lang == "en")
       return (
@@ -115,7 +70,7 @@ class HomeSecond extends Component {
                     through the way it is presented, ending with the web design.</div>
                   </Col>
                   <Col s={12} m={6} push="m1"><Row/><Row/><Row/>  
-                    <img src={drawingprocess} width="100%"/>
+                    <img src={drawingprocess} width="80%"/>
                   </Col>
                 </Row>
                 </Col>
@@ -126,21 +81,21 @@ class HomeSecond extends Component {
               <Col s={12} m={10} push="m1">
                 <Button node="a" href="architektura" className="clientCard">
                   <div data-aos="fade-left" data-aos-duration="2000">
-                    <img src={architektura} width="100%" />
+                    <img src={architektura} width="80%" />
                     <h5>Architectural Design</h5>
                   </div>
                 </Button>
 
                 <Button node="a" href="wnetrza" className="clientCard">
                   <div data-aos="fade-down" data-aos-duration="2000">
-                    <img src={wnetrza} width="100%" />
+                    <img src={wnetrza} width="80%" />
                     <h5>Interior Design</h5>
                   </div>
                 </Button>
 
                 <Button node="a" href="modelowanie" className="clientCard">
                   <div data-aos="fade-right" data-aos-duration="2000">
-                    <img src={modelowanie} width="100%" />
+                    <img src={modelowanie} width="80%" />
                     <h5>3D Modeling</h5>
                   </div>
                 </Button>
@@ -150,14 +105,14 @@ class HomeSecond extends Component {
                 <Button node="a" href="animacje" className="clientCard">
                   {" "}
                   <div data-aos="fade-left" data-aos-duration="2000">
-                    <img src={animacje} width="100%" />
+                    <img src={animacje} width="80%" />
                     <h5>Animations</h5>
                   </div>
                 </Button>
 
                 <Button node="a" href="wizualizacje" className="clientCard">
                   <div data-aos="fade-up" data-aos-duration="2000">
-                    <img src={wizualizacje} width="100%" />
+                    <img src={wizualizacje} width="80%" />
                     <h5>CGI</h5>
                   </div>
                 </Button>
@@ -165,7 +120,7 @@ class HomeSecond extends Component {
                 <Button node="a" href="strony" className="clientCard">
                   {" "}
                   <div data-aos="fade-right" data-aos-duration="2000">
-                    <img src={strony} width="100%" />
+                    <img src={strony} width="80%" />
                     <h5>Web design</h5>
                   </div>
                 </Button>
@@ -259,7 +214,7 @@ class HomeSecond extends Component {
                     </div>
                   </Col>
                   <Col s={12} m={6} push="m1">
-                    <img src={drawingprocess} width="100%" />
+                    <img src={drawingprocess} width="80%" />
                   </Col>
                 </Row>
               </Col>
@@ -269,21 +224,21 @@ class HomeSecond extends Component {
               <Col s={12} m={10} push="m1">
                 <Button node="a" href="architektura" className="clientCard">
                   <div data-aos="fade-left" data-aos-duration="2000">
-                    <img src={architektura} width="100%" />
+                    <img src={architektura} width="80%" />
                     <h5>Architektura</h5>
                   </div>
                 </Button>
 
                 <Button node="a" href="wnetrza" className="clientCard">
                   <div data-aos="fade-down" data-aos-duration="2000">
-                    <img src={wnetrza} width="100%" />
+                    <img src={wnetrza} width="80%" />
                     <h5>Projekty wnętrz</h5>
                   </div>
                 </Button>
 
                 <Button node="a" href="modelowanie" className="clientCard">
                   <div data-aos="fade-right" data-aos-duration="2000">
-                    <img src={modelowanie} width="100%" />
+                    <img src={modelowanie} width="80%" />
                     <h5>Modelowanie 3D</h5>
                   </div>
                 </Button>
@@ -293,14 +248,14 @@ class HomeSecond extends Component {
                 <Button node="a" href="animacje" className="clientCard">
                   {" "}
                   <div data-aos="fade-left" data-aos-duration="2000">
-                    <img src={animacje} width="100%" />
+                    <img src={animacje} width="80%" />
                     <h5>Animacje</h5>
                   </div>
                 </Button>
 
                 <Button node="a" href="wizualizacje" className="clientCard">
                   <div data-aos="fade-up" data-aos-duration="2000">
-                    <img src={wizualizacje} width="100%" />
+                    <img src={wizualizacje} width="80%" />
                     <h5>Wizualizacje</h5>
                   </div>
                 </Button>
@@ -308,7 +263,7 @@ class HomeSecond extends Component {
                 <Button node="a" href="strony" className="clientCard">
                   {" "}
                   <div data-aos="fade-right" data-aos-duration="2000">
-                    <img src={strony} width="100%" />
+                    <img src={strony} width="80%" />
                     <h5>Strony www</h5>
                   </div>
                 </Button>

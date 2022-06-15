@@ -8,30 +8,16 @@ import {
   Slider,
   Slide,
   Caption,
-  Card,
   Carousel,
   Modal
 } from "react-materialize";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import architekturaLogo from "./svg/logo.svg";
-import wnetrzaLogo from "./svg/logo.svg";
-import wizualizacjeLogo from "./svg/logo.svg";
-import clientCard1 from "./svg/clientCard1.svg";
-import clientCard2 from "./svg/clientCard2.svg";
-import clientCard3 from "./svg/clientCard3.svg";
-import Animacje from "./svg/wnetrzaLogo.svg"
 import Iframe from 'react-iframe'
-
 import gif from "./svg/gifstrona.gif"
 import img1 from "./svg/kanonicza.webp"
 import img2 from "./svg/Rakowicka15A.webp"
 import img3 from "./svg/Rakowicka15C.webp"
-import img4 from "./svg/wizualizacjeLogo.svg"
-import img5 from "./svg/wizualizacjeLogo.svg"
-import img6 from "./svg/wizualizacjeLogo.svg"
-import img7 from "./svg/wizualizacjeLogo.svg"
-
 import finger from "./svg/finger (1).svg"
 
 const HomeWnetrza = () => {
