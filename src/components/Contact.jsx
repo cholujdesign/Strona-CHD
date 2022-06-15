@@ -73,17 +73,19 @@ class Contact extends React.Component {
                 <div className="center ">
                   <Row>
                   <form onSubmit={sendEmail}>
+                    <label className="">
+                      <h5 className="black-text">Email</h5>
+                    </label> 
                     <input
-                      className="black-text"
+                    placeholder="E mail"
+                      className="center black-text"
                       type="email"
                       name="user_email"
                     />
-                    <Divider />
-                    <label className="">
-                      <h5 className="black-text">Email</h5>
-                    </label>
+                 
+                   
                     <textarea className="white-text" name="message" />{" "}
-                    <Divider />
+                    
                     <label className="">
                       <h5 className="black-text">Message</h5>
                     </label>
@@ -168,22 +170,24 @@ class Contact extends React.Component {
               <CardPanel className="white z-depth-2">
                 <h5 className="center">Formularz Kontaktowy</h5>
                 <Row></Row>
-                <Divider />
+               
                 <Row></Row>
                 <div className="center ">
                   <Row>
-                    <form onSubmit={sendEmail}>
+                    <form onSubmit={sendEmail}><label className="">
+                        <h5 className="black-text">E-mail</h5>
+                      </label>
                       <input
-                        className="black-text"
+                      placeholder="e-mail"
+                        className="black-text center"
                         type="email"
                         name="user_email"
                       />
-                      <Divider />
-                      <label className="">
-                        <h5 className="black-text">Email</h5>
-                      </label>
-                      <textarea className="black-text" name="message" />{" "}
-                      <Divider />
+                     
+                      
+                      <textarea  placeholder="wiadomość"
+                        className="black-text center" name="message" />{" "}
+                      
                       <label className="">
                         <h5 className="black-text">Wiadomość</h5>
                       </label>

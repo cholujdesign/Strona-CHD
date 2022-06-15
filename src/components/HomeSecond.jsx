@@ -59,8 +59,8 @@ class HomeSecond extends Component {
               <Col s={12} m={10} push="m1">
                 <Row className="white-text">
                   <Col s={12} m={3}>
-                    <div className="hide-on-small-only">
-                    <Row/><Row/><Row/>   <Row/><Row/><Row/>   <Row/><Row/><Row/>  
+                    <div className="">
+                    <Row/><Row/><Row/>   <Row/><Row/><Row/>   <Row/><Row/><Row/>  <Row/><Row/><Row/>  
                     </div>
                     <h5 className="left-align"> Wide range of offered services
                      <Divider/></h5>
@@ -180,7 +180,7 @@ class HomeSecond extends Component {
     else
       return (
         <div>
-          <Row />
+          <Row /><Row/><Row/><Row/>   
           <Row />
           <Row />
           <div className="">
@@ -188,14 +188,8 @@ class HomeSecond extends Component {
               <Col s={12} m={10} push="m1">
                 <Row className="white-text">
                   <Col s={12} m={4}>
-                    <div className="hide-on-small-only">
-                      <Row />
-                      <Row />
-                      <Row /> <Row />
-                      <Row />
-                      <Row /> <Row />
-                      <Row />
-                      <Row />
+                  <div className="">
+                       <Row/><Row/><Row/>  <Row/><Row/><Row/>  
                     </div>
                     <h5 className="left-align">
                       {" "}
@@ -213,7 +207,7 @@ class HomeSecond extends Component {
                       kończąc na projekcie strony.
                     </div>
                   </Col>
-                  <Col s={12} m={6} push="m1">
+                  <Col s={12} m={6} push="m1"><Row/><Row/><Row/>
                     <img src={drawingprocess} width="80%" />
                   </Col>
                 </Row>

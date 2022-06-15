@@ -31,10 +31,10 @@ const HomeFirst = () => {
   if (lang == "en")
     return (
       <div>
-        <div className="homeFirstimgDiv">
-          <div className="homeFirstimg">
+        <div className="homeFirstimgDiv hide-on-small-only">
+          <div className="homeFirstimg ">
             <Slider
-              className="cliderHome"
+              className=""
               fullscreen={true}
               options={{
                 duration: 500,
@@ -109,6 +109,30 @@ const HomeFirst = () => {
             </Slider>{" "}
           </div>
         </div>
+        <div className="homeFirstimgDivm hide-on-med-and-up">
+          <div className="homeFirstimg ">
+            <Slider
+              className="sliderHome"
+              fullscreen={true}
+              options={{
+                duration: 500,
+                indicators: false,
+                interval: 6000,
+              }}
+            >
+              <Slide image={<img alt="" src={img1} />}>
+
+              </Slide>
+              <Slide image={<img alt="" src={img2} />}>
+  
+              </Slide>
+              <Slide image={<img alt="" src={img3} />}>
+            
+              </Slide>
+            </Slider>{" "}
+          </div>
+         
+        </div>
         <Row className="">
           <Col s={12} m={6} l={4}>
             <Card className="homeFirstcard white-text ">
@@ -168,7 +192,7 @@ const HomeFirst = () => {
                   <a className="p2">
                       Web design <Divider />
                       </a>
-                    Design, frontend, backend 
+                    
                   </div>
                 </Col>
               </Row>
@@ -180,44 +204,21 @@ const HomeFirst = () => {
         <div data-aos="fade-down" data-aos-duration="1000">
           <HomeSecond />
         </div>
-        {/* <div
-      className="divHome2"
-      id="vis"
-      onclick="window.location.hash='vis'; "
-    /> */}
-        {/* <div data-aos="fade-left" data-aos-duration="2000">
-          <HomeWizualizacje />
-        </div> */}
-        {/* <div
-      className="divHome3 "
-      id="int"
-      onclick="window.location.hash='int'; "
-    /> */}
-        {/* <div data-aos="fade-left" data-aos-duration="2000">
-          <HomeWnetrza />
-        </div> */}
-        {/* <div
-      className="divHome4"
-      id="arch"
-      onclick="window.location.hash='arch'; "
-    /> */}
-        {/* <div data-aos="fade-left" data-aos-duration="2000">
-          <HomeArchitektura />
-        </div> */}
+   
       </div>
     );
   else
     return (
       <div>
-        <div className="homeFirstimgDiv">
+        <div className="homeFirstimgDiv hide-on-small-only">
           <div className="homeFirstimg">
             <Slider
-              className="cliderHome"
+              className=""
               fullscreen={true}
               options={{
                 duration: 500,
                 indicators: false,
-                interval: 6000,
+                interval: 8000,
               }}
             >
               <Slide image={<img alt="" src={img1} />}>
@@ -288,7 +289,32 @@ const HomeFirst = () => {
                 </Caption>
               </Slide>
             </Slider>{" "}
+            <Row></Row>
           </div>
+        </div>
+        <div className="homeFirstimgDivm hide-on-med-and-up">
+          <div className="homeFirstimg ">
+            <Slider
+              className="sliderHome"
+              fullscreen={true}
+              options={{
+                duration: 500,
+                indicators: false,
+                interval: 6000,
+              }}
+            >
+              <Slide image={<img alt="" src={img1} />}>
+
+              </Slide>
+              <Slide image={<img alt="" src={img2} />}>
+  
+              </Slide>
+              <Slide image={<img alt="" src={img3} />}>
+            
+              </Slide>
+            </Slider>{" "}
+          </div>
+         
         </div>
         <Row className="">
           <Col s={12} m={6} l={4}>
@@ -364,7 +390,7 @@ const HomeFirst = () => {
                   <a className="p2">
                       Web design <Divider />
                       </a>
-                    Design, frontend, backend 
+                
                   </div>
                 </Col>
               </Row>

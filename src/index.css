@@ -140,6 +140,11 @@ box-shadow: 2px 2px 8px 1px #ffffff !important;
   position: absolute;
   width: 100vw;
 }
+.homeFirstimgDivm
+{
+  top: 0vh;
+  position: absolute;
+}
 .homeFirstimg{
   top: 20vh !important;
   z-index: -2 !important;
@@ -244,7 +249,7 @@ box-shadow: 2px 2px 8px 1px #ffffff !important;
 .divHome1{
   
   top: 200vh !important;
-  position: absolute !important;
+  position: relative !important;
 }
 .divHome2{
   top: 260vh !important;
@@ -287,6 +292,8 @@ box-shadow: 2px 2px 8px 1px #ffffff !important;
 }
 .sliderHome{
   z-index: -2 !important;
+  height: 130vh !important;
+ 
 }
 
 .homeCaption{
