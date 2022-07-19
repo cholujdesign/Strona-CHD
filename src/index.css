@@ -26,11 +26,14 @@ code {
   font-weight: bold;
 }
 
-
+.fb{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
 
 .navbaritem {
   justify-content: space-evenly;
-
   margin-top: 3vh;
   margin-right: 3vw;
   font-size: 150%;

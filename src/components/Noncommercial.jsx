@@ -25,41 +25,25 @@ function Noncommercial() {
     }
   }).map((data) => {
     return (
-      <div
-        data-aos="fade-down"
-        data-aos-duration="2000"
-        className="hoverable z-depth-0"
-      >
-        <Col m={10} s={12} push="m1">
+      <Col m={12} s={12} className="center">
+        <div
+          data-aos="fade-down"
+          data-aos-duration="2000"
+          className="hoverable z-depth-0 "
+        >
           <Card
             className="black white-text"
             actions={[
               <Row>
-                <Col>
-                  <div>
-                    <Row>
-                      <Col>
-                        <Col m={12} s={12} push="">
-                          <Row>
-                            <Col m={12} s={12} push="">
-                              <h5>{data.plname}</h5>
-                              <Divider />
-                            </Col>
-                            <Col m={8} s={12} push="">
-                              <br />
-                              <p className="left-align">{data.pldescription}</p>
-                            </Col>
+                <Col m={8} s={12} push="">
+                  <h5>{data.plname}</h5>
+                  <Divider />
+                  <br />
+                  <p className="left-align">{data.pldescription}</p>
+                </Col>
 
-                            <Col m={4} s={12} push="">
-                              <h5>Lokalizacja:</h5>
-                              <br />
-                              <p3>{data.lokalizacja}</p3>
-                            </Col>
-                          </Row>
-                        </Col>
-                      </Col>
-                    </Row>
-                  </div>
+                <Col m={4} s={12} push="">
+                  {data.fb}
                 </Col>
               </Row>,
             ]}
@@ -84,9 +68,8 @@ function Noncommercial() {
               ></Slide>
             </Slider>
           </Card>
-        </Col>
-        <Row />
-      </div>
+        </div>
+      </Col>
     );
   });
 
@@ -103,13 +86,14 @@ function Noncommercial() {
         <Row />
       </div>
 
-      <Col s={12} m={10} push="m1">
-        <Row>
-          <div className="hide-on-small-only"></div>
-        </Row>
-
-        <Row>{items}</Row>
-      </Col>
+      <Row>
+        <div className="hide-on-small-only"></div>
+      </Row>
+      <Row>
+        <Col s={12} l={8} push="l2">
+          <div className="center">{items}</div>
+        </Col>{" "}
+      </Row>
     </div>
   );
 }
