@@ -9,18 +9,18 @@ import {
 } from "react-materialize";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import img1 from "./renders/0.png";
-import img2 from "./renders/1.png";
-import img3 from "./renders/2.png";
-import img4 from "./renders/3.png";
-import img5 from "./renders/4.jpg";
-import img6 from "./renders/5.png";
-import img7 from "./renders/6.png";
-import img8 from "./renders/7.png";
-import img9 from "./renders/8.png";
-import img10 from "./renders/9.png";
-import img11 from "./renders/10.png";
-import img12 from "./renders/11.png";
+import img1 from "./renders/0.webp";
+import img2 from "./renders/1.webp";
+import img3 from "./renders/2.webp";
+import img4 from "./renders/3.webp";
+import img5 from "./renders/4.webp";
+import img6 from "./renders/5.webp";
+import img7 from "./renders/6.webp";
+import img8 from "./renders/7.webp";
+import img9 from "./renders/8.webp";
+import img10 from "./renders/9.webp";
+import img11 from "./renders/10.webp";
+import img12 from "./renders/11.webp";
 
 const Wizualizacje = () => {
   useEffect(() => {
