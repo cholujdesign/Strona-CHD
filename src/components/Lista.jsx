@@ -71,9 +71,10 @@ const Lista = [
     ),
   },
   {
-    img1: baseURL+"koncepcja1.webp",
-    img2: baseURL+"koncepcja2.webp",
-    img3: baseURL+"koncepcja3.webp",     plname: "Koncepcje",
+    img1: baseURL+"koncepcje1.webp",
+    img2: baseURL+"koncepcje2.webp",
+    img3: baseURL+"koncepcje3.webp",     
+    plname: "Koncepcje",
     pldescription:
       "Projekt, nadzór i realizacja",
     endescription: "",
@@ -137,9 +138,9 @@ const Lista = [
   },
 
   {
-    img1: baseURL+"turaszwoka1.webp",
+    img1: baseURL+"turaszowka1.webp",
     img2: baseURL+"turaszowka2.webp",
-    img3: baseURL+"turaszwoak3.webp", 
+    img3: baseURL+"turaszowka3.webp", 
         plname: "",
     pldescription:
       "Projekt, nadzór i realizacja dla Hosue Q",

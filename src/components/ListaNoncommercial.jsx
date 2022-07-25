@@ -104,9 +104,9 @@ const Lista = [
     ),
   },
   {
-    img1: baseURL+"rakowickamieszkanie31.webp",
-    img2: baseURL+"rakowickamieszkanie32.webp",
-    img3: baseURL+"rakowickamieszkanie33.webp", 
+    img1: baseURL+"rakowickamieszkanie11.webp",
+    img2: baseURL+"rakowickamieszkanie12.webp",
+    img3: baseURL+"rakowickamieszkanie13.webp", 
     plname: "Apartament na wynajem",
     pldescription:
       "Projekt, nadzór i realizacja",
@@ -332,9 +332,9 @@ const Lista = [
     ),
   },
   {
-    img1: baseURL+"szoberowksa.webp",
-    img2: baseURL+"szoberowksa.webp",
-    img3: baseURL+"szoberowksa.webp",     
+    img1: baseURL+"szoberowska.webp",
+    img2: baseURL+"szoberowska.webp",
+    img3: baseURL+"szoberowska.webp",     
     plname: "Restauracja Szoberowska",
     pldescription:
       "Projekt, nadzór i realizacja",
