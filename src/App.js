@@ -17,6 +17,7 @@ import PortfolioAnimacje from "./components/PortfolioAnimacje.jsx";
 import PortfolioWizualizacje from "./components/PortfolioWizualizacje.jsx";
 import PortfolioModelowanie from "./components/PortfolioModelowanie.jsx";
 import PortfolioStrony from "./components/PortfolioStrony.jsx";
+import Kuba from "./components/Kuba"
 import DocumentMeta from 'react-document-meta';
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
             <br />
 
             <Switch>
+            <Route path="/JakubCholuj" component={Kuba} />
               <Route path="/home" component={Home} />
               <Route path="/contact" component={Contact} />
               <Route path="/offer" component={Offer} />

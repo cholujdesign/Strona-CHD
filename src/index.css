@@ -18,6 +18,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.kubabg{
+  top: 0;
+  position: fixed !important;
+width: 100vw !important;
+height: 100vh !important;
+background: black !important;
+z-index: 4 !important;
+}
+.kuba{
+  z-index: 5 !important;
+}
+.circle{
+  border-radius: 150px !important;
+ 
+}
+.cardKuba{
+  margin: auto;
+  padding: 2vh;
+  border-bottom-left-radius: 80px !important;
+  border-bottom-right-radius: 80px !important;
+  border-top-left-radius: 100px !important;
+  box-shadow:  rgb(7, 72, 67) 16px 16px 0px;
+
+}
+.kubatext1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 3vh;
+  color: #ffffff !important;
+  font-weight: bold;
+}
+.kubatext2{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 3vh;
+  color: #ffffff !important;
+  
+}
+.kubatext3{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger;
+  color: #ffffff !important;
+  font-weight: lighter;
+}
+.kubaicon{
+  font-size: 3vh;
+  color: #ffffff !important;
+}
 
 
 .p2{
