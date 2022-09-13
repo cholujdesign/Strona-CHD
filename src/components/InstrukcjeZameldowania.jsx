@@ -114,7 +114,7 @@ class Contact extends React.Component {
                 lewej stronie)
                 <br />
                 *krata sama sie opuści po 60 sekundach, wielokrotne i częste przykładanie karty może zawiesić system
-                ! NIGDY NIE UŻYWAJ SIŁY, ABY OTWORZYC KRATĘ - KARA W RAZIE USZKODZENIA !
+                ! NIGDY NIE UŻYWAJ SIŁY, ABY OTWORZYC KRATĘ - KARA 500 PLn W RAZIE USZKODZENIA !
               </h3>
               <img src={p3} width="100%" />
               <h3>
@@ -152,6 +152,7 @@ class Contact extends React.Component {
                 Naciśnij przycisk po prawej stronie jeżeli krata jest opuszczona
                 <br />
                 *krata sama sie opuści po 60 sekundach, wielokrotne i szybkie przykładanie karty spowoduje zablkowanie systemu
+                kara za uszkodzenie kary 500 PLN
               </h3>
             </Col>
           </Row>
@@ -178,9 +179,11 @@ class Contact extends React.Component {
                 <br/>1. Zakaz Palenia. 
                 <br/>2. Zero hałasu po godzinie 22:00. 
                 <br/>3. Prosimy wyłączać swiatło po wyjściu z lokalu. 
-                <br/>4.Zwierzęta są zakazane. 
+                <br/>4. Zwierzęta są zakazane. 
                 <br/>5. Tylko zarejestrowani goście. 
-                <br/>6.Zero imprez i wydarzeń.{" "}
+                <br/>6. Zero imprez i wydarzeń.
+                <br/>7. 100 pln kary za zgubienie klucza lub karty.
+                <br/>8. Monitoring w budynku, goście są odpowiedzialni finansowo za zniszczenia budynku przez nich spowodowane.
               </h5>
             </Col>
           </Row>
@@ -265,7 +268,7 @@ class Contact extends React.Component {
                 
                 <br />
                 *the gate closes automatically after 60 seconds, do not touch the card reader with the card many times!
-                ! NEVER USE FORCE TO OPEN THE GATE - FEE APPLIES !
+                ! NEVER USE FORCE TO OPEN THE GATE - 200 euro FEE APPLIES !
               </h3>
               <img src={p3} width="100%" />
               <h3>
@@ -331,6 +334,8 @@ class Contact extends React.Component {
 <br/>4. No Pets.
 <br/>5. Only registered Guests.
 <br/>6. No Parties or Events.
+<br/>7. 50 euro fine in case the guest loses the card or the key
+<br/>8. CCTV in operation, guests are finacially responsible for any damages caused by them to the buidling
               </h5>
             </Col>
           </Row>
