@@ -141,6 +141,7 @@ class Contact extends React.Component {
 
             <Col s={12} m={4} push="m4">
               {" "}
+              <img src={p8} width="100%" />
               <h5> Przekręć klucz do mieszkania tylko raz, inaczej osoby w środku nie otworzą drzwi </h5>
               <img src={p9} width="100%" />
               <h3> Naciśnij klamkę jeżeli drzwi są zamknięte </h3>
@@ -212,7 +213,7 @@ class Contact extends React.Component {
           <Row />
           <Row />
           <h3 className="white-text">
-            Rynek Główny - Apartment - Instrukctions
+            Rynek Główny - Apartment - Instructions
           </h3>
           <br />
           <br />
@@ -279,7 +280,7 @@ class Contact extends React.Component {
               <img src={p4} width="100%" />
               <h3> Go upstairs (lagguage storage under the staircase)</h3>
               <img src={p5} width="100%" />
-              <h3> UIse the card to open the door (card reader on the left) </h3>
+              <h3> Use the card to open the door (card reader on the left) </h3>
               <img src={p6} width="100%" />
               <h3>
                 {" "}
@@ -294,7 +295,8 @@ class Contact extends React.Component {
 
             <Col s={12} m={4} push="m4">
               {" "}
-              <h3> Remeber to close the apartment's door and to turn the key only once(otherwise people inside can not exit) </h3>
+              <img src={p8} width="100%" />
+              <h3> Remeber to close the apartment's white door and to turn the key only once(otherwise people inside can not exit) </h3>
               <img src={p9} width="100%" />
               <h3> Press the door handle if they are closed </h3>
               <img src={p10} width="100%" />
@@ -323,7 +325,7 @@ class Contact extends React.Component {
           </Row>
           <Row>
             <Divider />
-            <h3>Regulamin</h3>
+            <h3>House Rules</h3>
 
             <Col s={12} m={4} push="m4">
               {" "}
