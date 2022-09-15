@@ -66,6 +66,7 @@ class Contact extends React.Component {
           <br />
           <br />
           <h5 className="white-text">Adres: Rynek Główny 43, Kraków</h5>
+          <h5 className="white-text">Taxi: +48507894989</h5>
           <h5 className="white-text">Telefon: +48516947657</h5>
           <h5 className="white-text">Email: cholujdesign@gmail</h5>
           <h5>Wifi: Rynek43_Apartment / Hasło: rg433420</h5>
@@ -84,6 +85,9 @@ class Contact extends React.Component {
               </Button>
               <a className="btn-large teal " href="tel:+48516947657">
                 Zadzwon
+              </a>
+              <a className="btn-large orange darken-3 " href="tel:+48507894989">
+                Taxi
               </a>
               <a className="btn-large  " href="mailto:cholujdesign@gmail.com">
                 Mail
@@ -218,6 +222,7 @@ class Contact extends React.Component {
           <br />
           <br />
           <h5 className="white-text">Adress: Rynek Główny 43, Kraków</h5>
+          <h5 className="white-text">Taxi: +48507894989</h5>
           <h5 className="white-text">Phone: +48516947657</h5>
           <h5 className="white-text">Email: cholujdesign@gmail</h5>
           <h5>
@@ -238,6 +243,9 @@ class Contact extends React.Component {
               </Button>
               <a className="btn-large teal " href="tel:+48516947657">
                 Call us
+              </a>
+              <a className="btn-large orange darken-3 " href="tel:+48507894989">
+                Taxi
               </a>
               <a className="btn-large  " href="mailto:cholujdesign@gmail.com">
                 Mail
