@@ -108,7 +108,7 @@ const Designs = [
     title: "Szokła podstawoa, Krosno",
     design: "CHD architekci, Ruben Bardanaszwili, USŁUGI PROJEKTOWE I NADZÓR BUDOWLANY PIOTR NIKODY",
     date: "12/12/12",
-    description: "opis opis opis",
+    description: " ",
     img1: "https://drive.google.com/uc?export=view&id=1uGmxgo2Ph5DUKMbjkBxFvV9sjDG5HqNI",
     img2: "https://drive.google.com/uc?export=view&id=",
     img3: "https://drive.google.com/uc?export=view&id=",
@@ -119,7 +119,7 @@ const Concept = [
     title: "Newhaven, Place od dissapearance",
     design: "CHD architekci",
     date: "12/12/12",
-    description: "opis opis opis",
+    description: " ",
     img1: "https://drive.google.com/uc?export=view&id=171_7_suImHKZISrldKATiyhOEx1MABvo",
     img2: "https://drive.google.com/uc?export=view&id=1qjHTKziN2xMNXZv3J0K_88m0oqKFgw9W",
     img3: "https://drive.google.com/uc?export=view&id=",
@@ -128,7 +128,7 @@ const Concept = [
     title: "East London, Organic development",
     design: "CHD architekci",
     date: "12/12/12",
-    description: "opis opis opis",
+    description: " ",
     img1: "https://drive.google.com/uc?export=view&id=1MnJT5n587AXwKnwZk4yuTA25BkSJtv90",
     img2: "https://drive.google.com/uc?export=view&id=1gDS7065EcFFHz4sTuVuNReXKlKUHuw3n",
     img3: "https://drive.google.com/uc?export=view&id=",
@@ -137,7 +137,7 @@ const Concept = [
     title: "Kocepcje deweloperskie 1",
     design: "CHD architekci",
     date: "12/12/12",
-    description: "opis opis opis",
+    description: " ",
     img1: "https://drive.google.com/uc?export=view&id=1NH26e_tF2OxKPTqDm875iumkV9Zp95Se",
     img2: "https://drive.google.com/uc?export=view&id=1dWbkx0t2-Wrp8cXS3jrpUHsMrQ0M4QUZ",
     img3: "https://drive.google.com/uc?export=view&id=",
@@ -146,7 +146,7 @@ const Concept = [
     title: "Kocepcje deweloperskie 2",
     design: "CHD architekci",
     date: "12/12/12",
-    description: "opis opis opis",
+    description: " ",
     img1: "https://drive.google.com/uc?export=view&id=1r-el2OPyGnunWBaU6OqdhShV5aGmieBz",
     img2: "https://drive.google.com/uc?export=view&id=1qqEsUj4yvrbkIq17s7XTIC5MlelpWEv_",
     img3: "https://drive.google.com/uc?export=view&id=",
@@ -259,7 +259,7 @@ export default function BasicTabs() {
                     loading="lazy"
                     height="auto"
                     image={Realised.img1}
-                    alt="Paella dish"
+                    alt=" loading"
                   />
                   <CardContent>
                     <Typography variant="body2" color="text.secondary">
@@ -272,7 +272,7 @@ export default function BasicTabs() {
                     loading="lazy"
                     height="auto"
                     image={Realised.img2}
-                    alt="Paella dish"
+                    alt=" loading"
                   />
 
                   <CardActions disableSpacing>
@@ -314,7 +314,7 @@ export default function BasicTabs() {
                     loading="lazy"
                     height="auto"
                     image={Designs.img1}
-                    alt="Paella dish"
+                    alt=" loading"
                   />
                   <CardContent>
                     <Typography variant="body2" color="text.secondary">
@@ -326,7 +326,7 @@ export default function BasicTabs() {
                     loading="lazy"
                     height="auto"
                     image={Designs.img2}
-                    alt="Paella dish"
+                    alt=" loading"
                   />
 
                   <CardActions disableSpacing>
@@ -368,7 +368,7 @@ export default function BasicTabs() {
                     loading="lazy"
                     height="auto"
                     image={Concept.img1}
-                    alt="Paella dish"
+                    alt=" loading"
                   />
                   <CardContent>
                     <Typography variant="body2" color="text.secondary">
@@ -380,7 +380,7 @@ export default function BasicTabs() {
                     loading="lazy"
                     height="auto"
                     image={Concept.img2}
-                    alt="Paella dish"
+                    alt=" loading"
                   />
 
                   <CardActions disableSpacing>

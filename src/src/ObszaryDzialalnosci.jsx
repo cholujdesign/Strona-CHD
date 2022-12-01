@@ -12,22 +12,22 @@ import CardHeader from '@mui/material/CardHeader';
 import Container from "@mui/material/Container";
 
 const Individual = [
-    { title: 'item1', description: 'opis opis opis' },
-    { title: 'item1', description: 'opis opis opis' },
-    { title: 'item1', description: 'opis opis opis' },
-    { title: 'item1', description: 'opis opis opis' },
-    { title: 'item1', description: 'opis opis opis' },
-    { title: 'item1', description: 'opis opis opis' },
-    { title: 'item1', description: 'opis opis opis' }
+    { title: 'item1', description: ' ' },
+    { title: 'item1', description: ' ' },
+    { title: 'item1', description: ' ' },
+    { title: 'item1', description: ' ' },
+    { title: 'item1', description: ' ' },
+    { title: 'item1', description: ' ' },
+    { title: 'item1', description: ' ' }
   ];
   const Business = [
-    { title: 'item2', description: 'opis opis opis' },
-    { title: 'item2', description: 'opis opis opis' },
-    { title: 'item2', description: 'opis opis opis' },
-    { title: 'item2', description: 'opis opis opis' },
-    { title: 'item2', description: 'opis opis opis' },
-    { title: 'item2', description: 'opis opis opis' },
-    { title: 'item2', description: 'opis opis opis' }
+    { title: 'item2', description: ' ' },
+    { title: 'item2', description: ' ' },
+    { title: 'item2', description: ' ' },
+    { title: 'item2', description: ' ' },
+    { title: 'item2', description: ' ' },
+    { title: 'item2', description: ' ' },
+    { title: 'item2', description: ' ' }
   ];
 function TabPanel(props) {
   const { children, value, index, ...other } = props;

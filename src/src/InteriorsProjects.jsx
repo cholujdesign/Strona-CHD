@@ -38,7 +38,7 @@ const Realised = [
     title: "Dzień dobry cafe",
     design: "CHD architekci",
     date: "12/12/12",
-    description: "opis opis opis",
+    description: " ",
     img1: "https://drive.google.com/uc?export=view&id=1g1Dhx7gKF8hHtjO8-1EYs5m5m2BUbz4h",
     img2: "https://drive.google.com/uc?export=view&id=1mmsKZh0EFdjB5GlEKppoYGAhKknxQq-2",
     img3: "https://drive.google.com/uc?export=view&id=",
@@ -47,7 +47,7 @@ const Realised = [
     title: "Szoberowska",
     design: "CHD architekci",
     date: "12/12/12",
-    description: "opis opis opis",
+    description: " ",
     img1: "https://drive.google.com/uc?export=view&id=19UdHzsdmSf_7JAHVP3950IbnN6Xs_xTj",
     img2: "https://drive.google.com/uc?export=view&id=1U73av2hUYjVzU6T22GKoKwa_yHbfT68c",
     img3: "https://drive.google.com/uc?export=view&id=",
@@ -56,7 +56,7 @@ const Realised = [
     title: "Kazik",
     design: "CHD architekci",
     date: "12/12/12",
-    description: "opis opis opis",
+    description: " ",
     img1: "https://drive.google.com/uc?export=view&id=1TM2cqzyR4dF9o6E34bpB84rmUqY4l552",
     img2: "https://drive.google.com/uc?export=view&id=1-qsD1JhBPA7FH8VmonDdMo6s6waYZmRS",
     img3: "https://drive.google.com/uc?export=view&id=",
@@ -65,7 +65,7 @@ const Realised = [
     title: "Ingo Hostel",
     design: "CHD architekci",
     date: "12/12/12",
-    description: "opis opis opis",
+    description: " ",
     img1: "https://drive.google.com/uc?export=view&id=1l62F3Nq2UlpjFPiciz3BlYoZhRDCyGIx",
     img2: "https://drive.google.com/uc?export=view&id=1NvLn_FJPQmIcus6y_u9NDL3qfsoxV52J",
     img3: "https://drive.google.com/uc?export=view&id=",
@@ -78,7 +78,7 @@ const Designs = [
     title: "Wieliczka",
     design: "CHD architekci",
     date: "12/12/12",
-    description: "opis opis opis",
+    description: " ",
     img1: "https://drive.google.com/uc?export=view&id=1cdFjMeNyNYG2KpAHd2EET4Dhu1990q-l",
     img2: "https://drive.google.com/uc?export=view&id=1sJjUbPv6ipJW2G0WhRewcXxj4FuWfPCW",
     img3: "https://drive.google.com/uc?export=view&id=",
@@ -87,7 +87,7 @@ const Designs = [
     title: "Mieszkanie ds3456 ",
     design: "CHD architekci",
     date: "12/12/12",
-    description: "opis opis opis",
+    description: " ",
     img1: "https://drive.google.com/uc?export=view&id=1Akma9JRTXWBcrBpMjny89OB4PeFAgcqA",
     img2: "https://drive.google.com/uc?export=view&id=1GOFdtbnVtzZ3D-762e2bKTqQLKrS1LrF",
     img3: "https://drive.google.com/uc?export=view&id=",
@@ -96,7 +96,7 @@ const Designs = [
   //   title: "KAzik",
   //   design: "CHD architekci",
   //   date: "12/12/12",
-  //   description: "opis opis opis",
+  //   description: " ",
   //   img1: "https://drive.google.com/uc?export=view&id=",
   //   img2: "https://drive.google.com/uc?export=view&id=",
   //   img3: "https://drive.google.com/uc?export=view&id=",
@@ -107,7 +107,7 @@ const Concept = [
     title: "Rako1",
     design: "CHD architekci",
     date: "12/12/12",
-    description: "opis opis opis",
+    description: " ",
     img1: "https://drive.google.com/uc?export=view&id=1ALMh5ghHY627wna3c7xwaLgE1l59wMUX",
     img2: "https://drive.google.com/uc?export=view&id=1Zv66QLSUEOUl23VNUEPJm8i1SxTboktJ",
     img3: "https://drive.google.com/uc?export=view&id=",
@@ -116,7 +116,7 @@ const Concept = [
     title: "Rako2",
     design: "CHD architekci",
     date: "12/12/12",
-    description: "opis opis opis",
+    description: " ",
     img1: "https://drive.google.com/uc?export=view&id=1-4oy0Og3dZgQCbFZCmdWz_Qc4lXfzEmF",
     img2: "https://drive.google.com/uc?export=view&id=1Ft1TuzyV4KUlo-VfCCVYnX_OHob3fQyb",
     img3: "https://drive.google.com/uc?export=view&id=",
@@ -125,7 +125,7 @@ const Concept = [
     title: "Rako3",
     design: "CHD architekci",
     date: "12/12/12",
-    description: "opis opis opis",
+    description: " ",
     img1: "https://drive.google.com/uc?export=view&id=1MATtIbQKi_FmvxQ74NQAR0ArTqaSQ4fg",
     img2: "https://drive.google.com/uc?export=view&id=1FhPY8QpHING1TgNeQclFx_KLB-gcQsO5",
     img3: "https://drive.google.com/uc?export=view&id=",
@@ -134,7 +134,7 @@ const Concept = [
     title: "Ryn1",
     design: "CHD architekci",
     date: "12/12/12",
-    description: "opis opis opis",
+    description: " ",
     img1: "https://drive.google.com/uc?export=view&id=1lR3OiI8rME_ORGipI2ZxQhfjw9xGKh2d",
     img2: "https://drive.google.com/uc?export=view&id=1CCxNbbzX4sVc-I3A31l34GCKxeQXgzzX",
     img3: "https://drive.google.com/uc?export=view&id=",
@@ -143,7 +143,7 @@ const Concept = [
     title: "Ryn2",
     design: "CHD architekci",
     date: "12/12/12",
-    description: "opis opis opis",
+    description: " ",
     img1: "https://drive.google.com/uc?export=view&id=1gdaK3ti_dyS3qN7p1Kuw0dB5EtBmJlai",
     img2: "https://drive.google.com/uc?export=view&id=1imkCqW7UlggBhH_G6S51r8q5C7lTP6W0",
     img3: "https://drive.google.com/uc?export=view&id=",
@@ -152,7 +152,7 @@ const Concept = [
     title: "Ryn3",
     design: "CHD architekci",
     date: "12/12/12",
-    description: "opis opis opis",
+    description: " ",
     img1: "https://drive.google.com/uc?export=view&id=1lAhP2xAYcW0rGyfhAUqWaPX59Z98Z0UZ",
     img2: "https://drive.google.com/uc?export=view&id=1Tkeneydq6hJBUQrhYCog1ofoihyeG58p",
     img3: "https://drive.google.com/uc?export=view&id=",
@@ -161,7 +161,7 @@ const Concept = [
     title: "Ryn4",
     design: "CHD architekci",
     date: "12/12/12",
-    description: "opis opis opis",
+    description: " ",
     img1: "https://drive.google.com/uc?export=view&id=16JzT6SfN64wG8odqx4dHyN0ViQU7XHuN",
     img2: "https://drive.google.com/uc?export=view&id=1Zkopr96l85QidL3SWsgtmj3H-h7sv5vL",
     img3: "https://drive.google.com/uc?export=view&id=",
@@ -170,7 +170,7 @@ const Concept = [
     title: "Ryn5",
     design: "CHD architekci",
     date: "12/12/12",
-    description: "opis opis opis",
+    description: " ",
     img1: "https://drive.google.com/uc?export=view&id=15igGLnDQzfjihHyhyERCA3w5HijXCjDf",
     img2: "https://drive.google.com/uc?export=view&id=1gnchshJvyd0YFaRew-y2HVNsc00f-gXW",
     img3: "https://drive.google.com/uc?export=view&id=",
@@ -276,7 +276,7 @@ export default function BasicTabs() {
                     loading="lazy"
                     height="auto"
                     image={Realised.img1}
-                    alt="Paella dish"
+                    alt=" loading"
                   />
                   <CardContent>
                     <Typography variant="body2" color="text.secondary">
@@ -288,7 +288,7 @@ export default function BasicTabs() {
                     loading="lazy"
                     height="auto"
                     image={Realised.img2}
-                    alt="Paella dish"
+                    alt=" loading"
                   />
 
                   <CardActions disableSpacing>
@@ -330,7 +330,7 @@ export default function BasicTabs() {
                     loading="lazy"
                     height="auto"
                     image={Designs.img1}
-                    alt="Paella dish"
+                    alt=" loading"
                   />
                   <CardContent>
                     <Typography variant="body2" color="text.secondary">
@@ -342,7 +342,7 @@ export default function BasicTabs() {
                     loading="lazy"
                     height="auto"
                     image={Designs.img2}
-                    alt="Paella dish"
+                    alt=" loading"
                   />
 
                   <CardActions disableSpacing>
@@ -384,7 +384,7 @@ export default function BasicTabs() {
                     loading="lazy"
                     height="auto"
                     image={Concept.img1}
-                    alt="Paella dish"
+                    alt=" loading"
                   />
                   <CardContent>
                     <Typography variant="body2" color="text.secondary">
@@ -396,7 +396,7 @@ export default function BasicTabs() {
                     loading="lazy"
                     height="auto"
                     image={Concept.img2}
-                    alt="Paella dish"
+                    alt=" loading"
                   />
 
                   <CardActions disableSpacing>
