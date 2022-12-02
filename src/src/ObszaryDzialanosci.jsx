@@ -81,7 +81,7 @@ export default function Album() {
                 <Card
                 data-aos="fade-down"
                   sx={{
-                    height: "100%",
+                   
                     display: "flex",
                     flexDirection: "column",
                   }}
@@ -89,7 +89,7 @@ export default function Album() {
                   <CardMedia
                     component="img"
                     sx={{
-                      height: "100%",
+                      height: "250px",
                       // 16:9
                       // pt: "56.25%",
                     }}
@@ -108,7 +108,7 @@ export default function Album() {
                 <Card
                 data-aos="fade-down"
                   sx={{
-                    height: "100%",
+                    
                     display: "flex",
                     flexDirection: "column",
                   }}
@@ -116,7 +116,7 @@ export default function Album() {
                   <CardMedia
                     component="img"
                     sx={{
-                      height: "100%",
+                      height: "250px",
                       // 16:9
                       // pt: "56.25%",
                     }}
@@ -135,7 +135,7 @@ export default function Album() {
                 <Card
                 data-aos="fade-down"
                   sx={{
-                    height: "100%",
+                    
                     display: "flex",
                     flexDirection: "column",
                   }}
@@ -143,7 +143,7 @@ export default function Album() {
                   <CardMedia
                     component="img"
                     sx={{
-                      height: "100%",
+                      height: "250px",
                       // 16:9
                       // pt: "56.25%",
                     }}

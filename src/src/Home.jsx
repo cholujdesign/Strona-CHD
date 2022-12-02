@@ -85,7 +85,7 @@ export default function Album() {
         {/* Hero unit */}
         <Box
           sx={{
-            backgroundImage: `url(https://images.unsplash.com/photo-1497091071254-cc9b2ba7c48a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1474&q=80)`,
+            backgroundImage: `url(https://drive.google.com/uc?export=view&id=10oapHpS9XICtTtT21Uehn90kbCga7-eL)`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             minHeight: "95vh",
@@ -109,7 +109,7 @@ export default function Album() {
               component="h1"
               variant="h2"
               align="center"
-              color="white"
+              color="primary"
               gutterBottom
             >
               Architekci
@@ -163,7 +163,7 @@ export default function Album() {
             <Grid data-aos="zoom-out" item xs={12} sm={12} sx={{ pb: 20 }}>
               <Box
                 sx={{
-                  backgroundImage: `url(https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80)`,
+                  backgroundImage: `url(https://images.unsplash.com/photo-1612886649464-4a888608eace?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80)`,
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   borderRadius: "20px",
@@ -189,14 +189,14 @@ export default function Album() {
                 indywidualnie. Motywem przewodnim w naszej pracy jest
                 oddziaływanie światła naturalnego oraz sztucznego na
                 kolorystykę, fakture bryly budynku, geometrię wnętrza oraz
-                powiazanie projektu z naturá.Duzy nacisk kladziemy na percepcję
+                powiazanie projektu z naturá. Duzy nacisk kladziemy na percepcję
                 użytkownika w projektowanym obiekcie.
               </Typography>
             </Grid>
             <Grid data-aos="zoom-out" item xs={12} sm={12} sx={{ pb: 10 }}>
               <Box
                 sx={{
-                  backgroundImage: `url(https://images.unsplash.com/photo-1505664194779-8beaceb93744?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80)`,
+                  backgroundImage: `url(https://images.unsplash.com/photo-1523726491678-bf852e717f6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80)`,
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   borderRadius: "20px",
