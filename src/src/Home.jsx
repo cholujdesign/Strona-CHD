@@ -12,6 +12,7 @@ import { grey, teal } from "@mui/material/colors";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import ReactPlayer from "react-player/lazy";
+// import Iframe from "react-iframe";
 
 // import Blog from './src/Blog'
 
@@ -95,14 +96,15 @@ export default function Album() {
         {/* desktop */}
 
         <div className="player-wrapper">
+       
               <ReactPlayer
             className="react-player"
             url="https://www.youtube.com/watch?v=PeBJaU_vzUw-U"
             width="100%"
             height="100%"
-            muted
+            muted={true}
+            playsinline={true}
             playing={true}
-            playsInline 
             loop={true}
             controls={false}
           />
