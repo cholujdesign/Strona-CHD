@@ -20,12 +20,12 @@ code {
 }
 
 .player-wrapper {
-  position: absolute;
+  position: fixed;
   /* height: 100vh !important; */
   width: 100vw !important;
   padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
   top: 0px;
-  z-index: -5;
+  z-index: -2;
 }
 
 @media screen and (max-width: 768px) {
@@ -44,7 +44,7 @@ code {
 }
 @media screen and (min-width: 768px) {
 .react-player {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: -1;
@@ -61,4 +61,8 @@ code {
   height: 100vh !important;
   z-index: -2;
 }
+}
+
+.bgHome{
+  background-color: rgba(0, 0, 0, .5);
 }
