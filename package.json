@@ -1,6 +1,6 @@
 {
-  "name": "jmkancelaria",
-  "version": "0.1.0",
+  "name": "chd_architekci",
+  "version": "0.1.2",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
@@ -17,8 +17,10 @@
     "react-document-meta": "^3.0.0-beta.2",
     "react-dom": "^18.2.0",
     "react-iframe": "^1.8.5",
+    "react-player": "^2.11.0",
     "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
+    "react-youtube": "^10.1.0",
     "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4"
   },

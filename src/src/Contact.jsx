@@ -29,19 +29,20 @@ import Avatar from '@mui/material/Avatar';
 import { CardActionArea } from "@mui/material";
 import Iframe from "react-iframe";
 import emailjs from "@emailjs/browser";
+import GlobalStyles from "@mui/material/GlobalStyles";
 
 
 
-const theme = createTheme({
-  palette: {
-    primary: {
-      main: grey[200],
-    },
-    secondary: {
-      main: teal[800],
-    },
-  },
-});
+// const theme = createTheme({
+//   palette: {
+//     primary: {
+//       main: grey[200],
+//     },
+//     secondary: {
+//       main: teal[800],
+//     },
+//   },
+// });
 function sendEmail(e) {
   e.preventDefault();
 
@@ -69,11 +70,12 @@ export default function Album() {
     });
   }, []);
   return (
-    <ThemeProvider theme={theme}>
+<React.Fragment>
+      <GlobalStyles
+        styles={{ ul: { margin: 0, padding: 0, listStyle: "none" } }}
+      />
       <CssBaseline />
-
-      <main>
-        {/* Hero unit */}
+      {/* Hero unit */}
         <Box
           sx={{
             bgcolor: "background.paper",
@@ -213,7 +215,6 @@ export default function Album() {
             </Grid>
           </Grid>
         </Container>
-      </main>
-    </ThemeProvider>
+        </React.Fragment>
   );
 }

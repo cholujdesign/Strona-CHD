@@ -40,7 +40,8 @@ const Realised = [
     title: "Krynica-zdrój",
     design: "CHD architekci i Idea Development",
     date: "2022",
-    description: "Głównym celem przy reiwtalizacji Willi Złocień było zminimalizowanie ilości energii cieplnej, którą zużywa się na ogrzewanie Willi. W tym celu stosowane są nie tylko nowoczesne technologie, ale również specjalne techniki budownictwa, które pozwalają na minimalizację traconej energii przez budynek. Zadbano o utrzymanie zabytkowego wyglądu willi z jednoczesną zamianą budynku na budynek energooszczęny.",
+    description:
+      "Głównym celem przy reiwtalizacji Willi Złocień było zminimalizowanie ilości energii cieplnej, którą zużywa się na ogrzewanie Willi. W tym celu stosowane są nie tylko nowoczesne technologie, ale również specjalne techniki budownictwa, które pozwalają na minimalizację traconej energii przez budynek. Zadbano o utrzymanie zabytkowego wyglądu willi z jednoczesną zamianą budynku na budynek energooszczęny.",
     img1: "https://drive.google.com/uc?export=view&id=1aVlbgXYCUgibAruMIrAoohnZJot-j5-6",
     img2: "https://drive.google.com/uc?export=view&id=1rp5rmb-RcP3O4tDY21CUBOBobzxchFX0",
     img3: "https://drive.google.com/uc?export=view&id=",
@@ -49,7 +50,7 @@ const Realised = [
     title: "Dom prefabrykowany, Krosno",
     design: "CHD architekci",
     date: "2021",
-    description: "Dom prefabrykowany",
+    description: "Dom prefabrykowany wykonany w technologi szkieletowej, posadowiony na palach. ",
     img1: "https://drive.google.com/uc?export=view&id=1yMUFbHEo95Fc2BnURrZS7PG0aAthbt_3",
     img2: "https://drive.google.com/uc?export=view&id=1Q2iBCQ0Jk4mgNVysn881WaB-tiYOrnlK",
     img3: "https://drive.google.com/uc?export=view&id=",
@@ -58,7 +59,8 @@ const Realised = [
     title: "Południe Polski",
     design: "CHD architekci",
     date: "2019",
-    description: "Rewitalizacja istniejacego obiektu wraz z zagospodarowaniem terenu.",
+    description:
+      "Rewitalizacja istniejacego obiektu wraz z zagospodarowaniem terenu.",
     img1: "https://drive.google.com/uc?export=view&id=1sph9w0jBEJ1MenMVkTWDWJkIhJCsgs4d",
     img2: "https://drive.google.com/uc?export=view&id=1fIdAOI4idppH0_rz1EjqLGCZrdR9OpyH",
     img3: "https://drive.google.com/uc?export=view&id=1MfdCM5DFYoX2LN4q5GA2vmTQlOnieUYq",
@@ -106,7 +108,8 @@ const Designs = [
   },
   {
     title: "Szokła podstawoa, Krosno",
-    design: "CHD architekci, Ruben Bardanaszwili, USŁUGI PROJEKTOWE I NADZÓR BUDOWLANY PIOTR NIKODY",
+    design:
+      "CHD architekci, Ruben Bardanaszwili, USŁUGI PROJEKTOWE I NADZÓR BUDOWLANY PIOTR NIKODY",
     date: "12/12/12",
     description: " ",
     img1: "https://drive.google.com/uc?export=view&id=1uGmxgo2Ph5DUKMbjkBxFvV9sjDG5HqNI",
@@ -247,13 +250,11 @@ export default function BasicTabs() {
                     title={Realised.title}
                     subheader={Realised.date}
                   />
-                   <Typography variant="body2" color="text.secondary">
-                    
-                      
-                      {Realised.design}
-                      <br/>
-                      <br/>
-                    </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    {Realised.design}
+                    <br />
+                    <br />
+                  </Typography>
                   <CardMedia
                     component="img"
                     loading="lazy"
@@ -264,7 +265,6 @@ export default function BasicTabs() {
                   <CardContent>
                     <Typography variant="body2" color="text.secondary">
                       {Realised.description}
-                    
                     </Typography>
                   </CardContent>
                   <CardMedia

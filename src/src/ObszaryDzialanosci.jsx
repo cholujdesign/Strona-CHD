@@ -17,7 +17,7 @@ import Link from "@mui/material/Link";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
+import GlobalStyles from "@mui/material/GlobalStyles";
 
 
 const theme = createTheme();
@@ -29,11 +29,13 @@ export default function Album() {
     });
   }, []);
   return (
-    <ThemeProvider theme={theme}>
+    <React.Fragment>
+      <GlobalStyles
+        styles={{ ul: { margin: 0, padding: 0, listStyle: "none" } }}
+      />
       <CssBaseline />
 
-      <main>
-        {/* Hero unit */}
+    
         <Box
           sx={{
             bgcolor: "background.paper",
@@ -44,8 +46,8 @@ export default function Album() {
         >
           <Container maxWidth="sm">
             <Typography
-              component="h1"
-              variant="h2"
+             component="h3"
+                  variant="h3"
               align="center"
               color="text.primary"
               gutterBottom
@@ -160,7 +162,7 @@ export default function Album() {
             
           </Grid>
         </Container>
-      </main>
-    </ThemeProvider>
+      
+        </React.Fragment>
   );
 }

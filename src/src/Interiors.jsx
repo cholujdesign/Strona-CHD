@@ -78,8 +78,8 @@ function PricingContent() {
           sx={{ pt: 8, pb: 6 }}
         >
           <Typography
-            component="h1"
-            variant="h2"
+            component="h3"
+                  variant="h3"
             align="center"
             color="text.primary"
             gutterBottom

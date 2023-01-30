@@ -41,17 +41,23 @@ function Copyright() {
 const theme = createTheme({
   palette: {
     primary: {
-      light: "#ff7500",
-      main: "#f44336",
+      light: "#ff7961",
+      main: "#A97900",
       dark: "#ba000d",
-      contrastText: "#000",
+      contrastText: "#fff",
     },
     secondary: {
       light: "#4b688b",
-      main: "#123042",
+      main: "#1c3e5e",
       dark: "#001834",
       contrastText: "#fff",
     },
+  },
+  typography: {
+    fontFamily: [
+      'Aboreto',
+ 
+    ].join(','),
   },
 });
 const meta = {

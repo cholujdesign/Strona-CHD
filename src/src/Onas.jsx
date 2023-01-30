@@ -58,7 +58,7 @@ function PricingContent() {
             CHD Architekci
           </Typography>
           <Typography
-            variant="h7"
+            variant="h6"
             align="left"
             color="text.secondary"
             component="p"
@@ -95,7 +95,7 @@ function PricingContent() {
         >
           <Box
             sx={{
-              backgroundColor: "secondary.light",
+              backgroundColor: "primary.main",
             }}
           >
             <Typography
@@ -133,7 +133,7 @@ function PricingContent() {
         >
           <Box data-aos="zoom-in"
             sx={{
-              backgroundColor: "secondary.light",
+              backgroundColor: "primary.main",
             }}
           >
             <Typography
@@ -153,8 +153,8 @@ function PricingContent() {
               color="white"
             >
               Korzystamy z drukarki 3d, oprogramowania do produkcji
-              zaawansowanych cyfrowych modeli 3d. Korzystamy z projektowania
-              algorytmicznego.
+              zaawansowanych cyfrowych modeli 3D oraz animacji. Czasem projektujemy z pomocą
+              przygotowanych przez nas algorytmów.
             </Typography>
           </Box>
         </Box>
@@ -170,7 +170,7 @@ function PricingContent() {
         >
           <Box data-aos="zoom-in"
             sx={{
-              backgroundColor: "secondary.light",
+              backgroundColor: "primary.main",
             }}
           >
             <Typography

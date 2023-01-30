@@ -75,10 +75,28 @@ const Realised = [
 ];
 const Designs = [
   {
-    title: "Wieliczka",
-    design: "CHD architekci",
-    date: "12/12/12",
+    title: "Eliptical Duplex Stair",
+    design: "CHD architekci - projekt wkonawczy",
+    date: "12/01/2023",
     description: " ",
+    img1: "https://drive.google.com/uc?export=view&id=17N1LBs2JmkJeBQaIlqe0h70nSqZlcuAL",
+    img2: "https://drive.google.com/uc?export=view&id=1Nza7P2ZH7XkXzJa2DbchOYPSHhMdQ9XX",
+    img3: "https://drive.google.com/uc?export=view&id=",
+  },
+  {
+    title: "Mieszkanie Kraków a23",
+    design: "CHD architekci - projekt wkonawczy  i koncepcyjny",
+    date: "21/12/2022",
+    description: " ",
+    img1: "https://drive.google.com/uc?export=view&id=1udwruADuCuz-fxYcsRjF69TC-OxrT3Kx",
+    img2: "https://drive.google.com/uc?export=view&id=1BJ_6OQt0EQOSnyPlabHj6UdhonvraOLf",
+    img3: "https://drive.google.com/uc?export=view&id=",
+  },
+  {
+    title: "Willa Wieliczka",
+    design: "CHD architekci",
+    date: "01/12/18",
+    description: "Kompleksowy projekt architektoniczno-wnętrzarski willi wraz zagospodarowaniem terenu",
     img1: "https://drive.google.com/uc?export=view&id=1cdFjMeNyNYG2KpAHd2EET4Dhu1990q-l",
     img2: "https://drive.google.com/uc?export=view&id=1sJjUbPv6ipJW2G0WhRewcXxj4FuWfPCW",
     img3: "https://drive.google.com/uc?export=view&id=",
@@ -86,7 +104,7 @@ const Designs = [
   {
     title: "Mieszkanie ds3456 ",
     design: "CHD architekci",
-    date: "12/12/12",
+    date: "12/02/17",
     description: " ",
     img1: "https://drive.google.com/uc?export=view&id=1Akma9JRTXWBcrBpMjny89OB4PeFAgcqA",
     img2: "https://drive.google.com/uc?export=view&id=1GOFdtbnVtzZ3D-762e2bKTqQLKrS1LrF",
@@ -104,12 +122,12 @@ const Designs = [
 ];
 const Concept = [
   {
-    title: "Rako1",
+    title: "Rako3",
     design: "CHD architekci",
     date: "12/12/12",
     description: " ",
-    img1: "https://drive.google.com/uc?export=view&id=1ALMh5ghHY627wna3c7xwaLgE1l59wMUX",
-    img2: "https://drive.google.com/uc?export=view&id=1Zv66QLSUEOUl23VNUEPJm8i1SxTboktJ",
+    img1: "https://drive.google.com/uc?export=view&id=1MATtIbQKi_FmvxQ74NQAR0ArTqaSQ4fg",
+    img2: "https://drive.google.com/uc?export=view&id=1FhPY8QpHING1TgNeQclFx_KLB-gcQsO5",
     img3: "https://drive.google.com/uc?export=view&id=",
   },
   {
@@ -122,14 +140,14 @@ const Concept = [
     img3: "https://drive.google.com/uc?export=view&id=",
   },
   {
-    title: "Rako3",
+    title: "Rako1",
     design: "CHD architekci",
     date: "12/12/12",
     description: " ",
-    img1: "https://drive.google.com/uc?export=view&id=1MATtIbQKi_FmvxQ74NQAR0ArTqaSQ4fg",
-    img2: "https://drive.google.com/uc?export=view&id=1FhPY8QpHING1TgNeQclFx_KLB-gcQsO5",
+    img1: "https://drive.google.com/uc?export=view&id=1ALMh5ghHY627wna3c7xwaLgE1l59wMUX",
+    img2: "https://drive.google.com/uc?export=view&id=1Zv66QLSUEOUl23VNUEPJm8i1SxTboktJ",
     img3: "https://drive.google.com/uc?export=view&id=",
-  },
+  },  
   {
     title: "Ryn1",
     design: "CHD architekci",
