@@ -218,8 +218,8 @@ export default function Album() {
 
               <Grid data-aos="zoom-in" item xs={12} sm={12} sx={{ pb: 20 }}>
                 <Typography
-                  component="h3"
-                  variant="h3"
+                  component="h4"
+                  variant="h4"
                   align="left"
                   color="white"
                   gutterBottom
@@ -251,8 +251,8 @@ export default function Album() {
 
               <Grid data-aos="zoom-in" item xs={12} sm={12} sx={{ pb: 20 }}>
                 <Typography
-                  component="h3"
-                  variant="h3"
+                 component="h4"
+                 variant="h4"
                   align="center"
                   color="white"
                   gutterBottom
@@ -289,8 +289,8 @@ export default function Album() {
 
               <Grid data-aos="zoom-in" item xs={12} sm={12} sx={{ pb: 10 }}>
                 <Typography
-                  component="h3"
-                  variant="h3"
+                 component="h4"
+                 variant="h4"
                   align="center"
                   color="white"
                   gutterBottom
