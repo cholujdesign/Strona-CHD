@@ -100,8 +100,9 @@ export default function Album() {
             url="https://www.youtube.com/watch?v=PeBJaU_vzUw-U"
             width="100%"
             height="100%"
+            muted
             playing={true}
-            volume={false}
+            playsInline 
             loop={true}
             controls={false}
           />
