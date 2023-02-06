@@ -21,7 +21,7 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Nav from "./nav";
+import Nav from "./navEn";
 
 function PricingContent() {
   useEffect(() => {
@@ -56,7 +56,7 @@ function PricingContent() {
             color="text.primary"
             gutterBottom
           >
-            CHD Architekci
+            CHD Architects
           </Typography>
           <Typography
             variant="h6"
@@ -66,13 +66,13 @@ function PricingContent() {
             gutterBottom
           >
             <br />
-            Zajmujemy się architekturą oraz architekturą wnętrz od ponad 25 lat.
-            Nasz zespół ma doświadczenie w projektach od małych do średnich,
-            nadzorze autorskim oraz kierowaniu budową. Od dekady zaczęliśmy
-            łączyć projektowanie przestrzenne z projektowaniem form
-            przemysłowych. W zależności od typu i rozmiaru projektu zapraszamy
-            do współpracy naszych kolegów po fachu oraz innych zaufanych
-            specjalistów.{" "}
+            We have been dealing with architecture and interior design for over 25 years.
+             Our team has experience in small to medium projects,
+             author's supervision and construction management. We started a decade ago
+             combine spatial design with form design
+             industrial. Depending on the type and size of the project, you are welcome
+             to the cooperation of our colleagues and other trusted people
+             specialists.{" "}
           </Typography>
         </Container>
       </Box>
@@ -106,20 +106,20 @@ function PricingContent() {
               align="center"
               color="white"
             >
-              Własna produkcja prototypów
-            </Typography>
-            <br />
-            <br />
-            <Typography
-              component="h6"
-              variant="h6"
-              align="center"
-              color="white"
-            >
-              Wykonujemy prototypy mebli, lamp, rozwiązań
-              technologiczno-materiałowych. Posiadamy 2 małe warsztaty
-              wyposażone w sprzęt pozwalający na obróbkę metalu, drewna i wielu
-              innych materiałow.
+             Own production of prototypes
+             </Typography>
+             <br />
+             <br />
+             <Typography
+               component="h6"
+               variant="h6"
+               align="center"
+               color="white"
+             >
+               We make prototypes of furniture, lamps and solutions
+               technological and material. We have 2 small workshops
+               equipped with equipment for processing metal, wood and many others
+               other materials.
             </Typography>
           </Box>
         </Box>
@@ -145,56 +145,56 @@ function PricingContent() {
               align="center"
               color="white"
             >
-              Nowoczesne technologie
-            </Typography>
-            <br />
-            <br />
-            <Typography
-              component="h6"
-              variant="h6"
-              align="center"
-              color="white"
-            >
-              Korzystamy z drukarki 3d, oprogramowania do produkcji
-              zaawansowanych cyfrowych modeli 3D oraz animacji. Czasem projektujemy z pomocą
-              przygotowanych przez nas algorytmów.
-            </Typography>
-          </Box>
-        </Box>
-        <br /> <br />
-        <Box data-aos="zoom-in"
-          sx={{
-            borderRadius:5,
-            backgroundImage: `url(https://c.stocksy.com/a/ZBH000/z9/66065.jpg)`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            alignItems: "center",
-            py: 35,
-          }}
-        >
-          <Box data-aos="zoom-in"
-            sx={{
-              backgroundColor: "secondary.main",
-            }}
-          >
-            <Typography
-              component="h1"
-              variant="h4"
-              align="center"
-              color="white"
-            >
-              Tradycyjne techniki
-            </Typography>
-            <br />
-            <br />
-            <Typography
-              component="h6"
-              variant="h6"
-              align="center"
-              color="white"
-            >
-              Czasami pracujemy z użyciem tradycjnych technik projektowych
-              takich jak produkcja modeli, szkice odręczne, malowanie.
+ Modern technologies
+             </Typography>
+             <br />
+             <br />
+             <Typography
+               component="h6"
+               variant="h6"
+               align="center"
+               color="white"
+             >
+               We use a 3d printer, production software
+               advanced digital 3D models and animations. Sometimes we design with help
+               algorithms prepared by us.
+             </Typography>
+           </Box>
+         </Box>
+         <br /> <br />
+         <Box data-aos="zoom-in"
+           sx={{
+             borderRadius:5,
+             backgroundImage: `url(https://c.stocksy.com/a/ZBH000/z9/66065.jpg)`,
+             backgroundSize: "cover",
+             backgroundPosition: "center",
+             alignItems: "center",
+             py: 35,
+           }}
+         >
+           <Box data-aos="zoom-in"
+             sx={{
+               backgroundColor: "secondary.main",
+             }}
+           >
+             <Typography
+               component="h1"
+               variant="h4"
+               align="center"
+               color="white"
+             >
+               Traditional techniques
+             </Typography>
+             <br />
+             <br />
+             <Typography
+               component="h6"
+               variant="h6"
+               align="center"
+               color="white"
+             >
+               Sometimes we work with traditional design techniques
+               such as model making, freehand sketches, painting.
             </Typography>
           </Box>
         </Box>

@@ -22,34 +22,8 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import ArchitectureProjects from "./InteriorsProjects";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Nav from "./nav";
-const cards = [
-  {
-    head: "Prawo budowlane",
-    text: "pare slow o prawie budowlanym",
-    pic: "https://images.unsplash.com/photo-1595844730298-b960ff98fee0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-  },
-  {
-    head: "Prawo budowlane",
-    text: "pare slow o prawie budowlanym",
-    pic: "https://images.unsplash.com/photo-1595844730298-b960ff98fee0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-  },
-  {
-    head: "Prawo budowlane",
-    text: "pare slow o prawie budowlanym",
-    pic: "https://images.unsplash.com/photo-1595844730298-b960ff98fee0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-  },
-  {
-    head: "Prawo budowlane",
-    text: "pare slow o prawie budowlanym",
-    pic: "https://images.unsplash.com/photo-1595844730298-b960ff98fee0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-  },
-  {
-    head: "Prawo budowlane",
-    text: "pare slow o prawie budowlanym",
-    pic: "https://images.unsplash.com/photo-1595844730298-b960ff98fee0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-  },
-];
+import Nav from "./navEn";
+
 
 function PricingContent() {
   useEffect(() => {
@@ -84,21 +58,21 @@ function PricingContent() {
             color="text.primary"
             gutterBottom
           >
-            Architektura Wnętrz
-          </Typography>
-          <Typography
-            variant="h7"
-            align="left"
-            color="text.secondary"
-            component="p"
-            data-aos="fade-up"
-          >
-            <br />
-            Nasze biuro posiada wieloletnie doświadczenie w zakresie projektowania architektonicznego,
-            nadzoru budowy oraz prowadzenia budowy. Bierzemy udział w konkursach i przygotowujemy projekty koncepcyjne, aby 
-            poszerzać nasze horyzonty projektowe. Jednocześnie dzięki doświadczeniu na budowach jesteśmy w stanie
-            projektować obiekty łatwe i tanie do wybudowania.
-          </Typography>
+           interior design
+            </Typography>
+            <Typography
+              variant="h7"
+              align="left"
+              color="text.secondary"
+              component="p"
+              data-aos="fade-up"
+            >
+              <br />
+              Our office has many years of experience in architectural design,
+              construction supervision and construction management. We take part in competitions and prepare conceptual designs to
+              expand our design horizons. At the same time, thanks to our experience on construction sites, we are able to
+              design objects that are easy and cheap to build.
+           </Typography>
         </Container>
       </Box>
 

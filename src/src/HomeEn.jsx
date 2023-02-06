@@ -14,7 +14,8 @@ import "aos/dist/aos.css";
 import ReactPlayer from "react-player/lazy";
 import Iframe from "react-iframe";
 import { browserName, CustomView } from "react-device-detect";
-import Nav from "./nav";
+import Nav from "./navEn";
+
 // import Blog from './src/Blog'
 
 function Copyright() {
@@ -103,7 +104,7 @@ export default function Album() {
             color="primary"
             gutterBottom
           >
-            Architekci
+            Architects
           </Typography>
 
           <Button href="tel:+48509446074" variant="contained">
@@ -152,7 +153,7 @@ export default function Album() {
                 color="primary"
                 gutterBottom
               >
-                Architekci
+                Architects
               </Typography>
               {/* <Typography variant="h5" align="center" color="white" paragraph>
               adw.jan kowalski
@@ -204,16 +205,16 @@ export default function Album() {
                     color="white"
                     gutterBottom
                   >
-                    Architektura, wnętrza, CGI
+                    Architecture, Interiors, CGI
                   </Typography>
                   <Typography variant="h6" align="left" color="white" paragraph>
-                    Oferujemy usługi w zakresie projektowania architektury,
-                    architektury wnętrz, animacji, wizualizacji, modelowania 3D
-                    oraz projektowania stron internetowych. Współpracujemy z
-                    deweloperami w pełnym zakresie, pozwala to na
-                    zaprezentowanie klientowi spoistego designu począwszy od
-                    proponowanego budynku, poprzez sposób jego zaprezentowania
-                    kończąc na projekcie strony.
+                  We offer services in the field of architecture design,
+                     interior design, animation, visualization, 3D modeling
+                     and website design. we work with
+                     developers to the full extent, it allows
+                     presenting the client with a cohesive design starting from
+                     of the proposed building through the way it is presented
+                     ending with the website design.
                   </Typography>
                 </Box>
               </Grid>
@@ -239,20 +240,20 @@ export default function Album() {
                   color="white"
                   gutterBottom
                 >
-                  Nasze Manifesto
+                   Manifesto
                 </Typography>
                 <Typography variant="h6" align="left" color="white" paragraph>
-                  Skupiamy się w pierwszej kolejności nad potrzebami i
-                  oczekiwaniami naszych klientów, każdy projekt jest analizowany
-                  indywidualnie.
-                  <br />
-                  Motywem przewodnim w naszej pracy jest oddziaływanie światła
-                  naturalnego oraz sztucznego na kolorystykę, fakturę bryly
-                  budynku, geometrię wnętrza oraz powiazanie projektu z naturą.
-                  <br />
-                  Duzy nacisk kładziemy na percepcję użytkownika w projektowanym
-                  obiekcie. Projektowanie przestrzenne doświadcza się poprzez
-                  wicej niż tylko jeden zmysł.
+                We focus first on the needs and
+                   expectations of our customers, each project is analyzed
+                   individually.
+                   <br />
+                   The leitmotif in our work is the impact of light
+                   natural and artificial for colors and texture of the block
+                   of the building, the geometry of the interior and the link between the design and nature.
+                   <br />
+                   We place great emphasis on the user's perception in the design
+                   facility. Spatial design is experienced through
+                   more than just one sense.
                 </Typography>
               </Grid>
               <Grid data-aos="zoom-out" item xs={12} sm={12} sx={{ pb: 11 }}>
@@ -277,18 +278,18 @@ export default function Album() {
                   color="white"
                   gutterBottom
                 >
-                  Publikacje, Współpraca
-                </Typography>
-                <Typography variant="h6" align="left" color="white" paragraph>
-                  Nasza praca została nie tylko doceniona przez naszych
-                  klientów, ale również przez prasę architektoniczną.
-                  <br />
-                  Wspólpracujemy z projektantami z Polski, Anglii, USA,
-                  Holandii.
-                  <br />
-                  W zależności od skali i specyfikacji projektu powiększamy nasz
-                  zespół, pozwala to nam na oferowanie wysokiej jakości usług.
-                  <br />
+                 Publications, Cooperation
+                 </Typography>
+                 <Typography variant="h6" align="left" color="white" paragraph>
+                   Our work has been appreciated not only by our own
+                   customers, but also by the architectural press.
+                   <br />
+                   We cooperate with designers from Poland, England, USA,
+                   the Netherlands.
+                   <br />
+                   Depending on the scale and specifications of the project, we enlarge ours
+                   team, this allows us to offer high-quality services.
+                   <br />
                   <a href="https://www.homify.nl/ideabooks/9077119/ontdek-een-simpele-keukentransformatie">
                     <Typography
                       variant="h6"

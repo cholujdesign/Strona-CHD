@@ -22,6 +22,7 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import ArchitectureProjects from "./OtherProjects";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Nav from "./nav";
 
 function PricingContent() {
   useEffect(() => {
@@ -35,7 +36,7 @@ function PricingContent() {
         styles={{ ul: { margin: 0, padding: 0, listStyle: "none" } }}
       />
       <CssBaseline />
-
+      <Nav/>
       <Box
         sx={{
           bgcolor: "background.paper",

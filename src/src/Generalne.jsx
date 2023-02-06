@@ -21,6 +21,7 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Nav from "./nav";
 
 const tiers = [
   {
@@ -65,6 +66,7 @@ function PricingContent() {
       />
       <CssBaseline />
       {/* Hero unit */}
+      <Nav/>
       <Box
         sx={{
           bgcolor: "background.paper",

@@ -74,7 +74,7 @@ class Contact extends React.Component {
               </Button>
               <br />
               <br />
-              <Button href="mailto:cholujdesign@gmail.com" variant="contained">
+              <Button href="mailto:biuro@cholujdesign.pl" variant="contained">
                 email
               </Button>
               <br />
@@ -211,7 +211,7 @@ class Contact extends React.Component {
               </Button>
               <br />
               <br />
-              <Button href="mailto:cholujdesign@gmail.com" variant="contained">
+              <Button href="mailto:biuro@cholujdesign.pl" variant="contained">
                 email
               </Button>
               <br />

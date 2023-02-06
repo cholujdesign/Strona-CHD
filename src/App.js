@@ -13,17 +13,25 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { grey, teal } from "@mui/material/colors";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Nav from "./src/nav";
-import Contact from "./src/Contact";
-import Profil from "./src/Architecture";
+import Contact from "./src/ContactEn";
 import Home from "./src/Home";
 import Onas from "./src/Onas";
 import Blog from "./src/ObszaryDzialanosci";
-import Architecture from "./src/Architecture";
+import Architecture from "./src/ArchitectureEn";
 import Interiors from "./src/Interiors";
 import Other from "./src/Other";
 import Generalne from "./src/Generalne";
 import DocumentMeta from "react-document-meta";
 import Instructions from "./src/Instructions";
+
+import ContactEn from "./src/ContactEn";
+import HomeEn from "./src/HomeEn";
+import OnasEn from "./src/OnasEn";
+import BlogEn from "./src/ObszaryDzialalnosciEn.jsx";
+import ArchitectureEn from "./src/ArchitectureEn";
+import InteriorsEn from "./src/InteriorsEn";
+import OtherEn from "./src/OtherEn";
+import GeneralneEn from "./src/GeneralneEn";
 
 function Copyright() {
   return (
@@ -48,7 +56,7 @@ const theme = createTheme({
     },
     secondary: {
       light: "#4b688b",
-      main: "#1c3e5e",
+      main: "#1b222e",
       dark: "#001834",
       contrastText: "#fff",
     },
@@ -78,11 +86,11 @@ export default function App() {
       <ThemeProvider theme={theme}>
         <div className="App">
           <CssBaseline />
-          <Nav />
+        
           <main>
             <BrowserRouter>
               <Routes>
-                <Route path="/home" element={<Home />} />
+                <Route path="/CHD" element={<Home />} />
                 <Route path="/Kontakt" element={<Contact />} />
                 <Route path="/architektura" element={<Architecture />} />
                 <Route path="/wnetrza" element={<Interiors />} />
@@ -91,6 +99,17 @@ export default function App() {
                 <Route path="/Oferta" element={<Blog />} />
                 <Route path="/instructions" element={<Instructions />} />
                 <Route path="/Generalne_Wykonastwo" element={<Generalne />} />
+
+                <Route path="/home" element={<HomeEn />} />
+                <Route path="/Contact" element={<ContactEn />} />
+                <Route path="/Architecture" element={<ArchitectureEn />} />
+                <Route path="/Interiors" element={<InteriorsEn />} />
+                <Route path="/Others" element={<OtherEn />} />
+                <Route path="/About" element={<OnasEn />} />
+                <Route path="/Offer" element={<BlogEn />} />
+                <Route path="/Design&Build" element={<GeneralneEn />} />
+
+
                 <Route path="/:any" element={<Home />} />
                 <Route path="/" element={<Home />} />
               </Routes>
@@ -186,7 +205,7 @@ export default function App() {
                   e-mail:
                   <br />
                   <br />
-                  cholujdesign@gmail.com
+                  biuro@cholujdesign.pl
                   <br />
                 </Typography>
               </Grid>

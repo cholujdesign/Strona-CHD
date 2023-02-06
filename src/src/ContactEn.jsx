@@ -30,7 +30,7 @@ import { CardActionArea } from "@mui/material";
 import Iframe from "react-iframe";
 import emailjs from "@emailjs/browser";
 import GlobalStyles from "@mui/material/GlobalStyles";
-import Nav from "./nav";
+import Nav from "./navEn";
 
 
 // const theme = createTheme({
@@ -91,13 +91,13 @@ export default function Album() {
               color="grey"
               gutterBottom
             >
-              Zapraszamy do kontaktu
+              Please contact us
             </Typography>
             <Typography variant="h7" align="left" color="grey">
-              W razie zainteresowania lub w celu uzyskania dodatkowych
-              informacji prosimy o kontakt za pomocą formularza zgłoszeniowego
-              lub z naszym biurem od poniedziałku do piątku, w godzinach od 9:00
-              do 16:00.
+            If interested or for additional information
+               information, please contact us using the application form
+               or with our office from Monday to Friday, from 9:00 am
+               until 16:00.
               <br />
             </Typography>
             <br />
@@ -117,7 +117,7 @@ export default function Album() {
               {" "}
               +48509446704 <br />
               <Button variant="contained" href="tel:+48509446704">
-                Zadzwoń
+                Call
               </Button>
             </Container>
             <br />
@@ -125,7 +125,7 @@ export default function Album() {
               {" "}
               biuro@cholujdesign.pl <br />
               <Button variant="contained" href="mailto:biuro@cholujdesign.pl">
-                Wyślij Email
+                Send an  Email
               </Button>
             </Container>
           </Container>
@@ -149,7 +149,7 @@ export default function Album() {
         >
           
           <Typography color="white" component="h1" variant="h5">
-            Formularz kontaktowy
+            Contact us
           </Typography>
           <br/><br/>
           <Box sx={{
@@ -164,7 +164,7 @@ export default function Album() {
               required
               fullWidth
               id="email"
-              label="Twój Email"
+              label="Your Email"
               name="user_email"
               autoComplete="email"
               
@@ -175,7 +175,7 @@ export default function Album() {
               required
               fullWidth
               name="message"
-              label="Wiadomość"
+              label="Message"
               type="text"
               id="text"
               rows="4"
@@ -189,7 +189,7 @@ export default function Album() {
               variant=""
               sx={{ mt: 3, mb: 2, }}
             >
-              Wyślij
+              Send
             </Button>
           
           </Box>

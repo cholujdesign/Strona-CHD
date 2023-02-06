@@ -19,37 +19,11 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
-import ArchitectureProjects from "./ArchitectureProjects";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Nav from "./nav";
-const cards = [
-  {
-    head: "Prawo budowlane",
-    text: "pare slow o prawie budowlanym",
-    pic: "https://images.unsplash.com/photo-1595844730298-b960ff98fee0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-  },
-  {
-    head: "Prawo budowlane",
-    text: "pare slow o prawie budowlanym",
-    pic: "https://images.unsplash.com/photo-1595844730298-b960ff98fee0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-  },
-  {
-    head: "Prawo budowlane",
-    text: "pare slow o prawie budowlanym",
-    pic: "https://images.unsplash.com/photo-1595844730298-b960ff98fee0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-  },
-  {
-    head: "Prawo budowlane",
-    text: "pare slow o prawie budowlanym",
-    pic: "https://images.unsplash.com/photo-1595844730298-b960ff98fee0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-  },
-  {
-    head: "Prawo budowlane",
-    text: "pare slow o prawie budowlanym",
-    pic: "https://images.unsplash.com/photo-1595844730298-b960ff98fee0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-  },
-];
+import Nav from "./navEn";
+
+
 
 function PricingContent() {
   useEffect(() => {
@@ -63,6 +37,7 @@ function PricingContent() {
         styles={{ ul: { margin: 0, padding: 0, listStyle: "none" } }}
       />
       <CssBaseline />
+      {/* Hero unit */}
       <Nav/>
       <Box
         sx={{
@@ -84,25 +59,42 @@ function PricingContent() {
             color="text.primary"
             gutterBottom
           >
-            Architektura
+            Design and build
           </Typography>
           <Typography
             variant="h7"
             align="left"
             color="text.secondary"
             component="p"
-            data-aos="fade-up"
+            gutterBottom
           >
             <br />
-            Nasze biuro posiada wieloletnie doświadczenie w zakresie projektowania architektonicznego,
-            nadzoru budowy oraz prowadzenia budowy. Bierzemy udział w konkursach i przygotowujemy projekty koncepcyjne, aby 
-            poszerzać nasze horyzonty projektowe. Jednocześnie dzięki doświadczeniu na budowach jesteśmy w stanie
-            projektować obiekty łatwe i tanie do wybudowania.
-          </Typography>
+            We design interiors, choose materials, choose furniture, we have proven specialists and we watch over the quality and budget. Thanks to this, our clients go through the investment process stress-free. We often carry out orders for clients residing in other countries.          </Typography>
         </Container>
       </Box>
-
-      <ArchitectureProjects />
+      {/* End hero unit */}
+      <Container
+        maxWidth="md"
+        component="main"
+        sx={{
+          pt: 8,
+          pb: 6,
+        }}
+      >
+     <img src="https://images.unsplash.com/photo-1482731215275-a1f151646268?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" width="100%"/>
+      </Container>
+      {/* Hero unit */}
+      <Box
+        sx={{
+          bgcolor: "background.paper",
+          pt: 8,
+          pb: 6,
+        }}
+      >
+     
+      </Box>
+      <Container sx={{ py: 8 }} maxWidth="md"></Container>
+      {/* End hero unit */}
     </React.Fragment>
   );
 }

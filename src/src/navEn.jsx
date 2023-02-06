@@ -18,7 +18,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import EmailIcon from '@mui/icons-material/Email';
 import GTranslateIcon from "@mui/icons-material/GTranslate";
 
-const pages = ["CHD", "ONas", "Oferta", "Generalne_Wykonastwo", "Kontakt"];
+const pages = ["Home", "About", "Offer", "Design&Build", "Contact"];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -49,10 +49,10 @@ function ResponsiveAppBar() {
               component="a"
               href="/"
               sx={{
-                mr: 2,
+                mr: 1,
                 display: { xs: "none", md: "flex" },
                 // fontFamily: "monospace",
-                fontWeight: 100,
+                fontWeight: 80,
                 // letterSpacing: ".3rem",
                 color: "inherit",
                 textDecoration: "none",
@@ -60,7 +60,7 @@ function ResponsiveAppBar() {
             >
               CHD
               <br />
-              Architekci
+              Architects 
             </Typography>
           </Button>
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -108,10 +108,10 @@ function ResponsiveAppBar() {
               <Button
                     key="as"
                     onClick={handleCloseNavMenu}
-                    href="/Home"
+                    href="/CHD"
                     sx={{ my: 0.5, color: "black", display: "flex" }}
                   >
-                     <GTranslateIcon />En
+                     <GTranslateIcon />Pl
                   </Button></MenuItem>
             </Menu>
           </Box>
@@ -144,7 +144,7 @@ function ResponsiveAppBar() {
                   sx={{ my: 0.5, color: "white", display: "flex" }}
                   
                 >
-                  Telefon +48 509 446 704
+                  Phone +48 509 446 704
                 </Button>
               </Grid>
               <Grid item xs={4}>
@@ -181,10 +181,10 @@ function ResponsiveAppBar() {
               <Button
                     key="as"
                     onClick={handleCloseNavMenu}
-                    href="/Home"
+                    href="/CHD"
                     sx={{ my: 0.5, color: "white", display: "flex" }}
                   >
-                     <GTranslateIcon />En
+                     <GTranslateIcon />Pl
                   </Button></MenuItem>
             </Grid>
           </Box>

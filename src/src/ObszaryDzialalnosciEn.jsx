@@ -18,7 +18,7 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import GlobalStyles from "@mui/material/GlobalStyles";
-import Nav from "./nav";
+import Nav from "./navEn";
 
 const theme = createTheme();
 
@@ -52,7 +52,7 @@ export default function Album() {
               color="text.primary"
               gutterBottom
             >
-              Obszary działalności
+              We specialise in
             </Typography>
             <Typography
               variant="p"
@@ -60,8 +60,8 @@ export default function Album() {
               color="text.secondary"
               paragraph
             >
-              Zajmujemy się projektami architektonicznymi, wnętrz i stron internetowych. 
-              Wykonujemy równiez modele 3d, wizualizacje i animacje.
+              We deal with architectural, interior and website designs.
+               We also make 3d models, visualizations and animations.
             </Typography>
             {/* <Stack
               sx={{ pt: 4 }}
@@ -79,7 +79,7 @@ export default function Album() {
           <Grid container spacing={4}>
             
               <Grid  item key="1" xs={12} sm={6} md={4}>
-                <Button href="/architektura">
+                <Button href="/Architecture">
                 <Card
                 data-aos="fade-down"
                   sx={{
@@ -100,13 +100,13 @@ export default function Album() {
                   />
                   <CardContent>
                   <Typography component="h6" variant="h6" color="text.primary">
-                      Architektura
+                      Architecture
                     </Typography>
                   </CardContent>
                 </Card>
              </Button> </Grid>
              <Grid  item key="1" xs={12} sm={6} md={4}>
-                <Button href="/wnetrza">
+                <Button href="/Interiors">
                 <Card
                 data-aos="fade-down"
                   sx={{
@@ -127,13 +127,13 @@ export default function Album() {
                   />
                   <CardContent>
                   <Typography component="h6" variant="h6" color="text.primary">
-                      Wnętrza
+                      Interiors
                     </Typography>
                   </CardContent>
                 </Card>
              </Button> </Grid>
              <Grid  item key="1" xs={12} sm={6} md={4}>
-                <Button href="inne">
+                <Button href="Others">
                 <Card
                 data-aos="fade-down"
                   sx={{
@@ -154,7 +154,7 @@ export default function Album() {
                   />
                   <CardContent>
                   <Typography component="h6" variant="h6" color="text.primary">
-                      Inne
+                      Other
                     </Typography>
                   </CardContent>
                 </Card>

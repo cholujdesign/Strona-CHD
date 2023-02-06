@@ -9,7 +9,7 @@ body {
   min-height: 100%;
   max-width: 100% !important;
   overflow-x: hidden !important;
-  background-color: #153a52 !important;
+  background-color: #1b222e !important;
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -64,5 +64,19 @@ code {
 }
 
 .bgHome{
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, .7);
+}
+.bgPic{
+  background-clip: border-box;
+  background-position: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(#072e2d3a, #000000),
+    url(https://drive.google.com/uc?export=view&id=1Nza7P2ZH7XkXzJa2DbchOYPSHhMdQ9XX);
+
+  height: 100vh !important;
+z-index: -7;
+  left: 0;
+  position: fixed;
+  top:0
 }

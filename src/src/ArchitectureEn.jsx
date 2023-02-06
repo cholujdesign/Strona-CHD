@@ -84,21 +84,21 @@ function PricingContent() {
             color="text.primary"
             gutterBottom
           >
-            Architektura
-          </Typography>
-          <Typography
-            variant="h7"
-            align="left"
-            color="text.secondary"
-            component="p"
-            data-aos="fade-up"
-          >
-            <br />
-            Nasze biuro posiada wieloletnie doświadczenie w zakresie projektowania architektonicznego,
-            nadzoru budowy oraz prowadzenia budowy. Bierzemy udział w konkursach i przygotowujemy projekty koncepcyjne, aby 
-            poszerzać nasze horyzonty projektowe. Jednocześnie dzięki doświadczeniu na budowach jesteśmy w stanie
-            projektować obiekty łatwe i tanie do wybudowania.
-          </Typography>
+           Architecture
+           </Typography>
+           <Typography
+             variant="h7"
+             align="left"
+             color="text.secondary"
+             component="p"
+             data-aos="fade-up"
+           >
+             <br />
+             Our office has many years of experience in architectural design,
+             construction supervision and construction management. We take part in competitions and prepare conceptual designs to
+             expand our design horizons. At the same time, thanks to our experience on construction sites, we are able to
+             design objects that are easy and cheap to build.
+           </Typography>
         </Container>
       </Box>
 
