@@ -13,7 +13,7 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { grey, teal } from "@mui/material/colors";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Nav from "./src/nav";
-import Contact from "./src/ContactEn";
+import Contact from "./src/Contact";
 import Home from "./src/Home";
 import Onas from "./src/Onas";
 import Blog from "./src/ObszaryDzialanosci";
