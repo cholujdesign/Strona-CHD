@@ -32,6 +32,11 @@ import ArchitectureEn from "./src/ArchitectureEn";
 import InteriorsEn from "./src/InteriorsEn";
 import OtherEn from "./src/OtherEn";
 import GeneralneEn from "./src/GeneralneEn";
+import Cookies from "./src/cookies";
+
+import Accordion from "@mui/material/Accordion";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import AccordionDetails from "@mui/material/AccordionDetails";
 
 function Copyright() {
   return (
@@ -62,10 +67,7 @@ const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: [
-      'Aboreto',
- 
-    ].join(','),
+    fontFamily: ["Aboreto"].join(","),
   },
 });
 const meta = {
@@ -86,7 +88,7 @@ export default function App() {
       <ThemeProvider theme={theme}>
         <div className="App">
           <CssBaseline />
-        
+
           <main>
             <BrowserRouter>
               <Routes>
@@ -108,7 +110,6 @@ export default function App() {
                 <Route path="/About" element={<OnasEn />} />
                 <Route path="/Offer" element={<BlogEn />} />
                 <Route path="/Design&Build" element={<GeneralneEn />} />
-
 
                 <Route path="/:any" element={<Home />} />
                 <Route path="/" element={<Home />} />
@@ -209,9 +210,24 @@ export default function App() {
                   <br />
                 </Typography>
               </Grid>
-            </Grid>
-
+            </Grid>{" "}
             <Copyright />
+            <Accordion>
+              <AccordionSummary aria-controls={1} id="1"  align="center" >
+                {" "}
+                <Typography
+                  component="h6"
+                  variant="h6"
+                  align="center"
+                  color="black"
+                >
+                  Polityka Prywatności - naciśnij, aby przeczytać szczegóły
+                </Typography>
+              </AccordionSummary>
+              <AccordionDetails>
+                <Cookies />
+              </AccordionDetails>
+            </Accordion>
           </Box>
           {/* End footer */}
         </div>
