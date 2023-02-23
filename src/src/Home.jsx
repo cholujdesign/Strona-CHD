@@ -47,7 +47,9 @@ const theme = createTheme({
   },
 
   typography: {
-    fontFamily: ["Aboreto"].join(","),
+    fontFamily: ["Aboreto"].join(","), button: {
+      textTransform: 'none'
+    }
   },
 });
 
@@ -206,7 +208,7 @@ export default function Album() {
                   >
                     Architektura, wnętrza, CGI
                   </Typography>
-                  <Typography variant="h6" align="left" color="white" paragraph>
+                  <Typography variant="h6" align="justify" color="white" paragraph>
                     Oferujemy usługi w zakresie projektowania architektury,
                     architektury wnętrz, animacji, wizualizacji, modelowania 3D
                     oraz projektowania stron internetowych. Współpracujemy z
@@ -241,7 +243,7 @@ export default function Album() {
                 >
                   Nasze Manifesto
                 </Typography>
-                <Typography variant="h6" align="left" color="white" paragraph>
+                <Typography variant="h6" align="justify" color="white" paragraph>
                   Skupiamy się w pierwszej kolejności nad potrzebami i
                   oczekiwaniami naszych klientów, każdy projekt jest analizowany
                   indywidualnie.
@@ -279,7 +281,7 @@ export default function Album() {
                 >
                   Publikacje, Współpraca
                 </Typography>
-                <Typography variant="h6" align="left" color="white" paragraph>
+                <Typography variant="h6" align="justify" color="white" paragraph>
                   Nasza praca została nie tylko doceniona przez naszych
                   klientów, ale również przez prasę architektoniczną.
                   <br />

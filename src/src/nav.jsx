@@ -49,10 +49,10 @@ function ResponsiveAppBar() {
               component="a"
               href="/"
               sx={{
-                mr: 2,
+                mr: 1,
                 display: { xs: "none", md: "flex" },
                 // fontFamily: "monospace",
-                fontWeight: 100,
+                fontWeight: 80,
                 // letterSpacing: ".3rem",
                 color: "inherit",
                 textDecoration: "none",
@@ -99,6 +99,7 @@ function ResponsiveAppBar() {
                     onClick={handleCloseNavMenu}
                     href={page}
                     sx={{ my: 0.5, color: "black", display: "flex" }}
+                    fullWidth
                   >
                     {page}
                   </Button>
@@ -110,6 +111,7 @@ function ResponsiveAppBar() {
                     onClick={handleCloseNavMenu}
                     href="/Home"
                     sx={{ my: 0.5, color: "black", display: "flex" }}
+                    fullWidth
                   >
                      <GTranslateIcon />En
                   </Button></MenuItem>

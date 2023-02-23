@@ -68,6 +68,9 @@ const theme = createTheme({
   },
   typography: {
     fontFamily: ["Aboreto"].join(","),
+    button: {
+      textTransform: 'none'
+    }
   },
 });
 const meta = {
@@ -197,7 +200,7 @@ export default function App() {
                   SKONTAKTUJ SIĘ Z NAMI
                   <br />
                   <br />
-                  Rynek Główny 43, 31-011 Kraków <br />
+                  Rynek Główny 43, 31-013 Kraków <br />
                   <br />
                   telefon: <br />
                   <br />
@@ -221,7 +224,7 @@ export default function App() {
                   align="center"
                   color="black"
                 >
-                  Polityka Prywatności - naciśnij, aby przeczytać szczegóły
+                  Polityka Prywatności - naciśnij, aby przeczytać szczegóły.
                 </Typography>
               </AccordionSummary>
               <AccordionDetails>

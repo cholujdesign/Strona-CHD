@@ -94,10 +94,10 @@ export default function Album() {
               Please contact us
             </Typography>
             <Typography variant="h7" align="left" color="grey">
-            If interested or for additional information
+            If interested or for additional 
                information, please contact us using the application form
-               or with our office from Monday to Friday, from 9:00 am
-               until 16:00.
+               or call us from Monday to Friday, from 9:00 am
+               until 16:00 GMT+1.
               <br />
             </Typography>
             <br />

@@ -60,7 +60,7 @@ function PricingContent() {
           </Typography>
           <Typography
             variant="h6"
-            align="left"
+            align="justify"
             color="text.secondary"
             component="p"
             gutterBottom
