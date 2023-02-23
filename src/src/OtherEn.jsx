@@ -67,12 +67,9 @@ function PricingContent() {
             data-aos="fade-up"
           >
             <br />
-            Our office has many years of experience in the field
-             architectural design, construction supervision and management
-             construction. We take part in competitions and prepare projects
-             concept to broaden our design horizons. Simultaneously
-             thanks to our experience on construction sites, we are able to design
-             structures that are easy and cheap to build.
+            Our practice has many years of experience in the fields of
+             architectural design, construction supervision and management of
+             construction. We constantly research new technologies and merge new knowladge with our skills.
            </Typography>
            <br/><br/>
            <Accordion>

@@ -66,12 +66,11 @@ function PricingContent() {
             gutterBottom
           >
             <br />
-            We have been dealing with architecture and interior design for over 25 years.
-             Our team has experience in small to medium projects,
-             author's supervision and construction management. We started a decade ago
-             combine spatial design with form design
-             industrial. Depending on the type and size of the project, you are welcome
-             to the cooperation of our colleagues and other trusted people
+            We have been working if the fields of architecture and interior design for over 25 years.
+             Our team is experienced in small to medium projects,
+             architectural supervision and construction management. We started a decade ago
+             to combine spatial design with industrial form design. Depending on the type and size of the project, we
+             cooperate with our colleagues and other trusted 
              specialists.{" "}
           </Typography>
         </Container>
@@ -116,9 +115,9 @@ function PricingContent() {
                align="center"
                color="white"
              >
-               We make prototypes of furniture, lamps and solutions
-               technological and material. We have 2 small workshops
-               equipped with equipment for processing metal, wood and many others
+               We make prototypes of furniture, lamps and various
+               technological and material solutions. We have 2 small workshops
+               equipped with machines for processing metal, wood and  
                other materials.
             </Typography>
           </Box>
@@ -156,7 +155,7 @@ function PricingContent() {
                color="white"
              >
                We use a 3d printer, production software
-               advanced digital 3D models and animations. Sometimes we design with help
+               advanced digital 3D models and animations. Sometimes we design with help of
                algorithms prepared by us.
              </Typography>
            </Box>
@@ -193,7 +192,7 @@ function PricingContent() {
                align="center"
                color="white"
              >
-               Sometimes we work with traditional design techniques
+               Occasionaly we work with traditional design techniques
                such as model making, freehand sketches, painting.
             </Typography>
           </Box>

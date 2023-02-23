@@ -69,9 +69,8 @@ function PricingContent() {
             >
               <br />
               Our office has many years of experience in architectural design,
-              construction supervision and construction management. We take part in competitions and prepare conceptual designs to
-              expand our design horizons. At the same time, thanks to our experience on construction sites, we are able to
-              design objects that are easy and cheap to build.
+              construction supervision and construction management. We put heavy focus on designing interiors that work.
+              We analyze cient's needs, budget and project's aim to provide the best possible design.
            </Typography>
         </Container>
       </Box>

@@ -52,7 +52,7 @@ export default function Album() {
               color="text.primary"
               gutterBottom
             >
-              We specialise in
+              What CHD can do for you?
             </Typography>
             <Typography
               variant="p"
@@ -60,7 +60,7 @@ export default function Album() {
               color="text.secondary"
               paragraph
             >
-              We deal with architectural, interior and website designs.
+              We provide architectural, interior and website designs.
                We also make 3d models, visualizations and animations.
             </Typography>
             {/* <Stack

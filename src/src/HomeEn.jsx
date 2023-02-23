@@ -208,13 +208,9 @@ export default function Album() {
                     Architecture, Interiors, CGI
                   </Typography>
                   <Typography variant="h6" align="left" color="white" paragraph>
-                  We offer services in the field of architecture design,
+                  We offer services in the fields of architectural design,
                      interior design, animation, visualization, 3D modeling
-                     and website design. we work with
-                     developers to the full extent, it allows
-                     presenting the client with a cohesive design starting from
-                     of the proposed building through the way it is presented
-                     ending with the website design.
+                     and website design. We focus on presenting the client with a cohesive design.
                   </Typography>
                 </Box>
               </Grid>
@@ -247,9 +243,8 @@ export default function Album() {
                    expectations of our customers, each project is analyzed
                    individually.
                    <br />
-                   The leitmotif in our work is the impact of light
-                   natural and artificial for colors and texture of the block
-                   of the building, the geometry of the interior and the link between the design and nature.
+                   The leitmotif in our work is the impact of natural and artificial light
+                     on colors and textures, the geometry of the interior and the link between the design and nature.
                    <br />
                    We place great emphasis on the user's perception in the design
                    facility. Spatial design is experienced through
@@ -278,7 +273,7 @@ export default function Album() {
                   color="white"
                   gutterBottom
                 >
-                 Publications, Cooperation
+                 Publications, cooperation
                  </Typography>
                  <Typography variant="h6" align="left" color="white" paragraph>
                    Our work has been appreciated not only by our own
@@ -288,7 +283,7 @@ export default function Album() {
                    the Netherlands.
                    <br />
                    Depending on the scale and specifications of the project, we enlarge ours
-                   team, this allows us to offer high-quality services.
+                   team, allowing us to offer high-quality services.
                    <br />
                   <a href="https://www.homify.nl/ideabooks/9077119/ontdek-een-simpele-keukentransformatie">
                     <Typography
