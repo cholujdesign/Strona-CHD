@@ -17,6 +17,37 @@ import Stack from "@mui/material/Stack";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
+const theme = createTheme({
+  palette: {
+    primary: {
+      light: "#ff7961",
+      main: "#A97900",
+      dark: "#ba000d",
+      contrastText: "#fff",
+    },
+    secondary: {
+      light: "#4b688b",
+      main: "#1b222e",
+      dark: "#001834",
+      contrastText: "#fff",
+    },
+  },
+  typography: {
+    fontFamily: ["Cardo"].join(","),
+    textTransform: 'none',
+    button: {
+      textTransform: 'none'
+    },
+    h5: {
+      textTransform: 'none'
+    },
+    h6: {
+      textTransform: 'none'
+    },
+  },
+});
+
 class Contact extends React.Component {
   constructor() {
     super();
@@ -42,120 +73,113 @@ class Contact extends React.Component {
   render() {
     if (this.state.lang == "polski")
       return (
-        <div className="white-text">
-          {" "}
+        <ThemeProvider theme={theme}>
           <CssBaseline />
-          <Container maxWidth="sm">
-            <br />
-            <br />
-            <Button variant="outlined" onClick={this.polski}>
-              Polski
-            </Button>
-            <Button variant="contained" onClick={this.english}>
-              English
-            </Button>
-            <Typography
-              component="h6"
-              variant="h6"
-              align="center"
-              color="white"
-              gutterBottom
-            >
-              <h3 className="white-text">
-                Rynek Główny - Apartament - Instrukcje
-              </h3>
-              <h5 className="white-text">Adres: Rynek Główny 43, Kraków</h5>
-              <h5 className="white-text">Taxi: +48507894989</h5>
-              <h5 className="white-text">Telefon: +48516947657</h5>
-              <h5 className="white-text">Email: cholujdesign@gmail</h5>
-              <h5>Wifi: Rynek43_Apartment / Hasło: rg433420</h5>
-              <Button href="tel:+48516947657" variant="contained">
-                +48516947657
+          <div className="white-text">
+            {" "}
+            <Container maxWidth="sm">
+              <br />
+              <br />
+              <Button variant="outlined" onClick={this.polski}>
+                Polski
               </Button>
-              <br />
-              <br />
-              <Button href="mailto:biuro@cholujdesign.pl" variant="contained">
-                email
+              <Button variant="contained" onClick={this.english}>
+                English
               </Button>
-              <br />
-              <br />
-              <Button
-                variant="contained"
-                node="a"
-                href="https://goo.gl/maps/xrJdtaQWoJFFU5ya7"
+              <Typography
+                component="h6"
+                variant="h6"
+                align="center"
+                color="white"
+                gutterBottom
               >
-                Mapa
-              </Button>
-              <br />
-              <br />
-              <Button variant="contained" node="a" href="tel:+48507894989">
-                Taxi
-              </Button>
-              <br />
-              <br />
-              <h3>Odbiór kluczy</h3>
-              <h5>
+                <h3 className="white-text">
+                  Rynek Główny - Apartament - Instrukcje
+                </h3>
+                Adres: Rynek Główny 43, Kraków <br />
+                Taxi: +48507894989 <br />
+                Telefon: +48516947657 <br />
+                Email: cholujdesign@gmail <br />
+                
+                Wifi: Rynek43_Apartment / Hasło: rg433420<br/>
+                <Button href="tel:+48516947657" variant="contained">
+                  +48516947657
+                </Button>
+                
+                <Button href="mailto:biuro@cholujdesign.pl" variant="contained">
+                  email
+                </Button>
+              
+                <Button
+                  variant="contained"
+                  node="a"
+                  href="https://goo.gl/maps/xrJdtaQWoJFFU5ya7"
+                >
+                  Mapa
+                </Button>
+               
+                <Button variant="contained" node="a" href="tel:+48507894989">
+                  Taxi
+                </Button>
+                <br />
+                <br />
+                <h3>Odbiór kluczy</h3>
                 Prosimy otworzyć skrzyneczkę na klucze znajdującą sie przy
                 wejściu do kamienicy i zabrać z niej klucz oraz kartę dostępu.
                 <h3> Kod dostępu: 2102</h3>
-              </h5>
-              <img src={p1} width="100%" />
-              <img src={p2} width="100%" />
-              <h3>Wejście</h3>
-              <h3>
-                {" "}
-                Użyj karty dostępu jeżeli krata jest opuszczona (czytnik po
-                lewej stronie)
                 <br />
-                *krata sama sie opuści po 60 sekundach, wielokrotne i częste
-                przykładanie karty może zawiesić system ! NIGDY NIE UŻYWAJ SIŁY,
-                ABY OTWORZYC KRATĘ - KARA 500 PLn W RAZIE USZKODZENIA !
-              </h3>
-              <img src={p3} width="100%" />
-              <h3>
-                {" "}
-                Użyj karty dostępu jeżeli drzwi są zamknięte (czytnik po lewej
-                stronie)
-              </h3>
-              <img src={p4} width="100%" />
-              <h3> Wejdz po schodach (schowek na bagaże jes pod schodami)</h3>
-              <img src={p5} width="100%" />
-              <h3> Użyj karty dostępu do drzwi (czytnik po lewej stronie) </h3>
-              <img src={p6} width="100%" />
-              <h3>
-                {" "}
-                Po prawej znajdować się będą drzwi do lokalu, użyj kluczy do
-                drzwi{" "}
-              </h3>
-              <img src={p7} width="100%" />
-              <h3>Wyjście</h3> <img src={p8} width="100%" />
-              <h5>
-                {" "}
-                Przekręć klucz do mieszkania tylko raz, inaczej osoby w środku
-                nie otworzą drzwi{" "}
-              </h5>
-              <img src={p9} width="100%" />
-              <h3> Naciśnij klamkę jeżeli drzwi są zamknięte </h3>
-              <img src={p10} width="100%" />
-              <h3> Naciśnij klamkę jeżeli drzwi są zamknięte </h3>
-              <img src={p11} width="100%" />
-              <h3>
-                {" "}
-                Naciśnij przycisk po prawej stronie jeżeli krata jest opuszczona
+                <img src={p1} width="100%" />
+                <img src={p2} width="100%" />
+                <h3>Wejście</h3>
+                <h3>
+                  {" "}
+                  Użyj karty dostępu jeżeli krata jest opuszczona (czytnik po
+                  lewej stronie)
+                  <br />
+                  *krata sama sie opuści po 60 sekundach, wielokrotne i częste
+                  przykładanie karty może zawiesić system ! NIGDY NIE UŻYWAJ
+                  SIŁY, ABY OTWORZYC KRATĘ - KARA 500 PLn W RAZIE USZKODZENIA !
+                </h3>
+                <img src={p3} width="100%" />
+                <h3>
+                  {" "}
+                  Użyj karty dostępu jeżeli drzwi są zamknięte (czytnik po lewej
+                  stronie)
+                </h3>
+                <img src={p4} width="100%" />
+                <h3> Wejdz po schodach (schowek na bagaże jes pod schodami)</h3>
+                <img src={p5} width="100%" />
+                <h3>
+                  {" "}
+                  Użyj karty dostępu do drzwi (czytnik po lewej stronie){" "}
+                </h3>
+                <img src={p6} width="100%" />
+                <h3>
+                  {" "}
+                  Po prawej znajdować się będą drzwi do lokalu, użyj kluczy do
+                  drzwi{" "}
+                </h3>
+                <img src={p7} width="100%" />
+                <h3>Wyjście</h3> <img src={p8} width="100%" /> Przekręć klucz do
+                mieszkania tylko raz, inaczej osoby w środku nie otworzą drzwi{" "}
                 <br />
-                *krata sama sie opuści po 60 sekundach, wielokrotne i szybkie
-                przykładanie karty spowoduje zablkowanie systemu kara za
-                uszkodzenie kary 500 PLN
-              </h3>
-              <h3>Wymeldowanie</h3>{" "}
-              <h5>
-                {" "}
-                Prosimy zamknąć okna i zostawić klucze wraz z kartą na stole
-                oraz zatrzasnąć drzwi.{" "}
-              </h5>
-              <h3>Regulamin</h3>{" "}
-              <h5>
-                <br />
+                <img src={p9} width="100%" />
+                <h3> Naciśnij klamkę jeżeli drzwi są zamknięte </h3>
+                <img src={p10} width="100%" />
+                <h3> Naciśnij klamkę jeżeli drzwi są zamknięte </h3>
+                <img src={p11} width="100%" />
+                <h3>
+                  {" "}
+                  Naciśnij przycisk po prawej stronie jeżeli krata jest
+                  opuszczona
+                  <br />
+                  *krata sama sie opuści po 60 sekundach, wielokrotne i szybkie
+                  przykładanie karty spowoduje zablkowanie systemu kara za
+                  uszkodzenie kary 500 PLN
+                </h3>
+                <h3>Wymeldowanie</h3> Prosimy zamknąć okna i zostawić klucze
+                wraz z kartą na stole oraz zatrzasnąć drzwi. <br />
+                <h3>Regulamin</h3> <br />
                 1. Zakaz Palenia.
                 <br />
                 2. Zero hałasu po godzinie 22:00.
@@ -172,121 +196,118 @@ class Contact extends React.Component {
                 <br />
                 8. Monitoring w budynku, goście są odpowiedzialni finansowo za
                 zniszczenia budynku przez nich spowodowane.
-              </h5>
-            </Typography>
-          </Container>
-        </div>
+                <br />
+              </Typography>
+            </Container>
+          </div>
+        </ThemeProvider>
       );
     else
       return (
-        <div className="white-text">
-          {" "}
+        <ThemeProvider theme={theme}>
           <CssBaseline />
-          <Container maxWidth="sm">
-            <br />
-            <br />
-            <Button variant="contained" onClick={this.polski}>
-              Polski
-            </Button>
-            <Button variant="outlined" onClick={this.english}>
-              English
-            </Button>
-            <Typography
-              component="h6"
-              variant="h6"
-              align="center"
-              color="white"
-              gutterBottom
-            >
-              <h3 className="white-text">
-                Rynek Główny - Apartment - Instructions
-              </h3>
-              <h5 className="white-text">Adress: Rynek Główny 43, Kraków</h5>
-              <h5 className="white-text">Taxi: +48507894989</h5>
-              <h5 className="white-text">Phone: +48516947657</h5>
-              <h5 className="white-text">Email: cholujdesign@gmail</h5>
-              <h5>Wifi: Rynek43_Apartment / Password: rg433420</h5>
-              <Button href="tel:+48516947657" variant="contained">
-                +48516947657
+          <div className="white-text">
+            {" "}
+            <Container maxWidth="sm">
+              <br />
+              <br />
+              <Button variant="contained" onClick={this.polski}>
+                Polski
               </Button>
-              <br />
-              <br />
-              <Button href="mailto:biuro@cholujdesign.pl" variant="contained">
-                email
+              <Button variant="outlined" onClick={this.english}>
+                English
               </Button>
-              <br />
-              <br />
-              <Button
-                variant="contained"
-                node="a"
-                href="https://goo.gl/maps/xrJdtaQWoJFFU5ya7"
+              <Typography
+                component="h6"
+                variant="h6"
+                align="center"
+                color="white"
+                gutterBottom
               >
-                Map
-              </Button>
-              <br />
-              <br />
-              <Button variant="contained" node="a" href="tel:+48507894989">
-                Taxi
-              </Button>
-              <br />
-              <br />
-              <h3>Keys</h3>
-              <h5>
+                <h3 className="white-text">
+                  Rynek Główny - Apartment - Instructions
+                </h3>
+                Adress: Rynek Główny 43, Kraków <br />
+                Taxi: +48507894989 <br />
+                Phone: +48516947657 <br />
+             Email: cholujdesign@gmail.com<br/>
+                Wifi: Rynek43_Apartment / Password: rg433420<br/>
+                <Button href="tel:+48516947657" variant="contained">
+                  +48516947657
+                </Button>
+           
+                <Button href="mailto:biuro@cholujdesign.pl" variant="contained">
+                  email
+                </Button>
+                
+                <Button
+                  variant="contained"
+                  node="a"
+                  href="https://goo.gl/maps/xrJdtaQWoJFFU5ya7"
+                >
+                  Map
+                </Button>
+                
+                <Button variant="contained" node="a" href="tel:+48507894989">
+                  Taxi
+                </Button>
+                <br />
+                <br />
+                <h3>Keys</h3>
                 Please open the key box and take a key and a card.
                 <h3> Code: 2102</h3>
-              </h5>
-              <img src={p1} width="100%" />
-              <img src={p2} width="100%" />
-              <h3>Entrance</h3>
-              <h3>
-                {" "}
-                Use the access card if the gate is closed (card reader on the
-                left)
                 <br />
-                *the gate closes automatically after 60 seconds, do not touch
-                the card reader with the card many times! ! NEVER USE FORCE TO
-                OPEN THE GATE - 200 euro FEE APPLIES !
-              </h3>
-              <img src={p3} width="100%" />
-              <h3> Use the card to open the door (reader on the left)</h3>
-              <img src={p4} width="100%" />
-              <h3> Go upstairs (lagguage storage under the staircase)</h3>
-              <img src={p5} width="100%" />
-              <h3> Use the card to open the door (card reader on the left) </h3>
-              <img src={p6} width="100%" />
-              <h3>
-                {" "}
-                The apartment's door will be on the right (use the key to open){" "}
-              </h3>
-              <img src={p7} width="100%" />
-              <h3>Exit</h3> <img src={p8} width="100%" />
-              <h3>
-                {" "}
-                Remeber to close the apartment's white door and to turn the key
-                only once(otherwise people inside can not exit){" "}
-              </h3>
-              <img src={p9} width="100%" />
-              <h3> Press the door handle if they are closed </h3>
-              <img src={p10} width="100%" />
-              <h3> Press the door handle if they are closed </h3>
-              <img src={p11} width="100%" />
-              <h3>
-                {" "}
-                PRESS THE BUTTON ON THE RIGHT
+                <img src={p1} width="100%" />
+                <img src={p2} width="100%" />
+                <h3>Entrance</h3>
+                <h3>
+                  {" "}
+                  Use the access card if the gate is closed (card reader on the
+                  left)
+                  <br />
+                  *the gate closes automatically after 60 seconds, do not touch
+                  the card reader with the card many times! ! NEVER USE FORCE TO
+                  OPEN THE GATE - 200 euro FEE APPLIES !
+                </h3>
+                <img src={p3} width="100%" />
+                <h3> Use the card to open the door (reader on the left)</h3>
+                <img src={p4} width="100%" />
+                <h3> Go upstairs (lagguage storage under the staircase)</h3>
+                <img src={p5} width="100%" />
+                <h3>
+                  {" "}
+                  Use the card to open the door (card reader on the left){" "}
+                </h3>
+                <img src={p6} width="100%" />
+                <h3>
+                  {" "}
+                  The apartment's door will be on the right (use the key to
+                  open){" "}
+                </h3>
+                <img src={p7} width="100%" />
+                <h3>Exit</h3> <img src={p8} width="100%" />
+                <h3>
+                  {" "}
+                  Remeber to close the apartment's white door and to turn the
+                  key only once(otherwise people inside can not exit){" "}
+                </h3>
+                <img src={p9} width="100%" />
+                <h3> Press the door handle if they are closed </h3>
+                <img src={p10} width="100%" />
+                <h3> Press the door handle if they are closed </h3>
+                <img src={p11} width="100%" />
+                <h3>
+                  {" "}
+                  PRESS THE BUTTON ON THE RIGHT
+                  <br />
+                  *the gate closes automatically after 60 seconds, do not touch
+                  the card reader with the card many times! ! NEVER USE FORCE TO
+                  OPEN THE GATE - FEE APPLIES !
+                </h3>
+                <h3>Check out</h3> Please close the windows, turn the lights off
+                and leave the keys and the card on the table.
                 <br />
-                *the gate closes automatically after 60 seconds, do not touch
-                the card reader with the card many times! ! NEVER USE FORCE TO
-                OPEN THE GATE - FEE APPLIES !
-              </h3>
-              <h3>Check out</h3>{" "}
-              <h5>
-                {" "}
-                Please close the windows, turn the lights off and leave the keys
-                and the card on the table.
-              </h5>
-              <h3>House Rules</h3>{" "}
-              <h5>
-                <br /> 1. No smoking allowed.
+                <h3>House Rules</h3> <br /> 1. No smoking allowed.
                 <br /> 2. No noise after 10PM.
                 <br />
                 3. Turn of lights and AC/Heating when out of the property.
@@ -301,10 +322,11 @@ class Contact extends React.Component {
                 <br />
                 8. CCTV in operation, guests are finacially responsible for any
                 damages caused by them to the buidling
-              </h5>
-            </Typography>
-          </Container>
-        </div>
+                <br />
+              </Typography>
+            </Container>
+          </div>
+        </ThemeProvider>
       );
   }
 }

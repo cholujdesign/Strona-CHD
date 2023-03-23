@@ -23,7 +23,6 @@ import Other from "./src/Other";
 import Generalne from "./src/Generalne";
 import DocumentMeta from "react-document-meta";
 import Instructions from "./src/Instructions";
-
 import ContactEn from "./src/ContactEn";
 import HomeEn from "./src/HomeEn";
 import OnasEn from "./src/OnasEn";
@@ -33,7 +32,6 @@ import InteriorsEn from "./src/InteriorsEn";
 import OtherEn from "./src/OtherEn";
 import GeneralneEn from "./src/GeneralneEn";
 import Cookies from "./src/cookies";
-
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
@@ -67,10 +65,17 @@ const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: ["Aboreto"].join(","),
+    fontFamily: ["Cardo"].join(","),
+    textTransform: 'none',
     button: {
       textTransform: 'none'
-    }
+    },
+    h5:{
+        textTransform: 'none'
+    },
+    h6:{
+      textTransform: 'none'
+  }
   },
 });
 const meta = {
@@ -88,9 +93,11 @@ const meta = {
 export default function App() {
   return (
     <DocumentMeta {...meta}>
-      <ThemeProvider theme={theme}>
-        <div className="App">
-          <CssBaseline />
+      <ThemeProvider theme={theme}><CssBaseline />
+        <div className="App"
+        sx={{textTransform:'none'}}
+        >
+          
 
           <main>
             <BrowserRouter>
@@ -104,7 +111,6 @@ export default function App() {
                 <Route path="/Oferta" element={<Blog />} />
                 <Route path="/instructions" element={<Instructions />} />
                 <Route path="/Generalne_Wykonastwo" element={<Generalne />} />
-
                 <Route path="/home" element={<HomeEn />} />
                 <Route path="/Contact" element={<ContactEn />} />
                 <Route path="/Architecture" element={<ArchitectureEn />} />
@@ -113,7 +119,6 @@ export default function App() {
                 <Route path="/About" element={<OnasEn />} />
                 <Route path="/Offer" element={<BlogEn />} />
                 <Route path="/Design&Build" element={<GeneralneEn />} />
-
                 <Route path="/:any" element={<Home />} />
                 <Route path="/" element={<Home />} />
               </Routes>

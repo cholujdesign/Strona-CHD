@@ -48,7 +48,7 @@ const theme = createTheme({
   },
 
   typography: {
-    fontFamily: ["Aboreto"].join(","),
+    fontFamily: ["Cardo"].join(","),
   },
 });
 

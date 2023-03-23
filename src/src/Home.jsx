@@ -47,8 +47,10 @@ const theme = createTheme({
   },
 
   typography: {
-    fontFamily: ["Aboreto"].join(","), button: {
-      textTransform: 'none'
+    fontFamily: ["Cardo"],
+    textTransform: 'none',
+    button: {
+      textTransform: 'none' 
     }
   },
 });
