@@ -61,6 +61,9 @@ function sendEmail(e) {
         console.log(error.text);
       }
     );
+    setTimeout(function(){
+      window.location.reload();
+   }, 1001);
 }
 
 export default function Album() {
