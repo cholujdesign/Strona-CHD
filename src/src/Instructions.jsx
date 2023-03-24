@@ -102,6 +102,7 @@ class Contact extends React.Component {
                 Email: cholujdesign@gmail <br />
                 
                 Wifi: Rynek43_Apartment / Hasło: rg433420<br/>
+                Wifi: Rynek43Apartamenty2 / Hasło: Rg4334#$$#<br/>
                 <Button href="tel:+48516947657" variant="contained">
                   +48516947657
                 </Button>
@@ -232,6 +233,7 @@ class Contact extends React.Component {
                 Phone: +48516947657 <br />
              Email: cholujdesign@gmail.com<br/>
                 Wifi: Rynek43_Apartment / Password: rg433420<br/>
+                Wifi: Rynek43Apartamenty2 / Password: Rg4334#$$#<br/>
                 <Button href="tel:+48516947657" variant="contained">
                   +48516947657
                 </Button>
