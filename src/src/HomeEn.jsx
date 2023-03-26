@@ -62,7 +62,7 @@ export default function Album() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Nav/>
+      <Nav />
       <main>
         {/* desktop */}
         <CustomView condition={browserName === "Chrome"}>
@@ -119,6 +119,17 @@ export default function Album() {
           >
             Rynek Główny 43
           </Button>
+          <br /> <br />
+                <Button href="/Kontakt" color="secondary" variant="contained">
+                  <Typography
+                    component="h3"
+                    variant="h3"
+                    align="center"
+                    color="white"
+                  >
+                    We make energy certificates!
+                  </Typography>
+                </Button>
         </div>
 
         {/* mobile&tablet */}
@@ -135,7 +146,10 @@ export default function Album() {
             }}
           >
             <Container data-aos="zoom-in" maxWidth="xs">
-            <br/><br/><br/><br/>
+              <br />
+              <br />
+              <br />
+              <br />
               <Button variant="contained" href="/ONas">
                 <Typography
                   component="h3"
@@ -155,11 +169,7 @@ export default function Album() {
               >
                 Architects
               </Typography>
-              {/* <Typography variant="h5" align="center" color="white" paragraph>
-              adw.jan kowalski
-              <br />
-              adw.jan kowalski
-            </Typography> */}
+
               <Stack
                 sx={{ pt: 5 }}
                 direction="column"
@@ -178,6 +188,7 @@ export default function Album() {
                 >
                   Rynek Główny 43
                 </Button>
+              
               </Stack>
             </Container>
           </Box>
@@ -208,9 +219,10 @@ export default function Album() {
                     Architecture, Interiors, CGI
                   </Typography>
                   <Typography variant="h6" align="left" color="white" paragraph>
-                  We offer services in the fields of architectural design,
-                     interior design, animation, visualization, 3D modeling
-                     and website design. We focus on presenting the client with a cohesive design.
+                    We offer services in the fields of architectural design,
+                    interior design, animation, visualization, 3D modeling and
+                    website design. We focus on presenting the client with a
+                    cohesive design.
                   </Typography>
                 </Box>
               </Grid>
@@ -236,19 +248,19 @@ export default function Album() {
                   color="white"
                   gutterBottom
                 >
-                   Manifesto
+                  Manifesto
                 </Typography>
                 <Typography variant="h6" align="left" color="white" paragraph>
-                We focus first on the needs and
-                   expectations of our customers, each project is analyzed
-                   individually.
-                   <br />
-                   The leitmotif in our work is the impact of natural and artificial light
-                     on colors and textures, the geometry of the interior and the link between the design and nature.
-                   <br />
-                   We place great emphasis on the user's perception in the design
-                   facility. Spatial design is experienced through
-                   more than just one sense.
+                  We focus first on the needs and expectations of our customers,
+                  each project is analyzed individually.
+                  <br />
+                  The leitmotif in our work is the impact of natural and
+                  artificial light on colors and textures, the geometry of the
+                  interior and the link between the design and nature.
+                  <br />
+                  We place great emphasis on the user's perception in the design
+                  facility. Spatial design is experienced through more than just
+                  one sense.
                 </Typography>
               </Grid>
               <Grid data-aos="zoom-out" item xs={12} sm={12} sx={{ pb: 11 }}>
@@ -273,18 +285,18 @@ export default function Album() {
                   color="white"
                   gutterBottom
                 >
-                 Publications, cooperation
-                 </Typography>
-                 <Typography variant="h6" align="left" color="white" paragraph>
-                   Our work has been appreciated not only by our own
-                   customers, but also by the architectural press.
-                   <br />
-                   We cooperate with designers from Poland, England, USA,
-                   the Netherlands.
-                   <br />
-                   Depending on the scale and specifications of the project, we enlarge ours
-                   team, allowing us to offer high-quality services.
-                   <br />
+                  Publications, cooperation
+                </Typography>
+                <Typography variant="h6" align="left" color="white" paragraph>
+                  Our work has been appreciated not only by our own customers,
+                  but also by the architectural press.
+                  <br />
+                  We cooperate with designers from Poland, England, USA, the
+                  Netherlands.
+                  <br />
+                  Depending on the scale and specifications of the project, we
+                  enlarge ours team, allowing us to offer high-quality services.
+                  <br />
                   <a href="https://www.homify.nl/ideabooks/9077119/ontdek-een-simpele-keukentransformatie">
                     <Typography
                       variant="h6"

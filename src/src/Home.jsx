@@ -122,6 +122,18 @@ export default function Album() {
           >
             Rynek Główny 43
           </Button>
+          <br/> <br/>
+          <Button href="/Kontakt" color="secondary"variant="contained" >
+            
+            <Typography
+              component="h3"
+              variant="h3"
+              align="center"
+              color="white"
+            >
+              Wykonujemy certyfikaty energetyczne!
+            </Typography>
+          </Button>
         </div>
 
         {/* mobile&tablet */}
@@ -181,6 +193,14 @@ export default function Album() {
                 >
                   Rynek Główny 43
                 </Button>
+                <Button
+                  variant="contained"
+                  href="/Kontakt"
+                  color="secondary"
+                >
+                  Wykonujemy certyfikaty energetyczne!
+                </Button>
+              
               </Stack>
             </Container>
           </Box>
