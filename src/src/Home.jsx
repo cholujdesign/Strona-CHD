@@ -195,7 +195,7 @@ export default function Album() {
                 </Button>
                 <Button
                   variant="contained"
-                  href="/Kontakt"
+                  href="/Certyfikaty"
                   color="secondary"
                 >
                   Wykonujemy certyfikaty energetyczne!
