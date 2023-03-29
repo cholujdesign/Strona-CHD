@@ -98,6 +98,8 @@ function PricingContent() {
           >
             <br />
             Projektujemy wnętrza, dobieramy materiały, wybieramy meble, mamy sprawdzonych specjalistów i pilnujemy jakości oraz budżetu. Dzięki temu nasi klienci bezstresowo przechodzą przez proces inwestycyjny. Często wykonujemy zlecenia dla klientów przebywających w innych państwach.
+            <br/>
+            W celu dokonania wyceny prejektu wraz z wykończeniem prosimy o kontakt drogą mailową lub telefoniczną.
           </Typography>
         </Container>
       </Box>

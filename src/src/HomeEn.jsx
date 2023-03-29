@@ -120,7 +120,7 @@ export default function Album() {
             Rynek Główny 43
           </Button>
           <br /> <br />
-                <Button href="/Kontakt" color="secondary" variant="contained">
+                <Button href="/Certyfikaty" color="secondary" variant="contained">
                   <Typography
                     component="h3"
                     variant="h3"

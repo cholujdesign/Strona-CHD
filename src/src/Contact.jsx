@@ -21,7 +21,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import TextField from '@mui/material/TextField';
 import TextareaAutosize from '@mui/material/TextareaAutosize';
-
+import Alert from "@mui/material/Alert";
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
 import Avatar from '@mui/material/Avatar';
@@ -43,6 +43,10 @@ import Nav from "./nav";
 //     },
 //   },
 // });
+export default function Album() {
+  const [wyslanoWiadomosc, setwyslanoWiadomosc] = React.useState(false);
+  const [validated, setValidated] = React.useState(false);
+
 function sendEmail(e) {
   e.preventDefault();
 
@@ -56,16 +60,32 @@ function sendEmail(e) {
     .then(
       (result) => {
         console.log(result.text);
+        setwyslanoWiadomosc(true);
       },
       (error) => {
         console.log(error.text);
       }
-    );setTimeout(function(){
-      window.location.reload();
-   }, 1001);
+    );
 }
 
-export default function Album() {
+const Wyslano = () => {
+  return (
+    <div>
+      {wyslanoWiadomosc ? (
+        <Alert
+          sx
+          // action={
+          //   <Button onClick={refreshPage} color="inherit" size="small">
+          //     X
+          //   </Button>
+          // }
+        >
+          Wiadomość wysłana!
+        </Alert>
+      ) : null}
+    </div>
+  );
+};
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -159,7 +179,8 @@ export default function Album() {
               p: 4,
               borderRadius:"7px"
             }}
-           component="form" onSubmit={sendEmail} noValidate >
+           component="form"  onSubmit={sendEmail}
+           noValidate={validated} >
             <TextField
            
               margin="normal"
@@ -193,7 +214,7 @@ export default function Album() {
             >
               Wyślij
             </Button>
-          
+            <Wyslano />
           </Box>
         </Box>
 

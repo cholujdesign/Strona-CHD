@@ -35,7 +35,7 @@ import Cookies from "./src/cookies";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
-
+import Certyfikaty from "./src/Certyfikaty"
 function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" align="center">
@@ -119,6 +119,7 @@ export default function App() {
                 <Route path="/About" element={<OnasEn />} />
                 <Route path="/Offer" element={<BlogEn />} />
                 <Route path="/Design&Build" element={<GeneralneEn />} />
+                <Route path="/Certyfikaty" element={<Certyfikaty />} />
                 <Route path="/:any" element={<Home />} />
                 <Route path="/" element={<Home />} />
               </Routes>

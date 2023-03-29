@@ -78,7 +78,7 @@ export default function Album() {
           {/* End hero unit */}
           <Grid container spacing={4}>
             
-              <Grid  item key="1" xs={12} sm={6} md={4}>
+              <Grid  item key="1" xs={12} sm={6} md={6}>
                 <Button href="/architektura">
                 <Card
                 data-aos="fade-down"
@@ -105,7 +105,7 @@ export default function Album() {
                   </CardContent>
                 </Card>
              </Button> </Grid>
-             <Grid  item key="1" xs={12} sm={6} md={4}>
+             <Grid  item key="1" xs={12} sm={6} md={6}>
                 <Button href="/wnetrza">
                 <Card
                 data-aos="fade-down"
@@ -122,7 +122,7 @@ export default function Album() {
                       // 16:9
                       // pt: "56.25%",
                     }}
-                    image="https://images.unsplash.com/photo-1601628828688-632f38a5a7d0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1009&q=80"
+                    image="https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
                     alt="random"
                   />
                   <CardContent>
@@ -132,7 +132,7 @@ export default function Album() {
                   </CardContent>
                 </Card>
              </Button> </Grid>
-             <Grid  item key="1" xs={12} sm={6} md={4}>
+             <Grid  item key="1" xs={12} sm={6} md={6}>
                 <Button href="inne">
                 <Card
                 data-aos="fade-down"
@@ -159,7 +159,33 @@ export default function Album() {
                   </CardContent>
                 </Card>
              </Button> </Grid>
-            
+             <Grid  item key="1" xs={12} sm={6} md={6}>
+                <Button href="/Certyfikaty">
+                <Card
+                data-aos="fade-down"
+                  sx={{
+                    
+                    display: "flex",
+                    flexDirection: "column",
+                  }}
+                >
+                  <CardMedia
+                    component="img"
+                    sx={{
+                      height: "250px",
+                      // 16:9
+                      // pt: "56.25%",
+                    }}
+                    image="https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                    alt="random"
+                  />
+                  <CardContent>
+                  <Typography component="h6" variant="h6" color="text.primary">
+                      Certyfikaty energetyczne
+                    </Typography>
+                  </CardContent>
+                </Card>
+             </Button> </Grid>
           </Grid>
         </Container>
       
