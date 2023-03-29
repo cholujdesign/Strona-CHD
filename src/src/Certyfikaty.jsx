@@ -148,7 +148,9 @@ const text = [
         <br />
         6) gospodarstw rolnych o wskaźniku EP określającym roczne obliczeniowe
         zapotrzebowanie na nieodnawialną energię pierwotną nie wyższym niż 50
-        kWh/(m2·rok). Zaznaczyć należy, iż zarówno w świetle obecnie
+        kWh/(m2·rok). 
+        <br/>
+        Zaznaczyć należy, iż zarówno w świetle obecnie
         obowiązujących przepisów prawa, jak też ich znowelizowanego brzmienia,
         obowiązek sporządzenia świadectwa charakterystyki energetycznej budynku
         będzie istniał wyłącznie w przypadku sprzedaży lub najmu budynku lub
