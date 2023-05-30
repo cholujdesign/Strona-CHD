@@ -26,7 +26,7 @@ import Nav from "./nav";
 import emailjs from "@emailjs/browser";
 import TextField from "@mui/material/TextField";
 import Alert from "@mui/material/Alert";
-
+import { Helmet } from "react-helmet";
 const text = [
   {
     title: "Kiedy należy sporządzić świadectwa charakterystyki energetycznej?",
@@ -506,6 +506,15 @@ export default function Pricing() {
                 <Wyslano />
               </Box>
             </Box>
+            <Helmet>
+          <title>Certyfikaty energetyczne</title>
+          <meta name="description" content="Jakie usługi Certyfikaty energetyczne" />
+          <meta property="og:image" content="https://images.unsplash.com/photo-1617360547704-3da8b5363369?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" />
+          <link
+            rel="canonical"
+            href="https://cholujdesign.com/Certyfikaty"
+          />
+        </Helmet>
           </Container>
         </Box>
       </React.Fragment>

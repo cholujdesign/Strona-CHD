@@ -31,7 +31,7 @@ import Iframe from "react-iframe";
 import emailjs from "@emailjs/browser";
 import GlobalStyles from "@mui/material/GlobalStyles";
 import Nav from "./navEn";
-
+import { Helmet } from "react-helmet";
 
 // const theme = createTheme({
 //   palette: {
@@ -94,7 +94,7 @@ export default function Album() {
               color="grey"
               gutterBottom
             >
-              Please contact us
+              Contact details
             </Typography>
             <Typography variant="h7" align="left" color="grey">
             If interested or for additional 
@@ -218,6 +218,15 @@ export default function Album() {
               />{" "}
             </Grid>
           </Grid>
+          <Helmet>
+          <title>Contact</title>
+          <meta name="description" content="How to contact us" />
+          <meta property="og:image" content="https://images.unsplash.com/photo-1617360547704-3da8b5363369?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" />
+          <link
+            rel="canonical"
+            href="https://cholujdesign.com/Contact"
+          />
+        </Helmet>
         </Container>
         </React.Fragment>
   );

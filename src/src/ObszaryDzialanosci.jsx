@@ -19,7 +19,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import GlobalStyles from "@mui/material/GlobalStyles";
 import Nav from "./nav";
-
+import { Helmet } from "react-helmet";
 const theme = createTheme();
 
 export default function Album() {
@@ -34,36 +34,36 @@ export default function Album() {
         styles={{ ul: { margin: 0, padding: 0, listStyle: "none" } }}
       />
       <CssBaseline />
-      <Nav/>
-    
-        <Box
-          sx={{
-            bgcolor: "background.paper",
-            pt: 8,
-            pb: 6,
-            
-          }}
-        >
-          <Container maxWidth="sm">
-            <Typography
-             component="h3"
-                  variant="h3"
-              align="center"
-              color="text.primary"
-              gutterBottom
-            >
-              Obszary działalności
-            </Typography>
-            <Typography
-              variant="p"
-              align="center"
-              color="text.secondary"
-              paragraph
-            >
-              Zajmujemy się projektami architektonicznymi, wnętrz i stron internetowych. 
-              Wykonujemy równiez modele 3d, wizualizacje i animacje.
-            </Typography>
-            {/* <Stack
+      <Nav />
+
+      <Box
+        sx={{
+          bgcolor: "background.paper",
+          pt: 8,
+          pb: 6,
+        }}
+      >
+        <Container maxWidth="sm">
+          <Typography
+            component="h3"
+            variant="h3"
+            align="center"
+            color="text.primary"
+            gutterBottom
+          >
+            Obszary działalności
+          </Typography>
+          <Typography
+            variant="p"
+            align="center"
+            color="text.secondary"
+            paragraph
+          >
+            Zajmujemy się projektami architektonicznymi, wnętrz i stron
+            internetowych. Wykonujemy równiez modele 3d, wizualizacje i
+            animacje.
+          </Typography>
+          {/* <Stack
               sx={{ pt: 4 }}
               direction="row"
               spacing={2}
@@ -72,123 +72,130 @@ export default function Album() {
               <Button variant="contained">Main call to action</Button>
               <Button variant="outlined">Secondary action</Button>
             </Stack> */}
-          </Container>
-        </Box>
-        <Container sx={{ py: 8 }} maxWidth="md">
-          {/* End hero unit */}
-          <Grid container spacing={4}>
-            
-              <Grid  item key="1" xs={12} sm={6} md={6}>
-                <Button href="/architektura">
-                <Card
-                data-aos="fade-down"
-                  sx={{
-                   
-                    display: "flex",
-                    flexDirection: "column",
-                  }}
-                >
-                  <CardMedia
-                    component="img"
-                    sx={{
-                      height: "250px",
-                      // 16:9
-                      // pt: "56.25%",
-                    }}
-                    image="https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-                    alt="random"
-                  />
-                  <CardContent>
-                  <Typography component="h6" variant="h6" color="text.primary">
-                      Architektura
-                    </Typography>
-                  </CardContent>
-                </Card>
-             </Button> </Grid>
-             <Grid  item key="1" xs={12} sm={6} md={6}>
-                <Button href="/wnetrza">
-                <Card
-                data-aos="fade-down"
-                  sx={{
-                    
-                    display: "flex",
-                    flexDirection: "column",
-                  }}
-                >
-                  <CardMedia
-                    component="img"
-                    sx={{
-                      height: "250px",
-                      // 16:9
-                      // pt: "56.25%",
-                    }}
-                    image="https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-                    alt="random"
-                  />
-                  <CardContent>
-                  <Typography component="h6" variant="h6" color="text.primary">
-                      Wnętrza
-                    </Typography>
-                  </CardContent>
-                </Card>
-             </Button> </Grid>
-             <Grid  item key="1" xs={12} sm={6} md={6}>
-                <Button href="inne">
-                <Card
-                data-aos="fade-down"
-                  sx={{
-                    
-                    display: "flex",
-                    flexDirection: "column",
-                  }}
-                >
-                  <CardMedia
-                    component="img"
-                    sx={{
-                      height: "250px",
-                      // 16:9
-                      // pt: "56.25%",
-                    }}
-                    image="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-                    alt="random"
-                  />
-                  <CardContent>
-                  <Typography component="h6" variant="h6" color="text.primary">
-                      Inne
-                    </Typography>
-                  </CardContent>
-                </Card>
-             </Button> </Grid>
-             <Grid  item key="1" xs={12} sm={6} md={6}>
-                <Button href="/Certyfikaty">
-                <Card
-                data-aos="fade-down"
-                  sx={{
-                    
-                    display: "flex",
-                    flexDirection: "column",
-                  }}
-                >
-                  <CardMedia
-                    component="img"
-                    sx={{
-                      height: "250px",
-                      // 16:9
-                      // pt: "56.25%",
-                    }}
-                    image="https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-                    alt="random"
-                  />
-                  <CardContent>
-                  <Typography component="h6" variant="h6" color="text.primary">
-                      Certyfikaty energetyczne
-                    </Typography>
-                  </CardContent>
-                </Card>
-             </Button> </Grid>
-          </Grid>
         </Container>
-      
-        </React.Fragment>
+      </Box>
+      <Container sx={{ py: 8 }} maxWidth="md">
+        {/* End hero unit */}
+        <Grid container spacing={4}>
+          <Grid item key="1" xs={12} sm={6} md={6}>
+            <Button href="/architektura">
+              <Card
+                data-aos="fade-down"
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                }}
+              >
+                <CardMedia
+                  component="img"
+                  sx={{
+                    height: "250px",
+                    // 16:9
+                    // pt: "56.25%",
+                  }}
+                  image="https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                  alt="random"
+                />
+                <CardContent>
+                  <Typography component="h6" variant="h6" color="text.primary">
+                    Architektura
+                  </Typography>
+                </CardContent>
+              </Card>
+            </Button>{" "}
+          </Grid>
+          <Grid item key="1" xs={12} sm={6} md={6}>
+            <Button href="/wnetrza">
+              <Card
+                data-aos="fade-down"
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                }}
+              >
+                <CardMedia
+                  component="img"
+                  sx={{
+                    height: "250px",
+                    // 16:9
+                    // pt: "56.25%",
+                  }}
+                  image="https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                  alt="random"
+                />
+                <CardContent>
+                  <Typography component="h6" variant="h6" color="text.primary">
+                    Wnętrza
+                  </Typography>
+                </CardContent>
+              </Card>
+            </Button>{" "}
+          </Grid>
+          <Grid item key="1" xs={12} sm={6} md={6}>
+            <Button href="inne">
+              <Card
+                data-aos="fade-down"
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                }}
+              >
+                <CardMedia
+                  component="img"
+                  sx={{
+                    height: "250px",
+                    // 16:9
+                    // pt: "56.25%",
+                  }}
+                  image="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                  alt="random"
+                />
+                <CardContent>
+                  <Typography component="h6" variant="h6" color="text.primary">
+                    Inne
+                  </Typography>
+                </CardContent>
+              </Card>
+            </Button>{" "}
+          </Grid>
+          <Grid item key="1" xs={12} sm={6} md={6}>
+            <Button href="/Certyfikaty">
+              <Card
+                data-aos="fade-down"
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                }}
+              >
+                <CardMedia
+                  component="img"
+                  sx={{
+                    height: "250px",
+                    // 16:9
+                    // pt: "56.25%",
+                  }}
+                  image="https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                  alt="random"
+                />
+                <CardContent>
+                  <Typography component="h6" variant="h6" color="text.primary">
+                    Certyfikaty energetyczne
+                  </Typography>
+                </CardContent>
+              </Card>
+            </Button>{" "}
+          </Grid>
+        </Grid>
+        <Helmet>
+          <title>Obszary działalności</title>
+          <meta name="description" content="Jakie usługi oferujemy" />
+          <meta property="og:image" content="https://images.unsplash.com/photo-1617360547704-3da8b5363369?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" />
+          <link
+            rel="canonical"
+            href="https://cholujdesign.com/Oferta"
+          />
+        </Helmet>
+      </Container>
+    </React.Fragment>
   );
 }

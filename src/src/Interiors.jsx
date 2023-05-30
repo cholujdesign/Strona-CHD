@@ -23,6 +23,7 @@ import ArchitectureProjects from "./InteriorsProjects";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Nav from "./nav";
+import { Helmet } from "react-helmet";
 const cards = [
   {
     head: "Prawo budowlane",
@@ -100,6 +101,15 @@ function PricingContent() {
             projektować obiekty łatwe i tanie do wybudowania.
           </Typography>
         </Container>
+        <Helmet>
+          <title>Wnętrza</title>
+          <meta name="description" content="Projekty i realizacje architektury wnętrz CHD" />
+          <meta property="og:image" content="https://images.unsplash.com/photo-1617360547704-3da8b5363369?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" />
+          <link
+            rel="canonical"
+            href="https://cholujdesign.com/wnetrza"
+          />
+        </Helmet>
       </Box>
 
       <ArchitectureProjects />

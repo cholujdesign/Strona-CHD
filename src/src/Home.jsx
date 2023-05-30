@@ -16,7 +16,7 @@ import Iframe from "react-iframe";
 import { browserName, CustomView } from "react-device-detect";
 import Nav from "./nav";
 // import Blog from './src/Blog'
-
+import { Helmet } from "react-helmet";
 function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" align="center">
@@ -339,6 +339,15 @@ export default function Album() {
               </Grid>
             </Grid>
           </Container>
+          <Helmet>
+          <title>Home</title>
+          <meta name="description" content="CHD pracownia architektoniczna" />
+          <meta property="og:image" content="https://images.unsplash.com/photo-1617360547704-3da8b5363369?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" />
+          <link
+            rel="canonical"
+            href="https://cholujdesign.com/CHD"
+          />
+        </Helmet>
         </div>
       </main>
     </ThemeProvider>

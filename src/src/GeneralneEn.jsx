@@ -22,7 +22,7 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Nav from "./navEn";
-
+import { Helmet } from "react-helmet";
 
 
 function PricingContent() {
@@ -82,6 +82,17 @@ function PricingContent() {
         }}
       >
      <img src="https://images.unsplash.com/photo-1482731215275-a1f151646268?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" width="100%"/>
+
+
+     <Helmet>
+          <title>Design And Build</title>
+          <meta name="description" content="CHD design and build" />
+          <meta property="og:image" content="https://images.unsplash.com/photo-1617360547704-3da8b5363369?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" />
+          <link
+            rel="canonical"
+            href="https://cholujdesign.com/Design&Build"
+          />
+        </Helmet>
       </Container>
       {/* Hero unit */}
       <Box

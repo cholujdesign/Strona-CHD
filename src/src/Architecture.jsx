@@ -23,6 +23,7 @@ import ArchitectureProjects from "./ArchitectureProjects";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Nav from "./nav";
+import { Helmet } from "react-helmet";
 const cards = [
   {
     head: "Prawo budowlane",
@@ -99,6 +100,15 @@ function PricingContent() {
             poszerzać nasze horyzonty projektowe. Jednocześnie dzięki doświadczeniu na budowach jesteśmy w stanie
             projektować obiekty łatwe i tanie do wybudowania.
           </Typography>
+          <Helmet>
+          <title>Architektura</title>
+          <meta name="description" content="Projekty i realizacje architektoniczne CHD" />
+          <meta property="og:image" content="https://images.unsplash.com/photo-1617360547704-3da8b5363369?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" />
+          <link
+            rel="canonical"
+            href="https://cholujdesign.com/architektura"
+          />
+        </Helmet>
         </Container>
       </Box>
 

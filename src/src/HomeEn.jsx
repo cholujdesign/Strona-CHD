@@ -15,7 +15,7 @@ import ReactPlayer from "react-player/lazy";
 import Iframe from "react-iframe";
 import { browserName, CustomView } from "react-device-detect";
 import Nav from "./navEn";
-
+import { Helmet } from "react-helmet";
 // import Blog from './src/Blog'
 
 function Copyright() {
@@ -322,6 +322,16 @@ export default function Album() {
                 />
               </Grid>
             </Grid>
+
+            <Helmet>
+          <title>Home</title>
+          <meta name="description" content="CHD architectural practise" />
+          <meta property="og:image" content="https://images.unsplash.com/photo-1617360547704-3da8b5363369?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" />
+          <link
+            rel="canonical"
+            href="https://cholujdesign.com/Home"
+          />
+        </Helmet>
           </Container>
         </div>
       </main>

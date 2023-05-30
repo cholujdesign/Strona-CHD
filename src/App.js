@@ -36,6 +36,8 @@ import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Certyfikaty from "./src/Certyfikaty"
+
+import { Helmet } from "react-helmet";
 function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" align="center">
@@ -110,7 +112,7 @@ export default function App() {
                 <Route path="/ONas" element={<Onas />} />
                 <Route path="/Oferta" element={<Blog />} />
                 <Route path="/instructions" element={<Instructions />} />
-                <Route path="/Generalne_Wykonastwo" element={<Generalne />} />
+                <Route path="/Generalne_Wykonawstwo" element={<Generalne />} />
                 <Route path="/home" element={<HomeEn />} />
                 <Route path="/Contact" element={<ContactEn />} />
                 <Route path="/Architecture" element={<ArchitectureEn />} />

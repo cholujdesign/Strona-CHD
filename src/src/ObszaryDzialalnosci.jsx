@@ -10,7 +10,7 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardHeader from '@mui/material/CardHeader';
 import Container from "@mui/material/Container";
-
+import { Helmet } from "react-helmet";
 const Individual = [
     { title: 'item1', description: ' ' },
     { title: 'item1', description: ' ' },
@@ -140,6 +140,15 @@ export default function BasicTabs() {
             </Grid>
           ))}
         </Grid>
+        <Helmet>
+          <title>Obszary działalności</title>
+          <meta name="description" content="Jakie usługi oferujemy" />
+          <meta property="og:image" content="https://images.unsplash.com/photo-1617360547704-3da8b5363369?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" />
+          <link
+            rel="canonical"
+            href="https://cholujdesign.com/Oferta"
+          />
+        </Helmet>
     </Container>
       </TabPanel>
       
