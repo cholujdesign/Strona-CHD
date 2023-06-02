@@ -195,7 +195,7 @@ export default function Album() {
                 </Button>
                 <Button
                   variant="contained"
-                  href="/Certyfikaty"
+                  href="/Certyfikaty" 
                   color="secondary"
                 >
                   Wykonujemy certyfikaty energetyczne!
@@ -340,9 +340,11 @@ export default function Album() {
             </Grid>
           </Container>
           <Helmet>
-          <title>Home</title>
+          <title>Choluj Design</title>
           <meta name="description" content="CHD pracownia architektoniczna" />
           <meta property="og:image" content="https://images.unsplash.com/photo-1617360547704-3da8b5363369?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" />
+          <meta name="keywords" content="Choluj Design, Rynek Glowny w Krakowie, architektura, wnetrza, certyfikaty energetyczne, budynki, projekty, strony wwww, projekty koncepcyjne, projekty wykonawcze"/>
+  <meta name="author" content="Choluj Design"/>
           <link
             rel="canonical"
             href="https://cholujdesign.com/CHD"

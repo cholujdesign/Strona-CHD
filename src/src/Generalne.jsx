@@ -87,7 +87,7 @@ function PricingContent() {
             color="text.primary"
             gutterBottom
           >
-            Generalne Wykonastwo
+            Generalne Wykonawstwo
           </Typography>
           <Typography
             variant="h7"
