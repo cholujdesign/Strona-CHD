@@ -18,7 +18,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import EmailIcon from '@mui/icons-material/Email';
 import GTranslateIcon from "@mui/icons-material/GTranslate";
 
-const pages = ["Home", "About", "Offer", "Design&Build", "Contact"];
+const pages = ["Home", "About", "portfolio", "Design&Build", "Contact"];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);

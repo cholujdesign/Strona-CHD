@@ -24,33 +24,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Nav from "./nav";
 import { Helmet } from "react-helmet";
-const cards = [
-  {
-    head: "Prawo budowlane",
-    text: "pare slow o prawie budowlanym",
-    pic: "https://images.unsplash.com/photo-1595844730298-b960ff98fee0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-  },
-  {
-    head: "Prawo budowlane",
-    text: "pare slow o prawie budowlanym",
-    pic: "https://images.unsplash.com/photo-1595844730298-b960ff98fee0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-  },
-  {
-    head: "Prawo budowlane",
-    text: "pare slow o prawie budowlanym",
-    pic: "https://images.unsplash.com/photo-1595844730298-b960ff98fee0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-  },
-  {
-    head: "Prawo budowlane",
-    text: "pare slow o prawie budowlanym",
-    pic: "https://images.unsplash.com/photo-1595844730298-b960ff98fee0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-  },
-  {
-    head: "Prawo budowlane",
-    text: "pare slow o prawie budowlanym",
-    pic: "https://images.unsplash.com/photo-1595844730298-b960ff98fee0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-  },
-];
+
 
 function PricingContent() {
   useEffect(() => {

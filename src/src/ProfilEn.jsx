@@ -68,7 +68,7 @@ function PricingContent() {
         <Typography variant="h7" align="left" color="text.secondary" component="p" gutterBottom>
 <br/>
 
-KPLA offers an individual approach to each client, based on mutual trust, commitment and diligence, which is the foundation for achieving joint success. Professionalism, experience and the ability to adapt to the changing reality ensure the highest level of handling entrusted cases.
+KPLA portfolios an individual approach to each client, based on mutual trust, commitment and diligence, which is the foundation for achieving joint success. Professionalism, experience and the ability to adapt to the changing reality ensure the highest level of handling entrusted cases.
         </Typography>
        
       </Container>

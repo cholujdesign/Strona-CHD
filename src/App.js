@@ -110,7 +110,7 @@ export default function App() {
                 <Route path="/wnetrza" element={<Interiors />} />
                 <Route path="/inne" element={<Other />} />
                 <Route path="/ONas" element={<Onas />} />
-                <Route path="/Oferta" element={<Blog />} />
+                <Route path="/Portfolio" element={<Blog />} />
                 <Route path="/instructions" element={<Instructions />} />
                 <Route path="/Generalne_Wykonawstwo" element={<Generalne />} />
                 <Route path="/home" element={<HomeEn />} />
@@ -119,7 +119,7 @@ export default function App() {
                 <Route path="/Interiors" element={<InteriorsEn />} />
                 <Route path="/Others" element={<OtherEn />} />
                 <Route path="/About" element={<OnasEn />} />
-                <Route path="/Offer" element={<BlogEn />} />
+                <Route path="/portfolio" element={<BlogEn />} />
                 <Route path="/Design&Build" element={<GeneralneEn />} />
                 <Route path="/Certyfikaty" element={<Certyfikaty />} />
                 <Route path="/:any" element={<Home />} />
@@ -174,8 +174,8 @@ export default function App() {
                     <Button href="/ONas" variant="contained">
                       ONas
                     </Button>
-                    <Button href="/Oferta" variant="contained">
-                      Oferta
+                    <Button href="/Portfolio" variant="contained">
+                      Portfolio
                     </Button>
                     <Button href="/Generalne_Wykonastwo" variant="contained">
                       Generalne_Wykonastwo

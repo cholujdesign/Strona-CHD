@@ -219,7 +219,7 @@ export default function Album() {
                     Architecture, Interiors, CGI
                   </Typography>
                   <Typography variant="h6" align="left" color="white" paragraph>
-                    We offer services in the fields of architectural design,
+                    We portfolio services in the fields of architectural design,
                     interior design, animation, visualization, 3D modeling and
                     website design. We focus on presenting the client with a
                     cohesive design.
@@ -295,7 +295,7 @@ export default function Album() {
                   Netherlands.
                   <br />
                   Depending on the scale and specifications of the project, we
-                  enlarge ours team, allowing us to offer high-quality services.
+                  enlarge ours team, allowing us to portfolio high-quality services.
                   <br />
                   <a href="https://www.homify.nl/ideabooks/9077119/ontdek-een-simpele-keukentransformatie">
                     <Typography

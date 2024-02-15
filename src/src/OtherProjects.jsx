@@ -212,14 +212,7 @@ export default function BasicTabs() {
                       {Realised.description}
                     </Typography>
                   </CardContent>
-                  <CardActions disableSpacing>
-                    <IconButton aria-label="add to favorites">
-                      <FavoriteIcon />
-                    </IconButton>
-                    <IconButton aria-label="share">
-                      <ShareIcon />
-                    </IconButton>
-                  </CardActions>
+                  
                 </Card>
               </Grid>
             ))}
@@ -263,14 +256,7 @@ export default function BasicTabs() {
                       {Designs.description}
                     </Typography>
                   </CardContent>
-                  <CardActions disableSpacing>
-                    <IconButton aria-label="add to favorites">
-                      <FavoriteIcon />
-                    </IconButton>
-                    <IconButton aria-label="share">
-                      <ShareIcon />
-                    </IconButton>
-                  </CardActions>
+                  
                 </Card>
               </Grid>
             ))}
@@ -311,14 +297,7 @@ export default function BasicTabs() {
                       {Concept.description}
                     </Typography>
                   </CardContent>
-                  <CardActions disableSpacing>
-                    <IconButton aria-label="add to favorites">
-                      <FavoriteIcon />
-                    </IconButton>
-                    <IconButton aria-label="share">
-                      <ShareIcon />
-                    </IconButton>
-                  </CardActions>
+                  
                 </Card>
               </Grid>
             ))}

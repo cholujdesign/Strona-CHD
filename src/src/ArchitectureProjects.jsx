@@ -25,6 +25,16 @@ import "aos/dist/aos.css";
 
 const Realised = [
   {
+    title: "Domy w zabudowie szeregowej",
+    design: "CHD architekci",
+    date: "2018",
+    description:"",
+    descriptionEn:"",
+    img1: "https://lh6.googleusercontent.com/nU-HECwxE0dAt4Nyehw4lCkMeo4hUA6BdsqNm3yxz7qmKzBlcwEvxnBFOdLXCY1OQ7Od1OVb9jdleGYIVvCVG-UoFi3DtNFLNCEwTA5rAgFQAoF0maoc679hZab20H3Cxg=w1280",
+    img2: "https://lh5.googleusercontent.com/pB3CkqxCyJQMF8xwbwrNSNoSnOKEPfAPC4nrqGMMk7A6u6SN-EkxGW5XcJ5EYfYQPN4_SORfqL-l36cC5P76gralb_hGRFpMqNqcqEB6GwYBAuFiAQMDJUgQbPQvHBk5vw=w1280",
+    img3: "https://lh4.googleusercontent.com/nV1IV_6vPk9_IVj_wWGOEatyCPXaU42941ADS6k-VeuIbrHtLQGMcYr_a2aqY_kqcgaZE2mCPDPAINfOPvZx7jbKEvlkUaDjWE_A34CmPouCo1BQtyQKzLpU_0M5YV7J9w=w1280",
+  },
+  {
     title: "Pi i Sigma, Rakowicka 15A",
     design: "CHD architekci i Idea Development",
     date: "2016",
@@ -219,7 +229,7 @@ export default function BasicTabs() {
           centered
           aria-label="basic tabs example"
         >
-          <Tab label="realizacje" {...a11yProps(0)} />
+          <Tab label="Realizacje" {...a11yProps(0)} />
           <Tab label="Projekty" {...a11yProps(1)} />
           <Tab label="Koncepcje" {...a11yProps(2)} />
         </Tabs>
@@ -244,7 +254,7 @@ export default function BasicTabs() {
                     }
                     action={
                       <IconButton aria-label="settings">
-                        {/* <MoreVertIcon /> */}
+                       
                       </IconButton>
                     }
                     title={Realised.title}
@@ -275,14 +285,7 @@ export default function BasicTabs() {
                     alt=" loading"
                   />
 
-                  <CardActions disableSpacing>
-                    <IconButton aria-label="add to favorites">
-                      <FavoriteIcon />
-                    </IconButton>
-                    <IconButton aria-label="share">
-                      <ShareIcon />
-                    </IconButton>
-                  </CardActions>
+                  
                 </Card>
               </Grid>
             ))}
@@ -329,14 +332,7 @@ export default function BasicTabs() {
                     alt=" loading"
                   />
 
-                  <CardActions disableSpacing>
-                    <IconButton aria-label="add to favorites">
-                      <FavoriteIcon />
-                    </IconButton>
-                    <IconButton aria-label="share">
-                      <ShareIcon />
-                    </IconButton>
-                  </CardActions>
+                  
                 </Card>
               </Grid>
             ))}
@@ -383,14 +379,7 @@ export default function BasicTabs() {
                     alt=" loading"
                   />
 
-                  <CardActions disableSpacing>
-                    <IconButton aria-label="add to favorites">
-                      <FavoriteIcon />
-                    </IconButton>
-                    <IconButton aria-label="share">
-                      <ShareIcon />
-                    </IconButton>
-                  </CardActions>
+                  
                 </Card>
               </Grid>
             ))}

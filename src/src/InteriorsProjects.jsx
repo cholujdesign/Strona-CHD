@@ -27,51 +27,68 @@ const Realised = [
   {
     title: "Kurka Wodna",
     design: "CHD architekci",
-    date: "12/12/12",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    img1: "https://drive.google.com/uc?export=view&id=1MFazPIVYNVZyjfeEQsXJSy9x0w3auMQq",
-    img2: "https://drive.google.com/uc?export=view&id=1Hg_iJSKZorqjyyjnsWVbZUkH0NhX1bbJ",
-    img3: "https://drive.google.com/uc?export=view&id=",
+    date: "2014",
+    description: "Kanonicza 15",
+    img1: "/images/kurkaWodna.png",
+    img2: "/images/kurkaWodna2.png",
+    img3: "",
+  },
+  {
+    title: "Uzdrowisko Bistro",
+    design: "CHD architekci",
+    date: "2023",
+    description:"Szpital w Warszawie",
+    img1: "/images/uzdrowiskoBistro.png",
+    img2: "/images/uzdrowiskoBistro2.jpg",
+    img3: "",
   },
   {
     title: "Dzień dobry cafe",
     design: "CHD architekci",
-    date: "12/12/12",
-    description: " ",
-    img1: "https://drive.google.com/uc?export=view&id=1g1Dhx7gKF8hHtjO8-1EYs5m5m2BUbz4h",
-    img2: "https://drive.google.com/uc?export=view&id=1mmsKZh0EFdjB5GlEKppoYGAhKknxQq-2",
-    img3: "https://drive.google.com/uc?export=view&id=",
+    date: "2019",
+    description:"Szpital Uniwersytecki w Krakowie",
+    img1: "/images/dzienDobryCafe.png",
+    img2: "/images/dzienDobryCafe2.png",
+    img3: "",
+  },
+ 
+  {
+    title: "Uzdrowisko Bistro",
+    design: "CHD architekci",
+    date: "2023",
+    description: "Szpital Onkologiczny w Warszawie",
+    img1: "/images/uzdrowsko3.png",
+    img2: "/images/uzdrowisko2.png",
+    img3: "/images/uzdrowisko3.png",
   },
   {
-    title: "Szoberowska",
+    title: "Restauracja Pod Słońcem",
     design: "CHD architekci",
-    date: "12/12/12",
-    description: " ",
-    img1: "https://drive.google.com/uc?export=view&id=19UdHzsdmSf_7JAHVP3950IbnN6Xs_xTj",
-    img2: "https://drive.google.com/uc?export=view&id=1U73av2hUYjVzU6T22GKoKwa_yHbfT68c",
-    img3: "https://drive.google.com/uc?export=view&id=",
-  },
-  {
-    title: "Kazik",
-    design: "CHD architekci",
-    date: "12/12/12",
-    description: " ",
-    img1: "https://drive.google.com/uc?export=view&id=1TM2cqzyR4dF9o6E34bpB84rmUqY4l552",
-    img2: "https://drive.google.com/uc?export=view&id=1-qsD1JhBPA7FH8VmonDdMo6s6waYZmRS",
-    img3: "https://drive.google.com/uc?export=view&id=",
+    date: "2000",
+    description: "Rynek Główny 43 w Krakowie",
+    img1: "/images/podsloncem1.webp",
+    img2: "/images/podsloncem2.webp",
+    img3: "",
   },
   {
     title: "Ingo Hostel",
     design: "CHD architekci",
-    date: "12/12/12",
-    description: " ",
-    img1: "https://drive.google.com/uc?export=view&id=1l62F3Nq2UlpjFPiciz3BlYoZhRDCyGIx",
-    img2: "https://drive.google.com/uc?export=view&id=1NvLn_FJPQmIcus6y_u9NDL3qfsoxV52J",
-    img3: "https://drive.google.com/uc?export=view&id=",
+    date: "2007",
+    description: "Ulica Mikołaja Kopernika w Krakowie",
+    img1: "/images/ingo1.webp",
+    img2: "/images/ingo2.webp",
+    img3: "",
   },
-
-
+  
+  {
+    title: "Restauracja Szoberowska",
+    design: "CHD architekci",
+    date: "2008",
+    description: "Mały Rynek w Krakowie",
+    img1: "/images/szoberowska1.webp",
+    img2: "/images/szoberowska2.webp",
+    img3: "",
+  },
 ];
 const Designs = [
   {
@@ -80,7 +97,7 @@ const Designs = [
     date: "12/01/2023",
     description: " ",
     img1: "https://drive.google.com/uc?export=view&id=17N1LBs2JmkJeBQaIlqe0h70nSqZlcuAL",
-    img2: "https://drive.google.com/uc?export=view&id=1Nza7P2ZH7XkXzJa2DbchOYPSHhMdQ9XX",
+    img2: "https://drive.google.com/uc?export=view&id=1Nza7P2ZH7XkXzJa2DbchOYPSHhlgQ9XX",
     img3: "https://drive.google.com/uc?export=view&id=",
   },
   {
@@ -135,7 +152,7 @@ const Concept = [
     design: "CHD architekci",
     date: "12/12/12",
     description: " ",
-    img1: "https://drive.google.com/uc?export=view&id=1-4oy0Og3dZgQCbFZCmdWz_Qc4lXfzEmF",
+    img1: "https://drive.google.com/uc?export=view&id=1-4oy0Og3dZgQCbFZClgWz_Qc4lXfzEmF",
     img2: "https://drive.google.com/uc?export=view&id=1Ft1TuzyV4KUlo-VfCCVYnX_OHob3fQyb",
     img3: "https://drive.google.com/uc?export=view&id=",
   },
@@ -258,13 +275,13 @@ export default function BasicTabs() {
           centered
           aria-label="basic tabs example"
         >
-          <Tab label="realizacje" {...a11yProps(0)} />
-          <Tab label="Projekty" {...a11yProps(1)} />
-          <Tab label="Budowy" {...a11yProps(2)} />
+          <Tab label="GASTRONOMIA" {...a11yProps(0)} />
+          <Tab label="MIESZKANIA" {...a11yProps(1)} />
+          <Tab label="INNE" {...a11yProps(2)} />
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
-        <Container alignItems="center" maxWidth="md">
+        <Container alignItems="center" maxWidth="lg">
           <Grid container spacing={5}>
             {Realised.map((Realised) => (
               <Grid
@@ -272,7 +289,7 @@ export default function BasicTabs() {
                 item
                 key={Realised.title}
                 xs={12}
-                md={12}
+                lg={12}
               >
                 <Card>
                   <CardHeader
@@ -309,14 +326,7 @@ export default function BasicTabs() {
                     alt=" loading"
                   />
 
-                  <CardActions disableSpacing>
-                    <IconButton aria-label="add to favorites">
-                      <FavoriteIcon />
-                    </IconButton>
-                    <IconButton aria-label="share">
-                      <ShareIcon />
-                    </IconButton>
-                  </CardActions>
+                  
                 </Card>
               </Grid>
             ))}
@@ -324,10 +334,10 @@ export default function BasicTabs() {
         </Container>
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <Container alignItems="center" maxWidth="md">
+        <Container alignItems="center" maxWidth="lg">
           <Grid container spacing={5}>
             {Designs.map((Designs) => (
-              <Grid data-aos="zoom-in" item key={Designs.title} xs={12} md={12}>
+              <Grid data-aos="zoom-in" item key={Designs.title} xs={12} lg={12}>
                 <Card>
                   <CardHeader
                     avatar={
@@ -363,14 +373,7 @@ export default function BasicTabs() {
                     alt=" loading"
                   />
 
-                  <CardActions disableSpacing>
-                    <IconButton aria-label="add to favorites">
-                      <FavoriteIcon />
-                    </IconButton>
-                    <IconButton aria-label="share">
-                      <ShareIcon />
-                    </IconButton>
-                  </CardActions>
+                  
                 </Card>
               </Grid>
             ))}
@@ -378,10 +381,10 @@ export default function BasicTabs() {
         </Container>
       </TabPanel>
       <TabPanel value={value} index={2}>
-        <Container alignItems="center" maxWidth="md">
+        <Container alignItems="center" maxWidth="lg">
           <Grid container spacing={5}>
             {Concept.map((Concept) => (
-              <Grid data-aos="zoom-in" item key={Concept.title} xs={12} md={12}>
+              <Grid data-aos="zoom-in" item key={Concept.title} xs={12} lg={12}>
                 <Card>
                   <CardHeader
                     avatar={
@@ -417,14 +420,7 @@ export default function BasicTabs() {
                     alt=" loading"
                   />
 
-                  <CardActions disableSpacing>
-                    <IconButton aria-label="add to favorites">
-                      <FavoriteIcon />
-                    </IconButton>
-                    <IconButton aria-label="share">
-                      <ShareIcon />
-                    </IconButton>
-                  </CardActions>
+                  
                 </Card>
               </Grid>
             ))}
