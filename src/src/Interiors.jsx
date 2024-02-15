@@ -98,7 +98,39 @@ function PricingContent() {
             Nasze biuro posiada wieloletnie doświadczenie w zakresie projektowania architektonicznego,
             nadzoru budowy oraz prowadzenia budowy. Bierzemy udział w konkursach i przygotowujemy projekty koncepcyjne, aby 
             poszerzać nasze horyzonty projektowe. Jednocześnie dzięki doświadczeniu na budowach jesteśmy w stanie
-            projektować obiekty łatwe i tanie do wybudowania.
+            projektować wnętrza o bardzo dobrym stosunku jakości do ceny wykonania. Specjalizujemy się w następujących rodzajach wnętrz:
+          </Typography>
+          <Typography
+            variant="h6"
+            align="left"
+            color="text.secondary"
+            component="p"
+            data-aos="fade-up"
+          >
+           <br/>
+            Gastronomiczne - część naszego zespołu prowadziła kilka lokali gastronomicznych w przeszłości, wykonaliśmy wiele realizacji w dość trudnych lokalizacjach, takich jak szpitale i zabytkowe kamienice.
+          </Typography>
+
+          <Typography
+            variant="h6"
+            align="left"
+            color="text.secondary"
+            component="p"
+            data-aos="fade-up"
+          >
+           <br/>
+            Mieszkania - mamy doświadczenie w projektowaniu mieszkań, domów i willi. Realizowaliśmy projekty wnętrz mieszkań na wynajem oraz prywatnego zamieszkania.
+          </Typography>
+
+          <Typography
+            variant="h6"
+            align="left"
+            color="text.secondary"
+            component="p"
+            data-aos="fade-up"
+          >
+           <br/>
+            Lokale użytkowe, sklepy, biura, szkoły - posidamy w naszym portfolio realizacje w pomieszczeniach komercyjnych
           </Typography>
         </Container>
         <Helmet>

@@ -274,9 +274,9 @@ export default function Album() {
                   naturalnego oraz sztucznego na kolorystykę, fakturę bryly
                   budynku, geometrię wnętrza oraz powiazanie projektu z naturą.
                   <br />
-                  Duzy nacisk kładziemy na percepcję użytkownika w projektowanym
-                  obiekcie. Projektowanie przestrzenne doświadcza się poprzez
-                  wicej niż tylko jeden zmysł.
+                  Duży nacisk kładziemy na percepcję użytkownika w projektowanym
+                  obiekcie. Projektowana przestrzeń dośwadczana jest się poprzez
+                  wiele zmysłów.
                 </Typography>
               </Grid>
               <Grid data-aos="zoom-out" item xs={12} sm={12} sx={{ pb: 11 }}>
@@ -307,8 +307,8 @@ export default function Album() {
                   Nasza praca została nie tylko doceniona przez naszych
                   klientów, ale również przez prasę architektoniczną.
                   <br />
-                  Wspólpracujemy z projektantami z Polski, Anglii, USA,
-                  Holandii.
+                  Wspólpracujemy z projektantami z Polski, USA i UK.
+                  
                   <br />
                   W zależności od skali i specyfikacji projektu powiększamy nasz
                   zespół, pozwala to nam na oferowanie wysokiej jakości usług.

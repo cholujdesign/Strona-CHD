@@ -59,7 +59,7 @@ function PricingContent() {
             color="text.primary"
             gutterBottom
           >
-           Architecture
+           Architektura
            </Typography>
            <Typography
              variant="h7"
@@ -69,16 +69,16 @@ function PricingContent() {
              data-aos="fade-up"
            >
              <br />
-             Our practice has many years of experience in the fields of
-             architectural design, construction supervision and management of
-             construction. We take part in competitions and prepare projects'
-             concept to broaden our design horizons. Simultaneously
-             thanks to our experience on construction sites, we are able to design
-             structures that are easy and cheap to build.
+             Nasza firma posiada wieloletnie doświadczenie w dziedzinach
+             projektowanie architektoniczne, nadzóru budowlanego i kierowania
+             budową. Bierzemy udział w konkursach i przygotowujemy projekty
+             koncepcję co poszerza nasze horyzonty projektowe. Jednocześnie
+             dzięki naszemu doświadczeniu na budowach jesteśmy w stanie zaprojektować
+             konstrukcje łatwe i tanie w budowie, i  dobrej jakości.
            </Typography>
         </Container>
         <Helmet>
-          <title>Architecture</title>
+          <title>Architektura</title>
           <meta name="description" content="Architektural projects from CHD" />
           <meta property="og:image" content="https://images.unsplash.com/photo-1617360547704-3da8b5363369?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" />
           <link
