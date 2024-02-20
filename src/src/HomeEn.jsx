@@ -120,7 +120,7 @@ export default function Album() {
             Rynek Główny 43
           </Button>
           <br /> <br />
-                <Button href="/Certyfikaty" color="secondary" variant="contained">
+                {/* <Button href="/Certyfikaty" color="secondary" variant="contained">
                   <Typography
                     component="h3"
                     variant="h3"
@@ -129,7 +129,7 @@ export default function Album() {
                   >
                     We make energy certificates!
                   </Typography>
-                </Button>
+                </Button> */}
         </div>
 
         {/* mobile&tablet */}
@@ -194,7 +194,7 @@ export default function Album() {
           </Box>
         </div>
         <div className="bgHome">
-          <Container sx={{ py: 0 }} maxWidth="lg">
+          <Container sx={{ py: 0 }} maxWidth="md">
             <Grid container spacing={5}>
               <Grid item xs={12} sm={6} sx={{ pb: 10 }}></Grid>
               <Grid item xs={12} sm={6} sx={{ pb: 10 }}></Grid>
@@ -216,25 +216,58 @@ export default function Album() {
                     color="white"
                     gutterBottom
                   >
-                    Architecture, Interiors, CGI
+                    Architecture, interiors, CGI
                   </Typography>
-                  <Typography variant="h6" align="left" color="white" paragraph>
-                    We portfolio services in the fields of architectural design,
-                    interior design, animation, visualization, 3D modeling and
-                    website design. We focus on presenting the client with a
-                    cohesive design.
+                  <Box
+                    sx={{
+                      backgroundImage: `url("/images/nyc1.jpeg")`,
+                      backgroundSize: "cover",
+                      backgroundPosition: "center",
+                      borderRadius: "20px",
+                      alignItems: "center",
+                      py: 15,
+                      minHeight: "50vh",
+                    }}
+                  />
+                  <Typography
+                    variant="h6"
+                    align="justify"
+                    color="white"
+                    paragraph
+                  >
+                    We offer architectural design services,
+                     interior architecture, animation, visualization, 3D modeling
+                     and website design. we work with
+                     developers to the full extent, this allows for
+                     presenting a coherent design to the client, starting from
+                     the proposed building, through the way it is presented
+                     ending with the website design.
                   </Typography>
                 </Box>
               </Grid>
-              <Grid data-aos="zoom-out" item xs={12} sm={12} sx={{ pb: 5 }}>
+              <Grid data-aos="zoom-in" item xs={12} sm={12} sx={{ pb: 5 }}>
+                <Typography
+                  variant="h6"
+                  align="justify"
+                  color="white"
+                  paragraph
+                >
+              We have extensive technical knowledge acquired in many areas
+                   construction sites. We like to experiment with new technologies.
+                   Sometimes we create prototypes of lamps, furniture and solutions ourselves
+                   construction. Our team members have
+                   experience in running your own business, which translates
+                   to better understand private sector clients.
+                </Typography>
+
                 <Box
                   sx={{
-                    backgroundImage: `url(https://svgsilh.com/svg/2409580-ffffff.svg)`,
+                    backgroundImage: `url("/images/nyc2.jpeg")`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     borderRadius: "20px",
                     alignItems: "center",
-                    py: 15,
+                    py: 5,
                     minHeight: "50vh",
                   }}
                 />
@@ -250,23 +283,30 @@ export default function Album() {
                 >
                   Manifesto
                 </Typography>
-                <Typography variant="h6" align="left" color="white" paragraph>
-                  We focus first on the needs and expectations of our customers,
-                  each project is analyzed individually.
-                  <br />
-                  The leitmotif in our work is the impact of natural and
-                  artificial light on colors and textures, the geometry of the
-                  interior and the link between the design and nature.
-                  <br />
-                  We place great emphasis on the user's perception in the design
-                  facility. Spatial design is experienced through more than just
-                  one sense.
+                <Typography
+                  variant="h6"
+                  align="justify"
+                  color="white"
+                  paragraph
+                >
+              We focus on the needs first and foremost
+                   expectations of our clients, each project is analyzed
+                   individually.
+                   <br />
+                   The leitmotif of our work is the impact of light
+                   natural and artificial on the colors and texture of the body
+                   building, interior geometry and the project's connection with nature.
+                   <br />
+                   We place great emphasis on the user's perception in the design
+                   object. We understand that space is experienced
+                   through many senses, thanks to which we also pay attention to
+                   texture, noise and smell.
                 </Typography>
               </Grid>
               <Grid data-aos="zoom-out" item xs={12} sm={12} sx={{ pb: 11 }}>
                 <Box
                   sx={{
-                    backgroundImage: `url(https://svgsilh.com/svg/1559455-ffffff.svg)`,
+                    backgroundImage: `url("/images/brighton.png")`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     borderRadius: "20px",
@@ -285,17 +325,21 @@ export default function Album() {
                   color="white"
                   gutterBottom
                 >
-                  Publications, cooperation
-                </Typography>
-                <Typography variant="h6" align="left" color="white" paragraph>
-                  Our work has been appreciated not only by our own customers,
-                  but also by the architectural press.
-                  <br />
-                  We cooperate with designers from Poland, England, USA, the
-                  Netherlands.
-                  <br />
-                  Depending on the scale and specifications of the project, we
-                  enlarge ours team, allowing us to portfolio high-quality services.
+                  Publications, Cooperation
+                 </Typography>
+                 <Typography
+                   variant="h6"
+                   align="justify"
+                   color="white"
+                   paragraph
+                 >
+                   Our work was not only appreciated by our people
+                   clients, but also by the architectural press.
+                   <br />
+                   We cooperate with designers from Poland, the USA and the UK.
+                   <br />
+                   Depending on the scale and specifications of the project, we enlarge ours
+                   team, this allows us to offer high-quality services.
                   <br />
                   <a href="https://www.homify.nl/ideabooks/9077119/ontdek-een-simpele-keukentransformatie">
                     <Typography
@@ -309,30 +353,22 @@ export default function Album() {
                   </a>
                 </Typography>
               </Grid>
-              <Grid data-aos="zoom-out" item xs={12} sm={12} sx={{ pb: 11 }}>
-                <Box
-                  sx={{
-                    backgroundImage: `url(https://svgsilh.com/svg/312122-ffffff.svg)`,
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                    borderRadius: "20px",
-                    alignItems: "center",
-                    py: 11,
-                  }}
-                />
-              </Grid>
             </Grid>
-
-            <Helmet>
-          <title>Home</title>
-          <meta name="description" content="CHD architectural practise" />
-          <meta property="og:image" content="https://images.unsplash.com/photo-1617360547704-3da8b5363369?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" />
-          <link
-            rel="canonical"
-            href="https://cholujdesign.com/Home"
-          />
-        </Helmet>
           </Container>
+          <Helmet>
+            <title>Choluj Design</title>
+            <meta name="description" content="CHD pracownia architektoniczna" />
+            <meta
+              property="og:image"
+              content="https://images.unsplash.com/photo-1617360547704-3da8b5363369?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+            />
+            <meta
+              name="keywords"
+              content="Choluj Design, Rynek Glowny w Krakowie, architektura, wnetrza, certyfikaty energetyczne, budynki, projekty, strony wwww, projekty koncepcyjne, projekty wykonawcze"
+            />
+            <meta name="author" content="Choluj Design" />
+            <link rel="canonical" href="https://cholujdesign.com/CHD" />
+          </Helmet>
         </div>
       </main>
     </ThemeProvider>

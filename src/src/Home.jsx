@@ -48,10 +48,10 @@ const theme = createTheme({
 
   typography: {
     fontFamily: ["Cardo"],
-    textTransform: 'none',
+    textTransform: "none",
     button: {
-      textTransform: 'none' 
-    }
+      textTransform: "none",
+    },
   },
 });
 
@@ -65,7 +65,7 @@ export default function Album() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Nav/>
+      <Nav />
       <main>
         {/* desktop */}
         <CustomView condition={browserName === "Chrome"}>
@@ -109,7 +109,6 @@ export default function Album() {
           >
             Architekci
           </Typography>
-
           <Button href="tel:+48509446074" variant="contained">
             +48 509 446 704
           </Button>
@@ -122,9 +121,8 @@ export default function Album() {
           >
             Rynek Główny 43
           </Button>
-          <br/> <br/>
-          <Button href="/Certyfikaty" color="secondary"variant="contained" >
-            
+          <br /> <br />
+          <Button href="/Certyfikaty" color="secondary" variant="contained">
             <Typography
               component="h3"
               variant="h3"
@@ -150,7 +148,10 @@ export default function Album() {
             }}
           >
             <Container data-aos="zoom-in" maxWidth="xs">
-            <br/><br/><br/><br/>
+              <br />
+              <br />
+              <br />
+              <br />
               <Button variant="contained" href="/ONas">
                 <Typography
                   component="h3"
@@ -195,18 +196,17 @@ export default function Album() {
                 </Button>
                 <Button
                   variant="contained"
-                  href="/Certyfikaty" 
+                  href="/Certyfikaty"
                   color="secondary"
                 >
                   Wykonujemy certyfikaty energetyczne!
                 </Button>
-              
               </Stack>
             </Container>
           </Box>
         </div>
         <div className="bgHome">
-          <Container sx={{ py: 0 }} maxWidth="lg">
+          <Container sx={{ py: 0 }} maxWidth="md">
             <Grid container spacing={5}>
               <Grid item xs={12} sm={6} sx={{ pb: 10 }}></Grid>
               <Grid item xs={12} sm={6} sx={{ pb: 10 }}></Grid>
@@ -230,7 +230,23 @@ export default function Album() {
                   >
                     Architektura, wnętrza, CGI
                   </Typography>
-                  <Typography variant="h6" align="justify" color="white" paragraph>
+                  <Box
+                    sx={{
+                      backgroundImage: `url("/images/nyc1.jpeg")`,
+                      backgroundSize: "cover",
+                      backgroundPosition: "center",
+                      borderRadius: "20px",
+                      alignItems: "center",
+                      py: 15,
+                      minHeight: "50vh",
+                    }}
+                  />
+                  <Typography
+                    variant="h6"
+                    align="justify"
+                    color="white"
+                    paragraph
+                  >
                     Oferujemy usługi w zakresie projektowania architektury,
                     architektury wnętrz, animacji, wizualizacji, modelowania 3D
                     oraz projektowania stron internetowych. Współpracujemy z
@@ -241,15 +257,29 @@ export default function Album() {
                   </Typography>
                 </Box>
               </Grid>
-              <Grid data-aos="zoom-out" item xs={12} sm={12} sx={{ pb: 5 }}>
+              <Grid data-aos="zoom-in" item xs={12} sm={12} sx={{ pb: 5 }}>
+                <Typography
+                  variant="h6"
+                  align="justify"
+                  color="white"
+                  paragraph
+                >
+                  Posiadamy szeroką wiedzę techniczną, pozyskaną na wielu
+                  budowach. Lubimy eksperymentować z nowymi technologiami.
+                  Czasami sami tworzymy prototypu lamp, mebli i rozwiązań
+                  kosntrukcyjnych. Członkowie naszego zespołu posiadają
+                  doświadczenie w prowadzeniu własnej działaności co przekłada
+                  się na lepsze zrozumienie klientow z sektora prywatnego.
+                </Typography>
+
                 <Box
                   sx={{
-                    backgroundImage: `url(https://svgsilh.com/svg/2409580-ffffff.svg)`,
+                    backgroundImage: `url("/images/nyc2.jpeg")`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     borderRadius: "20px",
                     alignItems: "center",
-                    py: 15,
+                    py: 5,
                     minHeight: "50vh",
                   }}
                 />
@@ -265,7 +295,12 @@ export default function Album() {
                 >
                   Nasze Manifesto
                 </Typography>
-                <Typography variant="h6" align="justify" color="white" paragraph>
+                <Typography
+                  variant="h6"
+                  align="justify"
+                  color="white"
+                  paragraph
+                >
                   Skupiamy się w pierwszej kolejności nad potrzebami i
                   oczekiwaniami naszych klientów, każdy projekt jest analizowany
                   indywidualnie.
@@ -275,14 +310,15 @@ export default function Album() {
                   budynku, geometrię wnętrza oraz powiazanie projektu z naturą.
                   <br />
                   Duży nacisk kładziemy na percepcję użytkownika w projektowanym
-                  obiekcie. Projektowana przestrzeń dośwadczana jest się poprzez
-                  wiele zmysłów.
+                  obiekcie. Rozumiemy, że przestrzeń dośwadczana jest się
+                  poprzez wiele zmysłów dzięki czemu zrwacamy również uwagę na
+                  teksuturę, hałas i zapach.
                 </Typography>
               </Grid>
               <Grid data-aos="zoom-out" item xs={12} sm={12} sx={{ pb: 11 }}>
                 <Box
                   sx={{
-                    backgroundImage: `url(https://svgsilh.com/svg/1559455-ffffff.svg)`,
+                    backgroundImage: `url("/images/brighton.png")`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     borderRadius: "20px",
@@ -303,12 +339,16 @@ export default function Album() {
                 >
                   Publikacje, Współpraca
                 </Typography>
-                <Typography variant="h6" align="justify" color="white" paragraph>
+                <Typography
+                  variant="h6"
+                  align="justify"
+                  color="white"
+                  paragraph
+                >
                   Nasza praca została nie tylko doceniona przez naszych
                   klientów, ale również przez prasę architektoniczną.
                   <br />
                   Wspólpracujemy z projektantami z Polski, USA i UK.
-                  
                   <br />
                   W zależności od skali i specyfikacji projektu powiększamy nasz
                   zespół, pozwala to nam na oferowanie wysokiej jakości usług.
@@ -325,31 +365,22 @@ export default function Album() {
                   </a>
                 </Typography>
               </Grid>
-              <Grid data-aos="zoom-out" item xs={12} sm={12} sx={{ pb: 11 }}>
-                <Box
-                  sx={{
-                    backgroundImage: `url(https://svgsilh.com/svg/312122-ffffff.svg)`,
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                    borderRadius: "20px",
-                    alignItems: "center",
-                    py: 11,
-                  }}
-                />
-              </Grid>
             </Grid>
           </Container>
           <Helmet>
-          <title>Choluj Design</title>
-          <meta name="description" content="CHD pracownia architektoniczna" />
-          <meta property="og:image" content="https://images.unsplash.com/photo-1617360547704-3da8b5363369?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" />
-          <meta name="keywords" content="Choluj Design, Rynek Glowny w Krakowie, architektura, wnetrza, certyfikaty energetyczne, budynki, projekty, strony wwww, projekty koncepcyjne, projekty wykonawcze"/>
-  <meta name="author" content="Choluj Design"/>
-          <link
-            rel="canonical"
-            href="https://cholujdesign.com/CHD"
-          />
-        </Helmet>
+            <title>Choluj Design</title>
+            <meta name="description" content="CHD pracownia architektoniczna" />
+            <meta
+              property="og:image"
+              content="https://images.unsplash.com/photo-1617360547704-3da8b5363369?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+            />
+            <meta
+              name="keywords"
+              content="Choluj Design, Rynek Glowny w Krakowie, architektura, wnetrza, certyfikaty energetyczne, budynki, projekty, strony wwww, projekty koncepcyjne, projekty wykonawcze"
+            />
+            <meta name="author" content="Choluj Design" />
+            <link rel="canonical" href="https://cholujdesign.com/CHD" />
+          </Helmet>
         </div>
       </main>
     </ThemeProvider>

@@ -119,7 +119,7 @@ export default function App() {
                 <Route path="/Interiors" element={<InteriorsEn />} />
                 <Route path="/Others" element={<OtherEn />} />
                 <Route path="/About" element={<OnasEn />} />
-                <Route path="/portfolio" element={<BlogEn />} />
+                <Route path="/Offer" element={<BlogEn />} />
                 <Route path="/Design&Build" element={<GeneralneEn />} />
                 <Route path="/Certyfikaty" element={<Certyfikaty />} />
                 <Route path="/:any" element={<Home />} />
