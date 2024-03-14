@@ -97,11 +97,11 @@ class Contact extends React.Component {
                   Rynek Główny - Apartament - Instrukcje
                 </h3>
                 Adres: Rynek Główny 43, Kraków <br />
-                Taxi: +48507894989 <br />
+                {/* Taxi: +48507894989 <br /> */}
                 Telefon: +48516947657 <br />
                 Email: cholujdesign@gmail <br />
                 
-                Wifi: Rynek43_Apartment / Hasło: rg433420<br/>
+                {/* Wifi: Rynek43_Apartment / Hasło: rg433420<br/> */}
                 Wifi: Rynek43Apartamenty2 / Hasło: Rg4334#$$#<br/>
                 <Button href="tel:+48516947657" variant="contained">
                   +48516947657
@@ -229,10 +229,10 @@ class Contact extends React.Component {
                   Rynek Główny - Apartment - Instructions
                 </h3>
                 Adress: Rynek Główny 43, Kraków <br />
-                Taxi: +48507894989 <br />
+                {/* Taxi: +48507894989 <br /> */}
                 Phone: +48516947657 <br />
              Email: cholujdesign@gmail.com<br/>
-                Wifi: Rynek43_Apartment / Password: rg433420<br/>
+                {/* Wifi: Rynek43_Apartment / Password: rg433420<br/> */}
                 Wifi: Rynek43Apartamenty2 / Password: Rg4334#$$#<br/>
                 <Button href="tel:+48516947657" variant="contained">
                   +48516947657
