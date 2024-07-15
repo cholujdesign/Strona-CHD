@@ -34,7 +34,7 @@ const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: ["Cardo"].join(","),
+    fontFamily: ["Proximity key fobo"].join(","),
     textTransform: 'none',
     button: {
       textTransform: 'none'
@@ -102,7 +102,7 @@ class Contact extends React.Component {
                 Email: cholujdesign@gmail <br />
                 
                 {/* Wifi: Rynek43_Apartment / Hasło: rg433420<br/> */}
-                Wifi: Rynek43Apartamenty2 / Hasło: Rg4334#$$#<br/>
+                Wifi: Rynek43Apartamenty2 5G / Hasło: Rg4334#$$#<br/>
                 <Button href="tel:+48516947657" variant="contained">
                   +48516947657
                 </Button>
@@ -126,7 +126,7 @@ class Contact extends React.Component {
                 <br />
                 <h3>Odbiór kluczy</h3>
                 Prosimy otworzyć skrzyneczkę na klucze znajdującą sie przy
-                wejściu do kamienicy i zabrać z niej klucz oraz kartę dostępu.
+                wejściu do kamienicy i zabrać z niej klucz oraz brelok zbliżeniowy.
                 <h3> Kod dostępu: 2102</h3>
                 <br />
                 <img src={p1} width="100%" />
@@ -134,25 +134,25 @@ class Contact extends React.Component {
                 <h3>Wejście</h3>
                 <h3>
                   {" "}
-                  Użyj karty dostępu jeżeli krata jest opuszczona (czytnik po
+                  Użyj breloka zbliżeniowego jeżeli krata jest opuszczona (czytnik po
                   lewej stronie)
                   <br />
                   *krata sama sie opuści po 60 sekundach, wielokrotne i częste
-                  przykładanie karty może zawiesić system ! NIGDY NIE UŻYWAJ
+                  przykładanie breloka zbliżeniowego może zawiesić system ! NIGDY NIE UŻYWAJ
                   SIŁY, ABY OTWORZYC KRATĘ - KARA 500 PLn W RAZIE USZKODZENIA !
                 </h3>
                 <img src={p3} width="100%" />
                 <h3>
                   {" "}
-                  Użyj karty dostępu jeżeli drzwi są zamknięte (czytnik po lewej
+                  Użyj breloka zbliżeniowego jeżeli drzwi są zamknięte (czytnik po lewej
                   stronie)
                 </h3>
                 <img src={p4} width="100%" />
-                <h3> Wejdz po schodach (schowek na bagaże jes pod schodami)</h3>
+                <h3> Wejdz po schodach (schowek na bagaże jest pod schodami)</h3>
                 <img src={p5} width="100%" />
                 <h3>
                   {" "}
-                  Użyj karty dostępu do drzwi (czytnik po lewej stronie){" "}
+                  Użyj breloka zbliżeniowego do drzwi (czytnik po lewej stronie){" "}
                 </h3>
                 <img src={p6} width="100%" />
                 <h3>
@@ -175,11 +175,11 @@ class Contact extends React.Component {
                   opuszczona
                   <br />
                   *krata sama sie opuści po 60 sekundach, wielokrotne i szybkie
-                  przykładanie karty spowoduje zablkowanie systemu kara za
+                  przykładanie breloka zbliżeniowego spowoduje zablkowanie systemu kara za
                   uszkodzenie kary 500 PLN
                 </h3>
                 <h3>Wymeldowanie</h3> Prosimy zamknąć okna i zostawić klucze
-                wraz z kartą na stole oraz zatrzasnąć drzwi. <br />
+                wraz z brelokiem na stole oraz zatrzasnąć drzwi. <br />
                 <h3>Regulamin</h3> <br />
                 1. Zakaz Palenia.
                 <br />
@@ -193,7 +193,7 @@ class Contact extends React.Component {
                 <br />
                 6. Zero imprez i wydarzeń.
                 <br />
-                7. 100 pln kary za zgubienie klucza lub karty.
+                7. 100 pln kary za zgubienie klucza lub breloka zbliżeniowego.
                 <br />
                 8. Monitoring w budynku, goście są odpowiedzialni finansowo za
                 zniszczenia budynku przez nich spowodowane.
@@ -233,7 +233,7 @@ class Contact extends React.Component {
                 Phone: +48516947657 <br />
              Email: cholujdesign@gmail.com<br/>
                 {/* Wifi: Rynek43_Apartment / Password: rg433420<br/> */}
-                Wifi: Rynek43Apartamenty2 / Password: Rg4334#$$#<br/>
+                Wifi: Rynek43Apartamenty2 5G / Password: Rg4334#$$#<br/>
                 <Button href="tel:+48516947657" variant="contained">
                   +48516947657
                 </Button>
@@ -256,7 +256,7 @@ class Contact extends React.Component {
                 <br />
                 <br />
                 <h3>Keys</h3>
-                Please open the key box and take a key and a card.
+                Please open the key box and take a key and a Proximity key fob.
                 <h3> Code: 2102</h3>
                 <br />
                 <img src={p1} width="100%" />
@@ -264,21 +264,21 @@ class Contact extends React.Component {
                 <h3>Entrance</h3>
                 <h3>
                   {" "}
-                  Use the access card if the gate is closed (card reader on the
+                  Use the access Proximity key fob if the gate is closed (Proximity key fob reader on the
                   left)
                   <br />
                   *the gate closes automatically after 60 seconds, do not touch
-                  the card reader with the card many times! ! NEVER USE FORCE TO
+                  the Proximity key fob reader with the Proximity key fob many times! ! NEVER USE FORCE TO
                   OPEN THE GATE - 200 euro FEE APPLIES !
                 </h3>
                 <img src={p3} width="100%" />
-                <h3> Use the card to open the door (reader on the left)</h3>
+                <h3> Use the Proximity key fob to open the door (reader on the left)</h3>
                 <img src={p4} width="100%" />
                 <h3> Go upstairs (lagguage storage under the staircase)</h3>
                 <img src={p5} width="100%" />
                 <h3>
                   {" "}
-                  Use the card to open the door (card reader on the left){" "}
+                  Use the Proximity key fob to open the door (Proximity key fob reader on the left){" "}
                 </h3>
                 <img src={p6} width="100%" />
                 <h3>
@@ -303,11 +303,11 @@ class Contact extends React.Component {
                   PRESS THE BUTTON ON THE RIGHT
                   <br />
                   *the gate closes automatically after 60 seconds, do not touch
-                  the card reader with the card many times! ! NEVER USE FORCE TO
+                  the Proximity key fob reader with the Proximity key fob many times! ! NEVER USE FORCE TO
                   OPEN THE GATE - FEE APPLIES !
                 </h3>
                 <h3>Check out</h3> Please close the windows, turn the lights off
-                and leave the keys and the card on the table.
+                and leave the keys and the Proximity key fob on the table.
                 <br />
                 <h3>House Rules</h3> <br /> 1. No smoking allowed.
                 <br /> 2. No noise after 10PM.
@@ -320,7 +320,7 @@ class Contact extends React.Component {
                 <br />
                 6. No Parties or Events.
                 <br />
-                7. 50 euro fine in case the guest loses the card or the key
+                7. 50 euro fine in case the guest loses the Proximity key fob or the key
                 <br />
                 8. CCTV in operation, guests are finacially responsible for any
                 damages caused by them to the buidling
