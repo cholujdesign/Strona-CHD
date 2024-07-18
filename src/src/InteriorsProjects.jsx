@@ -90,7 +90,43 @@ const Realised = [
     img3: "",
   },
 ];
-const Designs = [
+const Residential = [
+    {
+    title: "Sycamore 1",
+    design: "CHD architekci - modelowanie, dokumentacja i CGI",
+    date: "",
+    description: "Chicago, IL",
+    img1: "/images/ben/ben2.webp",
+    img2: "/images/ben/ben8.webp",
+    img3: "/images/ben/.webp",
+  },
+  {
+    title: "Sycamore 1",
+    design: "CHD architekci - modelowanie, dokumentacja i CGI",
+    date: "",
+    description: "Chicago, IL",
+    img1: "/images/ben/VIEW3.webp",
+    img2: "/images/ben/ben1.webp",
+    img3: "/images/ben/ben1.webp",
+  },
+  {
+    title: "Sycamore 2",
+    design: "CHD architekci - modelowanie, dokumentacja i CGI",
+    date: "",
+    description: "Chicago, IL",
+    img1: "/images/ben/secondstair 2.webp",
+    img2: "/images/ben/secondstair 4.webp",
+    img3: "/images/ben/.webp",
+  },
+  {
+    title: "Sycamore 3",
+    design: "CHD architekci - modelowanie, dokumentacja i CGI",
+    date: "",
+    description: "Chicago, IL",
+    img1: "/images/ben/bead 47.webp",
+    img2: "/images/ben/bead 48.webp",
+    img3: "/images/ben/.webp",
+  },
   {
     title: "Eliptical Duplex Stair",
     design: "CHD architekci - projekt wkonawczy",
@@ -100,14 +136,68 @@ const Designs = [
     img2: "/images/nystair2.jpeg",
     img3: "",
   },
+  {
+    title: "Bton1",
+    design: "MA Architecture, współpraca",
+    date: "",
+    description: "Brighton, UK",
+    img1: "/images/asia/a1.webp",
+    img2: "/images/asia/a2.webp",
+    img3: "/images/asia/.webp",
+  },
+  {
+    title: "Bton2",
+    design: "MA Architecture, współpraca",
+    date: "",
+    description: "Brighton, UK",
+    img1: "/images/asia/b1.webp",
+    img2: "/images/asia/b2.webp",
+    img3: "/images/asia/.webp",
+  },
+  {
+    title: "Bton3",
+    design: "MA Architecture, współpraca",
+    date: "",
+    description: "Brighton, UK",
+    img1: "/images/asia/c1.webp",
+    img2: "/images/asia/c2.webp",
+    img3: "/images/asia/.webp",
+  },
+  {
+    title: "Bton4",
+    design: "MA Architecture, współpraca",
+    date: "",
+    description: "Brighton, UK",
+    img1: "/images/asia/e1.webp",
+    img2: "/images/asia/e2.webp",
+    img3: "/images/asia/.webp",
+  },
+  {
+    title: "Bton5",
+    design: "MA Architecture, współpraca",
+    date: "",
+    description: "Brighton, UK",
+    img1: "/images/asia/f1.webp",
+    img2: "/images/asia/f2.webp",
+    img3: "/images/asia/.webp",
+  },
+  {
+    title: "Bton6",
+    design: "MA Architecture, współpraca",
+    date: "",
+    description: "Brighton, UK",
+    img1: "/images/asia/g1.webp",
+    img2: "/images/asia/1 (2).webp",
+    img3: "/images/asia/.webp",
+  },
   // {
-  //   title: "Mieszkanie  a23",
+  //   title: "",
   //   design: "CHD architekci - projekt wkonawczy  i koncepcyjny",
-  //   date: "21/12/2022",
-  //   description: "Kraków",
-  //   img1: "/images/.png",
-  //   img2: "/images/.png",
-  //   img3: "",
+  //   date: "",
+  //   description: "",
+  //   img1: "/images/asia/.png",
+  //   img2: "/images/asia/.png",
+  //   img3: "/images/asia/.png",
   // },
   {
     title: "Willa ",
@@ -341,7 +431,7 @@ export default function BasicTabs() {
                       </IconButton>
                     }
                     title={Realised.title}
-                    subheader={Realised.date}
+                    
                   />
                   <CardMedia
                     component="img"
@@ -373,8 +463,8 @@ export default function BasicTabs() {
       <TabPanel value={value} index={1}>
         <Container alignItems="center" maxWidth="lg">
           <Grid container spacing={5}>
-            {Designs.map((Designs) => (
-              <Grid data-aos="zoom-in" item key={Designs.title} xs={12} lg={12}>
+            {Residential.map((Residential) => (
+              <Grid data-aos="zoom-in" item key={Residential.title} xs={12} lg={12}>
                 <Card>
                   <CardHeader
                     avatar={
@@ -387,26 +477,26 @@ export default function BasicTabs() {
                         {/* <MoreVertIcon /> */}
                       </IconButton>
                     }
-                    title={Designs.title}
-                    subheader={Designs.date}
+                    title={Residential.title}
+                    
                   />
                   <CardMedia
                     component="img"
                     loading="lazy"
                     height="auto"
-                    image={Designs.img1}
+                    image={Residential.img1}
                     alt=" loading"
                   />
                   <CardContent>
                     <Typography variant="body2" color="text.secondary">
-                      {Designs.description}
+                      {Residential.description}
                     </Typography>
                   </CardContent>
                   <CardMedia
                     component="img"
                     loading="lazy"
                     height="auto"
-                    image={Designs.img2}
+                    image={Residential.img2}
                     alt=" loading"
                   />
 
@@ -435,7 +525,7 @@ export default function BasicTabs() {
                       </IconButton>
                     }
                     title={Concept.title}
-                    subheader={Concept.date}
+                    
                   />
                   <CardMedia
                     component="img"

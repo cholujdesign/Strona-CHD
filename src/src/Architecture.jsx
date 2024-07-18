@@ -42,15 +42,15 @@ function PricingContent() {
       <Box
         sx={{
           bgcolor: "background.paper",
-          pt: 8,
-          pb: 6,
+          pt: 2,
+          pb: 2,
         }}
       >
         <Container
           disableGutters
           maxWidth="md"
           component="main"
-          sx={{ pt: 8, pb: 6 }}
+          sx={{ pt: 2, pb: 2 }}
         >
           <Typography
             component="h4"
@@ -61,19 +61,7 @@ function PricingContent() {
           >
             Architektura
           </Typography>
-          <Typography
-            variant="h7"
-            align="left"
-            color="text.secondary"
-            component="p"
-            data-aos="fade-up"
-          >
-            <br />
-            Nasze biuro posiada wieloletnie doświadczenie w zakresie projektowania architektonicznego,
-            nadzoru budowy oraz prowadzenia budowy. Bierzemy udział w konkursach i przygotowujemy projekty koncepcyjne, aby 
-            poszerzać nasze horyzonty projektowe. Jednocześnie dzięki doświadczeniu na budowach jesteśmy w stanie
-            projektować obiekty łatwe i tanie do wybudowania.
-          </Typography>
+          
           <Helmet>
           <title>Architektura</title>
           <meta name="description" content="Projekty i realizacje architektoniczne CHD" />

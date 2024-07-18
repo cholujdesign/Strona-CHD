@@ -74,7 +74,7 @@ export default function Album() {
               ref={videoParentRef}
               playsinline={true}
               className="react-player"
-              url="https://www.youtube.com/watch?v=PeBJaU_vzUw-U"
+              url="https://youtu.be/cCwqpy8ra7w"
               width="100%"
               height="100%"
               volume={0}
@@ -90,7 +90,7 @@ export default function Album() {
         </CustomView>
         <img className="bgPic" width="100%" />
         <div className="destopText" data-aos="zoom-in">
-          <Button variant="contained" href="/ONas">
+          <Button variant="contained" href="/Specjalizacje">
             <Typography
               component="h3"
               variant="h3"
@@ -124,12 +124,12 @@ export default function Album() {
           <br /> <br />
           <Button href="/Certyfikaty" color="secondary" variant="contained">
             <Typography
-              component="h3"
-              variant="h3"
+              component="h5"
+              variant="h5"
               align="center"
               color="white"
             >
-              Wykonujemy certyfikaty energetyczne!
+              Wykonujemy certyfikaty energetyczne
             </Typography>
           </Button>
         </div>
@@ -152,7 +152,7 @@ export default function Album() {
               <br />
               <br />
               <br />
-              <Button variant="contained" href="/ONas">
+              <Button variant="contained" href="/Specjalizacje">
                 <Typography
                   component="h3"
                   variant="h3"
@@ -210,6 +210,50 @@ export default function Album() {
             <Grid container spacing={5}>
               <Grid item xs={12} sm={6} sx={{ pb: 10 }}></Grid>
               <Grid item xs={12} sm={6} sx={{ pb: 10 }}></Grid>
+              <Grid data-aos="zoom-in" item xs={12} sm={12} sx={{ pb: 5 }}>
+                <Box
+                  sx={{
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    borderRadius: "20px",
+                    alignItems: "center",
+                    py: 5,
+                  }}
+                >
+                  <Typography
+                    component="h4"
+                    variant="h4"
+                    align="left"
+                    color="white"
+                    gutterBottom
+                  >
+                    CHD Architekci
+
+                  </Typography>
+                
+                  <Typography
+                    variant="h6"
+                    align="justify"
+                    color="white"
+                    paragraph
+                  >
+                    Zajmujemy się architekturą oraz architekturą wnętrz od ponad 25 lat. Nasz zespół ma doświadczenie w projektach od małych do średnich, nadzorze autorskim oraz kierowaniu budową. Od dekady zaczęliśmy łączyć projektowanie przestrzenne z projektowaniem form przemysłowych. W zależności od typu i rozmiaru projektu  współpracujemy z zespołem utalentowanych i doświadczonych projektantów oraz innych zaufanych specjalistów.
+                  </Typography>
+                  <Box
+                    sx={{
+                      backgroundImage: `url("/images/nyc1.jpeg")`,
+                      backgroundSize: "cover",
+                      backgroundPosition: "center",
+                      borderRadius: "20px",
+                      alignItems: "center",
+                      py: 15,
+                      minHeight: "50vh",
+                    }}
+                  />
+                </Box>
+              </Grid>
+
+
 
               <Grid data-aos="zoom-in" item xs={12} sm={12} sx={{ pb: 5 }}>
                 <Box
@@ -228,7 +272,22 @@ export default function Album() {
                     color="white"
                     gutterBottom
                   >
-                    Architektura, wnętrza, CGI
+                    Czym się zajmujemy?
+                  </Typography>
+                  
+                  <Typography
+                    variant="h6"
+                    align="justify"
+                    color="white"
+                    paragraph
+                  >
+                    Oferujemy usługi w zakresie projektowania architektektonicznego,
+                    architektury wnętrz, animacji, wizualizacji, modelowania 3D
+                    oraz projektowania stron internetowych. Współpracujemy z
+                    deweloperami i inwestorami w pełnym zakresie, pozwala to na
+                    zaprezentowanie klientowi spoistego designu począwszy od projektu
+                    proponowanego budynku, poprzez sposób jego zaprezentowania klientowi uzywając takich środków przekazu jak: animacje, VR, modele, wizualizacje;
+                    kończąc na projekcie i obsłudze strony internetowej.
                   </Typography>
                   <Box
                     sx={{
@@ -237,54 +296,13 @@ export default function Album() {
                       backgroundPosition: "center",
                       borderRadius: "20px",
                       alignItems: "center",
-                      py: 15,
+                      py: 5,
                       minHeight: "50vh",
                     }}
                   />
-                  <Typography
-                    variant="h6"
-                    align="justify"
-                    color="white"
-                    paragraph
-                  >
-                    Oferujemy usługi w zakresie projektowania architektury,
-                    architektury wnętrz, animacji, wizualizacji, modelowania 3D
-                    oraz projektowania stron internetowych. Współpracujemy z
-                    deweloperami w pełnym zakresie, pozwala to na
-                    zaprezentowanie klientowi spoistego designu począwszy od
-                    proponowanego budynku, poprzez sposób jego zaprezentowania
-                    kończąc na projekcie strony.
-                  </Typography>
                 </Box>
               </Grid>
-              <Grid data-aos="zoom-in" item xs={12} sm={12} sx={{ pb: 5 }}>
-                <Typography
-                  variant="h6"
-                  align="justify"
-                  color="white"
-                  paragraph
-                >
-                  Posiadamy szeroką wiedzę techniczną, pozyskaną na wielu
-                  budowach. Lubimy eksperymentować z nowymi technologiami.
-                  Czasami sami tworzymy prototypu lamp, mebli i rozwiązań
-                  kosntrukcyjnych. Członkowie naszego zespołu posiadają
-                  doświadczenie w prowadzeniu własnej działaności co przekłada
-                  się na lepsze zrozumienie klientow z sektora prywatnego.
-                </Typography>
-
-                <Box
-                  sx={{
-                    backgroundImage: `url("/images/nyc2.jpeg")`,
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                    borderRadius: "20px",
-                    alignItems: "center",
-                    py: 5,
-                    minHeight: "50vh",
-                  }}
-                />
-              </Grid>
-
+             
               <Grid data-aos="zoom-in" item xs={12} sm={12} sx={{ pb: 5 }}>
                 <Typography
                   component="h4"
@@ -353,7 +371,7 @@ export default function Album() {
                   W zależności od skali i specyfikacji projektu powiększamy nasz
                   zespół, pozwala to nam na oferowanie wysokiej jakości usług.
                   <br />
-                  <a href="https://www.homify.nl/ideabooks/9077119/ontdek-een-simpele-keukentransformatie">
+                  {/* <a href="https://www.homify.nl/ideabooks/9077119/ontdek-een-simpele-keukentransformatie">
                     <Typography
                       variant="h6"
                       align="center"
@@ -362,7 +380,7 @@ export default function Album() {
                     >
                       link
                     </Typography>
-                  </a>
+                  </a> */}
                 </Typography>
               </Grid>
             </Grid>

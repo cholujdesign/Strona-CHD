@@ -15,7 +15,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Nav from "./src/nav";
 import Contact from "./src/Contact";
 import Home from "./src/Home";
-import Onas from "./src/Onas";
+import Specjalizacje from "./src/Specjalizacje";
 import Blog from "./src/ObszaryDzialanosci";
 import Architecture from "./src/ArchitectureEn";
 import Interiors from "./src/Interiors";
@@ -25,7 +25,7 @@ import DocumentMeta from "react-document-meta";
 import Instructions from "./src/Instructions";
 import ContactEn from "./src/ContactEn";
 import HomeEn from "./src/HomeEn";
-import OnasEn from "./src/OnasEn";
+import SpecjalizacjeEn from "./src/SpecjalizacjeEn";
 import BlogEn from "./src/ObszaryDzialalnosciEn.jsx";
 import ArchitectureEn from "./src/ArchitectureEn";
 import InteriorsEn from "./src/InteriorsEn";
@@ -109,7 +109,7 @@ export default function App() {
                 <Route path="/architektura" element={<Architecture />} />
                 <Route path="/wnetrza" element={<Interiors />} />
                 <Route path="/inne" element={<Other />} />
-                <Route path="/ONas" element={<Onas />} />
+                <Route path="/Specjalizacje" element={<Specjalizacje />} />
                 <Route path="/Portfolio" element={<Blog />} />
                 <Route path="/instructions" element={<Instructions />} />
                 <Route path="/Generalne_Wykonawstwo" element={<Generalne />} />
@@ -118,7 +118,7 @@ export default function App() {
                 <Route path="/Architecture" element={<ArchitectureEn />} />
                 <Route path="/Interiors" element={<InteriorsEn />} />
                 <Route path="/Others" element={<OtherEn />} />
-                <Route path="/About" element={<OnasEn />} />
+                <Route path="/About" element={<SpecjalizacjeEn />} />
                 <Route path="/Offer" element={<BlogEn />} />
                 <Route path="/Design&Build" element={<GeneralneEn />} />
                 <Route path="/Certyfikaty" element={<Certyfikaty />} />
@@ -171,15 +171,13 @@ export default function App() {
                     <Button href="/Home" variant="contained">
                       Home
                     </Button>
-                    <Button href="/ONas" variant="contained">
-                      ONas
+                    <Button href="/Specjalizacje" variant="contained">
+                      Specjalizacje
                     </Button>
                     <Button href="/Portfolio" variant="contained">
                       Portfolio
                     </Button>
-                    <Button href="/Generalne_Wykonastwo" variant="contained">
-                      Generalne_Wykonastwo
-                    </Button>
+                   
                     <Button href="/Kontakt" variant="contained">
                       Kontakt
                     </Button>

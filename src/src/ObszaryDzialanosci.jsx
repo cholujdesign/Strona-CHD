@@ -20,6 +20,8 @@ import "aos/dist/aos.css";
 import GlobalStyles from "@mui/material/GlobalStyles";
 import Nav from "./nav";
 import { Helmet } from "react-helmet";
+
+
 const theme = createTheme();
 
 export default function Album() {
@@ -39,12 +41,12 @@ export default function Album() {
       <Box
         sx={{
           bgcolor: "background.paper",
-          pt: 8,
-          pb: 6,
+          // pt: 8,
+          // pb: 6,
         }}
       >
         <Container maxWidth="sm">
-          <Typography
+          {/* <Typography
             component="h3"
             variant="h3"
             align="center"
@@ -62,7 +64,7 @@ export default function Album() {
             Zajmujemy się projektami architektonicznymi, wnętrz i stron
             internetowych. Wykonujemy równiez modele 3d, wizualizacje i
             animacje.
-          </Typography>
+          </Typography> */}
           {/* <Stack
               sx={{ pt: 4 }}
               direction="row"

@@ -21,7 +21,7 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Nav from "./nav";
+
 import { Helmet } from "react-helmet";
 import Divider from '@mui/material/Divider';
 import Iframe from "react-iframe";
@@ -39,7 +39,7 @@ function PricingContent() {
       />
       <CssBaseline />
       {/* Hero unit */}
-      <Nav/>
+
       <Box
         sx={{
           bgcolor: "background.paper",
@@ -172,17 +172,7 @@ function PricingContent() {
           ><br/>
          Przykładowe inwestycje<br/><br/>
           </Typography>
- <Iframe
-                    url={"https://www.youtube.com/embed/neyJ6Fi8QzI"}
-                    width="100%"
-                    height="600px"
-                    id="1"
-                    className="myClassname"
-                    frameBorder="0"
-                    title="Embedded youtube"
-                    display="initial"
-                    position="relative"
-                  />{" "}
+ 
      <Helmet>
           <title>Generalne wykonawstwo</title>
           <meta name="description" content="CHD generalne wykonwastwo mieszkań i lokalów usługowych w Krakowie" />

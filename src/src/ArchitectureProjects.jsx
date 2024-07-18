@@ -24,7 +24,18 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Realised = [
-  
+  {
+    title: "Pawła 12, Katowice",
+    design: "CHD architekci i Idea Development",
+    date: "2024",
+    description:
+      "Rewitalizacja zabytkowej kamienicy. ",
+    descriptionEn:
+      "Refurbushment of a listed building.    ",
+      img1: "/images/leszek/pawla12a.webp",
+      img2: "/images/leszek/pawla12b.webp",
+      img3: "",
+  },
   {
     title: "Pi i Sigma, Rakowicka 15A",
     design: "CHD architekci i Idea Development",

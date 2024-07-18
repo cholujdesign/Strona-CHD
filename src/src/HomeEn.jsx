@@ -71,7 +71,7 @@ export default function Album() {
               ref={videoParentRef}
               playsinline={true}
               className="react-player"
-              url="https://www.youtube.com/watch?v=PeBJaU_vzUw-U"
+              url="https://youtu.be/cCwqpy8ra7w"
               width="100%"
               height="100%"
               volume={0}
@@ -87,7 +87,7 @@ export default function Album() {
         </CustomView>
         <img className="bgPic" width="100%" />
         <div className="destopText" data-aos="zoom-in">
-          <Button variant="contained" href="/ONas">
+          <Button variant="contained" href="/Specjalizacje">
             <Typography
               component="h3"
               variant="h3"
@@ -150,7 +150,7 @@ export default function Album() {
               <br />
               <br />
               <br />
-              <Button variant="contained" href="/ONas">
+              <Button variant="contained" href="/Specjalizacje">
                 <Typography
                   component="h3"
                   variant="h3"

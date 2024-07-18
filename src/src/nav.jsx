@@ -18,7 +18,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import EmailIcon from '@mui/icons-material/Email';
 import GTranslateIcon from "@mui/icons-material/GTranslate";
 
-const pages = ["CHD", "ONas", "Portfolio", "Generalne_Wykonawstwo", "Kontakt"];
+const pages = ["CHD", "Specjalizacje", "Portfolio", "Kontakt"];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -113,7 +113,7 @@ function ResponsiveAppBar() {
                     sx={{ my: 0.5, color: "black", display: "flex" }}
                     fullWidth
                   >
-                     <GTranslateIcon />En
+                     Pl/En
                   </Button></MenuItem>
             </Menu>
           </Box>
@@ -186,7 +186,7 @@ function ResponsiveAppBar() {
                     href="/Home"
                     sx={{ my: 0.5, color: "white", display: "flex" }}
                   >
-                     <GTranslateIcon />En
+                     Pl/En
                   </Button></MenuItem>
             </Grid>
           </Box>

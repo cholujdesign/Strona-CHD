@@ -68,15 +68,15 @@ function PricingContent() {
       <Box
         sx={{
           bgcolor: "background.paper",
-          pt: 8,
-          pb: 6,
+          pt: 2,
+          pb: 2,
         }}
       >
         <Container
           disableGutters
           maxWidth="md"
           component="main"
-          sx={{ pt: 8, pb: 6 }}
+          sx={{ pt: 2, pb: 2 }}
         >
           <Typography
             component="h3"
@@ -87,7 +87,7 @@ function PricingContent() {
           >
             Architektura Wnętrz
           </Typography>
-          <Typography
+          {/* <Typography
             variant="h7"
             align="left"
             color="text.secondary"
@@ -132,6 +132,8 @@ function PricingContent() {
            <br/>
             Lokale użytkowe, sklepy, biura, szkoły - posidamy w naszym portfolio realizacje w pomieszczeniach komercyjnych
           </Typography>
+      */}
+      <ArchitectureProjects />
         </Container>
         <Helmet>
           <title>Wnętrza</title>
@@ -144,7 +146,7 @@ function PricingContent() {
         </Helmet>
       </Box>
 
-      <ArchitectureProjects />
+      
     </React.Fragment>
   );
 }

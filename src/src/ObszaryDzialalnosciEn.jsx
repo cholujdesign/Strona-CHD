@@ -19,6 +19,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import GlobalStyles from "@mui/material/GlobalStyles";
 import Nav from "./navEn";
+import Certyfikaty from "./Certyfikaty"
 
 const theme = createTheme();
 
@@ -39,13 +40,13 @@ export default function Album() {
         <Box
           sx={{
             bgcolor: "background.paper",
-            pt: 8,
-            pb: 6,
+            // pt: 8,
+            // pb: 6,
             
           }}
         >
           <Container maxWidth="sm">
-            <Typography
+            {/* <Typography
              component="h3"
                   variant="h3"
               align="center"
@@ -62,7 +63,7 @@ export default function Album() {
             >
               We provide architectural, interior and website designs.
                We also make 3d models, visualizations and animations.
-            </Typography>
+            </Typography> */}
             {/* <Stack
               sx={{ pt: 4 }}
               direction="row"

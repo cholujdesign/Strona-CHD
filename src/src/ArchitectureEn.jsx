@@ -42,15 +42,15 @@ function PricingContent() {
       <Box
         sx={{
           bgcolor: "background.paper",
-          pt: 8,
-          pb: 6,
+          pt: 4,
+          pb: 2,
         }}
       >
         <Container
           disableGutters
           maxWidth="md"
           component="main"
-          sx={{ pt: 8, pb: 6 }}
+          sx={{ pt: 4, pb: 2 }}
         >
           <Typography
             component="h4"
@@ -61,21 +61,7 @@ function PricingContent() {
           >
            Architektura
            </Typography>
-           <Typography
-             variant="h7"
-             align="left"
-             color="text.secondary"
-             component="p"
-             data-aos="fade-up"
-           >
-             <br />
-             Nasza firma posiada wieloletnie doświadczenie w dziedzinach
-             projektowanie architektoniczne, nadzóru budowlanego i kierowania
-             budową. Bierzemy udział w konkursach i przygotowujemy projekty
-             koncepcję co poszerza nasze horyzonty projektowe. Jednocześnie
-             dzięki naszemu doświadczeniu na budowach jesteśmy w stanie zaprojektować
-             konstrukcje łatwe i tanie w budowie, i  dobrej jakości.
-           </Typography>
+         
         </Container>
         <Helmet>
           <title>Architektura</title>
