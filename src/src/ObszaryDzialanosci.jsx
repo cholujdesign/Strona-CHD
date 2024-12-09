@@ -99,7 +99,7 @@ export default function Album() {
                   alt="random"
                 />
                 <CardContent>
-                  <Typography component="h6" variant="h6" color="text.primary">
+                  <Typography component="h1" variant="h6" color="text.primary">
                     Architektura
                   </Typography>
                 </CardContent>

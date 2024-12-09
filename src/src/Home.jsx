@@ -384,6 +384,7 @@ export default function Album() {
                 </Typography>
               </Grid>
             </Grid>
+            <h1>Choluj Design</h1>
           </Container>
           <Helmet>
             <title>Choluj Design</title>
@@ -397,7 +398,7 @@ export default function Album() {
               content="Choluj Design, Rynek Glowny w Krakowie, architektura, wnetrza, certyfikaty energetyczne, budynki, projekty, strony wwww, projekty koncepcyjne, projekty wykonawcze"
             />
             <meta name="author" content="Choluj Design" />
-            <link rel="canonical" href="https://cholujdesign.com/CHD" />
+            <link rel="canonical" href="https://cholujdesign.com" />
           </Helmet>
         </div>
       </main>

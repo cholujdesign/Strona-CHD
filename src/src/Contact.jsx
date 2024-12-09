@@ -113,7 +113,7 @@ const Wyslano = () => {
               color="grey"
               gutterBottom
             >
-              Zapraszamy do kontaktu
+              Kontakt
             </Typography>
             <Typography variant="h7" align="left" color="grey">
               W razie zainteresowania lub w celu uzyskania dodatkowych

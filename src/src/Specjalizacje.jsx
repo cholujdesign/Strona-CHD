@@ -1203,7 +1203,7 @@ export default function Album() {
       <br />
       <Typography
         sx={{ ml: 4 }}
-        component="h5"
+        component="h1"
         variant="h5"
         align="left"
         color="white"
