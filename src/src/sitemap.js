@@ -1,13 +1,63 @@
-const sitemap = require('sitemap');
-const hostname = 'https://cholujdesign.com';
+<?xml version="1.0" encoding="UTF-8"?>
 
-const urls = [
-  { url: '/', changefreq: 'daily', priority: 1 },
-  { url: '/Portfolio', changefreq: 'monthly', priority: 0.8 },
-  { url: '/Specjalizacje', changefreq: 'monthly', priority: 0.8 },
-  { url: '/Kontakt', changefreq: 'monthly', priority: 0.8 },
-];
-const sitemapInstance = sitemap.createSitemap({
-  hostname,
-  urls,
-});
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+
+      <loc>http://cholujdesign.com/</loc>
+
+      <lastmod>2024-12-09</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+<loc>http://cholujdesign.com/CHD</loc>
+
+<lastmod>2024-12-09</lastmod>
+
+<changefreq>monthly</changefreq>
+
+<priority>0.8</priority>
+
+</url>  
+<url>
+
+<loc>http://cholujdesign.com/Specjalizacje</loc>
+
+<lastmod>2024-12-09</lastmod>
+
+<changefreq>monthly</changefreq>
+
+<priority>0.8</priority>
+
+</url>  
+<url>
+
+<loc>http://cholujdesign.com/Portfolio</loc>
+
+<lastmod>2024-12-09</lastmod>
+
+<changefreq>monthly</changefreq>
+
+<priority>0.8</priority>
+
+</url>  
+
+   <url>
+
+<loc>http://cholujdesign.com/Kontakt</loc>
+
+<lastmod>2024-12-09</lastmod>
+
+<changefreq>monthly</changefreq>
+
+<priority>0.8</priority>
+
+</url>  
+
+</urlset> 
