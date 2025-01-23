@@ -14,6 +14,7 @@ import CardActions from "@mui/material/CardActions";
 import Collapse from "@mui/material/Collapse";
 import Avatar from "@mui/material/Avatar";
 import IconButton from "@mui/material/IconButton";
+import Button from "@mui/material/Button";
 import { grey } from "@mui/material/colors";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import ShareIcon from "@mui/icons-material/Share";
@@ -91,6 +92,31 @@ const Realised = [
   },
 ];
 const Residential = [
+  {
+    title: "Mieszkanie WWA2/1ab",
+    design: <div>
+      Projekt, nadzór i generalne wykonawstwo, Warszwa, około 70m2
+      <br/>
+      
+    </div>
+     ,
+    date: "",
+    description: <div>
+    Projekt, nadzór i generalne wykonawstwo
+    <br/>
+     <Button
+     variant="outlined"
+    key="dasda"
+    href="https://youtu.be/Ypa6SOFRFVw"
+    sx={{ my: 0.5, color: "black", display: "flex" }}
+  >
+    Zobacz wideo
+  </Button>
+  </div>,
+    img1: "/images/Daniel1.webp",
+    img2: "/images/Daniel2.webp",
+    img3: "/images/ben/.webp",
+  },
     {
     title: "Sycamore 1",
     design: "CHD architekci - modelowanie, dokumentacja i CGI",

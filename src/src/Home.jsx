@@ -291,7 +291,7 @@ export default function Album() {
                   </Typography>
                   <Box
                     sx={{
-                      backgroundImage: `url("/images/nyc1.jpeg")`,
+                      backgroundImage: `url("/images/Daniel5.webp")`,
                       backgroundSize: "cover",
                       backgroundPosition: "center",
                       borderRadius: "20px",

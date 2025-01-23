@@ -89,16 +89,15 @@ export default function Album() {
                     flexDirection: "column",
                   }}
                 >
-                  <CardMedia
-                    component="img"
-                    sx={{
-                      height: "250px",
-                      // 16:9
-                      // pt: "56.25%",
-                    }}
-                    image="https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-                    alt="random"
-                  />
+                   <CardMedia
+                  component="img"
+                  sx={{
+                    height: "250px",
+                    width: "300px",
+                  }}
+                  image="/images/rudera.jpg"
+                  alt="random"
+                />
                   <CardContent>
                   <Typography component="h6" variant="h6" color="text.primary">
                       Architecture
@@ -116,16 +115,16 @@ export default function Album() {
                     flexDirection: "column",
                   }}
                 >
-                  <CardMedia
-                    component="img"
-                    sx={{
-                      height: "250px",
-                      // 16:9
-                      // pt: "56.25%",
-                    }}
-                    image="https://images.unsplash.com/photo-1601628828688-632f38a5a7d0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1009&q=80"
-                    alt="random"
-                  />
+              <CardMedia
+                  component="img"
+                  sx={{
+                    height: "250px",
+                    width: "300px",
+                  
+                  }}
+                  image="/images/Daniel6.webp"
+                  alt="random"
+                />
                   <CardContent>
                   <Typography component="h6" variant="h6" color="text.primary">
                       Interiors

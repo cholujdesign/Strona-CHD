@@ -92,10 +92,9 @@ export default function Album() {
                   component="img"
                   sx={{
                     height: "250px",
-                    // 16:9
-                    // pt: "56.25%",
+                    width: "300px",
                   }}
-                  image="https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                  image="/images/rudera.jpg"
                   alt="random"
                 />
                 <CardContent>
@@ -119,10 +118,10 @@ export default function Album() {
                   component="img"
                   sx={{
                     height: "250px",
-                    // 16:9
-                    // pt: "56.25%",
+                    width: "300px",
+                  
                   }}
-                  image="https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                  image="/images/Daniel6.webp"
                   alt="random"
                 />
                 <CardContent>
@@ -146,8 +145,7 @@ export default function Album() {
                   component="img"
                   sx={{
                     height: "250px",
-                    // 16:9
-                    // pt: "56.25%",
+                    width: "300px",
                   }}
                   image="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
                   alt="random"
@@ -173,8 +171,7 @@ export default function Album() {
                   component="img"
                   sx={{
                     height: "250px",
-                    // 16:9
-                    // pt: "56.25%",
+                    width: "300px",
                   }}
                   image="https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
                   alt="random"
