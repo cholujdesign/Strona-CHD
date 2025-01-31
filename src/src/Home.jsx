@@ -196,10 +196,10 @@ export default function Album() {
                 </Button>
                 <Button
                   variant="contained"
-                  href="/Certyfikaty"
+                  href="/Lokale"
                   color="secondary"
                 >
-                  Wykonujemy certyfikaty energetyczne!
+                  Lokale na sprzedaż
                 </Button>
               </Stack>
             </Container>
