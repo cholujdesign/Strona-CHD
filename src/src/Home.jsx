@@ -122,14 +122,14 @@ export default function Album() {
             Rynek Główny 43
           </Button>
           <br /> <br />
-          <Button href="/Certyfikaty" color="secondary" variant="contained">
+          <Button href="/Lokale" color="secondary" variant="contained">
             <Typography
               component="h5"
               variant="h5"
               align="center"
               color="white"
             >
-              Wykonujemy certyfikaty energetyczne
+              Lokale na sprzedaż
             </Typography>
           </Button>
         </div>

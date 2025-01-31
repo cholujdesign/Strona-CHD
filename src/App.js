@@ -35,7 +35,9 @@ import Cookies from "./src/cookies";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
-import Certyfikaty from "./src/Certyfikaty"
+import Certyfikaty from "./src/Certyfikaty";
+import Lokale from "./src/Lokale"
+import Apartments from "./src/Apartments"
 
 import { Helmet } from "react-helmet";
 function Copyright() {
@@ -106,6 +108,8 @@ export default function App() {
               <Routes>
                 <Route path="/CHD" element={<Home />} />
                 <Route path="/Kontakt" element={<Contact />} />
+                <Route path="/Lokale" element={<Lokale />} />
+                <Route path="/Apartments" element={<Apartments />} />
                 <Route path="/architektura" element={<Architecture />} />
                 <Route path="/wnetrza" element={<Interiors />} />
                 <Route path="/inne" element={<Other />} />
