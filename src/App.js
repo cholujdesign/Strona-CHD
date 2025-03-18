@@ -37,6 +37,7 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Certyfikaty from "./src/Certyfikaty";
 import Lokale from "./src/Lokale"
+import Modele3D from "./src/Modele3D.jsx"
 import Apartments from "./src/Apartments"
 
 import { Helmet } from "react-helmet";
@@ -69,7 +70,7 @@ const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: ["Gotu"].join(","),
+    fontFamily: ["Luxurious Roman"].join(","),
     textTransform: 'none',
     button: {
       textTransform: 'none'
@@ -109,6 +110,7 @@ export default function App() {
                 <Route path="/CHD" element={<Home />} />
                 <Route path="/Kontakt" element={<Contact />} />
                 <Route path="/Lokale" element={<Lokale />} />
+                <Route path="/3D" element={<Modele3D />} />
                 <Route path="/Apartments" element={<Apartments />} />
                 <Route path="/architektura" element={<Architecture />} />
                 <Route path="/wnetrza" element={<Interiors />} />

@@ -48,7 +48,7 @@ const theme = createTheme({
   },
 
   typography: {
-    fontFamily: ["Gotu"].join(","),
+    fontFamily: ["Luxurious Roman"].join(","),
   },
 });
 

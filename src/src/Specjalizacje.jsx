@@ -66,7 +66,7 @@ const one = [
     parg5: [
       <ul>
         <li>
-          • przygotujemy układ funkcjonalny, projekt koncepcyjny, projekt
+          • Przygotowujemy układ funkcjonalny, projekt koncepcyjny, projekt
           wykonawczy;
         </li>
         <li>
@@ -79,7 +79,7 @@ const one = [
           virtualną rzeczywistość;
         </li>
         <li>
-          <br />• przygotujemy specyfikację i kosztorys;
+          <br />• Przygotowujemy specyfikację i kosztorys;
         </li>
         <li>
           {" "}
@@ -151,7 +151,7 @@ const one = [
           zaplanować prowadzenie i rozwój biznesu;
         </li>
         <li>
-          <br />• przygotujemy projekt koncepcyjny, wykonawczy, branzowy i
+          <br />• Przygotowujemy projekt koncepcyjny, wykonawczy, branzowy i
           dokonamy konsultacji z sanepidem;
         </li>
       </ul>,
@@ -223,7 +223,7 @@ const one = [
           działalności, zdradzimy tajniki wynajmowania apartamentów;
         </li>
         <li>
-          <br />• przygotujemy tzw. feasbility studies, projekt funkcjonalny,
+          <br />• Przygotowujemy tzw. feasbility studies, projekt funkcjonalny,
           koncepcyjny i wykonawczy;
         </li>
         <li>
@@ -284,7 +284,7 @@ const one = [
           • kompleksowo doradzamy w procesach inwestycyjnych inwestorom;
         </li>
         <li>
-          <br />• przygotujemy feasability studies, projekty koncepcyjne, wykonawcze;
+          <br />• Przygotowujemy feasability studies, projekty koncepcyjne, wykonawcze;
         </li>
         <li>
           <br />• nadzorujemy i analizujemy prace wykonanywane przez podwykonawców;
@@ -350,7 +350,7 @@ const one = [
     parg5: [
       <ul>
         <li>
-          <br />• przygotujemy dokumentację w BIM;
+          <br />• Przygotowujemy dokumentację w BIM;
         </li>
         <li>
           <br />• wykonamy skomplikowane geometrie za pomocą oprogramowania Rhino3D;
@@ -359,7 +359,7 @@ const one = [
           <br />• wykonamy dokumentację koncepcyjną, projektową, wykonawczą i po wykonawczą;
         </li>
         <li>
-          <br />• przygotujemy pliki 3D, animacje, wizualizacje, pliki VR;
+          <br />• Przygotowujemy pliki 3D, animacje, wizualizacje, pliki VR;
         </li>
         <li>
           <br />• głownie pracujemy w UnrealEngine;
@@ -467,7 +467,7 @@ const one = [
     parg5: [
       <ul>
         <li>
-          <br />• przygotujemy stronę www dla Ciebie;
+          <br />• Przygotowujemy stronę www dla Ciebie;
         </li>
 
         <li>

@@ -47,7 +47,7 @@ const theme = createTheme({
   },
 
   typography: {
-    fontFamily: ["Gotu"],
+    fontFamily: ["Luxurious Roman"],
     textTransform: "none",
     button: {
       textTransform: "none",

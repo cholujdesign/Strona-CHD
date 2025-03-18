@@ -1,9 +1,9 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Gotu" ;
+  font-family: -apple-system, BlinkMacSystemFont, "Luxurious Roman" ;
   /* 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif; */
+    serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   min-height: 100%;
@@ -16,7 +16,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Gotu",
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Luxurious Roman",
     monospace;
 }
 
