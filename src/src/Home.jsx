@@ -47,7 +47,7 @@ const theme = createTheme({
   },
 
   typography: {
-    fontFamily: ["Cardo"],
+    fontFamily: ["Gotu"],
     textTransform: "none",
     button: {
       textTransform: "none",
@@ -237,7 +237,7 @@ export default function Album() {
                     color="white"
                     paragraph
                   >
-                    Zajmujemy się architekturą oraz architekturą wnętrz od ponad 25 lat. Nasz zespół ma doświadczenie w projektach od małych do średnich, nadzorze autorskim oraz kierowaniu budową. Od dekady zaczęliśmy łączyć projektowanie przestrzenne z projektowaniem form przemysłowych. W zależności od typu i rozmiaru projektu  współpracujemy z zespołem utalentowanych i doświadczonych projektantów oraz innych zaufanych specjalistów.
+                    Prowadzimy pracownię architektoniczną i architektury wnętrz od ponad 25 lat. Nasz zespół ma doświadczenie w projektach od małych do średnich, nadzorze autorskim oraz kierowaniu budową. Od dekady zaczęliśmy łączyć projektowanie przestrzenne z projektowaniem form przemysłowych. W zależności od typu i rozmiaru projektu  współpracujemy z zespołem utalentowanych i doświadczonych projektantów oraz innych zaufanych specjalistów.
                   </Typography>
                   <Box
                     sx={{
@@ -287,8 +287,59 @@ export default function Album() {
                     deweloperami i inwestorami w pełnym zakresie, pozwala to na
                     zaprezentowanie klientowi spoistego designu począwszy od projektu
                     proponowanego budynku, poprzez sposób jego zaprezentowania klientowi uzywając takich środków przekazu jak: animacje, VR, modele, wizualizacje;
-                    kończąc na projekcie i obsłudze strony internetowej.
+                    kończąc na projekcie i obsłudze strony internetowej. <br/> Często wykonujemy modele 3D, wizualizacje i animacje na zlecenie.
+                    <br/><br/>
                   </Typography>
+                  <Grid container spacing={4}>
+          <Grid item key="1" xs={12} sm={6} md={6}>
+            <Button variant="contained"  href="/architektura">
+          
+                 
+                  
+          
+              
+                  <Typography component="h1" variant="h6" color="white">
+                    Architektura
+                  </Typography>
+              
+            
+            </Button>{" "}
+          </Grid>
+          <Grid item key="1" xs={12} sm={6} md={6}>
+            <Button variant="contained" href="/wnetrza">
+            
+                  
+                       
+                  <Typography component="h6" variant="h6" color="white">
+                    Wnętrza
+                  </Typography>
+              
+              
+            </Button>{" "}
+          </Grid>
+          <Grid item key="1" xs={12} sm={6} md={6}>
+            <Button  variant="contained"  href="Inne">
+             
+                
+            <Typography component="h6" variant="h6" color="white">
+                    Inne usługi
+                  </Typography>
+                 
+              
+            </Button>{" "}
+          </Grid>
+          <Grid item key="1" xs={12} sm={6} md={6}>
+            <Button variant="contained"  href="/Certyfikaty">
+            
+               
+            <Typography component="h6" variant="h6" color="white">
+                    Certyfikaty 
+                  </Typography>
+               
+            </Button>{" "}
+          </Grid>
+        </Grid>
+        <br/><br/><br/>
                   <Box
                     sx={{
                       backgroundImage: `url("/images/Daniel5.webp")`,

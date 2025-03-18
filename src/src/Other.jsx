@@ -23,6 +23,7 @@ import ArchitectureProjects from "./OtherProjects";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Nav from "./nav";
+import { Helmet } from "react-helmet";
 
 function PricingContent() {
   useEffect(() => {
@@ -36,7 +37,7 @@ function PricingContent() {
         styles={{ ul: { margin: 0, padding: 0, listStyle: "none" } }}
       />
       <CssBaseline />
-      <Nav/>
+      <Nav />
       <Box
         sx={{
           bgcolor: "background.paper",
@@ -67,14 +68,10 @@ function PricingContent() {
             data-aos="fade-up"
           >
             <br />
-            Nasze biuro posiada wieloletnie doświadczenie w zakresie
-            projektowania architektonicznego, nadzoru budowy oraz prowadzenia
-            budowy. Bierzemy udział w konkursach i przygotowujemy projekty
-            koncepcyjne, aby poszerzać nasze horyzonty projektowe. Jednocześnie
-            dzięki doświadczeniu na budowach jesteśmy w stanie projektować
-            obiekty łatwe i tanie do wybudowania.
+            Posiadamy rozległą wiedzę i umiejętności w zakresie modelowania 3d, przygotowywania dokumentacji CAD/BIM, przygotowywania wizualizacji, animacji, doświadczeń VR i wykonywania stron www.
+            Oferujemy nasze usługi klientom z różnych branż, często niezwiązanych z branżą budowlaną.
           </Typography>
-          <br/><br/>
+          <br /><br />
           <Accordion>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
@@ -85,41 +82,15 @@ function PricingContent() {
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-                Będziemy sprawować pieczę nad treściami Twoich zasobów w sieci.
-                Doświadczony grafik przygotuje materialy specjalnie dla Twoich
-                potrzeb. Zapewniamy terminowość i przejrzyste warunki
-                współpracy. Zanim zaczniemy pracę, wszystko ustalimy z Tobą.
-                Masz kontrolę nad przebiegiem prac, a my zapewniamy jakość.
-                Tresci dopasujemy do standardów rynkowych, ale przede wszystkim
-                - do indywidualnych potrzeb Twojego biznesu.
+                Po otrzymaniu dokumentacji i wymagań klienta analizujemy materiały i przedstawiamy kosztorys.
+                <br />
+                Jeżeli kosztorys zostanie zaakceptowany ustalamy termin realizacji zlecenia i bierzemy się do pracy.
+                <br />
+                Często pierwsze zlecenie zajmuje troszkę wiecej czasu niż kolejne. Im dłużej współpracujemy tym szybciej jesteśmy w stanie zrealizować zamówienie, często przekłada się to na niższe koszty dla zleceniodawcy.
               </Typography>
             </AccordionDetails>
           </Accordion>
-          <Accordion>
-            <AccordionSummary
-              expandIcon={<ExpandMoreIcon />}
-              aria-controls="panel2a-content"
-              id="panel2a-header"
-            >
-              <Typography>Harmonogram</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography>
-                1. Poznajemy się.
-                <br />
-                2. Przedstawiasz nam swój brief, czyli opis celów i pomysłów.
-                <br />
-                3. Analizujemy brief i to, czym dysponujesz obecnie.
-                <br />
-                4. Pracujemy kreatywnie.
-                <br />
-                5. Przedstawiamy Ci projekt. Jeśli zechcesz w którymś momencie
-                coś zmienić - dopasujemy się. Nie robimy sztuki dla sztuki -
-                zależy nam przede wszystkim na skuteczności projektu, który dla
-                Ciebie realizujemy.
-              </Typography>
-            </AccordionDetails>
-          </Accordion>
+
           <Accordion>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
@@ -127,18 +98,14 @@ function PricingContent() {
               id="panel3a-header"
             >
               <Typography>
-                Jak długo będę czekać na wdrożenie projektu?
+                Jak długo będę czekać na wykonanie zlecenia?
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-                Skala projektu zależy od ciebie, a my to przekładamy na
-                potrzebny czas. Realizacja jest możliwa nawet w 1 dzień. Czas
-                zależeć będzie od potrzeb, dostępnych materiałów graficznych i
-                tekstowych. Jak masz wszystko w głowie i materiały, a my mamy to
-                ładnie ubrać – będzie szybko. Działamy w myśl metodologii Agile
-                (Zwinnego Wytwarzania Oprogramowania), która zakłada zmianę
-                koncepcji w dowolnym momencie realizacji.
+                Czas oczekiwania (również koszt) zależy od skali zlecenia i dostarczonych materiałów. <br/>Przykładowo: wykonanie szczegółowego modelu schodów, wraz z wizualizacjami i animacją potrafi zająć tylko tydzień w sytuacji, kiedy zostanie nam udostępniona pełna dokumentacja i dokładny model klatki schodowej. W sytuacji, kiedy sami musimy wybrać właściwe detale i przygotować model klatki schodowej czs ten potradi się wydłużyć dwukrotnie.
+              <br/>
+              Jeżeli chodzi o strony www czas realizacji wynosi przeważnie 2-5 dni w zalezności od złożoności zlecenia i dostępnych materiałów graficznych i tekstowych.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -146,7 +113,17 @@ function PricingContent() {
       </Box>
 
       <ArchitectureProjects />
+      <Helmet>
+                <title>Inne</title>
+                <meta name="description" content="CGI, 3D model, VR, website design, Animations" />
+                <meta property="og:image" content="/images/ben/sycamore model 2.webp" />
+                <link
+                  rel="canonical"
+                  href="https://cholujdesign.com/Inne"
+                />
+              </Helmet>
     </React.Fragment>
+    
   );
 }
 

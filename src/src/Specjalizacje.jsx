@@ -47,22 +47,22 @@ const one = [
   {
     pic: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
 
-    tab: "Mieszkania",
+    tab: "Mieszkania/domy/budynki wielorodzinne",
     index: 0,
     icon: <Employer />,
     bgPic:
       "https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-    parg1: "Mieszkania",
+    parg1: "Mieszkania/domy/budynki wielorodzinne",
     parg2: (
       <p>
-        Od wielu lat projektujemy domy i mieszkania. Mimo zmieniających się
+        Od wielu lat projektujemy domy, budynki wielorodzinne i mieszkania. Mimo zmieniających się
         trendów, nasze projekty dobrze się zestarzały. Skupiamy się na
         potrzebach przyszłych domowników, ich preferencjach, planach, warunkach
-        finansowych.
+        finansowych. Dbamy o to, aby projekt był łatwo adaptowalny przez inwestora do zmieniających się z czasem potrzeb.
       </p>
     ),
     parg3: "",
-    parg4: "W ramach specjalizacji “Mieszkania” między innymi:",
+    parg4: "W ramach tej specjalizacji między innymi:",
     parg5: [
       <ul>
         <li>
@@ -70,9 +70,8 @@ const one = [
           wykonawczy;
         </li>
         <li>
-          <br />• na zlecenie klienta poprowadzimy prace wykończeniowo-remontowe
-          jako generalny wykonawca, dzięki czemu oszczędzamy czasu, pieniądzy i
-          stresu związanego z remontem ;
+          <br />• na zlecenie klienta nadzorujemy prace budowlane i wykończeniowo-remontowe, dzięki czemu oszczędzamy czas, pieniądze i
+          stres;
         </li>
         <li>
           <br />• prezentujemy projekt klientom z wykorzystaniem róznych środów
@@ -99,10 +98,10 @@ const one = [
         <li>
           {" "}
           <br />• kierujemy się zasadą, ze to klient będzie mieszkać w
-          projektowanej przesztrzeni;
+          projektowanej przesztrzeni i projekt musi spełniać oczekiwania przyszłych domowiników;
         </li>
         <li>
-          <br />• cieszy nas to, ze nasi klienci są, nawet po latach, zadowoleni
+          <br />• cieszy nas to, ze nasi klienci są, nawet po wielu latach, zadowoleni
           z naszej pracy i do nas wracją z kolejnymi zleceniami;
         </li>
       </ul>,
@@ -118,23 +117,23 @@ const one = [
   {
     pic: "4528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
 
-    tab: "Gastronomia",
+    tab: "Gastronomia / lokale usługowe",
     index: 1,
     icon: <Court />,
     bgPic:
       "https://images.unsplash.com/photo-1539190346343-2063b7a88208?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1753&q=80",
-    parg1: "Gastronomia",
+    parg1: "Gastronomia / lokale usługowe",
     parg2: (
       <p>
         Lokale gastronomiczne muszą przyciągać klientów swoim wyglądem i
         funkcjonalnością. Dobry projekt lokalu zwiększa jego przepustowość,
         zachęca do odwiedzenia i pozwala na zredukowanie kosztów obsługi.
         Jednocześnie projekt lokalu musi odpowiadać włąsciwemu klientowi oraz
-        loaklizacji obiektu.
+        loaklizacji obiektu. Przestrzenie biurowe projektujemy tak, aby stymulowały produktywność pracowników.
       </p>
     ),
     parg3: "",
-    parg4: "W ramach specjalizacji “Gastronomia” między innymi:",
+    parg4: "W ramach tej specjalizacji między innymi:",
     parg5: [
       <ul>
         <li>
@@ -171,6 +170,9 @@ const one = [
         </li>
         <li>
           <br />• zrealizowaliśmy projekty w szpitalach;
+        </li>
+        <li>
+          <br />• projektowaliśmy biura, lokale fryzjerskie, prywatne szkoły i inne lokale usługowe;
         </li>
         <li>
           <br />• posiadamy ciągły kontakt z branzą;
@@ -272,7 +274,7 @@ const one = [
     ),
     parg3: (
       <p>
-       
+
       </p>
     ),
     parg4: <p>W ramach specjalizacji " Budynki zabytkowe" między innymi:</p>,
@@ -290,9 +292,9 @@ const one = [
         <li>
           <br />• określamy jakie rozwiązania projektowe przynisą najlepsze wyniki finansowe;
         </li>
-       
-      
-       
+
+
+
       </ul>,
     ],
     parg6: [
@@ -314,7 +316,7 @@ const one = [
           <br />• jasna i szybka komunikacja w celu sprawnego przeprowadzenia
           całego procesu inwestycyjnego, z uwzględnieniem istnienia potencjalnych niespodzianek;
         </li>
-       
+
       </ul>,
     ],
 
@@ -362,7 +364,7 @@ const one = [
         <li>
           <br />• głownie pracujemy w UnrealEngine;
         </li>
-       
+
         <li>
           <br />• dzięki naszemu doświadzczeniu projektowemu i wielu realizacjach masz pewność, ze dokumentacja zostnie wykonana w sposób profesjonalny.
         </li>
@@ -382,7 +384,7 @@ const one = [
         <li>
           <br />• UK: MA Architecture and interior design,<a target="blank" href="https://cdstech.us/">https://www.maarchitecture.co.uk/about</a>;
         </li>
-        
+
       </ul>,
     ],
 
@@ -403,30 +405,30 @@ const one = [
       "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
     parg1: "Certyfikaty Energetyczne",
     parg2: (
-   <Certyfikaty/>
+      <Certyfikaty />
 
-   
+
     ),
     parg3: "",
     parg4: (
       <p>W ramach specjalizacji "Certyfikaty Energetyczne" oferujemy:</p>
-     
-    
+
+
     ),
     parg5: [
       <div>
-      <br />• Cena zależna jest od powierzchni lokalu, budynku lub jego
-      częsci. Ilości okien i rodzaju instalacji.
-      <br />• Przeważnie koszt wykonania Certyfiaktu dla mieszkania wynosi
-      około 500 PLN
-      <br />• Przeważnie koszt wykonania Certyfiaktu dla lokalu użytkowego
-      wynosi około 1000 PLN
-      <br />• Przeważnie koszt wykonania Certyfiaktu dla domu wynosi około
-      1000 PLN
-      <br />• Wykonanie certyfiaktu dla obiektów takich jak kamienice, obiekty
-      przemysłowe itp. sa indywidualnie wyceniane.
-   </div>
-  ],
+        <br />• Cena zależna jest od powierzchni lokalu, budynku lub jego
+        częsci. Ilości okien i rodzaju instalacji.
+        <br />• Przeważnie koszt wykonania Certyfiaktu dla mieszkania wynosi
+        około 500 PLN
+        <br />• Przeważnie koszt wykonania Certyfiaktu dla lokalu użytkowego
+        wynosi około 1000 PLN
+        <br />• Przeważnie koszt wykonania Certyfiaktu dla domu wynosi około
+        1000 PLN
+        <br />• Wykonanie certyfiaktu dla obiektów takich jak kamienice, obiekty
+        przemysłowe itp. sa indywidualnie wyceniane.
+      </div>
+    ],
     parg6: [
       <ul>
         <li>
@@ -435,8 +437,8 @@ const one = [
         <li>
           <br />• doradzamy w zakresię efektywności energetycznej budynków;
         </li>
-        
-      
+
+
       </ul>,
     ],
 
@@ -471,9 +473,9 @@ const one = [
         <li>
           <br />• Będziemy sprawować pieczę nad treściami Twoich zasobów w sieci. Doświadczony grafik przygotuje materialy specjalnie dla Twoich potrzeb. Zapewniamy terminowość i przejrzyste warunki współpracy. Zanim zaczniemy pracę, wszystko ustalimy z Tobą. Masz kontrolę nad przebiegiem prac, a my zapewniamy jakość. Tresci dopasujemy do standardów rynkowych, ale przede wszystkim - do indywidualnych potrzeb Twojego biznesu;
         </li>
-      
-      
-      
+
+
+
       </ul>,
     ],
     parg6: [
@@ -499,7 +501,7 @@ const one = [
         <li>
           <br /><a target="blank" href="https://hydraulikwnek.com/">https://hydraulikwnek.com/</a>
         </li>
-        
+
       </ul>,
     ],
 
@@ -520,32 +522,32 @@ const one = [
       "https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
     parg1: "Generalne wykonawstwo",
     parg2: (
-     <p>
-       Działamy na zlecenie inwestora, nasze zadania obejmują kompleksową realizację inwestycji w zakresie prac budowlanych i montażowych. Prace są wykonywane na podstawie umowy o generalne wykonawstwo w określonych terminach i w stopniu niezbędnym do skutecznego wystąpienia z wnioskiem o wydanie pozwolenia na użytkowanie obiektu. Wynagrodzenie obejmuje sumę wartości brutto prac wszystkich podwykonawców i marżę generalnego wykonawcy. 
-     </p>
+      <p>
+        Działamy na zlecenie inwestora, nasze zadania obejmują kompleksową realizację inwestycji w zakresie prac budowlanych i montażowych. Prace są wykonywane na podstawie umowy o generalne wykonawstwo w określonych terminach i w stopniu niezbędnym do skutecznego wystąpienia z wnioskiem o wydanie pozwolenia na użytkowanie obiektu. Wynagrodzenie obejmuje sumę wartości brutto prac wszystkich podwykonawców i marżę generalnego wykonawcy.
+      </p>
     ),
     parg3: (
       ""
     ),
-    parg4: <Generalne/>,
+    parg4: <Generalne />,
     parg5: [
     ],
     parg6: [(
       <div>
         <p>Przykładowe realizacje</p>
-      <Iframe
-                    url={"https://www.youtube.com/embed/neyJ6Fi8QzI"}
-                    width="100%"
-                    height="600px"
-                    id="1"
-                    className="myClassname"
-                    frameBorder="0"
-                    title="Embedded youtube"
-                    display="initial"
-                    position="relative"
-                  /></div>
+        <Iframe
+          url={"https://www.youtube.com/embed/neyJ6Fi8QzI"}
+          width="100%"
+          height="600px"
+          id="1"
+          className="myClassname"
+          frameBorder="0"
+          title="Embedded youtube"
+          display="initial"
+          position="relative"
+        /></div>
     )
-   ],
+    ],
 
     buttonText: "Telefon",
     buttonVariant: "outlined",
@@ -554,18 +556,18 @@ const one = [
     buttonText3: "LinkedIn",
     buttonVariant3: "outlined",
   },
-  
- 
+
+
 ];
 
 const text = [
   {
-    tab: "Mieszkania",
+    tab: "Mieszkania / budynki mieszkalne",
     icon: <Employer sx={{ fontSize: "80px" }} />,
     id: 0,
   },
   {
-    tab: "Gastronomia",
+    tab: "Gastronomia / lokale usługowe",
     icon: <Court sx={{ fontSize: "80px" }} />,
     id: 1,
   },
@@ -828,13 +830,13 @@ function BasicTabs() {
           <Tab
             sx={{ py: 1 }}
             icon={<Employer />}
-            label="Mieszkania"
+            label="Mieszkania / Budynki mieszkalne"
             {...a11yProps(0)}
           />
           <Tab
             sx={{ py: 1 }}
             icon={<Court />}
-            label="Gastronomia"
+            label="Gastronomia / Lokale usługowe"
             {...a11yProps(1)}
           />
           <Tab
@@ -1008,7 +1010,7 @@ function BasicTabs() {
                                   variant="h7"
                                   align="justify"
                                   color="text.secondary"
-                                  // key={line}
+                                // key={line}
                                 >
                                   {one.parg5}
                                 </Typography>
@@ -1154,7 +1156,7 @@ function Accord() {
                           variant="h7"
                           align="justify"
                           color="text.secondary"
-                          // key={line}
+                        // key={line}
                         >
                           {one.parg5}
                         </Typography>

@@ -222,7 +222,7 @@ const countries = [
     label: 'Iran, Islamic Republic of',
     phone: '98',
   },
-  { code: 'IS', label: 'Iceland', phone: '354' },
+  { code: 'IS', label: 'Gotu', phone: '354' },
   { code: 'IT', label: 'Italy', phone: '39' },
   { code: 'JE', label: 'Jersey', phone: '44' },
   { code: 'JM', label: 'Jamaica', phone: '1-876' },

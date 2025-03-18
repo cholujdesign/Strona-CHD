@@ -133,7 +133,7 @@ export default function Album() {
             </Button>{" "}
           </Grid>
           <Grid item key="1" xs={12} sm={6} md={6}>
-            <Button href="inne">
+            <Button href="Inne">
               <Card
                 data-aos="fade-down"
                 sx={{

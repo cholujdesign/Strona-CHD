@@ -26,74 +26,63 @@ import Iframe from "react-iframe";
 import { Helmet } from "react-helmet";
 const Realised = [
   {
-    title: "projekt 123",
+    title: "Szczegółowy model 3d schodów w USA",
     design: "CHD architekci",
-    date: "12/12/12",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    img1: "https://www.youtube.com/embed/hK5KNA8GiBQ",
+    date: " ",
+    description:"Na podstawie dokumentacji projektowej, szkiców projektanta i modelu budynku wykonaliśmy bardzo szczegółowy model 3d schodów, paneli ściennych, balustrady i innych elementów. Mdoel został wykonany w Rhino 3D i wyeksportowany do programu Revit. ",
+   
+    img1: "/images/ben/sycamore model 1.webp",
+    img2: "/images/ben/sycamore model 2.webp",
   },
   {
-    title: "projekt 123",
+    title: "Elewacja kamienicy Manhattan",
     design: "CHD architekci",
-    date: "12/12/12",
-    description: " ",
-    img1: "https://www.youtube.com/embed/JUuRMNtIT7o",
+    date: " ",
+    description:"Na podstawie dokumentacji skanu 3D wykonaliśmy bardzo szczegółowy model 3d isntniejącej elewacji  zabytkowego budynku w Nowym Jorku. ",
+    img1: "/images/ben/nycelewacja1.webp",
+    img2: "/images/ben/nycelewacja2.webp",
   },
   {
-    title: "projekt 123",
+    title: "Elewacja Grand Hotel",
     design: "CHD architekci",
-    date: "12/12/12",
-    description: " ",
-    img1: "https://www.youtube.com/embed/KmEPozphMVU",
+    date: " ",
+    description: "Na podtawie własnej inwentaryzacji wykoanliśmy model 3d elewacji hotelu w programie ArchiCad.",
+    img1: "/images/grand1.webp",
   },
 ];
 const Designs = [
   {
     title: "",
     design: "CHD architekci",
-    date: "12/12/12",
+    date: " ",
     description: " ",
-    img1: "https://www.youtube.com/embed/hK5KNA8GiBQ",
+    img1: "https://www.youtube.com/embed/cCwqpy8ra7w",
   },
-  {
-    title: "projekt 123",
-    design: "CHD architekci",
-    date: "12/12/12",
-    description: " ",
-    img1: "https://www.youtube.com/embed/v8f9e9BM33I",
-  },
-  {
-    title: "projekt 123",
-    design: "CHD architekci",
-    date: "12/12/12",
-    description: " ",
-    img1: "https://www.youtube.com/embed/ndNZSfyNUcY",
-  },
+ 
 ];
 const Concept = [
   {
     title: "MadejPak",
     design: "CHD architekci",
-    date: "12/12/12",
+    date: "",
     description: " ",
     img1: "https://madejpak.pl/",
     img2: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
     img3: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
   },
   {
-    title: "Paciorek Wykończenia",
+    title: "KMT Legal",
     design: "CHD architekci",
-    date: "12/12/12",
+    date: "",
     description: " ",
-    img1: "https://remontypaciorek.com/",
+    img1: "https://kmtlegal.pl/",
     img2: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
     img3: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
   },
   {
     title: "Willa Złocień",
     design: "CHD architekci",
-    date: "12/12/12",
+    date: "",
     description: " ",
     img1: "https://willzazlocien.netlify.app/",
     img2: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
@@ -195,22 +184,12 @@ export default function BasicTabs() {
                     title={Realised.title}
                     subheader={Realised.date}
                   />
-                  <Iframe
-                    url={Realised.img1}
-                    width="100%"
-                    height="600px"
-                    id={Realised.img1}
-                    className="myClassname"
-                    frameBorder="0"
-                   
-                    title="Embedded youtube"
-                    display="initial"
-                    position="relative"
-                  />{" "}
+                <img src={Realised.img1} width={"100%"}/>
                   <CardContent>
                     <Typography variant="body2" color="text.secondary">
                       {Realised.description}
                     </Typography>
+                    <img src={Realised.img2} width={"100%"}/>
                   </CardContent>
                   
                 </Card>
@@ -239,23 +218,16 @@ export default function BasicTabs() {
                     title={Designs.title}
                     subheader={Designs.date}
                   />
+                  
                   <Iframe
                     url={Designs.img1}
                     width="100%"
                     height="600px"
-                    id={Designs.img1}
+                    id="myId"
                     className="myClassname"
-                    frameBorder="0"
-                   
-                    title="Embedded youtube"
                     display="initial"
                     position="relative"
                   />{" "}
-                  <CardContent>
-                    <Typography variant="body2" color="text.secondary">
-                      {Designs.description}
-                    </Typography>
-                  </CardContent>
                   
                 </Card>
               </Grid>
