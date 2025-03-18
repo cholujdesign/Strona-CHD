@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import AppBar from "@mui/material/AppBar";
 import Button from "@mui/material/Button";
 import CameraIcon from "@mui/icons-material/PhotoCamera";
@@ -40,7 +40,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
-
+import ReactPlayer from "react-player/lazy";
 // const theme = createTheme({
 //   palette: {
 //     primary: {
@@ -79,9 +79,10 @@ export default function Album() {
         }
       );
   }
-
+  const videoParentRef = useRef();
   const Wyslano = () => {
     return (
+
       <div>
         {wyslanoWiadomosc ? (
           <Alert
@@ -302,13 +303,15 @@ export default function Album() {
 
             </Grid>
             <br />
-            <Iframe
+            <iframe
 
-              url="https://www.youtube.com/embed/tX1H5jeyKtE"
+              src="https://www.youtube.com/embed/tX1H5jeyKtE"
               width="100%"
-              height="600px"
-              id="myId"
-              className="myClassname"
+              height="480"
+              id="myId vb"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
               display="initial"
               position="relative"
             />{" "}
@@ -326,7 +329,7 @@ export default function Album() {
             color=""
             gutterBottom
           >
-           CGI - wizualizacje, animacje, VR
+            CGI - wizualizacje, animacje, VR
           </Typography>
           <Typography variant="h7" align="left" color="">
 
@@ -347,7 +350,7 @@ export default function Album() {
                   <li>
                     <b>Co możemy wykonać?</b> - fotorealistyczne ujęcia w wysokiej rozdzielczości, filmy, animacje, doświadczenia VR, rzuty 3d, panoramy 3d. Stylizowane wizualizacje pasujące do produktu / wymagań inwestora.           </li>
                   <li>
-                    <b>Co potrzebujemy od klienta?</b> - w zalezności od zlecenia będziemy potrzbować matriałów takich jak model 3D, zdjęcia matriałow, zdjęcia lokalizacji i materiałów referencyjnych. Czasem wystarczy szkic! 
+                    <b>Co potrzebujemy od klienta?</b> - w zalezności od zlecenia będziemy potrzbować matriałów takich jak model 3D, zdjęcia matriałow, zdjęcia lokalizacji i materiałów referencyjnych. Czasem wystarczy szkic!
                   </li>
                   <li>
                     <b>Jaka jest cena naszych usług?</b> - koszt zależny jest od czasu i zasobów jakie musimy przeznaczyć na zlecenie. Na podstawie dostarczonej dokumentacji i briefu przygotujemy dla Państwa wycenę. Przeważnie koszt maleje wraz z kolejnymi zamówieniami. Współpracujemy stale z paroma biurami architektonicznymi i firmami budowlanymi, które doceniają jakość i cenę naszych usług.
@@ -379,7 +382,7 @@ export default function Album() {
                 </Typography>
               </AccordionDetails>
             </Accordion>
-     
+
 
 
 
@@ -470,16 +473,19 @@ export default function Album() {
 
             </Grid>
             <br />
-            <Iframe
+            <iframe
 
-              url="https://www.youtube.com/embed/cCwqpy8ra7w"
-              width="100%"
-              height="600px"
-              id="myId"
-              className="myClassname"
-              display="initial"
-              position="relative"
-            />{" "}
+src="https://www.youtube.com/embed/cCwqpy8ra7w"
+width="100%"
+height="480"
+id="myId vb"
+frameBorder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowFullScreen
+display="initial"
+position="relative"
+/>{" "}
+           
           </Container>
 
 
