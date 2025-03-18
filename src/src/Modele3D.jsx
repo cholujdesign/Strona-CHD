@@ -304,7 +304,7 @@ export default function Album() {
             <br />
             <Iframe
 
-              url="https://www.youtube.com/embed/cCwqpy8ra7w"
+              url="https://www.youtube.com/embed/tX1H5jeyKtE"
               width="100%"
               height="600px"
               id="myId"
@@ -572,12 +572,12 @@ export default function Album() {
           </Grid>
         </Grid>
         <Helmet>
-          <title>Lokale</title>
-          <meta name="description" content="Lokale na sprzedaż" />
-          <meta property="og:image" content="https://images.unsplash.com/photo-1617360547704-3da8b5363369?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" />
+          <title>3D CGI</title>
+          <meta name="description" content="modelowanie 3d, CGI, wizualizacje, animacje, vr, rhino3d, 3d model, model komputerowy" />
+          <meta property="og:image" content="/images/ben/sycamore model 1.webp" />
           <link
             rel="canonical"
-            href="https://cholujdesign.com/Lokale"
+            href="https://cholujdesign.com/3D"
           />
         </Helmet>
       </Container>
