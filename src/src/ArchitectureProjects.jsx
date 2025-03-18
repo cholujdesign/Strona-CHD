@@ -29,11 +29,11 @@ const Realised = [
     design: "CHD architekci i Idea Development",
     date: "2024",
     description:
-      "Rewitalizacja zabytkowej kamienicy. ",
+      "Rewitalizacja zabytkowej kamienicy - w trakcie realizacji. ",
     descriptionEn:
       "Refurbushment of a listed building.    ",
       img1: "/images/leszek/pawla12a.webp",
-      img2: "/images/leszek/pawla12b.webp",
+      img2: "/images/leszek/katowice.webp",
       img3: "",
   },
   {
@@ -54,7 +54,7 @@ const Realised = [
     date: "2022",
     description:
       "Głównym celem przy reiwtalizacji Willi Złocień było zminimalizowanie ilości energii cieplnej, którą zużywa się na ogrzewanie Willi. W tym celu stosowane są nie tylko nowoczesne technologie, ale również specjalne techniki budownictwa, które pozwalają na minimalizację traconej energii przez budynek. Zadbano o utrzymanie zabytkowego wyglądu willi z jednoczesną zamianą budynku na budynek energooszczęny.",
-      img1: "/images/krynica1.webp",
+      img1: "/images/leszek/krynica2.webp",
       img2: "/images/krynica3.webp",
       img3: "",
   },

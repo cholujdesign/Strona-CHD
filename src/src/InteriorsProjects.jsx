@@ -328,6 +328,15 @@ const Residential = [
 ];
 const Concept = [
   {
+    title: "Projekt hotelu we Włoszech ",
+    design: "CHD architekci",
+    date: "2024",
+    description: "",
+    img1: "/images/italia1.webp",
+    img2: "/images/italia2.webp",
+    img3: "",
+  },
+  {
     title: "Millwork visualisation for Millerblaker ",
     design: "CHD architekci",
     date: "2023",

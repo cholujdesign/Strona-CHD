@@ -152,7 +152,7 @@ export default function Album() {
                 />
                 <CardContent>
                   <Typography component="h6" variant="h6" color="text.primary">
-                    Inne
+                    Inne usługi
                   </Typography>
                 </CardContent>
               </Card>
