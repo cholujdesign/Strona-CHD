@@ -18,7 +18,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import EmailIcon from '@mui/icons-material/Email';
 import GTranslateIcon from "@mui/icons-material/GTranslate";
 
-const pages = ["Home", "About", "Offer", "Apartments", "Contact"];
+const pages = ["About", "Offer","Modelling",  "Apartments", "Contact"];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -120,7 +120,7 @@ function ResponsiveAppBar() {
             variant="h5"
             noWrap
             component="a"
-            href=""
+            href="/Home"
             sx={{
               mr: 2,
               display: { xs: "flex", md: "none" },

@@ -38,6 +38,7 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import Certyfikaty from "./src/Certyfikaty";
 import Lokale from "./src/Lokale"
 import Modele3D from "./src/Modele3D.jsx"
+import Modele3DEn from "./src/Modele3DEn.jsx"
 import Apartments from "./src/Apartments"
 
 import { Helmet } from "react-helmet";
@@ -111,6 +112,7 @@ export default function App() {
                 <Route path="/Kontakt" element={<Contact />} />
                 <Route path="/Lokale" element={<Lokale />} />
                 <Route path="/3D" element={<Modele3D />} />
+                <Route path="/Modelling" element={<Modele3DEn />} />
                 <Route path="/Apartments" element={<Apartments />} />
                 <Route path="/architektura" element={<Architecture />} />
                 <Route path="/wnetrza" element={<Interiors />} />

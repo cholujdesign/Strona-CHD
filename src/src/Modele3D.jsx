@@ -579,6 +579,7 @@ position="relative"
         </Grid>
         <Helmet>
           <title>3D CGI</title>
+          <html lang="pl" />
           <meta name="description" content="modelowanie 3d, CGI, wizualizacje, animacje, vr, rhino3d, 3d model, model komputerowy" />
           <meta property="og:image" content="/images/ben/sycamore model 1.webp" />
           <link
