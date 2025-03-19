@@ -32,7 +32,7 @@ import { CardActionArea } from "@mui/material";
 import Iframe from "react-iframe";
 import emailjs from "@emailjs/browser";
 import GlobalStyles from "@mui/material/GlobalStyles";
-import Nav from "./nav";
+import Nav from "./navEn";
 import { Helmet } from "react-helmet";
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
