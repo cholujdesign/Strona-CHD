@@ -150,10 +150,10 @@ function ResponsiveAppBar() {
               <Grid item xs={4}>
                 <Button
                 startIcon={<EmailIcon />}
-                  href="mailto:biuro@cholujdesign.pl"
+                  href="mailto:biuro@cholujdesign.com"
                   sx={{ my: 0.5, color: "white", display: "flex" }}
                 >
-                  biuro@cholujdesign.pl
+                  biuro@cholujdesign.com
                 </Button>
               </Grid>
               <Grid item xs={4}>

@@ -145,8 +145,8 @@ const Wyslano = () => {
             <br />
             <Container align="center">
               {" "}
-              biuro@cholujdesign.pl <br />
-              <Button variant="contained" href="mailto:biuro@cholujdesign.pl">
+              biuro@cholujdesign.com <br />
+              <Button variant="contained" href="mailto:biuro@cholujdesign.com">
                 Wyślij Email
               </Button>
             </Container>

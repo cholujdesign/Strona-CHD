@@ -112,8 +112,8 @@ export default function Album() {
           <Button href="tel:+48509446074" variant="contained">
             +48 509 446 704
           </Button>
-          <Button href="mailto:biuro@cholujdesign.pl" variant="contained">
-            biuro@cholujdesign.pl
+          <Button href="mailto:biuro@cholujdesign.com" variant="contained">
+            biuro@cholujdesign.com
           </Button>
           <Button
             variant="contained"
@@ -185,8 +185,8 @@ export default function Album() {
                 <Button href="tel:+48509446074" variant="contained">
                   +48 509 446 704
                 </Button>
-                <Button href="mailto:biuro@cholujdesign.pl" variant="contained">
-                  biuro@cholujdesign.pl
+                <Button href="mailto:biuro@cholujdesign.com" variant="contained">
+                  biuro@cholujdesign.com
                 </Button>
                 <Button
                   variant="contained"

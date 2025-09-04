@@ -126,8 +126,8 @@ export default function Album() {
             <br />
             <Container align="center">
               {" "}
-              biuro@cholujdesign.pl <br />
-              <Button variant="contained" href="mailto:biuro@cholujdesign.pl">
+              biuro@cholujdesign.com <br />
+              <Button variant="contained" href="mailto:biuro@cholujdesign.com">
                 Send an  Email
               </Button>
             </Container>

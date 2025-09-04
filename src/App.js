@@ -223,7 +223,7 @@ export default function App() {
                   e-mail:
                   <br />
                   <br />
-                  biuro@cholujdesign.pl
+                  biuro@cholujdesign.com
                   <br />
                 </Typography>
               </Grid>

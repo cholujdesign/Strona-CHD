@@ -107,7 +107,7 @@ class Contact extends React.Component {
                   +48516947657
                 </Button>
                 
-                <Button href="mailto:biuro@cholujdesign.pl" variant="contained">
+                <Button href="mailto:biuro@cholujdesign.com" variant="contained">
                   email
                 </Button>
               
@@ -238,7 +238,7 @@ class Contact extends React.Component {
                   +48516947657
                 </Button>
            
-                <Button href="mailto:biuro@cholujdesign.pl" variant="contained">
+                <Button href="mailto:biuro@cholujdesign.com" variant="contained">
                   email
                 </Button>
                 

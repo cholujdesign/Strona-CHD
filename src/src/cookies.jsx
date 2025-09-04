@@ -29,7 +29,7 @@ const text = [
   },
   {
     a: "2. Dane kontaktowe",
-    one: "W razie pytań dotyczących przetwarzania Państwa danych osobowych oraz przysługujących Państwu praw, prosimy o kontakt drogą mailową na adres: biuro@cholujdesign.pl",
+    one: "W razie pytań dotyczących przetwarzania Państwa danych osobowych oraz przysługujących Państwu praw, prosimy o kontakt drogą mailową na adres: biuro@cholujdesign.com",
   },
   {
     a: "3. Zakres, cele i podstawy prawne przetwarzania danych osobowych",
