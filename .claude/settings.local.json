@@ -55,7 +55,9 @@
       "WebFetch(domain:maps.app.goo.gl)",
       "Bash(xargs grep *)",
       "Bash(python3)",
-      "Bash(Select-String \"en/\")"
+      "Bash(Select-String \"en/\")",
+      "Bash(npm uninstall *)",
+      "Bash(del \"c:\\\\Users\\\\kuba\\\\Documents\\\\GitHub\\\\Strona-CHD\\\\components\\\\contact\\\\ContactForm.tsx\")"
     ]
   }
 }
