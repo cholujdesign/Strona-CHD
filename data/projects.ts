@@ -23,6 +23,11 @@ export interface Collaborator {
   url?: string
 }
 
+export interface ExternalLink {
+  label: string
+  url: string
+}
+
 export interface Project {
   title: string
   titleEn?: string
@@ -42,6 +47,7 @@ export interface Project {
   visibility: ProjectVisibility
   collaborators?: Collaborator[]
   videoUrl?: string
+  externalLinks?: ExternalLink[]
 }
 
 const MA_ARCHITECTURE: Collaborator[] = [
@@ -242,6 +248,9 @@ export const projects: Project[] = [
     shortDescriptionEn:
       'Renovation of a historic timber villa in Poland\'s premier spa town. Modern energy-efficiency standards achieved while fully preserving the building\'s historic character.',
     collaborators: IDEA_DEVELOPMENT,
+    externalLinks: [
+      { label: 'Zobacz na Facebooku', url: 'https://www.facebook.com/CHDarchitekci/posts/pfbid0UavU9hS6F7W5nYirJJX9kCDA6ktcehT69MK3UrBg7qYbXGeJsyw1mXGuBQNadeMil' },
+    ],
     images: [
       '/images/leszek/krynica1.webp',
       '/images/leszek/krynica2.webp',
@@ -408,6 +417,43 @@ export const projects: Project[] = [
   },
 
   {
+    title: 'MadejPak — stoisko Taropak 2025',
+    titleEn: 'MadejPak — Taropak 2025 Exhibition Stand',
+    slug: 'madejpak-taropak-2025',
+    year: '2025',
+    location: 'Targi MTP, Poznań',
+    role: 'Projekt stoiska targowego',
+    roleEn: 'Exhibition stand design',
+    category: 'architektura',
+    tags: ['wspolpraca', 'realizacja', 'architektura'],
+    shortDescription:
+      'Projekt stoiska targowego dla firmy MadejPak na targach Taropak 2025 w Poznaniu. Projekt wyróżniony nagrodą Acanthus Aureus — prestiżową nagrodą Targów Poznańskich za najlepsze stoisko.',
+    shortDescriptionEn:
+      'Exhibition stand design for MadejPak at Taropak 2025 trade fair in Poznań. Awarded the Acanthus Aureus — the prestigious Poznań International Fair award for the best stand.',
+    fullDescription:
+      'Projekt stoiska targowego dla firmy MadejPak na targach Taropak 2025 (Targi MTP Poznań, wrzesień 2025). Stoisko zostało wyróżnione nagrodą Acanthus Aureus — najważniejszą nagrodą Międzynarodowych Targów Poznańskich przyznawaną za wyróżniające się projekty stoisk. Projekt łączy funkcjonalność przestrzeni wystawienniczej z wyrazistą identyfikacją wizualną marki.',
+    fullDescriptionEn:
+      'Exhibition stand design for MadejPak at the Taropak 2025 trade fair (Poznań International Fair, September 2025). The stand was awarded the Acanthus Aureus — the most prestigious award of the Poznań International Fair, given for outstanding stand design. The project combines functional exhibition space with strong brand identity.',
+    images: [
+      '/images/madejpak/madejpak-1.webp',
+      '/images/madejpak/madejpak-2.webp',
+      '/images/madejpak/madejpak-3.webp',
+      '/images/madejpak/madejpak-4.webp',
+      '/images/madejpak/madejpak-5.webp',
+      '/images/madejpak/madejpak-6.webp',
+    ],
+    videoUrl: 'https://www.youtube.com/embed/LRM9lGIeGS4',
+    externalLinks: [
+      { label: 'MadejPak — Taropak 2025', url: 'https://www.madejpak.pl/targi-i-wydarzenia#taropak-2025' },
+      { label: 'PrintNews — relacja z targów', url: 'https://printnews.pl/innowacje-i-automatyzacja-w-branzy-opakowan-taropak-2025-juz-za-nami/' },
+      { label: 'Taropak — nagroda Acanthus Aureus', url: 'https://taropak.pl/pl/aktualnosci/madejpak-swietuje-25-lecie-na-targach-taropak/' },
+      { label: 'Facebook — MadejPak na Taropak', url: 'https://www.facebook.com/MadejPak/posts/704255732653986/' },
+    ],
+    featured: false,
+    visibility: 'primary',
+  },
+
+  {
     title: 'Mieszkanie WWA',
     titleEn: 'Apartment Warsaw',
     slug: 'mieszkanie-wwa',
@@ -433,6 +479,9 @@ export const projects: Project[] = [
       '/images/Daniel9.webp',
     ],
     videoUrl: 'https://www.youtube.com/embed/Ypa6SOFRFVw',
+    externalLinks: [
+      { label: 'Zobacz na Facebooku', url: 'https://www.facebook.com/CHDarchitekci/posts/pfbid02Beo57tChz4faWjp4bkwkcjo5j8Z847KrQBMkoAUQxQeqoCWoerVu4D1vkwcKaKeGl' },
+    ],
     featured: false,
     visibility: 'primary',
   },
@@ -474,6 +523,9 @@ export const projects: Project[] = [
     shortDescription:
       'Generalne wykonawstwo mieszkania przy Rakowickiej 15A w Krakowie. Kompleksowa realizacja — projekt, koordynacja wykonawców, odbiór.',
     images: ['/images/apartament11.webp', '/images/apartament13.webp'],
+    externalLinks: [
+      { label: 'Zobacz na Facebooku', url: 'https://www.facebook.com/CHDarchitekci/posts/pfbid0yvJnJJ679wrxVbqvingYSRFTHJxNzj29cbViLJwTzQcsfVZkDuaVmhnWHSN2Xdh3l' },
+    ],
     featured: false,
     visibility: 'primary',
   },
@@ -564,6 +616,9 @@ export const projects: Project[] = [
     shortDescription:
       'Generalne wykonawstwo mieszkania przy Rynku Głównym 43 w Krakowie. Realizacja w prestiżowej kamienicy w sercu Starego Miasta.',
     images: ['/images/apartament 4d.webp', '/images/apartament 4g.webp'],
+    externalLinks: [
+      { label: 'Zobacz na Facebooku', url: 'https://www.facebook.com/CHDarchitekci/posts/pfbid031jNBeoc2yQDHcYVASrYuz8W3BVtzg1BhkxjAYLWbhddjWKCjWD3s6sBJYZ4mmphJl' },
+    ],
     featured: false,
     visibility: 'secondary',
   },
@@ -579,6 +634,11 @@ export const projects: Project[] = [
     shortDescription:
       'Generalne wykonawstwo mieszkania przy Rynku Głównym 43 w Krakowie. Realizacja w prestiżowej kamienicy w sercu Starego Miasta.',
     images: ['/images/apartament 5c.webp', '/images/apartament 5f.webp'],
+    externalLinks: [
+      { label: 'Zobacz na Facebooku', url: 'https://www.facebook.com/CHDarchitekci/posts/pfbid03tXHHWL5kKVykrrM5ZrpZJdhxFukxCRtSbjg2PhiDiVfYd57KMKVN5YveKCVeDpwl' },
+      { label: 'Booking.com', url: 'https://www.booking.com/hotel/pl/pod-sloncem-rynek-glowny.pl.html' },
+      { label: 'Airbnb', url: 'https://www.airbnb.pl/rooms/710509476889449302' },
+    ],
     featured: false,
     visibility: 'secondary',
   },
@@ -698,6 +758,9 @@ export const projects: Project[] = [
     shortDescription:
       'Dom jednorodzinny w technologii prefabrykowanej szkieletowej, posadowiony na palach.',
     images: ['/images/plaski1.webp', '/images/plaski2.webp', '/images/prefab1.webp'],
+    externalLinks: [
+      { label: 'Zobacz na Facebooku', url: 'https://www.facebook.com/CHDarchitekci/posts/pfbid02MyhkRKAmAZbTk9Eh3zVkA6rovL77pLD95qEW5Bu953qAvyXVjf7T7MHrR26Y9nwTl' },
+    ],
     featured: false,
     visibility: 'secondary',
   },
@@ -713,6 +776,9 @@ export const projects: Project[] = [
     shortDescription:
       'Dom jednorodzinny w technologii prefabrykowanej szkieletowej, posadowiony na palach.',
     images: ['/images/houseq1.webp', '/images/houseq2.webp'],
+    externalLinks: [
+      { label: 'Zobacz na Facebooku', url: 'https://www.facebook.com/CHDarchitekci/posts/pfbid0qAv6vEJzGdHXDLVCFTXWtBHNV3jQL6oaTneKN3WCpYj1jaufunry1QXyzDuvzqU9l' },
+    ],
     featured: false,
     visibility: 'secondary',
   },
@@ -728,6 +794,9 @@ export const projects: Project[] = [
     shortDescription:
       'Dom jednorodzinny w technologii prefabrykowanej szkieletowej, posadowiony na palach.',
     images: ['/images/3.webp', '/images/8.webp'],
+    externalLinks: [
+      { label: 'Zobacz na Facebooku', url: 'https://www.facebook.com/CHDarchitekci/posts/pfbid06ZPA6tYWBDQaAyYVkmJFoLW3bfHMsfCkjbH6Fn4yQdht2Zh8TpFFMpMtDMgrQxqEl' },
+    ],
     featured: false,
     visibility: 'secondary',
   },
@@ -774,6 +843,9 @@ export const projects: Project[] = [
     shortDescription:
       'Rewitalizacja domu w opłakanym stanie — ściany z bloczków żużlobetonowych, brak instalacji, lokatorzy spali na sianie. Projekt obejmował pełną przebudowę i zagospodarowanie terenu.',
     images: ['/images/rudera.webp', '/images/rudera2.webp'],
+    externalLinks: [
+      { label: 'Zobacz na Facebooku', url: 'https://www.facebook.com/CHDarchitekci/posts/pfbid02c4GTefKeaoTKgM6bbJ9wpTyM1c98Whfk5EqzTHYBfN1sVLuMN3cU93VfKzNY4Ps6l' },
+    ],
     featured: false,
     visibility: 'secondary',
   },

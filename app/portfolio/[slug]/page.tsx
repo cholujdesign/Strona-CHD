@@ -170,14 +170,24 @@ export default function ProjectPage({ params }: Props) {
                     <p className="text-xs uppercase tracking-widest text-gray-400 mb-2">Współpraca</p>
                     <div className="flex flex-col gap-1.5">
                       {project.collaborators.map((c) => (
-                        <a
-                          key={c.url}
-                          href={c.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-sm text-gold hover:underline"
-                        >
-                          {c.name} ↗
+                        c.url ? (
+                          <a key={c.name} href={c.url} target="_blank" rel="noopener noreferrer" className="text-sm text-gold hover:underline">
+                            {c.name} ↗
+                          </a>
+                        ) : (
+                          <span key={c.name} className="text-sm text-navy">{c.name}</span>
+                        )
+                      ))}
+                    </div>
+                  </div>
+                )}
+                {project.externalLinks && project.externalLinks.length > 0 && (
+                  <div>
+                    <p className="text-xs uppercase tracking-widest text-gray-400 mb-2">Linki</p>
+                    <div className="flex flex-col gap-1.5">
+                      {project.externalLinks.map((l) => (
+                        <a key={l.url} href={l.url} target="_blank" rel="noopener noreferrer" className="text-sm text-gold hover:underline">
+                          {l.label} ↗
                         </a>
                       ))}
                     </div>

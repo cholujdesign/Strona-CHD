@@ -24,6 +24,11 @@ export function LocalBusinessJsonLd() {
     priceRange: '$$',
     description:
       'Pracownia architektoniczna z Krakowa. Architektura, wnętrza, modelowanie 3D i CGI.',
+    sameAs: [
+      'https://pl.linkedin.com/in/robert-cho%C5%82uj-735a59a5',
+      'https://pl.linkedin.com/in/jakubcholuj21',
+      'https://www.facebook.com/CHDarchitekci/',
+    ],
     serviceArea: {
       '@type': 'GeoCircle',
       geoMidpoint: {
@@ -55,7 +60,11 @@ export function OrganizationJsonLd() {
       contactType: 'customer service',
       availableLanguage: ['Polish', 'English'],
     },
-    sameAs: ['https://pl.linkedin.com/in/robert-cho%C5%82uj-735a59a5'],
+    sameAs: [
+      'https://pl.linkedin.com/in/robert-cho%C5%82uj-735a59a5',
+      'https://pl.linkedin.com/in/jakubcholuj21',
+      'https://www.facebook.com/CHDarchitekci/',
+    ],
   }
 
   return (
