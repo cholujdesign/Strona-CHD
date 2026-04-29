@@ -10,7 +10,7 @@ import { SITE_URL } from '@/lib/utils'
 export const metadata: Metadata = {
   title: 'Chołuj Design — Architektura, Wnętrza, B2B | Kraków',
   description:
-    'Pracownia projektowa z Krakowa. Architektura, projektowanie wnętrz i B2B 3D — od koncepcji po realizację. Projekty w Polsce, UK i USA.',
+    'Pracownia architektoniczna z Krakowa. Projektujemy domy, wnętrza i lokale usługowe — od koncepcji po realizację. Modelowanie 3D i CGI dla firm z Polski, UK i USA.',
   alternates: { canonical: SITE_URL, languages: { pl: SITE_URL, en: `${SITE_URL}/en` } },
   openGraph: {
     title: 'Chołuj Design — Architektura, Wnętrza, B2B | Kraków',

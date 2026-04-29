@@ -12,6 +12,12 @@ const nextConfig = {
   async redirects() {
     return [
       { source: '/portfolio/sycamore', destination: '/portfolio/california-villa', permanent: true },
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'www.cholujdesign.com' }],
+        destination: 'https://cholujdesign.com/:path*',
+        permanent: true,
+      },
     ]
   },
 }
