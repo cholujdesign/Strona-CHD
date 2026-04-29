@@ -20,7 +20,7 @@ export type ProjectVisibility = 'primary' | 'secondary'
 
 export interface Collaborator {
   name: string
-  url: string
+  url?: string
 }
 
 export interface Project {
@@ -54,27 +54,32 @@ const CDS_TECH: Collaborator[] = [
   { name: 'CDS Tech', url: 'https://cdstech.us' },
 ]
 
+const IDEA_DEVELOPMENT: Collaborator[] = [
+  { name: 'Idea Development' },
+]
+
 export const projects: Project[] = [
   // ─── FEATURED ────────────────────────────────────────────────────────────────
 
   {
-    title: 'Sycamore',
-    slug: 'sycamore',
+    title: 'California Villa',
+    titleEn: 'California Villa',
+    slug: 'california-villa',
     year: '2022–2024',
-    location: 'Chicago, IL, USA',
+    location: 'California, USA',
     role: 'Modelowanie 3D, dokumentacja wykonawcza, CGI',
     roleEn: '3D modelling, construction documentation, CGI',
     category: 'b2b-3d',
     tags: ['B2B', 'dokumentacja', 'CGI', 'premium', 'wspolpraca'],
     collaborators: CDS_TECH,
     shortDescription:
-      'Długoterminowa współpraca B2B przy prestiżowej inwestycji mieszkaniowej w Chicago. Szczegółowe modele 3D, dokumentacja wykonawcza schodów i elementów stalowych, wizualizacje CGI.',
+      'Długoterminowa współpraca B2B przy prestiżowej inwestycji mieszkaniowej w Kalifornii. Szczegółowe modele 3D, dokumentacja wykonawcza schodów i elementów stalowych, wizualizacje CGI.',
     shortDescriptionEn:
-      'Long-term B2B collaboration on a prestigious residential development in Chicago. Detailed 3D models, construction documentation for stairs and steel elements, CGI visualisations.',
+      'Long-term B2B collaboration on a prestigious residential development in California. Detailed 3D models, construction documentation for stairs and steel elements, CGI visualisations.',
     fullDescription:
-      'Projekt Sycamore to przykład długoterminowej, kompleksowej współpracy B2B przy prestiżowej inwestycji mieszkaniowej w Chicago. CHD realizowało kolejne etapy: szczegółowe modele 3D elementów architektonicznych, dokumentację wykonawczą schodów i balustrad, wizualizacje CGI dla inwestora. Projekt wymagał precyzyjnego modelowania parametrycznego oraz pisania własnych skryptów w Grasshopper dla elementów o niestandardowej geometrii.',
+      'California Villa to przykład długoterminowej, kompleksowej współpracy B2B przy prestiżowej inwestycji mieszkaniowej w Kalifornii. CHD realizowało kolejne etapy: szczegółowe modele 3D elementów architektonicznych, dokumentację wykonawczą schodów i balustrad, wizualizacje CGI dla inwestora. Projekt wymagał precyzyjnego modelowania parametrycznego oraz pisania własnych skryptów w Grasshopper dla elementów o niestandardowej geometrii.',
     fullDescriptionEn:
-      'Sycamore is an example of long-term, comprehensive B2B collaboration on a prestigious residential development in Chicago. CHD delivered successive phases: detailed 3D models of architectural elements, construction documentation for stairs and balustrades, and CGI visualisations for the client. The project required precision parametric modelling and custom Grasshopper scripting for elements with non-standard geometry.',
+      'California Villa is an example of long-term, comprehensive B2B collaboration on a prestigious residential development in California. CHD delivered successive phases: detailed 3D models of architectural elements, construction documentation for stairs and balustrades, and CGI visualisations for the client. The project required precision parametric modelling and custom Grasshopper scripting for elements with non-standard geometry.',
     images: [
       '/images/ben/sycamore model 1.webp',
       '/images/ben/sycamore model 2.webp',
@@ -114,16 +119,16 @@ export const projects: Project[] = [
     titleEn: 'Elliptical Duplex Stair, NYC',
     slug: 'eliptical-duplex-stair-nyc',
     year: '2023',
-    location: '11 West 57th, New York, USA',
+    location: '111 West 57th, New York, USA',
     role: 'Projekt wykonawczy, modelowanie 3D',
     roleEn: 'Construction documentation, 3D modelling',
     category: 'b2b-3d',
     tags: ['B2B', 'dokumentacja', 'premium', 'wnetrza'],
     collaborators: CDS_TECH,
     shortDescription:
-      'Projekt wykonawczy i model 3D eliptycznych schodów dwupoziomowych w jednym z najwyższych budynków mieszkalnych na świecie — 11 West 57th w Nowym Jorku.',
+      'Projekt wykonawczy i model 3D eliptycznych schodów dwupoziomowych w jednym z najwyższych budynków mieszkalnych na świecie — 111 West 57th w Nowym Jorku.',
     shortDescriptionEn:
-      'Construction documentation and 3D model of an elliptical duplex staircase in one of the tallest residential buildings in the world — 11 West 57th, New York.',
+      'Construction documentation and 3D model of an elliptical duplex staircase in one of the tallest residential buildings in the world — 111 West 57th, New York.',
     images: [
       '/images/nyc1.webp',
       '/images/nyc2.webp',
@@ -161,7 +166,32 @@ export const projects: Project[] = [
       'Plomba zaprojektowana na trudnej, wąskiej działce z istniejącym pałacem. Specyficzna bryła powstała z użyciem przestrzeni negatywnej i chęci uszanowania sąsiadującego obiektu zabytkowego. Przestrzeń między budynkiem istniejącym a projektowanym tworzy wewnętrzny plac. Parter "Sigma" i cały budynek "Pi" (istniejący pałac) pełnią funkcje usługowe; wyższe kondygnacje nowego budynku są mieszkalne. Zaproponowano dużą powierzchnię biologicznie czynną, ogród na parterze i zielony dach.',
     fullDescriptionEn:
       'An infill building designed on a narrow, challenging plot adjacent to an existing listed palace. The distinctive form was generated using negative space and a desire to respect the neighbouring heritage structure. The gap between the existing and new building creates an internal courtyard. The ground floor of "Sigma" and the entire "Pi" building (the existing palace) serve commercial uses; the upper floors of the new building are residential. A large biologically active surface, a ground-floor garden and a green roof were proposed.',
-    images: ['/images/rakowicka151.webp', '/images/rakowicka152.webp'],
+    collaborators: IDEA_DEVELOPMENT,
+    videoUrl: 'https://www.youtube.com/embed/NdH_ev2LyRE',
+    images: [
+      '/images/rakowicka151.webp',
+      '/images/rakowicka152.webp',
+      '/images/rakowicka/rak-1.webp',
+      '/images/rakowicka/rak-2.webp',
+      '/images/rakowicka/rak-3.webp',
+      '/images/rakowicka/rak-4.webp',
+      '/images/rakowicka/rak-5.webp',
+      '/images/rakowicka/rak-6.webp',
+      '/images/rakowicka/rak-7.webp',
+      '/images/rakowicka/rak-8.webp',
+      '/images/rakowicka/rak-9.webp',
+      '/images/rakowicka/rak-10.webp',
+      '/images/rakowicka/rak-11.webp',
+      '/images/rakowicka/rak-12.webp',
+      '/images/rakowicka/rak-13.webp',
+      '/images/rakowicka/rak-14.webp',
+      '/images/rakowicka/rak-15.webp',
+      '/images/rakowicka/rak-16.webp',
+      '/images/rakowicka/rak-17.webp',
+      '/images/rakowicka/rak-18.webp',
+      '/images/rakowicka/rak-19.webp',
+      '/images/rakowicka/rak-20.webp',
+    ],
     featured: false,
     visibility: 'primary',
   },
@@ -180,6 +210,7 @@ export const projects: Project[] = [
       'Rewitalizacja zabytkowej kamienicy w centrum Katowic — projekt w trakcie realizacji. Modernizacja z zachowaniem historycznego charakteru obiektu.',
     shortDescriptionEn:
       'Renovation of a historic listed tenement in central Katowice — project in progress. Full modernisation with preservation of the building\'s historic character.',
+    collaborators: IDEA_DEVELOPMENT,
     images: [
       '/images/leszek/pawla12a.webp',
       '/images/leszek/pawla12b.webp',
@@ -210,6 +241,7 @@ export const projects: Project[] = [
       'Rewitalizacja Willi Złocień z naciskiem na energooszczędność. Nowoczesne technologie i specjalne techniki budowlane przy zachowaniu zabytkowego charakteru obiektu.',
     shortDescriptionEn:
       'Renovation of a historic timber villa in Poland\'s premier spa town. Modern energy-efficiency standards achieved while fully preserving the building\'s historic character.',
+    collaborators: IDEA_DEVELOPMENT,
     images: [
       '/images/leszek/krynica1.webp',
       '/images/leszek/krynica2.webp',

@@ -44,7 +44,7 @@ const MARKETS = [
       'Workflow generalnych wykonawców (GC)',
       'Shop drawings i submittal process',
       'Koordynacja z fabrykatorem stali / drewna',
-      'Doświadczenie: 11 West 57th, Chicago Sycamore',
+      'Doświadczenie: 111 West 57th, California Villa',
     ],
   },
   {
@@ -105,7 +105,7 @@ export default function B2B3DPage() {
         <div className="absolute inset-0">
           <Image
             src="/images/nystair1.webp"
-            alt="Modelowanie 3D — 11 West 57th NYC"
+            alt="Modelowanie 3D — 111 West 57th NYC"
             fill
             className="object-cover opacity-30"
             priority

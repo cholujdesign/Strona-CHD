@@ -105,7 +105,7 @@ export default function EnInteriorsPage() {
             <p className="text-white/90 text-center text-sm md:text-base leading-relaxed max-w-3xl mx-auto">
               Over <strong className="text-white">20 years</strong> of interior design in Kraków and abroad.
               From restaurants on <strong className="text-white">Kanonicza Street</strong> to apartments at{' '}
-              <strong className="text-white">11 West 57th, New York</strong>.
+              <strong className="text-white">111 West 57th, New York</strong>.
             </p>
           </div>
         </section>
@@ -303,7 +303,7 @@ export default function EnInteriorsPage() {
           <FadeIn>
             <p className="text-xs uppercase tracking-[0.2em] text-gold mb-2">Case study — New York, USA</p>
             <h2 className="font-display text-4xl text-navy mb-2">Elliptical Duplex Stair</h2>
-            <p className="text-sm text-gray-400 mb-10">11 West 57th, Manhattan · 2023</p>
+            <p className="text-sm text-gray-400 mb-10">111 West 57th, Manhattan · 2023</p>
           </FadeIn>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
@@ -312,7 +312,7 @@ export default function EnInteriorsPage() {
                 <div className="relative aspect-[4/3] overflow-hidden bg-stone-200">
                   <Image
                     src={nycStair.images[0]}
-                    alt="Elliptical Duplex Stair — 11 West 57th NYC"
+                    alt="Elliptical Duplex Stair — 111 West 57th NYC"
                     fill
                     className="object-cover"
                     sizes="(max-width: 1024px) 100vw, 50vw"
@@ -324,7 +324,7 @@ export default function EnInteriorsPage() {
             <FadeIn delay={100}>
               <p className="text-gray-600 leading-relaxed mb-8">
                 Construction documentation and 3D model for an elliptical duplex staircase in one of
-                the tallest residential buildings in the world. 11 West 57th — Manhattan.
+                the tallest residential buildings in the world. 111 West 57th — Manhattan.
                 The staircase geometry required millimetre precision.
               </p>
               <ul className="space-y-3 mb-8">

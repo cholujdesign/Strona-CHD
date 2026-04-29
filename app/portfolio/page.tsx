@@ -9,7 +9,7 @@ import { SITE_URL } from '@/lib/utils'
 export const metadata: Metadata = {
   title: 'Portfolio — projekty architektoniczne, wnętrza, B2B 3D',
   description:
-    'Portfolio CHD Architekci — architektura, wnętrza, modelowanie 3D i CGI. Projekty w Polsce, UK i USA. Kurka Wodna, Sycamore, NYC 11 West 57th.',
+    'Portfolio CHD Architekci — architektura, wnętrza, modelowanie 3D i CGI. Projekty w Polsce, UK i USA. Kurka Wodna, California Villa, NYC 111 West 57th.',
   alternates: { canonical: `${SITE_URL}/portfolio`, languages: { pl: `${SITE_URL}/portfolio`, en: `${SITE_URL}/en/portfolio` } },
   openGraph: {
     title: 'Portfolio — CHD Architekci',

@@ -107,7 +107,7 @@ const SPECS = [
     ],
     why: [
       'Stała współpraca z Idea Development (PL), CAD Designing Syndicate (USA), MA Architecture (UK)',
-      'Realizacje przy Central Park Tower NYC i Sycamore Chicago',
+      'Realizacje przy Central Park Tower NYC i California Villa',
       'Znajomość lokalnych kodów budowlanych rynku UK i USA',
     ],
     link: '/b2b-3d',

@@ -1,5 +1,9 @@
 {
-  "/en/blog/page": "app/en/blog/page.js",
-  "/en/blog/[slug]/page": "app/en/blog/[slug]/page.js",
-  "/_not-found/page": "app/_not-found/page.js"
+  "/architektura/page": "app/architektura/page.js",
+  "/zakres/page": "app/zakres/page.js",
+  "/page": "app/page.js",
+  "/portfolio/[slug]/page": "app/portfolio/[slug]/page.js",
+  "/en/interiors/page": "app/en/interiors/page.js",
+  "/en/architecture/page": "app/en/architecture/page.js",
+  "/en/services/page": "app/en/services/page.js"
 }

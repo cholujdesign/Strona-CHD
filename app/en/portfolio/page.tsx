@@ -9,7 +9,7 @@ import { SITE_URL } from '@/lib/utils'
 export const metadata: Metadata = {
   title: 'Portfolio — architecture, interiors, B2B 3D projects',
   description:
-    'Portfolio of CHD Chołuj Design — architecture, interiors, 3D modelling and CGI. Projects in Poland, UK and USA. Kurka Wodna, Sycamore, NYC 11 West 57th.',
+    'Portfolio of CHD Chołuj Design — architecture, interiors, 3D modelling and CGI. Projects in Poland, UK and USA. Kurka Wodna, California Villa, NYC 111 West 57th.',
   alternates: {
     canonical: `${SITE_URL}/en/portfolio`,
     languages: { pl: `${SITE_URL}/portfolio`, en: `${SITE_URL}/en/portfolio` },

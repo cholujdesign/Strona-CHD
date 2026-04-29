@@ -59,7 +59,7 @@ const FOR_WHO = [
 const HIGHLIGHTS = [
   { image: '/images/kurkaWodna.webp', title: 'Kurka Wodna', meta: 'Gastronomia · Kraków 2014', href: '/portfolio/kurka-wodna' },
   { image: '/images/rakowicka151.webp', title: 'Pi i Sigma', meta: 'Architektura · Kraków 2016', href: '/portfolio/pi-i-sigma-rakowicka' },
-  { image: '/images/ben/VIEW3.webp', title: 'Sycamore', meta: 'B2B · Chicago 2022–2024', href: '/portfolio/sycamore' },
+  { image: '/images/ben/VIEW3.webp', title: 'California Villa', meta: 'B2B · California 2022–2024', href: '/portfolio/california-villa' },
   { image: '/images/nystair1.webp', title: 'Eliptical Duplex Stair', meta: 'B2B · NYC 2023', href: '/portfolio/eliptical-duplex-stair-nyc' },
 ]
 

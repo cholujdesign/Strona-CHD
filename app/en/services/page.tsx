@@ -106,7 +106,7 @@ const SERVICES = [
     ],
     why: [
       '8+ years of B2B collaboration with UK and US firms',
-      'NYC 11 West 57th, Chicago Sycamore — references',
+      'NYC 111 West 57th, California Villa — references',
       'We integrate into your existing workflow',
     ],
     href: '/en/b2b-3d',

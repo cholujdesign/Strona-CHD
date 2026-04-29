@@ -94,7 +94,7 @@ export default function ProjectPage({ params }: Props) {
           />
           <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/40" />
           <Watermark collaborator={project.collaborators?.[0]?.name} />
-          {project.collaborators?.[0] && (
+          {project.collaborators?.[0]?.url && (
             <a
               href={project.collaborators[0].url}
               target="_blank"

@@ -37,7 +37,7 @@ const KURKA_SCOPE = [
 
 const SYCAMORE_STATS = [
   { label: 'Rok realizacji', value: '2022–2024' },
-  { label: 'Lokalizacja', value: 'Chicago, IL, USA' },
+  { label: 'Lokalizacja', value: 'California, USA' },
   { label: 'Typ projektu', value: 'B2B / Modelowanie 3D' },
   { label: 'Zakres', value: 'Dokumentacja + CGI' },
 ]
@@ -83,7 +83,7 @@ export default function WnetrszaPage() {
 
   const kurkaWodna  = getProjectBySlug('kurka-wodna')
   const mieszkanieWwa = getProjectBySlug('mieszkanie-wwa')
-  const sycamore    = getProjectBySlug('sycamore')
+  const sycamore    = getProjectBySlug('california-villa')
   const nycStair    = getProjectBySlug('eliptical-duplex-stair-nyc')
   const uzdrowisko  = getProjectBySlug('uzdrowisko-bistro')
   const dzienDobry  = getProjectBySlug('dzien-dobry-cafe')
@@ -147,7 +147,7 @@ export default function WnetrszaPage() {
             <p className="text-white/90 text-center text-sm md:text-base leading-relaxed max-w-3xl mx-auto">
               Ponad <strong className="text-white">20 lat</strong> projektowania wnętrz w Krakowie i za granicą.
               Od restauracji przy <strong className="text-white">Kanoniczej</strong> po apartamenty
-              w <strong className="text-white">11 West 57th, Nowy Jork</strong>.
+              w <strong className="text-white">111 West 57th, Nowy Jork</strong>.
             </p>
           </div>
         </section>
@@ -337,9 +337,9 @@ export default function WnetrszaPage() {
       <section className="py-24 bg-stone-50">
         <div className="container-site">
           <FadeIn>
-            <p className="text-xs uppercase tracking-[0.2em] text-gold mb-2">Case study — Chicago, USA</p>
-            <h2 className="font-display text-4xl text-navy mb-2">Sycamore</h2>
-            <p className="text-sm text-gray-400 mb-10">Chicago, IL, USA · 2022–2024</p>
+            <p className="text-xs uppercase tracking-[0.2em] text-gold mb-2">Case study — California, USA</p>
+            <h2 className="font-display text-4xl text-navy mb-2">California Villa</h2>
+            <p className="text-sm text-gray-400 mb-10">California, USA · 2022–2024</p>
           </FadeIn>
 
           {/* Stats boxes */}
@@ -357,7 +357,7 @@ export default function WnetrszaPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <FadeIn>
               <p className="text-gray-600 leading-relaxed mb-8">
-                Trzyletnia współpraca przy prestiżowej inwestycji mieszkaniowej w Chicago.
+                Trzyletnia współpraca przy prestiżowej inwestycji mieszkaniowej w Kalifornii.
                 Szczegółowe modele 3D, dokumentacja wykonawcza elementów stalowych i schodów,
                 wizualizacje CGI. Projekt wymagał precyzyjnego modelowania parametrycznego
                 i pisania własnych skryptów Grasshopper dla niestandardowej geometrii.
@@ -373,18 +373,18 @@ export default function WnetrszaPage() {
                 ))}
               </ul>
 
-              <Link href="/portfolio/sycamore" className="btn-primary">
+              <Link href="/portfolio/california-villa" className="btn-primary">
                 Zobacz pełny projekt →
               </Link>
             </FadeIn>
 
             <FadeIn delay={100}>
               {sycamore && (
-                <Link href="/portfolio/sycamore" className="group block overflow-hidden">
+                <Link href="/portfolio/california-villa" className="group block overflow-hidden">
                   <div className="relative aspect-[4/3] overflow-hidden bg-stone-200">
                     <Image
                       src="/images/ben/ben8.webp"
-                      alt="Sycamore — Chicago, IL"
+                      alt="California Villa — California, USA"
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-700"
                       sizes="(max-width: 1024px) 100vw, 50vw"
@@ -403,7 +403,7 @@ export default function WnetrszaPage() {
           <FadeIn>
             <p className="text-xs uppercase tracking-[0.2em] text-gold mb-2">Case study — Nowy Jork, USA</p>
             <h2 className="font-display text-4xl text-navy mb-2">Eliptical Duplex Stair</h2>
-            <p className="text-sm text-gray-400 mb-10">11 West 57th, Manhattan · 2023</p>
+            <p className="text-sm text-gray-400 mb-10">111 West 57th, Manhattan · 2023</p>
           </FadeIn>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
@@ -412,7 +412,7 @@ export default function WnetrszaPage() {
                 <div className="relative aspect-[4/3] overflow-hidden bg-stone-200">
                   <Image
                     src={nycStair.images[0]}
-                    alt="Eliptical Duplex Stair — 11 West 57th NYC"
+                    alt="Eliptical Duplex Stair — 111 West 57th NYC"
                     fill
                     className="object-cover"
                     sizes="(max-width: 1024px) 100vw, 50vw"
@@ -424,7 +424,7 @@ export default function WnetrszaPage() {
             <FadeIn delay={100}>
               <p className="text-gray-600 leading-relaxed mb-8">
                 Projekt wykonawczy i model 3D eliptycznych schodów dwupoziomowych w jednym z najwyższych
-                budynków mieszkalnych na świecie. 11 West 57th — Manhattan.
+                budynków mieszkalnych na świecie. 111 West 57th — Manhattan.
                 Geometria schodów wymagała precyzji co do milimetra.
               </p>
               <ul className="space-y-3 mb-8">

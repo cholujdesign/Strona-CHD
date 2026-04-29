@@ -24,19 +24,19 @@ const blocks = [
     slug: 'eliptical-duplex-stair-nyc',
     image: '/images/nystair1.webp',
     title: 'Eliptical Duplex Stair',
-    meta: '11 West 57th, NYC · 2023',
+    meta: '111 West 57th, NYC · 2023',
     points: ['B2B', 'Projekt wykonawczy', 'Modelowanie 3D'],
     description:
-      'Projekt wykonawczy i model 3D eliptycznych schodów w jednym z najwyższych budynków mieszkalnych na świecie — 11 West 57th w Nowym Jorku.',
+      'Projekt wykonawczy i model 3D eliptycznych schodów w jednym z najwyższych budynków mieszkalnych na świecie — 111 West 57th w Nowym Jorku.',
   },
   {
-    slug: 'sycamore',
+    slug: 'california-villa',
     image: '/images/ben/VIEW3.webp',
-    title: 'Sycamore',
-    meta: 'Chicago, IL · 2022–2024',
+    title: 'California Villa',
+    meta: 'California, USA · 2022–2024',
     points: ['B2B', 'Modelowanie 3D', 'Dokumentacja', 'CGI'],
     description:
-      'Trzyletnia współpraca przy prestiżowej inwestycji mieszkaniowej w Chicago. Modele 3D, dokumentacja wykonawcza schodów i elementów stalowych, wizualizacje CGI.',
+      'Trzyletnia współpraca przy prestiżowej inwestycji mieszkaniowej w Kalifornii. Modele 3D, dokumentacja wykonawcza schodów i elementów stalowych, wizualizacje CGI.',
   },
   {
     slug: 'kurka-wodna',
@@ -369,7 +369,7 @@ export default function HomePage() {
                   },
                   {
                     label: 'USA',
-                    text: 'Realizacje w Nowym Jorku (11 West 57th) i Chicago (Sycamore). Workflow generalnych wykonawców.',
+                    text: 'Realizacje w Nowym Jorku (111 West 57th) i Kalifornii (California Villa). Workflow generalnych wykonawców.',
                   },
                 ].map((item) => (
                   <div key={item.label} className="bg-stone-50 p-6">

@@ -27,19 +27,19 @@ const blocks = [
     slug: 'eliptical-duplex-stair-nyc',
     image: '/images/nystair1.webp',
     title: 'Elliptical Duplex Stair',
-    meta: '11 West 57th, NYC · 2023',
+    meta: '111 West 57th, NYC · 2023',
     points: ['B2B', 'Construction documentation', '3D modelling'],
     description:
-      'Construction documentation and 3D model of an elliptical duplex staircase in one of the tallest residential buildings in the world — 11 West 57th, New York.',
+      'Construction documentation and 3D model of an elliptical duplex staircase in one of the tallest residential buildings in the world — 111 West 57th, New York.',
   },
   {
-    slug: 'sycamore',
+    slug: 'california-villa',
     image: '/images/ben/VIEW3.webp',
-    title: 'Sycamore',
-    meta: 'Chicago, IL · 2022–2024',
+    title: 'California Villa',
+    meta: 'California, USA · 2022–2024',
     points: ['B2B', '3D modelling', 'Documentation', 'CGI'],
     description:
-      'Three-year B2B collaboration on a prestigious residential development in Chicago. 3D models, construction documentation for stairs and steel elements, CGI visualisations.',
+      'Three-year B2B collaboration on a prestigious residential development in California. 3D models, construction documentation for stairs and steel elements, CGI visualisations.',
   },
   {
     slug: 'kurka-wodna',
@@ -130,7 +130,7 @@ export default function EnHomePage() {
           </p>
           <div className="bg-black/20 backdrop-blur-sm px-8 py-6 max-w-sm md:max-w-md">
             <p className="text-white/75 text-sm leading-relaxed mb-8">
-              Design studio from Kraków, Poland. From interior projects in Kraków to collaboration on 111W57 in New York and Sycamore in Chicago.
+              Design studio from Kraków, Poland. From interior projects in Kraków to collaboration on 111W57 in New York and California Villa.
             </p>
             <div className="flex flex-wrap gap-3 justify-center">
               <Link href="/en/services" className="btn-primary text-xs">

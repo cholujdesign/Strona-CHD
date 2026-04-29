@@ -57,7 +57,10 @@
       "Bash(python3)",
       "Bash(Select-String \"en/\")",
       "Bash(npm uninstall *)",
-      "Bash(del \"c:\\\\Users\\\\kuba\\\\Documents\\\\GitHub\\\\Strona-CHD\\\\components\\\\contact\\\\ContactForm.tsx\")"
+      "Bash(del \"c:\\\\Users\\\\kuba\\\\Documents\\\\GitHub\\\\Strona-CHD\\\\components\\\\contact\\\\ContactForm.tsx\")",
+      "Bash(git ls-files *)",
+      "Bash(ffmpeg -version)",
+      "Bash(mkdir -p public/images/rakowicka)"
     ]
   }
 }
