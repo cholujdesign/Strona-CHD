@@ -104,7 +104,7 @@ export default function EnProjectPage({ params }: Props) {
           />
           <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/40" />
           <Watermark collaborator={project.collaborators?.[0]?.name} />
-          {project.collaborators?.[0] && (
+          {project.collaborators?.[0]?.url && (
             <a
               href={project.collaborators[0].url}
               target="_blank"
@@ -178,15 +178,19 @@ export default function EnProjectPage({ params }: Props) {
                     <p className="text-xs uppercase tracking-widest text-gray-400 mb-2">Collaboration</p>
                     <div className="flex flex-col gap-1.5">
                       {project.collaborators.map((c) => (
-                        <a
-                          key={c.url}
-                          href={c.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-sm text-gold hover:underline"
-                        >
-                          {c.name} ↗
-                        </a>
+                        c.url ? (
+                          <a
+                            key={c.name}
+                            href={c.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-sm text-gold hover:underline"
+                          >
+                            {c.name} ↗
+                          </a>
+                        ) : (
+                          <span key={c.name} className="text-sm text-navy">{c.name}</span>
+                        )
                       ))}
                     </div>
                   </div>
