@@ -60,7 +60,8 @@
       "Bash(del \"c:\\\\Users\\\\kuba\\\\Documents\\\\GitHub\\\\Strona-CHD\\\\components\\\\contact\\\\ContactForm.tsx\")",
       "Bash(git ls-files *)",
       "Bash(ffmpeg -version)",
-      "Bash(mkdir -p public/images/rakowicka)"
+      "Bash(mkdir -p public/images/rakowicka)",
+      "Bash(git mv *)"
     ]
   }
 }

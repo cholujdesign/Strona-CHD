@@ -13,8 +13,8 @@ const nextConfig = {
     return [
       { source: '/portfolio/sycamore', destination: '/portfolio/california-villa', permanent: true },
       { source: '/en/portfolio/sycamore', destination: '/en/portfolio/california-villa', permanent: true },
-      { source: '/instructions', destination: '/Instructions', permanent: false },
-      { source: '/', has: [{ type: 'query', key: 'langset', value: 'en' }], destination: '/en', permanent: true },
+{ source: '/', has: [{ type: 'query', key: 'langset', value: 'en' }], destination: '/en', permanent: true },
+      { source: '/Instructions', destination: '/instructions', permanent: false },
       { source: '/milewski', destination: '/portfolio', permanent: true },
       { source: '/dom-3', destination: '/portfolio', permanent: true },
       { source: '/contakt', destination: '/kontakt', permanent: true },
