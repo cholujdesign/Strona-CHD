@@ -4,6 +4,43 @@ import { Resend } from 'resend'
 const CONTACT_EMAIL = process.env.CONTACT_EMAIL ?? 'biuro@cholujdesign.com'
 const FROM_EMAIL = process.env.FROM_EMAIL ?? 'onboarding@resend.dev'
 
+// Rate limiting — best-effort in-memory (resets on cold start)
+const rateLimitMap = new Map<string, { count: number; resetAt: number }>()
+const RATE_LIMIT = 5
+const RATE_WINDOW_MS = 60 * 60 * 1000
+
+function checkRateLimit(ip: string): boolean {
+  const now = Date.now()
+  const entry = rateLimitMap.get(ip)
+  if (!entry || now > entry.resetAt) {
+    rateLimitMap.set(ip, { count: 1, resetAt: now + RATE_WINDOW_MS })
+    if (rateLimitMap.size > 5000) {
+      for (const [k, v] of rateLimitMap) {
+        if (now > v.resetAt) rateLimitMap.delete(k)
+      }
+    }
+    return true
+  }
+  if (entry.count >= RATE_LIMIT) return false
+  entry.count++
+  return true
+}
+
+// Spam detection — random strings have >30% uppercase with no spaces and length >8
+function looksLikeRandomString(s: string): boolean {
+  if (!s || s.length < 9) return false
+  if (/\s/.test(s)) return false
+  const upper = (s.match(/[A-Z]/g) ?? []).length
+  return upper / s.length > 0.3
+}
+
+// Spam email: many dot-separated single chars before @ (e.g. a.q.ix.o.bo.wi.f52@...)
+function looksLikeSpamEmail(email: string): boolean {
+  const local = email.split('@')[0]
+  const dots = (local.match(/\./g) ?? []).length
+  return dots >= 3
+}
+
 const INQUIRY_LABELS: Record<string, string> = {
   wnetrza: 'Wnętrza',
   deweloperzy: 'Dla deweloperów',
@@ -109,6 +146,12 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ success: true })
     }
 
+    // Rate limiting by IP
+    const ip = req.headers.get('x-forwarded-for')?.split(',')[0]?.trim() ?? 'unknown'
+    if (!checkRateLimit(ip)) {
+      return NextResponse.json({ success: true })
+    }
+
     const name = sanitize(body.name, 100)
     const email = sanitize(body.email, 200)
     const phone = sanitize(body.phone, 30)
@@ -130,6 +173,16 @@ export async function POST(req: NextRequest) {
     }
     if (!description) {
       return NextResponse.json({ error: 'Opisz projekt lub zapytanie.' }, { status: 400 })
+    }
+
+    // Spam detection — silent success so bots think they succeeded
+    if (
+      looksLikeSpamEmail(email) ||
+      looksLikeRandomString(name) ||
+      looksLikeRandomString(location) ||
+      looksLikeRandomString(budget)
+    ) {
+      return NextResponse.json({ success: true })
     }
     if (source !== 'footer' && !name) {
       return NextResponse.json({ error: 'Podaj imię i nazwisko.' }, { status: 400 })

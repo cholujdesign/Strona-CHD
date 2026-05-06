@@ -13,6 +13,10 @@ const nextConfig = {
     return [
       { source: '/portfolio/sycamore', destination: '/portfolio/california-villa', permanent: true },
       { source: '/en/portfolio/sycamore', destination: '/en/portfolio/california-villa', permanent: true },
+      { source: '/instructions', destination: '/Instructions', permanent: false },
+      { source: '/contakt', destination: '/kontakt', permanent: true },
+      { source: '/Portfolio', destination: '/portfolio', permanent: true },
+      { source: '/Portfolio/:path*', destination: '/portfolio/:path*', permanent: true },
       {
         source: '/:path*',
         has: [{ type: 'host', value: 'www.cholujdesign.com' }],
